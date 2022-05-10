@@ -9,13 +9,7 @@ export default function Home() {
     <Layout home>
       <>
         <div className="home">
-          <div className="slider-wrapper">
-            <div className="slider">
-              <img src="/uploads/slider-1.jpg" alt='images' />
-              <img src="/uploads/slider-2.jpg" alt='images' />
-              <img src="/uploads/slider-3.jpg" alt='images' />
-            </div>
-          </div>
+
         </div>
       </>
     </Layout>
