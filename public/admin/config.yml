@@ -1,0 +1,38 @@
+backend:
+  name: github # our repository provider
+  repo: pnochisaki/young-inglewood # username/repo
+  branch: main # the main branch of our repo
+  base_url: "https://young-inglewood.vercel.app/" # our site's base URL 
+  auth_endpoint: "api/auth" # used together with base_url for our custom endpoints (more on this later)
+logo_url: "https://young-inglewood.vercel.app/images/logo.svg"
+media_folder: "public/uploads" # the folder we want to upload new images to
+public_folder: "/uploads" # the folder our images should be fetched from
+collections: # our content types, this is just an example!
+  - name: "pages"
+    label: "Pages"
+    folder: "_content/pages"
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "work"
+    label: "Work"
+    folder: "_content/work"
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "work" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Thumbnail", name: "thumb", widget: "image" }      
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: "list"
+        summary: '{{fields.image}}'
+        field: {label: Image, name: image, widget: image}
