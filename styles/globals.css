@@ -61,6 +61,7 @@ img {
   height: 3rem;
   width: 20rem;
   cursor: pointer;
+  margin: auto;
 }
 
 
@@ -80,7 +81,9 @@ img {
 }
 
 @media (min-width: 769px) {
-
+  .branding {
+    margin: 0;
+  }
   .navigation nav a:after {
     content: "•";
     display: inline-block;
