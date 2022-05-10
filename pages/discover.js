@@ -33,7 +33,7 @@ export default function Discover({ markdownData }) {
         <section className='cellar'>
           <div className='cellar-1 float-image' style={{ backgroundImage: `url(/images/cellar-1.jpg)` }} />
           <h2>Cellar</h2>
-          <p>Young Inglewood wines embody <strong>balance</strong>. Non-interventionist winemaking is key to translating our estate's signature character into wines of elegance and grace.</p>
+          <p>Young Inglewood wines embody <strong>balance</strong>. Non-interventionist winemaking is key to translating our estate&lsquo;s signature character into wines of elegance and grace.</p>
           <div className='cellar-2 float-image' style={{ backgroundImage: `url(/images/cellar-2.jpg)` }} />
           <p>Using sight, touch, and taste, we wait for the optimal balance of sugar, acid and flavor before hand harvesting our grapes.</p>
           <p>Our native indigenous yeasts ferment our wine. They are an integral part of what makes our wines authentically ours.</p>
