@@ -63,7 +63,7 @@ export default function Layout({ home, children, props }) {
         </div>
 
           <p>
-          ©{new Date().getFullYear()} Young Inglewood Vineyards | 1919 Inglewood Ave, St. Helena, CA 94574 | estate@younginglewood.com 707.200.4572
+          ©{new Date().getFullYear()} Young Inglewood Vineyards | 1919 Inglewood Ave, St. Helena, CA 94574 | <a href="mailto:estate@younginglewood.com">estate@younginglewood.com</a> <a href="tel:707.200.4572">707.200.4572</a>
           </p>
         </>
       </footer>

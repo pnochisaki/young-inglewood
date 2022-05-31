@@ -76,7 +76,7 @@ export default function Wine({ markdownData }) {
           image1='/images/venn-1.jpg'
           image2='/images/venn-2.jpg'
           text1="<p>We’re very excited about our <strong>sister label,</strong> VENN.</p>"
-          text2="<p>The idea came out of a simple question: how does the philosophy of old school Napa Cabernet intersect our modern approachable wine making culture? This label is filled with interesting whites and reds. Check it out:<a href='https://venn.wine' terget='_blank'>Venn.wine</a></p>"
+          text2="<p>The idea came out of a simple question: how does the philosophy of old school Napa Cabernet intersect our modern approachable wine making culture? This label is filled with interesting whites and reds. Check it out:<a href='https://venn.wine' target='_blank'>Venn.wine</a></p>"
         />
 
       </>
