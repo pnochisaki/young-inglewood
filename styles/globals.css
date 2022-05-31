@@ -21,7 +21,7 @@ body {
   text-align: center;
   color: #000000;
   margin: auto;
-  /* background-image: url(/images/discover.jpg); */
+  /* background-image: url(/images/taste.jpg); */
   background-size: 100%;
   padding: 2rem;
 }
@@ -53,6 +53,8 @@ img {
     align-items: center;
     justify-content: space-between;
     padding: 3.25rem 2rem 1.25rem;
+    position: relative;
+    z-index: 1;
   }
 }
 
@@ -64,10 +66,10 @@ img {
   margin: auto;
 }
 
-
 .navigation {
   margin-bottom: 4rem;
 }
+
 .navigation nav a {
   font-family: canada-type-gibson, sans-serif;
   font-weight: 300;
@@ -81,16 +83,17 @@ img {
 }
 
 @media (min-width: 769px) {
+
   .branding {
     margin: 0;
   }
+
   .navigation nav a:after {
     content: "•";
     display: inline-block;
     padding: 0 1rem;
   }
 
-  
   .navigation {
     padding-right: 1rem;
     margin-bottom: 0;
@@ -105,16 +108,15 @@ img {
   footer .navigation nav a:after {
     content: "";
   }
-  
+
   .navigation nav a:last-child:after {
     display: none;
   }
-  
+
   header .navigation nav a:last-child {
     color: #d78628;
   }
 
-  
 }
 
 
@@ -134,9 +136,13 @@ footer {
 
 .social-links svg {
   display: inline-block;
-  height: 1rem;
+  height: 1.125rem;
   fill: #999;
   margin: 0 .25rem;
+  border: .0125rem solid #999;
+  border-radius: 100%;
+  padding: .125rem;
+  opacity: .75;
 }
 
 .slider-wrapper {
@@ -323,10 +329,11 @@ h1 {
 }
 
 section {
+  position: relative;
   text-align: left;
 }
 
-section h2 {
+h2 {
   color: #d78628;
   font-size: 3.75rem;
   font-family: sofia-pro, sans-serif;
@@ -361,8 +368,26 @@ section p {
   margin-bottom: 1.55rem;
 }
 
+section a {
+  display: block;
+  text-transform: uppercase;
+  font-family: canada-type-gibson, sans-serif;
+  font-size: .65rem;
+  letter-spacing: .075rem;
+  padding: 1rem 0 0;
+  line-height: 0;
+  color: #932761;
+
+} 
+
+
+.image-1,
+.image-2 {
+  background: red;
+}
+
 @media (min-width: 769px) {
-  section.farm p:first-of-type {
+  section.section-a p:first-of-type {
     padding-right: 5rem;
   }
 }
@@ -379,64 +404,225 @@ section p {
 
 @media (min-width: 769px) {
 
-  .farm-1 {
+  section:before,
+  footer:before {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+    height: 5rem;
+  }
+  footer:before {
+    height: 0;
+  }
+}
+
+@media (min-width: 769px) {
+
+  section.section-a .image-1 {
     width: 21.85rem;
     aspect-ratio: 798/1139;
     float: left;
     margin-right: 1.85rem;
-    margin-bottom: 7rem;
   }
 
-  .farm-2 {
+  section.section-a .image-2 {
     width: 36.25rem;
     aspect-ratio: 1330/873;
     float: right;
     margin-left: 1.125rem;
   }
 
-  section.cellar {
+}
+
+@media (min-width: 769px) {
+
+  section.section-b {
     clear: both;
-    padding-top: 10.5rem;
     text-align: right;
   }
 
-  section.cellar h2 {
+  section.section-b h2 {
     display: inline-block;
     padding: 0 1rem 0 2.5rem;
     line-height: 0;
     width: auto;
   }
 
-  section.cellar p:first-of-type {
+  section.section-b span:first-of-type p {
     display: inline;
     text-align: right;
     margin-top: 0;
   }
 
-  section.cellar p {
+  section.section-b p {
     text-align: left;
     margin-top: 1.5rem;
   }
 
-  .cellar-1 {
+  .section-b .image-1 {
     width: 22rem;
     aspect-ratio: 549/822;
     float: right;
     margin-left: 1.25rem;
-    margin-top: -6rem;
   }
 
-  .cellar-2 {
+  .section-b .image-2 {
     width: 36.25rem;
     aspect-ratio: 907/605;
     float: left;
     margin-top: 1.5rem;
-    margin-right: .85rem;
+    margin-right: 1.5rem;
     clear: left;
   }
 
-  .team {
+}
+
+@media (min-width: 769px) {
+
+  .section-c h2 {
+    margin-top: 6rem;
+    width: 33rem;
+    text-align: right;
+  }
+
+  /* .section-c p:nth-of-type(3) {
+    width: 78%;
+  } */
+
+  .section-c .image-1 {
+    width: 36.25rem;
+    aspect-ratio: 907/605;
+    float: right;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    /* margin-bottom: 6rem; */
+  }
+
+  .section-c .image-2 {
+    width: 22rem;
+    aspect-ratio: 549/822;
+    float: left;
+    margin-right: 1.25rem;
+    margin-top: 1rem;
+  }
+
+}
+
+@media (min-width: 769px) {
+  /* HAX!  (Duh, Hacks) */
+  section.farm {
+    margin-top: -5rem;
+  }
+  section.farm .image-1 {
+    margin-bottom: 5rem;
+  }  
+  section.cellar {
+    margin-top: 7rem;
+  }
+  section.cellar .image-1 {
+    transform: translateY(-9rem);
+  }    
+  section.wine {
+    margin-top: -4rem;
+  }
+  section.wine h2 {
+    display: none;
+  }
+  section.wine span:first-of-type {
+    display: inline-block;
+    margin-top: 4rem;
+  }
+  section.wine span:first-of-type strong {
+    font-size: 3rem;
+  }
+  section.estate:before {
+    height: 8rem;
+  }
+  section.estate h2 {
+    display: inline;
+  }
+  section.estate span:first-of-type p {
+    display: inline;
+    margin-left: 3rem;
+  }
+  section.estate .image-1 {
+    transform: translateY(-4rem);
+    margin-bottom: 3rem;
+  }
+  section.estate .image-2 {
+    transform: translateY(2rem);
+  }  
+  section.varietals:before {
+    height: 2rem;
+  }
+  section.varietals h2 {
+    padding-top: 5rem;
+  }
+  section.library .image-1 {
+    transform: translateY(-6rem);
+  }
+  section.venn:before {
+    height: 2rem;
+  }
+  section.venn {
+    padding-bottom: 12rem;
+  }
+  section.tasting {
+    margin-top: -6rem;
+  }
+  section.tasting h2 {
     margin-top: 5.5rem;
+    font-size: 3rem;
+    padding-bottom: .5rem;
+  }
+  section.tasting .image-1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+  section.tasting span:nth-of-type(2) p {
+    max-width: 73%;
+  }
+  section.celebrating {
+    padding-top: 2rem;
+  }
+  section.celebrating h2 {
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  section.celebrating span:first-of-type p {
+    margin-left: 10rem;
+  }
+  section.celebrating span:nth-of-type(2) p {
+    margin-top: 0;
+  }
+  section.travel:before {
+    height: 0;
+  }
+  section.travel h2 {
+    line-height: 1.15;
+    padding-bottom: 1rem;
+  }
+  section.travel p {
+    max-width: 75%;
+  }
+  section.travel .image-1 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  section.travel  {
+    margin-bottom: 18rem;
+  }
+
+}
+
+@media (min-width: 769px) {
+
+  .team:before {
+    height: 2rem;
   }
 
   .team h2 {
@@ -461,6 +647,7 @@ section p {
   padding: 0;
   list-style-type: none;
 }
+
 .team-listing ul li {
   padding-bottom: 2rem;
 }
@@ -511,4 +698,3 @@ section p {
   }
 
 }
-

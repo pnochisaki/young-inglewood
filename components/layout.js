@@ -18,7 +18,7 @@ export default function Layout({ home, children, props }) {
   const router = useRouter()
 
   const goHome = (e) => {
-    router.push('/')
+    router.push('/discover')
   }
 
 
@@ -55,11 +55,13 @@ export default function Layout({ home, children, props }) {
         <>
           <div className='navigation'>
           <nav>
-            <Link href="/discover">Discover</Link>
-            <Link href="/wine">Wine</Link>
-            <Link href="/purchase">Purchase</Link>
+            <Link href="/faq">FAQ</Link>
+            <Link href="/contact">Contact</Link>
             <Link href="/taste">Taste</Link>
-            <Link href="/membership">Membership</Link>
+            <Link href="/purchase">Purchase</Link>
+            <Link href="/join">Join</Link>
+            <Link href="/account">Manage your Account</Link>
+            <Link href="/credits">Credits</Link>
           </nav>
         </div>
 
@@ -71,7 +73,7 @@ export default function Layout({ home, children, props }) {
         </div>
 
           <p>
-          ©2020 Young Inglewood Vineyards | 1919 Inglewood Ave, St. Helena, CA 94574 | estate@younginglewood.com 707.200.4572
+          ©{new Date().getFullYear()} Young Inglewood Vineyards | 1919 Inglewood Ave, St. Helena, CA 94574 | estate@younginglewood.com 707.200.4572
           </p>
         </>
       </footer>

@@ -4,7 +4,7 @@ import { getMarkdownData } from '../lib/markdown'
 const mdDir = '_content/pages/'
 
 export async function getStaticProps({ params }) {
-  const markdownData = await getMarkdownData('contact', mdDir)
+  const markdownData = await getMarkdownData('credits', mdDir)
   console.log("POST", markdownData);
   return {
     props: {
@@ -14,7 +14,7 @@ export async function getStaticProps({ params }) {
 }
 
 
-export default function Contact({ markdownData }) {
+export default function Credits({ markdownData }) {
 
   return (
     <Layout>
