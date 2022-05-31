@@ -48,8 +48,6 @@ export default function Layout({ home, children, props }) {
           <nav>
             <Link href="/faq">FAQ</Link>
             <Link href="/contact">Contact</Link>
-            <Link href="/taste">Taste</Link>
-            <Link href="/purchase">Purchase</Link>
             <Link href="/join">Join</Link>
             <Link href="/account">Manage your Account</Link>
             <Link href="/credits">Credits</Link>
