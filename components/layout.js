@@ -6,15 +6,6 @@ import { useEffect, useState, useContext } from 'react'
 
 export default function Layout({ home, children, props }) {
 
-  useEffect(() => {
-
-  })
-
-
-  const openNew = (url) => {
-    // window.open(url)
-  }
-
   const router = useRouter()
 
   const goHome = (e) => {
@@ -66,10 +57,9 @@ export default function Layout({ home, children, props }) {
         </div>
 
         <div className="social-links">
-          <Facebook onClick={openNew('https://www.facebook.com/younginglewood')} />
-          <Instagram onClick={openNew('https://www.instagram.com/younginglewood/')} />
-          {/* <YouTube onClick={openNew('https://www.youtube.com')} /> */}
-          <Twitter onClick={openNew('https://twitter.com/YIVWine')} />
+        <Link href="https://www.facebook.com/younginglewood"><a target="_blank"><Facebook /></a></Link>
+        <Link href="https://www.instagram.com/younginglewood"><a target="_blank"><Instagram /></a></Link>
+        <Link href="https://twitter.com/YIVWine"><a target="_blank"><Twitter /></a></Link>
         </div>
 
           <p>
