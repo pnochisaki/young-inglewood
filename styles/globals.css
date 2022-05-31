@@ -344,6 +344,24 @@ h2 {
   letter-spacing: .1rem;
 }
 
+@media (max-width: 768px) {
+  h2 {
+    margin: 1.5rem 0 1rem;
+    line-height: 1.2;
+  }
+  section p strong {
+    line-height: 1;
+  }
+  section p {
+    margin-bottom: 2rem;
+  }
+  section p a {
+    font-size: 1rem;
+    padding: 1.5rem 0;
+    display: block;
+  }
+}
+
 @media (min-width: 769px) {
   section h2 {
     padding: .25rem 0 2rem;

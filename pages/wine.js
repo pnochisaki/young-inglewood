@@ -28,7 +28,7 @@ export default function Wine({ markdownData }) {
           style='section-b'
           image1='/images/wine-1.jpg'
           image2='/images/wine-2.jpg'
-          text1="Young Inglewood makes <strong>wines of place.</strong>"
+          text1="<p>Young Inglewood makes <strong>wines of place.</strong></p>"
           text2="<p>With sustainable and thoughtful stewardship of our Napa estate, we produce beautiful and interesting wines with an old world sensibility.</p><p>Our minimalist approach to winemaking protects the pedigree of our wines. Balance and elegance are our guiding principles.</p>"
         />
 
