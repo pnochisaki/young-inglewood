@@ -7,7 +7,7 @@ export default function Join() {
         <div className="join">
           <h2>Join</h2>
           <div className="copy">
-            Commerce 7 stuff here
+            <div id="c7-content"></div>
           </div>
         </div>
       </>

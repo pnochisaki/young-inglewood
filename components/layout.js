@@ -27,10 +27,10 @@ export default function Layout({ home, children, props }) {
           <nav>
             <Link href="/discover">Discover</Link>
             <Link href="/wine">Wine</Link>
-            <Link href="/purchase">Purchase</Link>
+            <Link href="/collection/wines/">Purchase</Link>
             <Link href="/taste">Taste</Link>
             <Link href="/membership">Membership</Link>
-            <Link href="/account">Mary Young</Link>
+            <Link href="/profile/">Mary Young</Link>
           </nav>
         </div>
 

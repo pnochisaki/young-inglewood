@@ -1,14 +1,14 @@
 import Layout from '../components/layout'
 
-export default function Purchase() {
+export default function Cart() {
   return (
-    <Layout purchase>
+    <Layout cart>
       <>
-        <div className="purchase">
+        <div className="cart">
           <div className="page-margins">
-            <h2>Purchase</h2>
+            <h2>Cart</h2>
             <div className="copy">
-              Commerce 7 stuff here
+            <div id="c7-content"></div>
             </div>
           </div>
         </div>

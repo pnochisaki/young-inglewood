@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 
 export default function Account() {
   return (
@@ -7,7 +7,7 @@ export default function Account() {
         <div className="account">
           <h2>Account</h2>
           <div className="copy">
-            Commerce 7 stuff here
+          <div id="c7-content"></div>
           </div>
         </div>
       </>
