@@ -38,7 +38,7 @@ export default function Discover({ markdownData }) {
           style='section-b'
           image1='/images/cellar-1.jpg'
           image2='/images/cellar-2.jpg'
-          text1="<p>Young Inglewood wines embody <strong>balance</strong>. Non-interventionist winemaking is key to translating our estate&lsquo;s signature character into wines of elegance and grace.</p>"
+          text1="<p>Young Inglewood wines embody <strong>balance</strong>. Non-interventionist winemaking is key to translating our estate’s signature character into wines of elegance and grace.</p>"
           text2="<p>Using sight, touch, and taste, we wait for the optimal balance of sugar, acid and flavor before hand harvesting our grapes.</p>
           <p>Our native indigenous yeasts ferment our wine. They are an integral part of what makes our wines authentically ours.</p>
           <p>A short sojourn in stainless steel protects the purity of our Rosé, while extended aging in French oak builds complexity in our other wines.</p>"
