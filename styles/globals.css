@@ -16,6 +16,7 @@ html {
     font-size: 1.35vw;
   }
 }
+
 @media (min-width: 1281px) {
   html {
     font-size: 17px;
@@ -24,7 +25,7 @@ html {
 
 @media (max-width: 768px) {
   html {
-      font-size: 4.25vw;
+    font-size: 4.25vw;
   }
 }
 
@@ -102,8 +103,9 @@ img {
   display: block;
   margin: 1.65rem;
 }
+
 .navigation nav a.active {
-  color: red;
+  opacity: .5;
 }
 
 @media (min-width: 769px) {
@@ -373,12 +375,15 @@ h2 {
     margin: 1.5rem 0 1rem;
     line-height: 1.2;
   }
+
   section p strong {
     line-height: 1;
   }
+
   section p {
     margin-bottom: 2rem;
   }
+
   section p a {
     font-size: 1rem;
     padding: 1.5rem 0;
@@ -393,6 +398,15 @@ h2 {
     text-indent: -.25rem;
     display: inline-block;
   }
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: canada-type-gibson, sans-serif;
+  font-size: .65rem;
+  color: #d78628;
+  letter-spacing: .185rem;
+  font-weight: 600
 }
 
 section strong {
@@ -410,7 +424,8 @@ section p {
   margin-bottom: 1.55rem;
 }
 
-section a {
+section a,
+.text-link {
   display: block;
   text-transform: uppercase;
   font-family: canada-type-gibson, sans-serif;
@@ -420,7 +435,7 @@ section a {
   line-height: 0;
   color: #932761;
 
-} 
+}
 
 
 .image-1,
@@ -454,6 +469,7 @@ section a {
     clear: both;
     height: 5rem;
   }
+
   footer:before {
     height: 0;
   }
@@ -552,88 +568,114 @@ section a {
 }
 
 @media (min-width: 769px) {
+
   /* HAX!  (Duh, Hacks) */
   section.farm {
     margin-top: -5rem;
   }
+
   section.farm .image-1 {
     margin-bottom: 5rem;
-  }  
+  }
+
   section.cellar {
     margin-top: 7rem;
   }
+
   section.cellar .image-1 {
     transform: translateY(-9rem);
-  }    
+  }
+
   section.wine {
     margin-top: -4rem;
   }
+
   section.wine h2 {
     display: none;
   }
+
   section.wine span:first-of-type {
     display: inline-block;
     margin-top: 4rem;
   }
+
   section.wine span:first-of-type strong {
     font-size: 3rem;
   }
+
   section.estate:before {
     height: 8rem;
   }
+
   section.estate h2 {
     display: inline;
   }
+
   section.estate span:first-of-type p {
     display: inline;
     margin-left: 3rem;
   }
+
   section.estate .image-1 {
     transform: translateY(-4rem);
     margin-bottom: 3rem;
   }
+
   section.estate .image-2 {
     transform: translateY(2rem);
-  }  
+  }
+
   section.varietals:before {
     height: 2rem;
   }
+
   section.varietals h2 {
     padding-top: 5rem;
   }
+
   section.library .image-1 {
     transform: translateY(-6rem);
   }
+
   section.venn:before {
     height: 2rem;
   }
+
   section.venn {
     padding-bottom: 12rem;
   }
+
   section.tasting {
     margin-top: -6rem;
   }
+
   section.tasting h2 {
     margin-top: 5.5rem;
     font-size: 3rem;
     padding-bottom: 1rem;
   }
+
   section.tasting .image-1 {
     margin-bottom: 2rem;
     margin-left: 3rem;
   }
+
   section.tasting .image-2 {
     margin-right: 2rem;
-  }  
+  }
+
   section.tasting span:nth-of-type(1) p {
     margin-top: 1rem;
   }
+
   section.tasting span:nth-of-type(1) p:nth-child(2) {
     max-width: 78%;
   }
+
   section.celebrating {
     padding-top: 2rem;
   }
+
   section.celebrating h2 {
     position: absolute;
     top: 3.5rem;
@@ -641,36 +683,46 @@ section a {
     text-align: center;
     width: 100%;
   }
+
   section.celebrating span:first-of-type p {
     margin-left: 10rem;
   }
+
   section.celebrating span:nth-of-type(2) p {
     /* margin-top: 0; */
   }
+
   section.travel:before {
     height: 0;
   }
+
   section.travel h2 {
     line-height: 1.15;
     padding-bottom: 1rem;
   }
+
   section.travel p {
-    margin-top: 1.5rem;max-width: 75%;
+    margin-top: 1.5rem;
+    max-width: 75%;
   }
+
   section.travel .image-1 {
     margin-top: 4rem;
     margin-bottom: 1rem;
   }
+
   section.travel .image-2 {
     margin-right: 2rem;
   }
-  section.travel  {
+
+  section.travel {
     margin-bottom: 18rem;
   }
 
   section.membership:before {
     height: 0;
   }
+
   section.membership {
     margin-bottom: 6rem;
   }
@@ -708,6 +760,27 @@ section a {
 
 .team-listing ul li {
   padding-bottom: 2rem;
+}
+
+.membership-details {
+  text-align: left;
+}
+
+.membership-details .table {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid;
+}
+
+.membership-details .table > div {
+  border-top: 1px solid #000;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.membership-details .table .show-more,
+.membership-details .table .show-less {
+  display: none;
 }
 
 @media (min-width: 769px) {
@@ -759,4 +832,53 @@ section a {
     max-width: 42rem;
     margin: auto;
   }
+
+  .membership-details {
+    margin: 2rem 5rem 5rem 6rem;
+    padding-top: 2rem;
+  }
+  .membership-details .table {
+    margin: 0;
+  }
+  .membership-details .table > div {
+    padding: 0;
+    /* display: flex;
+    align-items: stretch;
+    justify-content: space-between; */
+  }
+  .membership-details .table > div .expanded,
+  .membership-details .table > div .show-less,
+  .membership-details .table > div.active .show-more {
+    display: none;
+  }
+  
+  .membership-details .table > div.active .expanded,
+  .membership-details .table > div.active .show-less
+   {
+    display: block;
+  }
+  .membership-details .table p {
+    padding: .5rem 0;
+    margin: 0;
+  }
+  .membership-details .table .expanded p {
+    margin: 0;
+    padding: 0;
+  }  
+  .membership-details .table > div > div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+  }
+  .membership-details .table > div > div:first-child {
+    text-align: left;
+  }
+
+  .membership-details .table .show-more,
+  .membership-details .table .show-less {
+    display: block;
+  }
+
 }
+

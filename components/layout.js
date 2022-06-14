@@ -14,6 +14,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
   return (
     <div className="layout">
+    <div id="c7-cart"></div>
 
       <header>
 
@@ -29,7 +30,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
             <Link href="/wine">
               <a className={wine && 'active'}>Wine</a>
             </Link>
-            <a className={purchase && 'active'} href="/collection/wines/">Purchase</a>
+            <a className={purchase && 'active'} href="/purchase/wines/">Purchase</a>
             <Link href="/taste"><a className={taste && 'active'}>Taste</a></Link>
             <Link href="/membership"><a className={membership && 'active'}>Membership</a></Link>
             <a href="/profile/">Mary Young</a>
