@@ -1,10 +1,10 @@
 import Layout from '../components/layout'
 
-export default function Cart() {
+export default function Reservation() {
   return (
-    <Layout cart>
+    <Layout reservation>
       <>
-        <div className="cart">
+        <div className="club">
           <div className="page-margins">
             <div className="copy">
             <div id="c7-content"></div>

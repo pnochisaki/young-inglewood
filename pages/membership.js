@@ -18,7 +18,7 @@ export async function getStaticProps({ params }) {
 export default function Membership({ markdownData }) {
 
   return (
-    <Layout>
+    <Layout membership>
       <>
         <h1>{markdownData.title}</h1>
 

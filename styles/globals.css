@@ -102,6 +102,9 @@ img {
   display: block;
   margin: 1.65rem;
 }
+.navigation nav a.active {
+  color: red;
+}
 
 @media (min-width: 769px) {
 
@@ -613,14 +616,20 @@ section a {
   section.tasting h2 {
     margin-top: 5.5rem;
     font-size: 3rem;
-    padding-bottom: .5rem;
+    padding-bottom: 1rem;
   }
   section.tasting .image-1 {
     margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
   }
-  section.tasting span:nth-of-type(2) p {
-    max-width: 73%;
+  section.tasting .image-2 {
+    margin-right: 2rem;
+  }  
+  section.tasting span:nth-of-type(1) p {
+    margin-top: 1rem;
+  }
+  section.tasting span:nth-of-type(1) p:nth-child(2) {
+    max-width: 78%;
   }
   section.celebrating {
     padding-top: 2rem;
@@ -646,11 +655,14 @@ section a {
     padding-bottom: 1rem;
   }
   section.travel p {
-    max-width: 75%;
+    margin-top: 1.5rem;max-width: 75%;
   }
   section.travel .image-1 {
     margin-top: 4rem;
     margin-bottom: 1rem;
+  }
+  section.travel .image-2 {
+    margin-right: 2rem;
   }
   section.travel  {
     margin-bottom: 18rem;

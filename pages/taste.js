@@ -18,17 +18,17 @@ export async function getStaticProps({ params }) {
 export default function Taste({ markdownData }) {
 
   return (
-    <Layout>
+    <Layout taste>
       <>
         <h1>{markdownData.title}</h1>
 
         <Section
-          title='winery Tasting'
+          title='Winery Tasting'
           slug='tasting'
           style='section-c'
           image1='/images/tasting-1.jpg'
           image2='/images/tasting-2.jpg'
-          text2="<p>Young Inglewood's gently sloping organic vineyards, verdant gardens, and stately 150-year old heritage oaks form the perfect backdrop for tasting our critically acclaimed wines.<p>
+          text2="<p>Young Inglewood's gently sloping organic vineyards, verdant gardens, and stately 150-year old heritage oaks form the perfect backdrop for tasting our critically acclaimed wines.</p>
           <p>Relax in the serenity of our
           tasting salon, thoughtfully
           designed to please every sense.

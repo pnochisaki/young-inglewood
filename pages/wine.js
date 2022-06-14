@@ -18,7 +18,7 @@ export async function getStaticProps({ params }) {
 export default function Wine({ markdownData }) {
 
   return (
-    <Layout>
+    <Layout wine>
       <>
         <h1>{markdownData.title}</h1>
 

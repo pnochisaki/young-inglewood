@@ -18,7 +18,7 @@ export async function getStaticProps({ params }) {
 export default function Discover({ markdownData }) {
 
   return (
-    <Layout>
+    <Layout discover>
       <>
         <h1>{markdownData.title}</h1>
 
