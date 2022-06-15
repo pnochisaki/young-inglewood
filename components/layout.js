@@ -14,8 +14,6 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
   return (
     <div className="layout">
-    <div id="c7-cart"></div>
-
       <header>
 
         <div className='branding' onClick={goHome}>
@@ -24,36 +22,34 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
         <div className='navigation'>
           <nav>
-            <Link href="/discover">
-              <a className={discover && 'active'}>Discover</a>
-            </Link>
-            <Link href="/wine">
-              <a className={wine && 'active'}>Wine</a>
-            </Link>
-            <a className={purchase && 'active'} href="/purchase/wines/">Purchase</a>
-            <Link href="/taste"><a className={taste && 'active'}>Taste</a></Link>
-            <Link href="/membership"><a className={membership && 'active'}>Membership</a></Link>
+            <a href="/discover" className={discover && 'active'}>Discover</a>
+            <a href="/wine" className={wine && 'active'}>Wine</a>
+            <a href="/purchase/wines/" className={purchase && 'active'} >Purchase</a>
+            <a href="/taste" className={taste && 'active'}>Taste</a>
+            <a href="/membership" className={membership && 'active'}>Membership</a>
             <a href="/profile/">Mary Young</a>
+            <div id="c7-cart"></div>
           </nav>
         </div>
 
-      </header>
+      </header >
 
       <main>
         {children}
       </main>
 
-      {!home &&
+      {
+        !home &&
 
         <footer>
           <>
             <div className='navigation'>
               <nav>
-                <Link href="/faq">FAQ</Link>
-                <Link href="/contact">Contact</Link>
+                <a href="/faq">FAQ</a>
+                <a href="/contact">Contact</a>
                 <a href="/profile/create-account">Join</a>
                 <a href="/profile">Manage your Account</a>
-                <Link href="/credits">Credits</Link>
+                <a href="/credits">Credits</a>
               </nav>
             </div>
 
@@ -71,7 +67,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
       }
 
-    </div>
+    </div >
   )
 }
 

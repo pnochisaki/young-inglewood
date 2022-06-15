@@ -20,7 +20,7 @@ export async function getServerSideProps() {
 }
 
 
-export default function Collection( {data} ) {
+export default function CollectionIndex( {data} ) {
   return (
     <Layout purchase>
       <div className="page-margins">

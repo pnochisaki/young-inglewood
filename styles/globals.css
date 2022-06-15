@@ -125,10 +125,14 @@ img {
     margin-bottom: 0;
   }
 
-  .navigation nav a {
+  .navigation nav a,
+  #c7-cart {
     display: inline-block;
     margin: .5rem 0 0;
     font-size: .65rem;
+  }
+  #c7-cart .c7-user-nav__cart > button {
+    padding: 0;
   }
 
   footer .navigation nav a:after {
