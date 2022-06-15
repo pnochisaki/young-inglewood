@@ -126,7 +126,8 @@ img {
   }
 
   .navigation nav a,
-  #c7-cart {
+  #c7-cart,
+  #c7-account {
     display: inline-block;
     margin: .5rem 0 0;
     font-size: .65rem;
