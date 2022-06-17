@@ -25,7 +25,7 @@ export default function CollectionIndex( {data} ) {
     <Layout purchase>
       <div className="page-margins">
         {data.collections.map((collection, index) => {
-          return <div key={index}><a href={'/purchase/' + collection.slug}>{collection.title}</a></div>
+          return <div key={index}><a href={'/collection/' + collection.slug}>{collection.title}</a></div>
         })}
         <div id="c7-content"></div>
       </div>

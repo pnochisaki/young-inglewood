@@ -24,7 +24,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
           <nav>
             <a href="/discover" className={discover && 'active'}>Discover</a>
             <a href="/wine" className={wine && 'active'}>Wine</a>
-            <a href="/purchase/wines/" className={purchase && 'active'} >Purchase</a>
+            <a href="/collection/wines/" className={purchase && 'active'} >Purchase</a>
             <a href="/taste" className={taste && 'active'}>Taste</a>
             <a href="/membership" className={membership && 'active'}>Membership</a>
             <div id="c7-account"></div>
