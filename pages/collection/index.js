@@ -20,13 +20,16 @@ export async function getServerSideProps() {
 }
 
 
-export default function CollectionIndex( {data} ) {
+export default function CollectionIndex({ data }) {
   return (
     <Layout purchase>
       <div className="page-margins">
-        {data.collections.map((collection, index) => {
-          return <div key={index}><a href={'/collection/' + collection.slug}>{collection.title}</a></div>
-        })}
+        {data.collections
+        .filter(collection => collection.webStatus=== 'Available')
+        .map((collection, index) => {
+            return <div key={index}><a href={'/collection/' + collection.slug}>{collection.title}</a></div>          
+          }
+        )}
         <div id="c7-content"></div>
       </div>
     </Layout>
