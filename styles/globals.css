@@ -15,11 +15,18 @@ html {
   html {
     font-size: 1.35vw;
   }
+  body {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1281px) {
   html {
     font-size: 17px;
+  }
+  .layout {
+    max-width: 1260px;
+    margin: auto;
   }
 }
 
@@ -70,15 +77,6 @@ img {
     z-index: 1;
   }
 }
-
-@media (min-width: 1281px) {
-  .layout {
-    max-width: 1280px;
-    margin: auto;
-  }
-
-}
-
 
 .branding {
   position: relative;
@@ -132,7 +130,8 @@ img {
     margin: .5rem 0 0;
     font-size: .65rem;
   }
-  #c7-cart .c7-user-nav__cart > button {
+
+  #c7-cart .c7-user-nav__cart>button {
     padding: 0;
   }
 
@@ -557,7 +556,7 @@ section a,
     width: 36.25rem;
     aspect-ratio: 907/605;
     float: right;
-    margin-top: 1.5rem;
+    margin-top: 5.5rem;
     margin-left: 2.5rem;
     /* margin-bottom: 6rem; */
   }
@@ -777,7 +776,7 @@ section a,
   border-bottom: 1px solid;
 }
 
-.membership-details .table > div {
+.membership-details .table>div {
   border-top: 1px solid #000;
   margin-top: 1rem;
   padding-bottom: 1rem;
@@ -842,41 +841,47 @@ section a,
     margin: 2rem 5rem 5rem 6rem;
     padding-top: 2rem;
   }
+
   .membership-details .table {
     margin: 0;
   }
-  .membership-details .table > div {
+
+  .membership-details .table>div {
     padding: 0;
     /* display: flex;
     align-items: stretch;
     justify-content: space-between; */
   }
-  .membership-details .table > div .expanded,
-  .membership-details .table > div .show-less,
-  .membership-details .table > div.active .show-more {
+
+  .membership-details .table>div .expanded,
+  .membership-details .table>div .show-less,
+  .membership-details .table>div.active .show-more {
     display: none;
   }
-  
-  .membership-details .table > div.active .expanded,
-  .membership-details .table > div.active .show-less
-   {
+
+  .membership-details .table>div.active .expanded,
+  .membership-details .table>div.active .show-less {
     display: block;
   }
+
   .membership-details .table p {
     padding: .5rem 0;
     margin: 0;
   }
+
   .membership-details .table .expanded p {
     margin: 0;
     padding: 0;
-  }  
-  .membership-details .table > div > div {
+  }
+
+  .membership-details .table>div>div {
     display: inline-block;
     vertical-align: top;
     text-align: center;
     width: 20%;
   }
-  .membership-details .table > div > div:first-child {
+
+  .membership-details .table>div>div:first-child {
     text-align: left;
   }
 
@@ -886,4 +891,3 @@ section a,
   }
 
 }
-
