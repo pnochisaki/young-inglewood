@@ -1136,3 +1136,7 @@ section a,
 .c7-user-nav__account__name svg {
   display: none;
 }
+.c7-order-items--shipment .c7-order-item__image img {
+  max-height: 100%;
+  max-width: 8rem;
+}
