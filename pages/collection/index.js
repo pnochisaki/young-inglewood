@@ -24,12 +24,14 @@ export default function CollectionIndex({ data }) {
   return (
     <Layout purchase>
       <div className="page-margins">
+        <div className="collections-nav">
         {data.collections
-        .filter(collection => collection.webStatus=== 'Available')
+        .filter(collection => collection.metaData['store-menu'])
         .map((collection, index) => {
-            return <div key={index}><a href={'/collection/' + collection.slug}>{collection.title}</a></div>          
+            return <a className="c7-btn" key={index} href={'/collection/' + collection.slug}>{collection.title}</a>
           }
         )}
+        </div>
         <div id="c7-content"></div>
       </div>
     </Layout>

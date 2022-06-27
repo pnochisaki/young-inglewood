@@ -1,4 +1,5 @@
 import Layout from '../components/layout';
+import Section from '../components/section';
 import { getMarkdownData } from '../lib/markdown'
 
 const mdDir = '_content/pages/'
@@ -18,10 +19,16 @@ export default function Credits({ markdownData }) {
 
   return (
     <Layout>
-      <div className="page-margins">
-        <h2>{markdownData.title}</h2>
-        <div className="copy" dangerouslySetInnerHTML={{__html: markdownData.contentHtml}}  />
-      </div>
+      <>
+        <Section
+          title={markdownData.title}
+          slug='cellar'
+          style='section-b'
+          image1='/images/cellar-1.jpg'
+          image2='/images/cellar-2.jpg'
+          text2={markdownData.contentHtml}
+        />
+        </>
     </Layout>
   )
 }

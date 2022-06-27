@@ -29,7 +29,6 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
             <a href="/membership" className={membership && 'active'}>Membership</a>
             <div id="c7-account"></div>
             <div id="c7-cart"></div>
-
           </nav>
         </div>
 

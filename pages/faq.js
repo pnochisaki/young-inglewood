@@ -18,8 +18,8 @@ export default function Faq({ markdownData }) {
 
   return (
     <Layout>
-      <div className="page-margins">
-        <h2>{markdownData.title}</h2>
+      <div className='faq'>
+        <img className='image-1' src='/images/faq.jpg' alt='image'/>
         <div className="copy" dangerouslySetInnerHTML={{__html: markdownData.contentHtml}}  />
       </div>
     </Layout>

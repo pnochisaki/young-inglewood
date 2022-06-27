@@ -1,4 +1,21 @@
 ---
-title: Credits
+title: Credit where credit is due
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### ARCHITECT
+Taylor Lombardo Architects
+### LANDSCAPING ARCHITECTURE
+Jonathan Plant
+### FARMING
+Oak Knoll Farming
+### VITICULTURE CONSULTANT
+Steve Matthiasson
+###  DESIGN
+David Hughes, Level Inc.
+### WEBSITE DEVELOPMENT
+Peter Nochisaki, 510interactive
+### PHOTOGRAPHY
+Bryan Coppede  
+Emma K Morris  
+Gabrielle Lurie  
+Mary Young  
+Stephen Ciauri  

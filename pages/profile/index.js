@@ -4,9 +4,7 @@ export default function Profile() {
     <>
       <Layout account>
         <div className="profile">
-          <div className="copy">
-            <div id="c7-content"></div>
-          </div>
+          <div id="c7-content"></div>
         </div>
       </Layout>
     </>

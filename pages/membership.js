@@ -1,22 +1,29 @@
 import Layout from '../components/layout';
 import Section from '../components/section';
-import { getMarkdownData } from '../lib/markdown'
 import { useState } from 'react';
 
-const mdDir = '_content/pages/'
+const userPass = Buffer.from(process.env.C7_USER + ":" + process.env.C7_PASS).toString('base64');
 
-export async function getStaticProps({ params }) {
-  const markdownData = await getMarkdownData('membership', mdDir)
-  console.log("POST", markdownData);
-  return {
-    props: {
-      markdownData
-    }
-  }
+// This gets called on every request
+export async function getServerSideProps() {
+  // Fetch data from external API
+  const res = await fetch('https://api.commerce7.com/v1/club', {
+    method: 'get',
+    headers: new Headers({
+      'Authorization': 'Basic ' + userPass,
+      'Content-Type': 'application/json',
+      'tenant': 'young-inglewood-vineyards'
+    })
+  });
+  const data = await res.json()
+
+  // Pass data to the page via props
+  return { props: { data } }
 }
 
 
-export default function Membership({ markdownData }) {
+
+export default function Membership(props) {
 
   const [activeItem, setActiveItem] = useState({});
 
@@ -86,8 +93,8 @@ export default function Membership({ markdownData }) {
   return (
     <Layout membership>
       <>
-        <h1>{markdownData.title}</h1>
-
+        <h1>Membership</h1>
+        {console.log(props.data.clubs)}
         <Section
           title='Friends of young inglewood'
           slug='membership'
