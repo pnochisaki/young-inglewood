@@ -35,7 +35,7 @@ export default function Membership(props) {
     } else {
       setActiveItem({ 'Essay': true });
     }
-    
+
   };
 
   const clubs = [
@@ -94,7 +94,6 @@ export default function Membership(props) {
     <Layout membership>
       <>
         <h1>Membership</h1>
-        {console.log(props.data.clubs)}
         <Section
           title='Friends of young inglewood'
           slug='membership'
@@ -119,23 +118,32 @@ export default function Membership(props) {
           <h3>CHOOSE YOUR MEMBERSHIP</h3>
           <div className="table">
 
-            {clubs.map((club, index) => {
-              return <div key={club.name} onClick={handleClick} className={activeItem[club.name] ? 'active' : ''} >
+            {console.log(props.data.clubs)}
 
-                  <div><h3>{club.name}</h3></div>
-                  <div><p>{club.frequency}</p></div>
-                  <div><p>{club.price}</p>
-                    <div className="expanded"
-                      dangerouslySetInnerHTML={{ __html: club.details }}
+            {props.data.clubs
+              .filter(club => club.webStatus == 'Available')
+              .map((club, index) => {
+                return <div key={club.title}
+                // onClick={handleClick} className={activeItem[club.name] ? 'active' : ''} 
+                >
+
+                  <div><h3>{club.title.split('-')[0].replace('Friends of Young Inglewood', '').replace('Friends Of Young Inglewood', '')}</h3></div>
+                  <div><p>{club.title.split('-')[1]}</p></div>
+                  <div><div dangerouslySetInnerHTML={{ __html: club.content }}></div>
+                    {/* <div className="expanded"
+                      dangerouslySetInnerHTML={{ __html: club.content }}
+                    /> */}
+                  </div>
+                  <div>
+                    <div dangerouslySetInnerHTML={{ __html: '<div class="c7-club-join-button" data-club-slug="' + club.slug + '"></div>' }}
                     />
                   </div>
-                  <div><a className="text-link" href="#">Join {club.name}</a></div>
                   <div>
-                    <a className='show-less text-link' >Less Details</a>
-                    <a className='show-more text-link' >More Details</a>
+                    {/* <div className='c7-btn c7-btn--primary'><a className='show-less  ' >Less Details</a></div> */}
+                    <div className='c7-btn c7-btn--primary'><a className='show-more  ' >More Details</a></div>
                   </div>
-              </div>
-            })}
+                </div>
+              })}
           </div>
         </div>
 

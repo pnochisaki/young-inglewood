@@ -904,11 +904,17 @@ section a,
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    width: 20%;
+    width: 30%;
   }
 
   .membership-details .table>div>div:first-child {
     text-align: left;
+    width: 12%;
+  }
+  .membership-details .table>div>div:nth-child(4),
+  .membership-details .table>div>div:nth-child(5) {
+    width: 14%;
+    white-space: nowrap;
   }
 
   .membership-details .table .show-more,
@@ -1150,4 +1156,7 @@ section a,
 }
 .c7-h2 {
   text-transform: none;
+}
+.c7-order-item__image img {
+  margin: auto;
 }
