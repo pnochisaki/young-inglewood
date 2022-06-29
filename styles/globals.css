@@ -74,7 +74,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3.25rem 2rem 1.25rem;
+    padding: 2.25rem 2rem 1.25rem;
     position: relative;
     z-index: 1;
   }
@@ -1031,7 +1031,7 @@ section a,
 }
 
 .navigation nav .c7-order-summary__buttons a {
-  color: #fff;
+  color: #932761;
 }
 .collections-nav a {
   margin: .25rem;
@@ -1062,7 +1062,9 @@ section a,
     width: 49%; 
     vertical-align: top;
     margin: 0;
+    padding: 0;
     text-align: center;
+    background: transparent;
   }
   .c7-product-collection .c7-product__image {
   }
@@ -1091,7 +1093,7 @@ section a,
   .c7-form .c7-radio {
     /* text-align: center; */
   }
-  .c7-form__field fieldset {
+  .c7-product__add-to-cart__form .c7-form__field fieldset {
     max-width: 8rem;
     margin: auto;
   }
