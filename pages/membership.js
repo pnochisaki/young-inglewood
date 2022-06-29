@@ -115,7 +115,7 @@ export default function Membership(props) {
             <li>the ability to pause, cancel or customize your membership at any time</li>
           </ul>
           <br />
-          <h3>CHOOSE YOUR MEMBERSHIP</h3>
+          <h3 id="membership">CHOOSE YOUR MEMBERSHIP</h3>
           <div className="table">
 
             {console.log(props.data.clubs)}
@@ -123,9 +123,7 @@ export default function Membership(props) {
             {props.data.clubs
               .filter(club => club.webStatus == 'Available')
               .map((club, index) => {
-                return <div key={club.title}
-                // onClick={handleClick} className={activeItem[club.name] ? 'active' : ''} 
-                >
+                return <div key={club.slug} className="club-row" id={club.slug}>
 
                   <div><h3>{club.title.split('-')[0].replace('Friends of Young Inglewood', '').replace('Friends Of Young Inglewood', '')}</h3></div>
                   <div><p>{club.title.split('-')[1]}</p></div>
@@ -139,8 +137,8 @@ export default function Membership(props) {
                     />
                   </div>
                   <div>
-                    {/* <div className='c7-btn c7-btn--primary'><a className='show-less  ' >Less Details</a></div> */}
-                    <div className='c7-btn c7-btn--primary'><a className='show-more  ' >More Details</a></div>
+                    <div className='c7-btn c7-btn--primary show-less'><a href={"#membership"} >Less Details</a></div>
+                    <div className='c7-btn c7-btn--primary show-more'><a href={"#"+club.slug} >More Details</a></div>
                   </div>
                 </div>
               })}

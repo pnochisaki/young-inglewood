@@ -799,6 +799,16 @@ section a,
   padding-bottom: 1rem;
   border-bottom: 1px solid;
 }
+.membership-details .table .club-row {
+  overflow: hidden;
+}
+.membership-details .table .club-row:target ul {
+    display: block;
+}
+.membership-details .table .club-row ul {
+  list-style-type: none;
+  display: none;
+}
 
 .membership-details .table>div {
   border-top: 1px solid #000;
@@ -806,8 +816,19 @@ section a,
   padding-bottom: 1rem;
 }
 
+.membership-details .table .show-less,
 .membership-details .table .show-more,
+.membership-details .table .c7-btn {
+  display: inline-block;
+  vertical-align: top;
+}
 .membership-details .table .show-less {
+  display: none;
+}
+.membership-details .table .club-row:target .show-less {
+  display: block;
+}
+.membership-details .table .club-row:target .show-more {
   display: none;
 }
 
@@ -874,52 +895,33 @@ section a,
 
   .membership-details .table>div {
     padding: 0;
-    /* display: flex;
-    align-items: stretch;
-    justify-content: space-between; */
   }
 
-  .membership-details .table>div .expanded,
-  .membership-details .table>div .show-less,
-  .membership-details .table>div.active .show-more {
-    display: none;
-  }
 
-  .membership-details .table>div.active .expanded,
-  .membership-details .table>div.active .show-less {
-    display: block;
-  }
-
+  
   .membership-details .table p {
     padding: .5rem 0;
     margin: 0;
-  }
-
-  .membership-details .table .expanded p {
-    margin: 0;
-    padding: 0;
   }
 
   .membership-details .table>div>div {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    width: 30%;
+    width: 28%;
   }
 
   .membership-details .table>div>div:first-child {
     text-align: left;
     width: 12%;
   }
-  .membership-details .table>div>div:nth-child(4),
-  .membership-details .table>div>div:nth-child(5) {
-    width: 14%;
-    white-space: nowrap;
+  .membership-details .table>div>div:nth-child(4) {
+    width: 16.5%;
+    text-align: right;
   }
-
-  .membership-details .table .show-more,
-  .membership-details .table .show-less {
-    display: block;
+  .membership-details .table>div>div:nth-child(5) {
+    width: 13.5%;
+    text-align: right;
   }
 
   .contact ul {
