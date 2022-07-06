@@ -33,7 +33,7 @@ export default function Taste({ markdownData }) {
           tasting salon, thoughtfully
           designed to please every sense.
           Tastings are dedicated to you
-          alone and customized for your <strong>personal enjoyment</strong>. Delight in our eclectic art collection as your gracious host guides you through our wines.<a href='https://www.exploretock.com/younginglewood' target='_blank' >Reserve Now</a><p>
+          alone and customized for your <strong>personal enjoyment</strong>. Delight in our eclectic art collection as your gracious host guides you<br class='desktop-only' />through our wines.<a href='https://www.exploretock.com/younginglewood' target='_blank' >Reserve Now</a><br /><p>
           <p>Tours are complimentary for Friends of Young Inglewood (FYI).
           <a href='/membership'>Learn More About FYI</a></p>"
         />

@@ -43,7 +43,7 @@ body {
   text-align: center;
   color: #000000;
   margin: auto;
-  /* background-image: url(/images/wines.jpg); */
+  /* background-image: url(/images/taste.jpg); */
   background-size: 100%;
   padding: 2rem;
 }
@@ -70,13 +70,19 @@ img {
 }
 
 @media (min-width: 769px) {
-  header {
+  .layout > header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2.25rem 2rem 1.25rem;
-    position: relative;
+    padding: 2.25rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: 1;
+    background: rgba(255, 255, 255, 0.95);
+  }
+  .layout > main {
+    padding-top: 7.5rem;
   }
 }
 
@@ -108,6 +114,40 @@ img {
 .navigation nav a.active {
   opacity: .5;
 }
+.navigation nav .c7-user-nav__account a {
+  color:#d78628;
+  padding-right: 1rem;
+}
+#c7-cart .c7-user-nav__cart>button {
+  padding: 0;
+  opacity: .65;
+}
+.c7-user-nav__cart > .c7-link .c7-user-nav__cart__count {
+  box-shadow: none;
+  background: transparent;
+  color: inherit;
+  border: 0;
+  /* font-weight: bold; */
+  /* color:#d78628; */
+}
+.c7-user-nav__cart > .c7-link:hover .c7-user-nav__cart__count {
+  box-shadow: none;
+}
+#c7-cart .c7-user-nav__cart>button .c7-user-nav__cart__title {
+  /* background: red; */
+  height: 1rem;
+  width: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(/images/shopping-cart.svg);
+  background-size: cover;
+}
+#c7-cart .c7-user-nav__cart>button .c7-user-nav__cart__title svg {
+  display: none;
+}
+.c7-user-nav__account > a, .c7-user-nav__cart > button {
+  padding: 0;
+}
 
 @media (min-width: 769px) {
 
@@ -120,22 +160,32 @@ img {
     display: inline-block;
     padding: 0 1rem;
   }
+  .navigation nav .c7-order-summary__buttons  a:after{
+    display: none;
+  }
 
   .navigation {
     padding-right: 1rem;
     margin-bottom: 0;
+  }
+  
+  header .navigation nav {
+    display: flex;
   }
 
   .navigation nav a,
   #c7-cart,
   #c7-account {
     display: inline-block;
-    margin: .5rem 0 0;
+    margin: 0;
     font-size: .65rem;
   }
-
-  #c7-cart .c7-user-nav__cart>button {
+  #c7-account a:after {
+    content: '';
     padding: 0;
+  }
+  #c7-account .c7-user-nav__account {
+    padding-right: 0;
   }
 
   footer .navigation nav a:after {
@@ -152,7 +202,7 @@ img {
 footer {
   font-size: .75rem;
   letter-spacing: .05rem;
-  padding: 2rem;
+  padding: 3rem 2rem;
   font-family: canada-type-gibson, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -422,10 +472,11 @@ h2,
 h3, h4, .c7-account-block__title {
   text-transform: uppercase;
   font-family: canada-type-gibson, sans-serif;
-  font-size: .65rem;
+  font-size: .75rem;
   color: #d78628;
   letter-spacing: .185rem;
-  font-weight: 600
+  font-weight: 600;
+  margin: 0;
 }
 
 h4 {
@@ -492,7 +543,6 @@ section a,
     display: block;
     width: 100%;
     clear: both;
-    height: 5rem;
   }
   section.c7-content:before {
     height: 0;
@@ -599,7 +649,7 @@ section a,
 
   /* HAX!  (Duh, Hacks) */
   section.farm {
-    margin-top: -5rem;
+    /* margin-top: -5rem; */
   }
 
   section.farm .image-1 {
@@ -607,7 +657,7 @@ section a,
   }
 
   section.cellar {
-    margin-top: 7rem;
+    margin-top: 12rem;
   }
 
   section.cellar .image-1 {
@@ -615,7 +665,7 @@ section a,
   }
 
   section.wine {
-    margin-top: -4rem;
+    /* margin-top: -4rem; */
   }
 
   section.wine h2 {
@@ -661,12 +711,15 @@ section a,
     padding-top: 5rem;
   }
 
+  section.library:before {
+    height: 7rem;
+  }
   section.library .image-1 {
     transform: translateY(-6rem);
   }
 
   section.venn:before {
-    height: 2rem;
+    height: 1rem;
   }
 
   section.venn {
@@ -674,18 +727,19 @@ section a,
   }
 
   section.tasting {
-    margin-top: -6rem;
+    /* margin-top: -6rem; */
   }
 
   section.tasting h2 {
-    margin-top: 5.5rem;
+    margin-top: 3.5rem;
     font-size: 3rem;
     padding-bottom: 1rem;
   }
 
   section.tasting .image-1 {
-    margin-bottom: 2rem;
-    margin-left: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-top: 0;
   }
 
   section.tasting .image-2 {
@@ -701,7 +755,7 @@ section a,
   }
 
   section.celebrating {
-    padding-top: 2rem;
+    padding-top: 7rem;
   }
 
   section.celebrating h2 {
@@ -720,23 +774,30 @@ section a,
     /* margin-top: 0; */
   }
 
+  section.celebrating .image-2 {
+    width: 35rem;
+    margin-top: -.5rem;
+  }
+
   section.travel:before {
     height: 0;
   }
 
   section.travel h2 {
-    line-height: 1.15;
+    line-height: 1.05;
     padding-bottom: 1rem;
+    transform: translateX(3rem);
   }
 
   section.travel p {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     max-width: 75%;
   }
 
   section.travel .image-1 {
     margin-top: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
   }
 
   section.travel .image-2 {
@@ -754,6 +815,12 @@ section a,
   section.membership {
     margin-bottom: 6rem;
   }
+  section.membership h2 {
+    padding-top: 3rem;
+  }
+  section.membership .image-2 {
+    width: 35.5rem;
+  }
 
 }
 
@@ -763,10 +830,6 @@ section a,
     height: 2rem;
   }
 
-  .team h2 {
-    margin-top: 1rem;
-  }
-
   .team p:first-of-type {
     margin-top: 0;
   }
@@ -774,7 +837,7 @@ section a,
   .team-1 {
     float: left;
     width: 36.25rem;
-    aspect-ratio: 994/695;
+    aspect-ratio: 994/652;
     margin-right: 1.5rem;
   }
 
@@ -793,6 +856,9 @@ section a,
 .membership-details {
   text-align: left;
 }
+.membership-details h3 {
+  padding: 1rem 0;
+}
 
 .membership-details .table {
   margin-top: 2rem;
@@ -810,9 +876,11 @@ section a,
   display: none;
 }
 
+.membership-details .table {
+  margin-top: 1rem;
+}
 .membership-details .table>div {
   border-top: 1px solid #000;
-  margin-top: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -885,8 +953,8 @@ section a,
   }
 
   .membership-details {
-    margin: 2rem 5rem 5rem 6rem;
-    padding-top: 2rem;
+    margin: -3rem 5rem 5rem 6rem;
+    padding-top: 0;
   }
 
   .membership-details .table {
@@ -1154,6 +1222,7 @@ section a,
   background-color: #d78628;
   font-family: canada-type-gibson, sans-serif;
   font-weight: normal;
+  height: auto;
 }
 .c7-side-cart {
   font-size: 1rem;;

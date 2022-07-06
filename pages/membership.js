@@ -137,8 +137,8 @@ export default function Membership(props) {
                     />
                   </div>
                   <div>
-                    <div className='c7-btn c7-btn--primary show-less'><a href={"#membership"} >Less Details</a></div>
-                    <div className='c7-btn c7-btn--primary show-more'><a href={"#"+club.slug} >More Details</a></div>
+                    <div className='c7-btn c7-btn--primary show-less'><a href={"#membership"} >Less Detail</a></div>
+                    <div className='c7-btn c7-btn--primary show-more'><a href={"#"+club.slug} >More Detail</a></div>
                   </div>
                 </div>
               })}

@@ -1,10 +1,11 @@
 import { Facebook, Instagram, YouTube, Twitter } from '@styled-icons/boxicons-logos'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useState, useContext } from 'react'
 
-export default function Layout({ home, discover, wine, purchase, taste, membership, children, props }) {
+export default function Layout({ home, discover, wine, purchase, taste, membership, faq, contact, join, account, credits, children, props }) {
 
   const router = useRouter()
 
@@ -25,8 +26,8 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
             <a href="/discover" className={discover && 'active'}>Discover</a>
             <a href="/wine" className={wine && 'active'}>Wine</a>
             <a href="/collection/wines/" className={purchase && 'active'} >Purchase</a>
-            <a href="/taste" className={taste && 'active'}>Taste</a>
             <a href="/membership" className={membership && 'active'}>Membership</a>
+            <a href="/taste" className={taste && 'active'}>Taste</a>
             <div id="c7-account"></div>
             <div id="c7-cart"></div>
           </nav>
@@ -45,11 +46,11 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
           <>
             <div className='navigation'>
               <nav>
-                <a href="/faq">FAQ</a>
-                <a href="/contact">Contact</a>
-                <a href="/profile/create-account">Join</a>
-                <a href="/profile">Manage your Account</a>
-                <a href="/credits">Credits</a>
+                <a href="/faq" className={faq && 'active'}>FAQ</a>
+                <a href="/contact" className={contact && 'active'}>Contact</a>
+                <a href="/profile/create-account" className={join && 'active'}>Join</a>
+                <a href="/profile/account" className={account && 'active'}>Manage your Account</a>
+                <a href="/credits" className={credits && 'active'}>Credits</a>
               </nav>
             </div>
 

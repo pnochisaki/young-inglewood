@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
 export default function Faq({ markdownData }) {
 
   return (
-    <Layout>
+    <Layout faq>
       <div className='faq'>
         <img className='image-1' src='/images/faq.jpg' alt='image'/>
         <div className="copy" dangerouslySetInnerHTML={{__html: markdownData.contentHtml}}  />

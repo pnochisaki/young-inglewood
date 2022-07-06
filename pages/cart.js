@@ -6,9 +6,7 @@ export default function Cart() {
       <>
         <div className="cart">
           <div className="page-margins">
-            <div className="copy">
             <div id="c7-content"></div>
-            </div>
           </div>
         </div>
       </>
