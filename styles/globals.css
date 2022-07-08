@@ -656,14 +656,15 @@ section a,
     margin-bottom: 5rem;
   }
 
-  section.cellar {
-    margin-top: 12rem;
+  .cellar {
+    margin: 4rem 0 4rem;
   }
-
-  section.cellar .image-1 {
-    transform: translateY(-9rem);
+  .cellar h2 {
+    margin-top: 9rem;
   }
-
+  .cellar .image-1 {
+    margin-bottom: 4rem;
+  }
   section.wine {
     /* margin-top: -4rem; */
   }
@@ -1011,6 +1012,29 @@ section a,
     border: 0;
     height: 100%;
     width: 100%;
+  }
+
+  .credits {
+    margin-bottom: 4rem;
+  }
+  .credits .image-2 {
+    width: 34rem;
+    margin-bottom: 4rem
+  }
+  .credits h2 {
+    margin-top: 11rem;
+  }
+  .credits span {
+    display: block;
+    padding-top: 2rem;
+  }
+  .credits span,
+  .credits span:first-of-type p {
+    text-align: left;
+    display: block;
+  }
+  .credits span p {
+    margin-bottom: 0
   }
 }
 

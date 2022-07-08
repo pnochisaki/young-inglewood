@@ -22,10 +22,10 @@ export default function Credits({ markdownData }) {
       <>
         <Section
           title={markdownData.title}
-          slug='cellar'
+          slug='credits'
           style='section-b'
-          image1='/images/cellar-1.jpg'
-          image2='/images/cellar-2.jpg'
+          image1='/images/credits-1.jpg'
+          image2='/images/credits-2.jpg'
           text2={markdownData.contentHtml}
         />
         </>
