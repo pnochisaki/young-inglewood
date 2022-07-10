@@ -61,7 +61,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
             </div>
 
             <p>
-              ©{new Date().getFullYear()} Young Inglewood Vineyards | 1919 Inglewood Ave, St. Helena, CA 94574 | <a href="mailto:estate@younginglewood.com">estate@younginglewood.com</a> <a href="tel:707.200.4572">707.200.4572</a>
+              ©{new Date().getFullYear()} Young Inglewood Vineyards
             </p>
           </>
         </footer>

@@ -1029,12 +1029,10 @@ section a,
     padding-top: 2rem;
   }
   .credits span,
-  .credits span:first-of-type p {
+  section.credits span:first-of-type p {
     text-align: left;
     display: block;
-  }
-  .credits span p {
-    margin-bottom: 0
+    margin-bottom: .25rem;
   }
 }
 
