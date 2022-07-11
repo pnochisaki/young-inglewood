@@ -17,7 +17,7 @@ title: Contact
   [hosp@younginglewood.com](mailto:hosp@younginglewood.com)
 
 ### FOR RESERVATIONS
-[Book Now](#)
+[Book Now](https://www.exploretock.com/younginglewood)
 
 ### HOW TO GET TO US:
 Young Inglewood Vineyards is on the south side of the Saint Helena AVA in Napa Valley California approxi- mately 2 hours north of San Francisco.
