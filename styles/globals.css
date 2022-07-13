@@ -78,6 +78,7 @@ img {
     position: fixed;
     top: 0;
     width: 100%;
+    max-width: 1260px;
     z-index: 1;
     background: rgba(255, 255, 255, 0.95);
   }
@@ -1233,7 +1234,9 @@ section a,
   background: #fff;
   padding: 2rem;
 }
-
+.c7-pagination {
+  display: none;
+}
 .c7-product-collection__products--featured {
   /* display: none; */
 }
@@ -1266,4 +1269,40 @@ section a,
 }
 .c7-order-item__image img {
   margin: auto;
+}
+
+.product-detail h2 {
+  font-size: 2rem;
+}
+.product-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.product-detail .image {
+  padding: 0 4rem;
+  width: 50%;
+}
+.product-detail .details {
+  padding: 2rem;
+  text-align: right;
+  width: 50%;
+}
+.product-detail .c7-product__add-to-cart__form {
+  max-width: 100%;
+  justify-content: flex-end;
+    align-items: flex-start;
+}
+.product-detail .c7-product__add-to-cart__form  .c7-btn--primary {
+  padding-right: 0;
+}
+
+.product-bottom-details .col-3 {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+.kitchen-sink {
+  display: none;
 }
