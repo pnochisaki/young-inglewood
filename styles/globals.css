@@ -1378,7 +1378,8 @@ section a,
 .product-bottom-details .col-3 {
   text-align: center;
   max-width: 800px;
-  margin: auto;
+  margin: 4rem auto;
+
 }
 
 .kitchen-sink {
