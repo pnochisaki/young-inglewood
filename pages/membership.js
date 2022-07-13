@@ -25,71 +25,16 @@ export async function getServerSideProps() {
 
 export default function Membership(props) {
 
-  const [activeItem, setActiveItem] = useState({});
-
-  const handleClick = event => {
-    // 👇️ toggle isActive state on click
-    // console.log(event)
-    if (activeItem == { 'Essay': true }) {
-      setActiveItem(null);
+  const [activeItem, setActiveItem] = useState(-1);
+  const handleClick = (e) =>  {
+    const isActive = (e.currentTarget.classList.contains('active'))
+    if (!isActive) {
+      e.currentTarget.classList.add("active");
     } else {
-      setActiveItem({ 'Essay': true });
+      e.currentTarget.classList.remove("active");
     }
-
-  };
-
-  const clubs = [
-    {
-      'name': 'Essay',
-      'frequency': '4 red wines twice a year',
-      'price': '$432.25/Spring Shipment',
-      'details': '<p>Three 2018 Right Bank Blend One 2018 Cabernet Franc</p><p>5% savings on all purchases</p>',
-      'link': '#'
-    },
-    {
-      'name': 'Novella',
-      'frequency': '6 red wines twice a year',
-      'price': '$594.00/Spring Shipment',
-      'details': '',
-      'link': '#'
-    },
-    {
-      'name': 'Novel',
-      'frequency': '12 red wines twice a year',
-      'price': '$1620.00/Spring Shipment',
-      'details': '',
-      'link': '#'
-    },
-    {
-      'name': 'Archive',
-      'frequency': '3 aged red wines twice a year',
-      'price': '$584.25/Spring Shipment',
-      'details': '',
-      'link': '#'
-    },
-    {
-      'name': 'Epic',
-      'frequency': 'A Magnum Of Cabernet once a year',
-      'price': 'call winery',
-      'details': '',
-      'link': '#'
-    },
-    {
-      'name': 'Sonnet',
-      'frequency': '6 white wines twice a year',
-      'price': '$332.00/Spring Shipment',
-      'details': '',
-      'link': '#'
-    },
-    {
-      'name': 'Anthology',
-      'frequency': 'selection of 4 wines twice a year',
-      'price': '$332.50/Spring Shipmen',
-      'details': '',
-      'link': '#'
-    },
-  ]
-
+    
+  }
   return (
     <Layout membership>
       <>
@@ -123,7 +68,12 @@ export default function Membership(props) {
             {props.data.clubs
               .filter(club => club.webStatus == 'Available')
               .map((club, index) => {
-                return <div key={club.slug} className="club-row" id={club.slug}>
+                return <div
+                  key={club.slug}
+                  id={club.slug}
+                  onClick={handleClick}
+                  className={"club-row"}
+                  >
 
                   <div><h3>{club.title.split('-')[0].replace('Friends of Young Inglewood', '').replace('Friends Of Young Inglewood', '')}</h3></div>
                   <div><p>{club.title.split('-')[1]}</p></div>
@@ -137,8 +87,8 @@ export default function Membership(props) {
                     />
                   </div>
                   <div>
-                    <div className='c7-btn c7-btn--primary show-less'><a href={"#membership"} >Less Detail</a></div>
-                    <div className='c7-btn c7-btn--primary show-more'><a href={"#"+club.slug} >More Detail</a></div>
+                    <div className='c7-btn c7-btn--primary show-less'>Less Detail</div>
+                    <div className='c7-btn c7-btn--primary show-more'>More Detail</div>
                   </div>
                 </div>
               })}

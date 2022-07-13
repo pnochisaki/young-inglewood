@@ -858,18 +858,24 @@ section a,
   text-align: left;
 }
 .membership-details h3 {
-  padding: 1rem 0;
+  padding: .75rem 0;
+}
+.membership-details > h3 {
+  padding: 0;
 }
 
+.membership-details > ul {
+  margin-top: .25rem;
+}
 .membership-details .table {
   margin-top: 2rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   border-bottom: 1px solid;
 }
 .membership-details .table .club-row {
   overflow: hidden;
 }
-.membership-details .table .club-row:target ul {
+.membership-details .table .club-row.active ul {
     display: block;
 }
 .membership-details .table .club-row ul {
@@ -890,14 +896,19 @@ section a,
 .membership-details .table .c7-btn {
   display: inline-block;
   vertical-align: top;
+  padding: .85rem 0 .75rem;
+  letter-spacing: .075rem;
 }
 .membership-details .table .show-less {
   display: none;
 }
-.membership-details .table .club-row:target .show-less {
+.membership-details .table .club-row.active .show-less {
   display: block;
 }
-.membership-details .table .club-row:target .show-more {
+.membership-details .table .show-more {
+  display: block;
+}
+.membership-details .table .club-row.active .show-more {
   display: none;
 }
 
@@ -959,7 +970,8 @@ section a,
   }
 
   .membership-details .table {
-    margin: 0;
+    margin: .75rem 0;
+    padding: 0;
   }
 
   .membership-details .table>div {
@@ -986,7 +998,7 @@ section a,
   }
   .membership-details .table>div>div:nth-child(4) {
     width: 16.5%;
-    text-align: right;
+    text-align: center;
   }
   .membership-details .table>div>div:nth-child(5) {
     width: 13.5%;
