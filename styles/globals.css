@@ -184,7 +184,10 @@ img {
     padding-right: 1rem;
     margin-bottom: 0;
   }
-
+  header .desktop-navigation {
+    display: flex;
+    align-items: flex-end;
+  }
   header .navigation nav {
     display: flex;
   }
@@ -473,8 +476,12 @@ h2,
     left: 0;
 
   }
-  header.hamburger-open {
+  header.hamburger-open,
+  header.hamburger-open .desktop-navigation { 
     height: 100vh;
+  }
+  .desktop-navigation {
+    height: 0;
   }
   header .navigation {
   }  

@@ -15,18 +15,18 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
   }
 
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
-  const hamburgerClick = (e) =>  {
+  const hamburgerClick = (e) => {
     if (!hamburgerOpen) {
       setHamburgerOpen(true)
     } else {
       setHamburgerOpen(false)
     }
   }
-  
+
 
   return (
     <div className="layout">
-      <header className={hamburgerOpen ? 'hamburger-open' : '' }>
+      <header className={hamburgerOpen ? 'hamburger-open' : ''}>
         <div className="mobile-only hamburger" onClick={hamburgerClick}>
           {hamburgerOpen ? <X /> : <Menu />}
         </div>
@@ -34,17 +34,19 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
           <Image alt='logo' src='/images/logo.svg' layout='fill' />
         </div>
 
-        <div className='navigation'>
-          <nav>
-            <a href="/discover" className={discover && 'active'}>Discover</a>
-            <a href="/wine" className={wine && 'active'}>Wine</a>
-            <a href="/collection/wines/" className={purchase && 'active'} >Purchase</a>
-            <a href="/membership" className={membership && 'active'}>Membership</a>
-            <a href="/taste" className={taste && 'active'}>Taste</a>
-            <div id="c7-account"></div>
-          </nav>
+        <div className="desktop-navigation">
+          <div className='navigation'>
+            <nav>
+              <a href="/discover" className={discover && 'active'}>Discover</a>
+              <a href="/wine" className={wine && 'active'}>Wine</a>
+              <a href="/collection/wines/" className={purchase && 'active'} >Purchase</a>
+              <a href="/membership" className={membership && 'active'}>Membership</a>
+              <a href="/taste" className={taste && 'active'}>Taste</a>
+              <div id="c7-account"></div>
+            </nav>
+          </div>
+          <div id="c7-cart"></div>
         </div>
-        <div id="c7-cart"></div>
 
       </header >
 
