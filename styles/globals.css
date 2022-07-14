@@ -72,7 +72,6 @@ img {
 .layout>header {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   max-width: 1260px;
   z-index: 1;
@@ -86,6 +85,7 @@ img {
     align-items: center;
     justify-content: space-between;
     padding: 2.25rem 2rem;
+
   }
 
   .layout>main {
@@ -470,6 +470,8 @@ h2,
   }
   header {
     height: 4rem;
+    left: 0;
+
   }
   header.hamburger-open {
     height: 100vh;
@@ -552,13 +554,14 @@ h2,
     top: 1rem;
     left: 1rem;
   }
-  .hamburger svg {
+  .hamburger svg,
+  .c7-side-cart__header button svg {
     fill:rgba(0, 0, 0, 0.75);
     width: 1rem;
     height: 1rem;
   }
   main {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }
 
