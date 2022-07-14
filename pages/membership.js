@@ -34,7 +34,7 @@ export default function Membership(props) {
       e.currentTarget.classList.remove("active");
     }
   }
-  
+
   return (
     <Layout membership>
       <>
@@ -76,7 +76,7 @@ export default function Membership(props) {
                   className={"club-row"}
                   >
 
-                  <div><h3>{club.title.split('-')[0].replace('Friends of Young Inglewood', '').replace('Friends Of Young Inglewood', '')}</h3></div>
+                  <div><h3>{club.title.split('-')[0].replace('Friends of Young Inglewood', '')}</h3></div>
                   <div><p>{club.title.split('-')[1]}</p></div>
                   <div><div dangerouslySetInnerHTML={{ __html: club.content }}></div>
                     {/* <div className="expanded"
