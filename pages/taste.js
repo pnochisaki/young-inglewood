@@ -26,6 +26,7 @@ export default function Taste({ markdownData }) {
           title='Winery Tasting'
           slug='tasting'
           style='section-c'
+          mobileImage='/images/tasting-1.jpg'
           image1='/images/tasting-1.jpg'
           image2='/images/tasting-2.jpg'
           text2="<p>Young Inglewood's gently sloping organic vineyards, verdant gardens, and stately 150-year old heritage oaks form the perfect backdrop for tasting our critically acclaimed wines.</p>
@@ -33,7 +34,7 @@ export default function Taste({ markdownData }) {
           tasting salon, thoughtfully
           designed to please every sense.
           Tastings are dedicated to you
-          alone and customized for your <strong>personal enjoyment</strong>. Delight in our eclectic art collection as your gracious host guides you<br class='desktop-only' />through our wines.<a href='https://www.exploretock.com/younginglewood' target='_blank' >Reserve Now</a><br /><p>
+          alone and customized for your <strong>personal enjoyment</strong>. Delight in our eclectic art collection as your gracious host guides you<br class='desktop-only' />through our wines.<a href='https://www.exploretock.com/younginglewood' target='_blank' >Reserve Now</a><br class='desktop-only' /><p>
           <p>Tours are complimentary for Friends of Young Inglewood (FYI).
           <a href='/membership'>Learn More About FYI</a></p>"
         />
@@ -42,6 +43,7 @@ export default function Taste({ markdownData }) {
           title='Celebrating at Young Inglewood'
           slug='celebrating'
           style='section-b'
+          mobileImage='/images/celebrating-1.jpg'
           image1='/images/celebrating-1.jpg'
           image2='/images/celebrating-2.jpg'
           text1="<p>The next time you want to <strong>celebrate</strong> with your friends consider a wine focused occasion with Young Inglewood as your host.</p>"
@@ -53,6 +55,7 @@ export default function Taste({ markdownData }) {
           title='Young inglewood in your town'
           slug='travel'
           style='section-c'
+          mobileImage='/images/travel-1.jpg'
           image1='/images/travel-1.jpg'
           image2='/images/travel-2.jpg'
           text2="<p>Unable to travel? Invite Young Inglewood's Director of Hospitality to come to you. Host a wine dinner with family or friends in your

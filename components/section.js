@@ -5,6 +5,7 @@ export default function Section(props) {
     <section className={`${props.slug} ${props.style}`}>
       <div className='image-1 float-image' style={{ backgroundImage: `url(${props.image1})` }} />
       <h2>{props.title}</h2>
+      <div className='mobile-image' style={{ backgroundImage: `url(${props.mobileImage})` }} />
       {props.text1 &&
         <span dangerouslySetInnerHTML={{ __html: props.text1 }} />
       }

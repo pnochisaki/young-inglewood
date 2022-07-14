@@ -26,6 +26,7 @@ export default function Wine({ markdownData }) {
           title='Wine'
           slug='wine'
           style='section-b'
+          mobileImage='/images/wine-1.jpg'
           image1='/images/wine-1.jpg'
           image2='/images/wine-2.jpg'
           text1="<p>Young Inglewood makes <strong>wines of place.</strong></p>"
@@ -36,6 +37,7 @@ export default function Wine({ markdownData }) {
           title='Estate Wines'
           slug='estate'
           style='section-a'
+          mobileImage='/images/estate-1.jpg'
           image1='/images/estate-1.jpg'
           image2='/images/estate-2.jpg'
           text1="<p>Our <strong>flagship</strong> wine is our Estate Cabernet Sauvignon, which in classic Bordeaux style is Cabernet Sauvignon blended with small quantities of our other varietals.
@@ -48,6 +50,7 @@ export default function Wine({ markdownData }) {
           title='Playful Varietals'
           slug='varietals'
           style='section-a'
+          mobileImage='/images/varietals-1.jpg'
           image1='/images/varietals-1.jpg'
           text1="<p>Each varietal we grow has its <strong>own character</strong> and story, too good not to tell.</p>
           <p>Every vintage we show the lesser known grapes at their best with our varietal red bottlings of Cabernet Franc, Malbec, Merlot and Petit Verdot.
@@ -63,6 +66,7 @@ export default function Wine({ markdownData }) {
           title='Library'
           slug='library'
           style='section-b'
+          mobileImage='/images/library-1.jpg'
           image1='/images/library-1.jpg'
           image2='/images/library-2.jpg'
           text1="<p>With every wine we make, graceful <strong>aging</strong> is a primary characteristic.</p>"
@@ -73,6 +77,7 @@ export default function Wine({ markdownData }) {
           title='Venn'
           slug='venn'
           style='section-a'
+          mobileImage='/images/venn-1.jpg'
           image1='/images/venn-1.jpg'
           image2='/images/venn-2.jpg'
           text1="<p>We’re very excited about our <strong>sister label,</strong> VENN.</p>"

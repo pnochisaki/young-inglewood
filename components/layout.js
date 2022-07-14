@@ -1,4 +1,6 @@
 import { Facebook, Instagram, YouTube, Twitter } from '@styled-icons/boxicons-logos'
+import { Menu } from '@styled-icons/feather/Menu'
+import { X } from '@styled-icons/feather/X'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,15 +10,26 @@ import { useEffect, useState, useContext } from 'react'
 export default function Layout({ home, discover, wine, purchase, taste, membership, faq, contact, join, account, credits, children, props }) {
 
   const router = useRouter()
-
   const goHome = (e) => {
     router.push('/discover')
   }
 
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  const hamburgerClick = (e) =>  {
+    if (!hamburgerOpen) {
+      setHamburgerOpen(true)
+    } else {
+      setHamburgerOpen(false)
+    }
+  }
+  
+
   return (
     <div className="layout">
-      <header>
-
+      <header className={hamburgerOpen ? 'hamburger-open' : '' }>
+        <div className="mobile-only hamburger" onClick={hamburgerClick}>
+          {hamburgerOpen ? <X /> : <Menu />}
+        </div>
         <div className='branding' onClick={goHome}>
           <Image alt='logo' src='/images/logo.svg' layout='fill' />
         </div>
@@ -29,9 +42,9 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
             <a href="/membership" className={membership && 'active'}>Membership</a>
             <a href="/taste" className={taste && 'active'}>Taste</a>
             <div id="c7-account"></div>
-            <div id="c7-cart"></div>
           </nav>
         </div>
+        <div id="c7-cart"></div>
 
       </header >
 

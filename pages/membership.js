@@ -33,8 +33,8 @@ export default function Membership(props) {
     } else {
       e.currentTarget.classList.remove("active");
     }
-    
   }
+  
   return (
     <Layout membership>
       <>
@@ -43,6 +43,7 @@ export default function Membership(props) {
           title='Friends of young inglewood'
           slug='membership'
           style='section-a'
+          mobileImage='/images/membership-1.jpg'
           image1='/images/membership-1.jpg'
           image2='/images/membership-2.jpg'
           text1="<p>You’re going to love being an FYI member. Our FYI members are the first to hear about new wine releases and the first to get allocations so you’ll never miss another Young Inglewood release.</p>"
