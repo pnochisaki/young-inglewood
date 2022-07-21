@@ -105,6 +105,56 @@ img {
   margin-bottom: 4rem;
 }
 
+.navigation a,
+#c7-account,
+#c7-cart {
+  opacity: 0;
+  animation: fadeIn 1s 1;
+  animation-fill-mode: forwards;
+}
+
+.navigation a:nth-child(5n+1) {
+  animation-delay: 0.5s;
+}
+
+.navigation a:nth-child(5n+2) {
+  animation-delay: 0.75s;
+}
+
+.navigation a:nth-child(5n+3) {
+  animation-delay: 1.00s;
+}
+
+.navigation a:nth-child(5n+4) {
+  animation-delay: 1.25s;
+}
+
+.navigation a:nth-child(5n+5) {
+  animation-delay: 1.50s;
+}
+
+a:nth-child(5n+6) {
+  animation-delay: 1.5s;
+}
+
+#c7-account {
+  animation-delay: 1.75s;
+}
+#c7-cart {
+  animation-delay: 2s;
+}
+/* Animation steps */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+
 .navigation nav a,
 .c7-account__menu ul li a {
   font-family: canada-type-gibson, sans-serif;
@@ -119,7 +169,7 @@ img {
 }
 
 .navigation nav a.active {
-  opacity: .5;
+  color: rgba(0, 0, 0, 0.35)
 }
 
 .navigation nav .c7-user-nav__account a {
@@ -485,6 +535,7 @@ h2,
   }
   header .navigation {
   }  
+
   header .navigation {
     width: 100vw;
     transform: translateX(-100vw);
