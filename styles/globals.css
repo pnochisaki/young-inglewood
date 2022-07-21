@@ -105,43 +105,46 @@ img {
   margin-bottom: 4rem;
 }
 
+#c7-account {
+  min-width: 70px;
+}
+#c7-cart {
+  min-width: 35px;
+}
 .navigation a,
 #c7-account,
 #c7-cart {
   opacity: 0;
-  animation: fadeIn 1s 1;
+  animation: fadeIn 1s ease-out;
   animation-fill-mode: forwards;
 }
 
-.navigation a:nth-child(5n+1) {
+.navigation nav > a:nth-child(5n+5) {
   animation-delay: 0.5s;
 }
 
-.navigation a:nth-child(5n+2) {
+.navigation nav > a:nth-child(5n+4) {
   animation-delay: 0.75s;
 }
 
-.navigation a:nth-child(5n+3) {
+.navigation nav > a:nth-child(5n+3) {
   animation-delay: 1.00s;
 }
 
-.navigation a:nth-child(5n+4) {
+.navigation nav > a:nth-child(5n+2) {
   animation-delay: 1.25s;
 }
 
-.navigation a:nth-child(5n+5) {
+.navigation nav > a:nth-child(5n+1) {
   animation-delay: 1.50s;
 }
 
-a:nth-child(5n+6) {
-  animation-delay: 1.5s;
-}
 
 #c7-account {
-  animation-delay: 1.75s;
+  animation-delay: .5s;
 }
 #c7-cart {
-  animation-delay: 2s;
+  animation-delay: .5s;
 }
 /* Animation steps */
 

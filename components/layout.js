@@ -4,15 +4,10 @@ import { X } from '@styled-icons/feather/X'
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import { useEffect, useState, useContext } from 'react'
 
 export default function Layout({ home, discover, wine, purchase, taste, membership, faq, contact, join, account, credits, children, props }) {
 
-  const router = useRouter()
-  const goHome = (e) => {
-    router.push('/discover')
-  }
 
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   const hamburgerClick = (e) => {
@@ -30,9 +25,9 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
         <div className="mobile-only hamburger" onClick={hamburgerClick}>
           {hamburgerOpen ? <X /> : <Menu />}
         </div>
-        <div className='branding' onClick={goHome}>
+        <a className='branding' href="/">
           <Image alt='logo' src='/images/logo.svg' layout='fill' />
-        </div>
+        </a>
 
         <div className="desktop-navigation">
           <div className='navigation'>
