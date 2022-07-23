@@ -21,6 +21,10 @@ html {
   }
 }
 
+.layout {
+  position: relative;
+}
+
 @media (min-width: 1281px) {
   html {
     font-size: 17px;
@@ -80,6 +84,69 @@ img {
 
 
 @media (min-width: 769px) {
+
+
+  .home.layout>header {
+    background: transparent;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .home.layout>header .branding {
+    opacity: 0;
+  }
+
+  .home-1,
+  .home-2 {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .home-1 {
+    background-image: url(/images/home-1.jpg);
+    z-index: 1;
+    opacity: 1;
+  }
+
+  .home-2 {
+    background-image: url(/images/home-2.jpg);
+    z-index: 2;
+    animation: 3s fadeIn ease-out forwards;
+    animation-delay: 2s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+  .home-2 .text {
+    position: absolute;
+    width: 30.5rem;
+    transform: translate(38rem, 24rem);
+    text-align: left;
+    font-style: italic;
+    font-size: 1.65rem;
+    letter-spacing: -.03rem;
+    line-height: 1.2;
+    padding: .5rem 0 .25rem 2rem;
+    border-left: 1px solid #000;
+  }
+  .home-2 .image {
+    position: absolute;    
+    width: 18rem;
+    transform: translate(18rem, 24rem);
+  }
+
+
   .layout>header {
     display: flex;
     align-items: center;
@@ -99,6 +166,7 @@ img {
   width: 20rem;
   cursor: pointer;
   margin: auto;
+  display: block;
 }
 
 .navigation {
@@ -108,9 +176,11 @@ img {
 #c7-account {
   min-width: 70px;
 }
+
 #c7-cart {
   min-width: 35px;
 }
+
 .navigation a,
 #c7-account,
 #c7-cart {
@@ -119,39 +189,72 @@ img {
   animation-fill-mode: forwards;
 }
 
-.navigation nav > a:nth-child(5n+5) {
-  animation-delay: 0.5s;
-}
-
-.navigation nav > a:nth-child(5n+4) {
-  animation-delay: 0.75s;
-}
-
-.navigation nav > a:nth-child(5n+3) {
-  animation-delay: 1.00s;
-}
-
-.navigation nav > a:nth-child(5n+2) {
-  animation-delay: 1.25s;
-}
-
-.navigation nav > a:nth-child(5n+1) {
+.navigation nav>a:nth-child(5n+1) {
   animation-delay: 1.50s;
 }
 
+.navigation nav>a:nth-child(5n+2) {
+  animation-delay: 1.25s;
+}
+
+.navigation nav>a:nth-child(5n+3) {
+  animation-delay: 1.00s;
+}
+
+.navigation nav>a:nth-child(5n+4) {
+  animation-delay: 0.75s;
+}
+
+.navigation nav>a:nth-child(5n+5) {
+  animation-delay: 0.5s;
+}
 
 #c7-account {
   animation-delay: .5s;
 }
+
 #c7-cart {
   animation-delay: .5s;
 }
+
+/* HOME VERSION IS DIFFERENT  VAUES ABOVE + 5 + */
+
+.home .navigation nav>a:nth-child(5n+1) {
+  animation-delay: 6.50s;
+}
+
+.home .navigation nav>a:nth-child(5n+2) {
+  animation-delay: 6.25s;
+}
+
+.home .navigation nav>a:nth-child(5n+3) {
+  animation-delay: 6.00s;
+}
+
+.home .navigation nav>a:nth-child(5n+4) {
+  animation-delay: 5.75s;
+}
+
+.home .navigation nav>a:nth-child(5n+5) {
+  animation-delay: 5.5s;
+}
+
+.home #c7-account {
+  animation-delay: 5.5s;
+}
+
+.home #c7-cart {
+  animation-delay: 5.5s;
+}
+
+
 /* Animation steps */
 
 @keyframes fadeIn {
   0% {
     opacity: 0.0;
   }
+
   100% {
     opacity: 1.0;
   }
@@ -237,10 +340,12 @@ img {
     padding-right: 1rem;
     margin-bottom: 0;
   }
+
   header .desktop-navigation {
     display: flex;
     align-items: flex-end;
   }
+
   header .navigation nav {
     display: flex;
   }
@@ -524,20 +629,23 @@ h2,
   .desktop-only {
     display: none;
   }
+
   header {
     height: 4rem;
     left: 0;
 
   }
+
   header.hamburger-open,
-  header.hamburger-open .desktop-navigation { 
+  header.hamburger-open .desktop-navigation {
     height: 100vh;
   }
+
   .desktop-navigation {
     height: 0;
   }
-  header .navigation {
-  }  
+
+  header .navigation {}
 
   header .navigation {
     width: 100vw;
@@ -545,22 +653,27 @@ h2,
     transition: transform 200ms ease-in-out;
     /* background: rgba(255, 255, 255, 0.5); */
   }
+
   header.hamburger-open .navigation {
     transform: translateX(0);
   }
+
   .branding {
     width: 16rem;
     height: 4rem;
   }
+
   h2 {
     margin: 1.5rem 0 .5rem;
     line-height: 1.2;
     font-size: 2.5rem;
   }
+
   .navigation nav a {
     padding: 1.65rem;
     margin: 0;
   }
+
   section:nth-child(odd) h2 {
     text-align: right;
   }
@@ -602,9 +715,11 @@ h2,
     width: 1rem;
     height: 1rem;
   }
+
   #c7-cart .c7-user-nav__cart__count {
     display: none;
   }
+
   #c7-cart .c7-side-cart__header {
     justify-content: right;
     padding: 1rem;
@@ -615,12 +730,14 @@ h2,
     top: 1rem;
     left: 1rem;
   }
+
   .hamburger svg,
   .c7-side-cart__header button svg {
-    fill:rgba(0, 0, 0, 0.75);
+    fill: rgba(0, 0, 0, 0.75);
     width: 1rem;
     height: 1rem;
   }
+
   main {
     margin-top: 2rem;
   }

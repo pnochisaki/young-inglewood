@@ -20,7 +20,25 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
 
   return (
-    <div className="layout">
+    <div className={home ? "home layout" : "layout"}>
+      {home ?
+        <>
+          <div className="home-1">
+            {/* silence */}
+          </div>
+          <div className="home-2">
+            <div className="image">
+              <img src="/images/balance.jpg" alt="balance" />
+            </div>
+            <div className="text">
+            <p>Young Inglewood is committed to producing wines of place, stewarded from vine to bottle by mother and son winemakers Jacky and Scott. With old world non-interventionist winemaking practices, our estate’s signature character is transformed
+              into wines of balance and grace.</p>
+            </div>
+          </div>
+        </>
+        :
+        <></>
+      }
       <header className={hamburgerOpen ? 'hamburger-open' : ''}>
         <div className="mobile-only hamburger" onClick={hamburgerClick}>
           {hamburgerOpen ? <X /> : <Menu />}
