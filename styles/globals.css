@@ -704,7 +704,7 @@ h2,
   }
 
   .c7-account-login__password-options {
-    text-align: center;
+    text-align: center !important;
   }
 
 
