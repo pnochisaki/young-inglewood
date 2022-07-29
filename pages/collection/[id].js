@@ -29,7 +29,7 @@ export default function Collection({ data }) {
           {data.collections
             .filter(collection => collection.metaData['store-menu'])
             .map((collection, index) => {
-              return <a className="c7-btn" key={index} href={'/collection/' + collection.slug}>{collection.title}</a>
+              return <a className="c7-btn" key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
             }
             )}
         </div>

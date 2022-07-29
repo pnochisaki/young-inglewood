@@ -18,7 +18,7 @@ export async function getStaticProps({ params }) {
 export default function Credits({ markdownData }) {
 
   return (
-    <Layout>
+    <Layout credits>
       <>
         <Section
           title={markdownData.title}

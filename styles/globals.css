@@ -288,11 +288,13 @@ img {
 }
 
 .navigation nav a span,
+.collections-nav a span,
 .c7-account__menu li {
   position: relative;
 }
 
 .navigation nav a.active span:after,
+.collections-nav a.active span:after,
 .c7-account__menu li.c7-active a:after
  {
   position: absolute;
@@ -372,7 +374,8 @@ img {
     font-size: .65rem;
   }
 
-  .c7-account__menu li:last-of-type a:after {
+  .c7-account__menu li:last-of-type a:after,
+  .c7-account__menu li:last-of-type:after {
     content: "";
     padding: 0;
   }

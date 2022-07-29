@@ -78,11 +78,11 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
           <>
             <div className='navigation'>
               <nav>
-                <a href="/faq" className={faq && 'active'}>FAQ</a>
-                <a href="/contact" className={contact && 'active'}>Contact</a>
-                <a href="/profile/create-account" className={join && 'active'}>Join</a>
-                <a href="/profile/account" className={account && 'active'}>Manage your Account</a>
-                <a href="/credits" className={credits && 'active'}>Credits</a>
+                <a href="/faq" className={faq && 'active'}><span>FAQ</span></a>
+                <a href="/contact" className={contact && 'active'}><span>Contact</span></a>
+                <a href="/profile/create-account" className={join && 'active'}><span>Join</span></a>
+                <a href="/profile/account" className={account && 'active'}><span>Manage your Account</span></a>
+                <a href="/credits" className={credits && 'active'}><span>Credits</span></a>
               </nav>
             </div>
 
