@@ -11,7 +11,7 @@ title: Contact
 
 - ### Hours
   Sunday - Saturday
-  M – 3:30PM
+  10:00AM – 3:30PM
 
 - ### Email
   [hosp@younginglewood.com](mailto:hosp@younginglewood.com)
@@ -32,5 +32,3 @@ The Call Box is on the left side of the driveway in front of the wooden gate. Pr
 ### STAY IN TOUCH
 By joining our mailing list:
 you gain access to wine allocations and micro production wishlists. you represent to us that you are at least 21 years old.
-
-[JOIN MAILING LIST](#)
