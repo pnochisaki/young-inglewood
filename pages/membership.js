@@ -26,7 +26,7 @@ export async function getServerSideProps() {
 export default function Membership(props) {
 
   const [activeItem, setActiveItem] = useState(-1);
-  const handleClick = (e) =>  {
+  const handleClick = (e) => {
     const isActive = (e.currentTarget.classList.contains('active'))
     if (!isActive) {
       e.currentTarget.classList.add("active");
@@ -48,7 +48,7 @@ export default function Membership(props) {
           image2='/images/membership-2.jpg'
           text1="<p>You’re going to love being an FYI member. Our FYI members are the first to hear about new wine releases and the first to get allocations so you’ll never miss another Young Inglewood release.</p>"
           text2="<p>Our team will be delighted to help you customize your FYI membership to suit your taste, so you’ll always get just what you want.</p>
-          <p>Relax and enjoy our beautiful surroundings at a complimentary visit and tasting for you and up to four of your friends. Members only events are also open to you.</p>"
+          <p>Relax and enjoy our beautiful surroundings at a complimentary visit and estate tasting for you and up to three of your friends. Members only events are also open to you.</p>"
         />
 
         <div className="membership-details">
@@ -74,18 +74,20 @@ export default function Membership(props) {
                   id={club.slug}
                   onClick={handleClick}
                   className={"club-row"}
-                  >
+                >
 
-                  <div><h3>{club.title.split('-')[0].replace('Friends of Young Inglewood', '')}</h3></div>
+                  <div><h3>{club.title.split('-')[0].replace('Friends of Young Inglewood', '').trim()}</h3></div>
                   <div><p>{club.title.split('-')[1]}</p></div>
                   <div><div dangerouslySetInnerHTML={{ __html: club.content }}></div>
                     {/* <div className="expanded"
                       dangerouslySetInnerHTML={{ __html: club.content }}
                     /> */}
                   </div>
-                  <div>
-                    <div dangerouslySetInnerHTML={{ __html: '<div class="c7-club-join-button" data-club-slug="' + club.slug + '"></div>' }}
-                    />
+                  <div>{club.title.split('-')[0].replace('Friends of Young Inglewood', '').trim() === 'Epic' ?
+                    <div className="c7-btn"><a href="/contact">Contant Us</a></div> :
+                    <div dangerouslySetInnerHTML={{ __html: '<div class="c7-club-join-button" data-club-slug="' + club.slug + '"></div>' }} />
+                  }
+
                   </div>
                   <div>
                     <div className='c7-btn c7-btn--primary show-less'>Less Detail</div>

@@ -123,6 +123,7 @@ img {
     0% {
       opacity: 0
     }
+
     100% {
       opacity: 1
     }
@@ -140,8 +141,9 @@ img {
     padding: .5rem 0 .25rem 2rem;
     border-left: 1px solid #000;
   }
+
   .home-2 .image {
-    position: absolute;    
+    position: absolute;
     width: 18rem;
     transform: translate(18rem, 24rem);
   }
@@ -260,9 +262,18 @@ img {
   }
 }
 
+.c7-account__header p:nth-of-type(2) {
+  text-indent: -240px;
+  overflow: hidden;
+}
+
 
 .navigation nav a,
-.c7-account__menu ul li a {
+.c7-account__menu ul li a,
+.c7-account__header p:first-of-type,
+.c7-account__header p:nth-of-type(2),
+.c7-account__header .c7-marker,
+.c7-account__menu a {
   font-family: canada-type-gibson, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -272,10 +283,33 @@ img {
   font-size: .65rem;
   display: block;
   margin: 1.65rem;
+  border: 0;
+  padding: 0;
 }
 
-.navigation nav a.active {
-  color: rgba(0, 0, 0, 0.35)
+.navigation nav a span,
+.c7-account__menu li {
+  position: relative;
+}
+
+.navigation nav a.active span:after,
+.c7-account__menu li.c7-active a:after
+ {
+  position: absolute;
+  height: 2px;
+  margin: 0;
+  content: '';
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: #000;
+  background-color: #d78628;
+  bottom: -5px;
+  /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+}
+.c7-account__menu li.c7-active a:after {
+  width: calc(100% - 45px);
+  bottom: -2px;
 }
 
 .navigation nav .c7-user-nav__account a {
@@ -326,10 +360,30 @@ img {
     margin: 0;
   }
 
-  .navigation nav a:after {
+  .navigation nav a:after,
+  .collections-nav a:after,
+  .c7-account__menu li:after,
+  .c7-account__header p:first-of-type:after,
+  .c7-account__header p:nth-of-type(2):after {
     content: "•";
     display: inline-block;
     padding: 0 1rem;
+    color: #666;
+    font-size: .65rem;
+  }
+
+  .c7-account__menu li:last-of-type a:after {
+    content: "";
+    padding: 0;
+  }
+
+  .c7-account__menu {
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .c7-account__menu ul {
+    text-align: right;
   }
 
   .navigation nav .c7-order-summary__buttons a:after {
@@ -352,10 +406,20 @@ img {
 
   .navigation nav a,
   #c7-cart,
-  #c7-account {
+  #c7-account,
+  .c7-account__menu ul li a,
+  .c7-account__header p:first-of-type,
+  .c7-account__header p:nth-of-type(2),
+  .c7-account__header .c7-marker {
     display: inline-block;
     margin: 0;
     font-size: .65rem;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+
+  .navigation nav a:hover {
+    text-decoration: none;
   }
 
   #c7-account a:after {
@@ -591,8 +655,7 @@ section {
   text-align: left;
 }
 
-h2,
-.c7-product__title a {
+h2 {
   color: #d78628;
   font-size: 3.75rem;
   font-family: sofia-pro, sans-serif;
@@ -605,10 +668,9 @@ h2,
 
 .c7-product__title a {
   line-height: 1;
-  font-size: 2rem;
 }
 
-.c7-product__title a:hover {
+..navigation nav ac7-product__title a:hover {
   text-decoration: none;
 }
 
@@ -623,6 +685,10 @@ h2,
 
 .copy p {
   margin-bottom: 1.5rem;
+}
+
+.c7-account-login__password-options {
+  text-align: center !important;
 }
 
 @media (max-width: 768px) {
@@ -669,10 +735,6 @@ h2,
     font-size: 2.5rem;
   }
 
-  .navigation nav a {
-    padding: 1.65rem;
-    margin: 0;
-  }
 
   section:nth-child(odd) h2 {
     text-align: right;
@@ -699,13 +761,7 @@ h2,
     letter-spacing: .075rem;
   }
 
-  .navigation nav a {
-    font-size: .85rem;
-  }
 
-  .c7-account-login__password-options {
-    text-align: center !important;
-  }
 
 
   #c7-cart {
@@ -721,8 +777,12 @@ h2,
   }
 
   #c7-cart .c7-side-cart__header {
-    justify-content: right;
+    display: block;
     padding: 1rem;
+  }
+
+  #c7-cart .c7-side-cart__header button {
+    float: right;
   }
 
   .hamburger {
@@ -756,16 +816,33 @@ h2,
   }
 }
 
+html h2.c7-h2,
+.c7-account-dashboard__block__header__title h2.c7-h2,
+.c7-product-collection__product-list .c7-product__title a,
+.c7-product__teaser,
+.c7-wrapper h1,
 h3,
 h4,
 .c7-account-block__title {
   text-transform: uppercase;
   font-family: canada-type-gibson, sans-serif;
-  font-size: .75rem;
+  font-size: .75rem !important;
   color: #d78628;
   letter-spacing: .185rem;
   font-weight: 600;
   margin: 0;
+  display: block;
+}
+
+.c7-product__teaser p {
+  color: #666;
+  font-weight: 600;
+  margin: .5rem 0;
+}
+
+.c7-product__add-to-cart__price__action-message p {
+  margin: 0;
+  padding: 0;
 }
 
 h4 {
@@ -1415,7 +1492,7 @@ section a,
   --c7-link-color: #932761;
   --c7-bg: #fff;
   --c7-bg-alt: #f7f8fa;
-  --c7-border-color: #e3e3e8;
+  --c7-border-color: transparent;
   --c7-border-radius: 4px;
   --c7-loading-bg: rgba(255, 255, 255, 0.5);
   --c7-modal-border-radius: 8px;
@@ -1475,16 +1552,15 @@ section a,
   background: transparent;
   padding: 1rem 1rem;
   color: #932761;
+  vertical-align: middle;
+}
+
+.c7-order-status-summary svg {
+  display: none;
 }
 
 .navigation nav .c7-order-summary__buttons a {
-  color: #932761;
-}
-
-.collections-nav a {
-  margin: .25rem;
-  background: transparent;
-  color: #932761;
+  /* color: #932761; */
 }
 
 .collections-nav a:not([disabled]):hover,
@@ -1493,7 +1569,26 @@ section a,
   text-decoration: none;
 }
 
+
 @media (min-width: 769px) {
+
+  .collections-nav,
+  .c7-account__menu {
+    position: fixed;
+    width: 100%;
+    top: 5rem;
+    z-index: 1;
+  }
+
+  .collections-nav a.c7-btn {
+    padding: 1rem 0;
+    color: #666
+  }
+
+  .purchase.layout>header {
+    padding-bottom: 3.25rem;
+  }
+
   .faq .image-1 {
     float: right;
     width: 22rem;
@@ -1513,7 +1608,7 @@ section a,
     vertical-align: top;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
     background: transparent;
   }
 
@@ -1541,22 +1636,16 @@ section a,
   .c7-product__details {
     /* border: 1px solid #dedede; */
     /* color: #fff; */
-    padding: 8rem 0rem 2rem 0;
+    padding: 10rem 6rem 2rem 6rem;
     margin: -10rem 2rem 2rem 2rem;
+  }
+
+  .c7-product__add-to-cart__price {
+    margin: 0;
   }
 
   .c7-form .c7-radio {
     /* text-align: center; */
-  }
-
-  .c7-product__add-to-cart__form .c7-form__field fieldset {
-    max-width: 8rem;
-    margin: auto;
-  }
-
-  .c7-product__add-to-cart__form {
-    max-width: 13rem;
-    margin: auto;
   }
 
   .c7-product__details * {}
@@ -1568,11 +1657,15 @@ section a,
   .c7-product__subtitle {
     font-style: italic;
     letter-spacing: .05rem;
-    ;
+    margin: .5rem 0;
   }
 
   .c7-pagination {
     /* text-align: center; */
+  }
+
+  .c7-account-club {
+    padding-top: 2rem;
   }
 }
 
@@ -1587,14 +1680,21 @@ section a,
   padding: 0;
 }
 
-.c7-account__header p:first-of-type {
+.c7-account__header {
+  background: #fff;
+  padding: 0;
+  margin: 2rem 0 2rem;
+  text-align: right;
+}
+
+.c7-account__header a svg {
   display: none;
 }
 
-.c7-account__header {
-  background: #fff;
-  padding: 2rem;
+.c7-account__header p {
+  display: inline-block;
 }
+
 
 .c7-pagination {
   display: none;
@@ -1630,11 +1730,6 @@ section a,
 
 .c7-side-cart {
   font-size: 1rem;
-  ;
-}
-
-.c7-h2 {
-  text-transform: none;
 }
 
 .c7-order-item__image img {
@@ -1661,21 +1756,65 @@ section a,
   }
 
   .product-detail .details {
-    padding: 2rem;
-    text-align: right;
+    padding: 2rem 2rem 2rem 0;
+    text-align: left;
     width: 50%;
+  }
+
+  .product-detail .details h2 {
+    padding-bottom: 0;
+  }
+
+  .product-detail .details h3 {
+    margin: 1rem 0 2rem;
   }
 
   .product-detail .c7-product__add-to-cart__form {
     max-width: 100%;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-start;
   }
 
-  .product-detail .c7-product__add-to-cart__form .c7-btn--primary {
-    padding-right: 0;
+  .c7-product__add-to-cart__form>div input,
+  .c7-product__add-to-cart__form>button {
+    padding: 0;
   }
 
+  .c7-account-dashboard__block__header,
+  .c7-account-block__header,
+  .c7-account-dashboard__block:nth-of-type(3) .c7-h2,
+  .c7-order-details__column .c7-h2,
+  .c7-order-items .c7-h2,
+  .c7-account-details__header,
+  .c7-table__row th {
+    align-items: normal;
+    border-bottom: 1px solid #000 !important;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .c7-table__row th {
+    width: auto;
+  }
+
+  .c7-account-dashboard__block__header .c7-btn {
+    padding-top: 0;
+  }
+
+  .c7-account-dashboard .c7-account-block__details,
+  .c7-account-dashboard .c7-account-block__header,
+  .c7-account-block {
+    padding: 1rem 0;
+    box-shadow: none;
+  }
+
+  .c7-table td {
+    padding: 0;
+  }
+}
+
+.product-bottom-details {
+  display: none;
 }
 
 .product-bottom-details .col-3 {

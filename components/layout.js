@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState, useContext } from 'react'
 
+
 export default function Layout({ home, discover, wine, purchase, taste, membership, faq, contact, join, account, credits, children, props }) {
 
 
@@ -20,7 +21,11 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
 
   return (
-    <div className={home ? "home layout" : "layout"}>
+    <div className={
+      home ? "home layout" :
+        purchase ? "purchase layout" :
+          "layout"
+    }>
       {home ?
         <>
           <div className="home-1">
@@ -31,8 +36,8 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
               <img src="/images/balance.jpg" alt="balance" />
             </div>
             <div className="text">
-            <p>Young Inglewood is committed to producing wines of place, stewarded from vine to bottle by mother and son winemakers Jacky and Scott. With old world non-interventionist winemaking practices, our estate’s signature character is transformed
-              into wines of balance and grace.</p>
+              <p>Young Inglewood is committed to producing wines of place, stewarded from vine to bottle by mother and son winemakers Jacky and Scott. With old world non-interventionist winemaking practices, our estate’s signature character is transformed
+                into wines of balance and grace.</p>
             </div>
           </div>
         </>
@@ -46,15 +51,14 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
         <a className='branding' href="/">
           <Image alt='logo' src='/images/logo.svg' layout='fill' />
         </a>
-
         <div className="desktop-navigation">
           <div className='navigation'>
             <nav>
-              <a href="/discover" className={discover && 'active'}>Discover</a>
-              <a href="/wine" className={wine && 'active'}>Wine</a>
-              <a href="/collection/wines/" className={purchase && 'active'} >Purchase</a>
-              <a href="/membership" className={membership && 'active'}>Membership</a>
-              <a href="/taste" className={taste && 'active'}>Taste</a>
+              <a href="/discover" className={discover && 'active'}><span>Discover</span></a>
+              <a href="/wine" className={wine && 'active'}><span>Wine</span></a>
+              <a href="/collection/all/" className={purchase && 'active'} ><span>Purchase</span></a>
+              <a href="/membership" className={membership && 'active'}><span>Membership</span></a>
+              <a href="/taste" className={taste && 'active'}><span>Taste</span></a>
               <div id="c7-account"></div>
             </nav>
           </div>
