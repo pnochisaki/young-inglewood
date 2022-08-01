@@ -27,11 +27,11 @@ export default function Membership(props) {
 
   const [activeItem, setActiveItem] = useState(-1);
   const handleClick = (e) => {
-    const isActive = (e.currentTarget.classList.contains('active'))
+    const isActive = (e.currentTarget.parentNode.parentNode.classList.contains('active'))
     if (!isActive) {
-      e.currentTarget.classList.add("active");
+      e.currentTarget.parentNode.parentNode.classList.add("active");
     } else {
-      e.currentTarget.classList.remove("active");
+      e.currentTarget.parentNode.parentNode.classList.remove("active");
     }
   }
 
@@ -72,7 +72,6 @@ export default function Membership(props) {
                 return <div
                   key={club.slug}
                   id={club.slug}
-                  onClick={handleClick}
                   className={"club-row"}
                 >
 
@@ -90,8 +89,8 @@ export default function Membership(props) {
 
                   </div>
                   <div>
-                    <div className='c7-btn c7-btn--primary show-less'>Less Detail</div>
-                    <div className='c7-btn c7-btn--primary show-more'>More Detail</div>
+                    <div onClick={handleClick} className='c7-btn c7-btn--primary show-less'>Less Detail</div>
+                    <div onClick={handleClick} className='c7-btn c7-btn--primary show-more'>More Detail</div>
                   </div>
                 </div>
               })}

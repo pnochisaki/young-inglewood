@@ -1292,6 +1292,7 @@ section a,
 
 .membership-details .table .club-row.active ul {
   display: block;
+  margin-top: 0;
 }
 
 .membership-details .table .club-row ul {
