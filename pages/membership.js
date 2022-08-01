@@ -84,7 +84,7 @@ export default function Membership(props) {
                     /> */}
                   </div>
                   <div>{club.title.split('-')[0].replace('Friends of Young Inglewood', '').trim() === 'Epic' ?
-                    <div className="c7-btn"><a href="/contact">Contant Us</a></div> :
+                    <div className="c7-btn"><a href="/contact">Contact Us</a></div> :
                     <div dangerouslySetInnerHTML={{ __html: '<div class="c7-club-join-button" data-club-slug="' + club.slug + '"></div>' }} />
                   }
 
