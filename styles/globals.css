@@ -1824,6 +1824,9 @@ section a,
   .c7-table td {
     padding: 0;
   }
+  .c7-btn--primary:not([disabled]):hover {
+    text-decoration: underline;
+  }
 }
 
 .product-bottom-details {
