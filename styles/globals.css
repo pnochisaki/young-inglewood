@@ -385,7 +385,8 @@ img {
   }
 
   .c7-account__menu li:last-of-type a:after,
-  .c7-account__menu li:last-of-type:after {
+  .c7-account__menu li:last-of-type:after,
+  .collections-nav a:last-of-type:after {
     content: "";
     padding: 0;
   }
