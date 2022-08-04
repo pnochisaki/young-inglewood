@@ -263,7 +263,7 @@ img {
 }
 
 .c7-account__header p:nth-of-type(2) {
-  text-indent: -240px;
+  text-indent: -237px;
   overflow: hidden;
 }
 
@@ -273,7 +273,8 @@ img {
 .c7-account__header p:first-of-type,
 .c7-account__header p:nth-of-type(2),
 .c7-account__header .c7-marker,
-.c7-account__menu a {
+.c7-account__menu a,
+.c7-account-block__actions button.c7-link {
   font-family: canada-type-gibson, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -285,6 +286,9 @@ img {
   margin: 1.65rem;
   border: 0;
   padding: 0;
+}
+.c7-account-block__actions button.c7-link {
+  margin: 0;
 }
 
 .navigation nav a span,
@@ -317,6 +321,11 @@ img {
   width: calc(100% - 45px);
   bottom: -2px;
 }
+.c7-account__menu li:last-child.c7-active a:after,
+.c7-account__menu li:last-child:hover a:after {
+  width: 100%;
+}
+
 .navigation nav a:hover span:after,
 .collections-nav a:hover span:after,
 .c7-account__menu li:hover a:after
@@ -1463,7 +1472,7 @@ section a,
 
   .credits .image-2 {
     width: 34rem;
-    margin-bottom: 4rem
+    margin-bottom: 12rem
   }
 
   .credits h2 {
@@ -1825,7 +1834,9 @@ section a,
   .c7-table td {
     padding: 0;
   }
-  .c7-btn--primary:not([disabled]):hover {
+  .c7-btn--primary:not([disabled]):hover,
+  .c7-btn--alt:not([disabled]):hover,
+  .c7-btn--alt--small:not([disabled]):hover {
     text-decoration: underline;
   }
 }
