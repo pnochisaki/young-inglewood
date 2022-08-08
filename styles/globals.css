@@ -31,7 +31,7 @@ html {
   }
 
   .layout {
-    max-width: 1260px;
+    max-width: 1281px;
     margin: auto;
   }
 }
@@ -1851,7 +1851,7 @@ section a,
   max-width: 800px;
   margin: 4rem auto;
 }
-
+.c7-order-map,
 .kitchen-sink {
   display: none;
 }
