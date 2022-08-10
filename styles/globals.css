@@ -943,7 +943,6 @@ section a,
     float: none;
     aspect-ratio: 1/1;
     width: 100%;
-
   }
 }
 
@@ -1959,4 +1958,19 @@ button.c7-link {
 }
 .c7-table a {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+  .c7-account__menu ul {
+    text-align: center
+  }
+  .c7-account__menu li.c7-active a:after, .c7-account__menu li:hover a:after {
+    width: 100%;
+  }
+  html .c7-content h2 {
+    text-align: left;
+  }
 }
