@@ -26,7 +26,7 @@ export default function Discover({ markdownData }) {
           title='Farm'
           slug='farm'
           style='section-a'
-          mobileImage='/images/farm-1.jpg'
+          mobileImage='/images/farm-1-mobile.jpg'
           image1='/images/farm-1.jpg'
           image2='/images/farm-2.jpg'
           text1="<p>Working <strong>with, not against</strong> nature, our vines are organically and regeneratively farmed, vine by vine, by hand and using gentle equipment when needed. Sparsely irrigation promotes deep vine roots, allowing the vines to benefit from underground water reserves.</p>"
@@ -37,10 +37,10 @@ export default function Discover({ markdownData }) {
           title='Cellar'
           slug='cellar'
           style='section-b'
-          mobileImage='/images/cellar-1.jpg'
+          mobileImage='/images/cellar-1-mobile.jpg'
           image1='/images/cellar-1.jpg'
           image2='/images/cellar-2.jpg'
-          text1="<p><span class='desktop-only'>Young Inglewood</span><span class='mobile-only'>Our</span> wines embody <strong>balance</strong>. <br />Non-interventionist winemaking is key to translating our estate’s signature character into wines of elegance and grace.</p>"
+          text1="<p><span class='desktop-only'>Young Inglewood</span><span class='mobile-only'>Our</span> wines embody <strong>balance</strong> <br />Non-interventionist winemaking is key to translating our estate’s signature character into wines of elegance and grace.</p>"
           text2="<p>Using sight, touch, and taste, we wait for the optimal balance of sugar, acid and flavor before hand harvesting our grapes.</p>
           <p>Our native indigenous yeasts ferment our wine. They are an integral part of what makes our wines authentically ours.</p>
           <p>A short sojourn in stainless steel protects the purity of our Rosé, while extended aging in French oak builds complexity in our other wines.</p>"
@@ -50,7 +50,7 @@ export default function Discover({ markdownData }) {
         <section className='team'>
           <div className='team-1 float-image' style={{ backgroundImage: `url(/images/team-1.jpg)` }} />
           <h2>Team</h2>
-          <div className='mobile-image' style={{ backgroundImage: `url(/images/team-1.jpg)` }} />
+          <div className='mobile-image' style={{ backgroundImage: `url(/images/team-1-mobile.jpg)` }} />
           <p>Committed to upholding our <strong>values</strong>, our small but mighty team provides the foundation for our vines and wines to thrive.</p>
 
           <div className="team-listing">
