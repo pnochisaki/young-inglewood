@@ -5,12 +5,12 @@ title: Contact
 
  
 - ### Address
-  1919 Inglewood Ave. 
+  1919 Inglewood Ave.  
   Saint Helena, CA 94574  
   707-200-4572
 
 - ### Hours
-  Sunday - Saturday
+  Sunday - Saturday  
   10:00AM – 3:30PM
 
 - ### Email
