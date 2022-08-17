@@ -26,6 +26,7 @@ export default function Credits({ markdownData }) {
           style='section-b'
           image1='/images/credits-1.jpg'
           image2='/images/credits-2.jpg'
+          mobileImage='/images/credits-1-mobile.jpg'
           text2={markdownData.contentHtml}
         />
         </>

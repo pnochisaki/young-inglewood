@@ -43,7 +43,7 @@ export default function Wine({ markdownData }) {
           text1="<p>Our <strong>flagship</strong> wine is our Estate Cabernet Sauvignon, which in classic Bordeaux style is Cabernet Sauvignon blended with small quantities of our other varietals.
           This wine especially reflects our superb terroir that we steward and cultivate.<a href='/collection/estate-cabernet'>Purchase estate</a></p>"
           text2="<p>Our Reserve Cabernet Sauvignon is extra special, made from the grapes grown in the finest blocks of our vineyard. This beautifully rich full-bodied wine elevates any occasion. <a href='/collection/estate-cabernet'>Purchase Reserve</a></p>
-          <p>As the name suggests, our Right Bank Blend is a homage to the wines of Saint Emilion, a beguiling blend of Cabernet Franc and Merlot.<a href='/collection/right-bank-blend'>Purchase Right Bank</a></p>"
+          <p>As the name suggests, our Right Bank Blend is a homage to the wines of Saint Emilion, a beguiling blend with Cabernet Franc at its heart.<a href='/collection/right-bank-blend'>Purchase Right Bank</a></p>"
         />
 
         <Section

@@ -56,7 +56,7 @@ export default function Discover({ markdownData }) {
           <div className="team-listing">
             <ul>
               <li><img src="/images/team-listing-1.jpg" alt="Team Image" />Scott Young and Jacky Young collaborate to produce delicious wines authentic to our estate.</li>
-              <li><img src="/images/team-listing-2.jpg" alt="Team Image" />Tina Minor, Mary Young and Jim Young work together for a smoothly operating winery and a lively social network.</li>
+              <li><img src="/images/team-listing-2.jpg" alt="Team Image" />Jim Young works to ensure a smoothly operating winery.</li>
               <li><img src="/images/team-listing-3.jpg" alt="Team Image" />Michael Swenton takes meticulous care of our wines from field to bottle.</li>
               <li><img src="/images/team-listing-4.jpg" alt="Team Image" />Mark Simon takes care of our Friends of Young Inglewood, while Peter Greerty greets and hosts our guests.</li>
             </ul>

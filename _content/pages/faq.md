@@ -1,7 +1,7 @@
 ---
 title: FAQs
 ---
-## FAQs
+
 
 ### YOUR WINE SOUNDS AMAZING, HOW CAN I GET SOME?
 Create a login to get access to an allocation and order our wine on our purchase page.

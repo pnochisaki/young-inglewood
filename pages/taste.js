@@ -62,7 +62,7 @@ export default function Taste({ markdownData }) {
           home or your favorite local
           dining spot. We'll work with
           you to design the perfect
-          menu and guide you through the <strong>wine pairings</strong>.
+          menu and guide you through our <span class='mobile-only'><strong> wine</strong></span><span class='desktop-only'>the <strong>wine pairings.</strong></span>
           <a href='#'>Reserve Now</a></p>
           "
         />

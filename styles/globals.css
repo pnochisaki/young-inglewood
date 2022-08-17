@@ -1064,6 +1064,12 @@ section a,
 
 }
 
+section.wine h2 {
+  display: none;
+}
+
+
+
 @media (min-width: 769px) {
 
   /* HAX!  (Duh, Hacks) */
@@ -1089,10 +1095,6 @@ section a,
 
   section.wine {
     /* margin-top: -4rem; */
-  }
-
-  section.wine h2 {
-    display: none;
   }
 
   section.wine span:first-of-type {
@@ -1353,6 +1355,9 @@ section a,
   display: none;
 }
 
+.copy {
+  text-align: left;
+}
 @media (min-width: 769px) {
 
   .team-listing {
