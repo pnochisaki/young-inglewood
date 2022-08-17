@@ -1358,6 +1358,14 @@ section.wine h2 {
 .copy {
   text-align: left;
 }
+
+.contact ul {
+  padding: 2rem 0 0 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
 @media (min-width: 769px) {
 
   .team-listing {
@@ -1451,12 +1459,6 @@ section.wine h2 {
   .membership-details .table>div>div:nth-child(5) {
     width: 13.5%;
     text-align: right;
-  }
-
-  .contact ul {
-    padding: 2rem 0 0 0;
-    margin: 0;
-    list-style-type: none;
   }
 
   .contact ul li {
