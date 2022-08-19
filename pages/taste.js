@@ -1,26 +1,13 @@
 import Layout from '../components/layout';
 import Section from '../components/section';
-import { getMarkdownData } from '../lib/markdown'
-
-const mdDir = '_content/pages/'
-
-export async function getStaticProps({ params }) {
-  const markdownData = await getMarkdownData('discover', mdDir)
-  console.log("POST", markdownData);
-  return {
-    props: {
-      markdownData
-    }
-  }
-}
 
 
-export default function Taste({ markdownData }) {
+export default function Taste() {
 
   return (
     <Layout taste>
       <>
-        <h1>{markdownData.title}</h1>
+        <h1>Taste</h1>
 
         <Section
           title='Winery Tasting'
