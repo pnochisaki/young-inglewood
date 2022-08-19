@@ -1946,9 +1946,13 @@ button.c7-link {
 
 /* dashboard */
 
-.c7-account-dashboard__block:nth-child(3) {
+.c7-account-dashboard__left-column .c7-account-dashboard__block:last-child {
  display: none;
 }
+.c7-account-dashboard .c7-account-block__details:nth-child(3) {
+  margin: 0;
+}
+
 .c7-account-dashboard__block__header__title h2 {
   padding: 0;
 }
