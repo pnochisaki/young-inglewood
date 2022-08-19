@@ -1094,8 +1094,9 @@ section.wine h2 {
     margin-bottom: 4rem;
   }
 
-  section.wine {
-    /* margin-top: -4rem; */
+  section.wine.section-b span:first-of-type p {
+    padding: 2rem 1.5rem 0 0;
+    display:inline-block;
   }
 
   section.wine span:first-of-type {
