@@ -77,7 +77,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  max-width: 1260px;
+  max-width: 1281px;
   z-index: 1;
   background: rgba(255, 255, 255, 0.95);
 }
@@ -890,7 +890,7 @@ h4,
 }
 
 .c7-product__subtitle {
-  color: #666;
+  color: #999;
   font-weight: 600;
   margin: 0;
 }
@@ -1550,7 +1550,7 @@ section.wine h2 {
 /* ================================================================== */
 
 :root {
-  --c7-page-width: 1200px;
+  --c7-page-width: 1281px;
   --c7-page-width-checkout: 1500px;
   --c7-font-family: baskerville-urw, sans-serif;
   --c7-body-text-color: #232324;
@@ -1750,6 +1750,9 @@ button.c7-link {
   .c7-product__teaser p,
   .c7-product__add-to-cart__price__action-message {
     margin: 0;
+  }
+  .c7-product__add-to-cart__price__action-message {
+    display: none;
   }
 
   .c7-product__allocation__title {
