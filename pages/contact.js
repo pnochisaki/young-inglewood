@@ -19,6 +19,7 @@ export default function Contact({ markdownData }) {
   return (
     <Layout contact>
       <div className="contact">
+        <h2 className="mobile-only">Contact</h2>
         <div className="map"><iframe src="https://snazzymaps.com/embed/416147"></iframe></div>
         <div className="copy" dangerouslySetInnerHTML={{__html: markdownData.contentHtml}}  />
         {/* <div className="copy">

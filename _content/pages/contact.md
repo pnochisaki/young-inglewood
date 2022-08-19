@@ -1,8 +1,8 @@
 ---
 title: Contact
 ---
-## contact
 
+## contact
  
 - ### Address
   1919 Inglewood Ave.\

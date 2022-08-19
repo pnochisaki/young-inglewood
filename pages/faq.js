@@ -23,7 +23,9 @@ export default function Faq({ markdownData }) {
           <h2>FAQs</h2>
           <img className='image-1 desktop-only' src='/images/faq.jpg' alt='image' />
           <img className='image-1 mobile-only' src='/images/faq-mobile.jpg' alt='image' />
-          <br /><br />
+          <div className="mobile-only">
+            <br />
+          </div>
           <div dangerouslySetInnerHTML={{ __html: markdownData.contentHtml }} />
         </div>
       </div>

@@ -287,6 +287,7 @@ img {
   border: 0;
   padding: 0;
 }
+
 .c7-account-block__actions button.c7-link {
   margin: 0;
 }
@@ -302,8 +303,7 @@ img {
 .c7-account__menu li.c7-active a:after,
 .navigation nav a:hover span:after,
 .collections-nav a:hover span:after,
-.c7-account__menu li:hover a:after
- {
+.c7-account__menu li:hover a:after {
   position: absolute;
   height: 2px;
   margin: 0;
@@ -316,11 +316,13 @@ img {
   bottom: -5px;
   /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
 }
+
 .c7-account__menu li.c7-active a:after,
 .c7-account__menu li:hover a:after {
   width: calc(100% - 45px);
   bottom: -2px;
 }
+
 .c7-account__menu li:last-child.c7-active a:after,
 .c7-account__menu li:last-child:hover a:after {
   width: 100%;
@@ -328,10 +330,9 @@ img {
 
 .navigation nav a:hover span:after,
 .collections-nav a:hover span:after,
-.c7-account__menu li:hover a:after
- {
+.c7-account__menu li:hover a:after {
   background-color: #999;
- }
+}
 
 .navigation nav .c7-user-nav__account a {
   color: #d78628;
@@ -456,8 +457,12 @@ img {
 
   footer .navigation nav a:after {
     content: "";
+    padding-right: .5rem;
   }
-
+  footer .navigation nav a:before {
+    content: "";
+    padding-left: .5rem;
+  }
   .navigation nav a:last-child:after {
     display: none;
   }
@@ -714,6 +719,7 @@ h2 {
 .c7-side-cart__header {
   justify-content: flex-end;
 }
+
 @media (max-width: 768px) {
   .desktop-only {
     display: none;
@@ -784,9 +790,6 @@ h2 {
     letter-spacing: .075rem;
   }
 
-
-
-
   #c7-cart {
     position: absolute;
     top: 1rem;
@@ -825,6 +828,27 @@ h2 {
   main {
     margin-top: 2rem;
   }
+
+
+  .contact .copy > h2 {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .contact > h2 {
+      text-align: left;
+    }  
+    .contact .map {
+        height: 20rem;
+    }
+    .contact .map iframe {
+      height: 100%;
+      width: 100%;
+      border: 0;
+    }
+  }
+
+
 }
 
 @media (min-width: 769px) {
@@ -862,7 +886,7 @@ h4,
 }
 
 .c7-table__header th {
-  display:table-cell;
+  display: table-cell;
 }
 
 .c7-product__subtitle {
@@ -1096,7 +1120,7 @@ section.wine h2 {
 
   section.wine.section-b span:first-of-type p {
     padding: 2rem 1.5rem 0 0;
-    display:inline-block;
+    display: inline-block;
   }
 
   section.wine span:first-of-type {
@@ -1144,7 +1168,7 @@ section.wine h2 {
 
   section.library .image-1 {
     transform: translateY(-6rem);
-  }
+  } 
 
   section.venn:before {
     height: 1rem;
@@ -1152,6 +1176,9 @@ section.wine h2 {
 
   section.venn {
     padding-bottom: 12rem;
+  }
+  section.venn.section-a .image-1 {
+    transform: translate(0, 1.5rem)
   }
 
   section.tasting {
@@ -1417,9 +1444,15 @@ section.wine h2 {
     max-width: 60rem;
     margin: auto;
     text-align: left;
-    padding-right: 20rem;
+    
   }
 
+  .contact .copy {
+    padding-right: 20rem;
+  }
+  .faq .copy img {
+    margin: -6rem -6rem 12rem 2rem;
+  }
   .membership-details {
     margin: -3rem 5rem 5rem 6rem;
     padding-top: 0;
@@ -1462,6 +1495,9 @@ section.wine h2 {
     width: 13.5%;
     text-align: right;
   }
+
+  /* contact */
+
 
   .contact ul li {
     width: 32%;
@@ -1594,9 +1630,11 @@ section.wine h2 {
   vertical-align: middle;
   min-height: 0;
 }
+
 button.c7-link {
   color: #932761 !important;
 }
+
 .c7-order-status-summary svg,
 .c7-btn--edit svg {
   display: none;
@@ -1683,6 +1721,7 @@ button.c7-link {
     padding: 10rem 6rem 2rem 6rem;
     margin: -10rem 2rem 2rem 2rem;
   }
+
   .c7-product__details * {
     line-height: 2.5;
     vertical-align: baseline;
@@ -1707,19 +1746,24 @@ button.c7-link {
     letter-spacing: .05rem;
     margin: 0;
   }
+
   .c7-product__teaser p,
   .c7-product__add-to-cart__price__action-message {
     margin: 0;
   }
+
   .c7-product__allocation__title {
     font-weight: normal
   }
+
   .c7-product__add-to-cart__price {
     font-size: 1rem;
   }
+
   .c7-product__add-to-cart__form__quantity--select {
     width: auto;
   }
+
   .c7-form select,
   .c7-order-item select {
     height: auto;
@@ -1730,14 +1774,17 @@ button.c7-link {
     border-radius: 0;
     background-size: 12px;
   }
+
   .c7-product__add-to-cart__form button {
     padding: .32rem !important;
   }
+
   .c7-product__allocation__date,
   .c7-product__allocation__quantity,
   .c7-product__allocation__wish {
     display: none
   }
+
   .c7-pagination {
     /* text-align: center; */
   }
@@ -1891,9 +1938,11 @@ button.c7-link {
     padding: 1rem 0;
     box-shadow: none;
   }
+
   .c7-table td {
     padding: 0;
   }
+
   .c7-btn--primary:not([disabled]):hover,
   .c7-btn--alt:not([disabled]):hover,
   .c7-btn--alt--small:not([disabled]):hover {
@@ -1910,6 +1959,7 @@ button.c7-link {
   max-width: 800px;
   margin: 4rem auto;
 }
+
 .c7-order-map,
 .kitchen-sink {
   display: none;
@@ -1926,27 +1976,34 @@ button.c7-link {
 .c7-account-club__header__title h2 {
   margin-bottom: 0;
 }
+
 .c7-account-club__header__title h2 {
   padding-bottom: .65rem;
 }
+
 .c7-marker--small {
   padding: 0 1rem;
   font-size: 0.8rem;
 }
+
 .c7-order-item * {
   font-size: 1rem;
 }
+
 .c7-order-items--shipment .c7-order-item__pricing {
   justify-content: start;
 }
+
 .c7-order-item__image img {
   margin: 0;
 }
+
 @media screen and (min-width: 769px) {
   .c7-account-club__header {
     align-items: baseline;
+  }
 }
-}
+
 .c7-order-item__details * {
   text-align: left;
 }
@@ -1954,8 +2011,9 @@ button.c7-link {
 /* dashboard */
 
 .c7-account-dashboard__left-column .c7-account-dashboard__block:last-child {
- display: none;
+  display: none;
 }
+
 .c7-account-dashboard .c7-account-block__details:nth-child(3) {
   margin: 0;
 }
@@ -1965,7 +2023,7 @@ button.c7-link {
 }
 
 .c7-order-items.c7-order-items--shipment,
-.c7-account-dashboard .c7-order-map + .c7-order-items {
+.c7-account-dashboard .c7-order-map+.c7-order-items {
   padding: 1rem 0;
 }
 
@@ -1973,9 +2031,11 @@ button.c7-link {
 .c7-account-orders h1 {
   display: none;
 }
+
 .c7-table__items {
   display: none !important;
 }
+
 .c7-table tr {
   border-bottom: 1px solid #000;
 }
@@ -1984,6 +2044,7 @@ button.c7-link {
 .c7-account-details__account .c7-account-details__header {
   display: none;
 }
+
 .c7-table a {
   margin: 0;
 }
@@ -1995,7 +2056,7 @@ section .c7-account-details__payment .c7-account-details__header {
 }
 
 section .c7-account-details__addresses .c7-account-details__header h2,
-section .c7-account-details__payment .c7-account-details__header h2{
+section .c7-account-details__payment .c7-account-details__header h2 {
   padding: 0;
 }
 
@@ -2008,17 +2069,20 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
 .c7-account-details__payment .c7-account-blocks {
   grid-template-columns: 1fr;
 }
+
 @media (min-width: 769px) {
+
   .c7-account-details__addresses,
   .c7-account-details__payment {
     width: 50%;
-  }  
+  }
 }
 
 .c7-account-details__delete-account {
   margin-top: 0;
   padding-top: 0;
 }
+
 .c7-account-details__delete-account .c7-btn {
   padding-left: 0;
 }
@@ -2027,12 +2091,16 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   body {
     padding: 1rem;
   }
+
   .c7-account__menu ul {
     text-align: center
   }
-  .c7-account__menu li.c7-active a:after, .c7-account__menu li:hover a:after {
+
+  .c7-account__menu li.c7-active a:after,
+  .c7-account__menu li:hover a:after {
     width: 100%;
   }
+
   html .c7-content h2 {
     text-align: left;
   }
