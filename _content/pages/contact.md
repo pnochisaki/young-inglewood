@@ -5,9 +5,10 @@ title: Contact
 
  
 - ### Address
-  <a href="https://www.google.com/maps/dir//Young+Inglewood+Vineyards,+1919+Inglewood+Ave,+St+Helena,+CA+94574/@38.4829002,-122.4576348,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80845129d0b14dbd:0xc5e5a83d96dde51d!2m2!1d-122.4554103!2d38.4828658!3e0" target="_blank">1919 Inglewood Ave.  
-  Saint Helena, CA 94574</a><br />
-  <a href="tel:707-200-4572">707-200-4572</a>
+  1919 Inglewood Ave.\
+  Saint Helena, CA 94574
+  [directions](https://www.google.com/maps/dir//Young+Inglewood+Vineyards,+1919+Inglewood+Ave,+St+Helena,+CA+94574/@38.4829002,-122.4576348,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80845129d0b14dbd:0xc5e5a83d96dde51d!2m2!1d-122.4554103!2d38.4828658!3e0)<br />
+  [707-200-4572](tel:707-200-4572)
 
 - ### Hours
   Sunday - Saturday  
