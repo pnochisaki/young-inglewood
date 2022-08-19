@@ -1845,7 +1845,7 @@ button.c7-link {
   display: none;
 }
 
-.c7-order-items--shipment .c7-order-item__image img {
+.c7-order-items .c7-order-item__image img {
   max-height: 100%;
   max-width: 8rem;
 }
@@ -1989,11 +1989,30 @@ button.c7-link {
   font-size: 0.8rem;
 }
 
+
+.c7-account-dashboard .c7-order-items {
+  padding: 1rem 0;
+}
+
+@media (min-width: 481px) {
+  .c7-account-dashboard .c7-order-items ul,
+  .c7-order-items--shipment ul {
+    grid-template-columns: repeat(4, 1fr)
+  }  
+}
+
+.c7-order-item__image + .c7-order-item__details {
+  margin: 1rem 0 0 0;
+}
+
+.c7-order-item {
+  display: block;
+}
 .c7-order-item * {
   font-size: 1rem;
 }
 
-.c7-order-items--shipment .c7-order-item__pricing {
+.c7-order-items .c7-order-item__pricing {
   justify-content: start;
 }
 
@@ -2025,7 +2044,7 @@ button.c7-link {
   padding: 0;
 }
 
-.c7-order-items.c7-order-items--shipment,
+.c7-order-items,
 .c7-account-dashboard .c7-order-map+.c7-order-items {
   padding: 1rem 0;
 }
