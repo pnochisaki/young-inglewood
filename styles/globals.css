@@ -459,10 +459,12 @@ img {
     content: "";
     padding-right: .5rem;
   }
+
   footer .navigation nav a:before {
     content: "";
     padding-left: .5rem;
   }
+
   .navigation nav a:last-child:after {
     display: none;
   }
@@ -831,17 +833,19 @@ h2 {
   }
 
 
-  .contact .copy > h2 {
+  .contact .copy>h2 {
     display: none;
   }
 
   @media (max-width: 768px) {
-    .contact > h2 {
+    .contact>h2 {
       text-align: left;
-    }  
-    .contact .map {
-        height: 20rem;
     }
+
+    .contact .map {
+      height: 20rem;
+    }
+
     .contact .map iframe {
       height: 100%;
       width: 100%;
@@ -1170,7 +1174,7 @@ section.wine h2 {
 
   section.library .image-1 {
     transform: translateY(-6rem);
-  } 
+  }
 
   section.venn:before {
     height: 1rem;
@@ -1179,6 +1183,7 @@ section.wine h2 {
   section.venn {
     padding-bottom: 12rem;
   }
+
   section.venn.section-a .image-1 {
     transform: translate(0, 1.5rem)
   }
@@ -1446,15 +1451,17 @@ section.wine h2 {
     max-width: 60rem;
     margin: auto;
     text-align: left;
-    
+
   }
 
   .contact .copy {
     padding-right: 20rem;
   }
+
   .faq .copy img {
     margin: -6rem -6rem 12rem 2rem;
   }
+
   .membership-details {
     margin: -3rem 5rem 5rem 6rem;
     padding-top: 0;
@@ -1753,6 +1760,7 @@ button.c7-link {
   .c7-product__add-to-cart__price__action-message {
     margin: 0;
   }
+
   .c7-product__add-to-cart__price__action-message {
     display: none;
   }
@@ -1997,19 +2005,29 @@ button.c7-link {
 }
 
 @media (min-width: 481px) {
+
   .c7-account-dashboard .c7-order-items ul,
   .c7-order-items--shipment ul {
     grid-template-columns: repeat(4, 1fr)
-  }  
+  }
 }
 
-.c7-order-item__image + .c7-order-item__details {
+.c7-order-item__image+.c7-order-item__details {
   margin: 1rem 0 0 0;
 }
 
 .c7-order-item {
   display: block;
+  padding: 0 1rem;
 }
+
+@media screen and (min-width: 769px) {
+  .c7-order-item {
+    padding: 0;
+  }
+
+}
+
 .c7-order-item * {
   font-size: 1rem;
 }
@@ -2021,7 +2039,9 @@ button.c7-link {
 .c7-order-item__image img {
   margin: 0;
 }
-
+.c7-product-allocation .c7-product__image img {
+  max-height: 100%;
+}
 @media screen and (min-width: 769px) {
   .c7-account-club__header {
     align-items: baseline;
@@ -2038,8 +2058,10 @@ button.c7-link {
   display: none;
 }
 
-.c7-account-dashboard .c7-account-block__details:nth-child(3) {
-  margin: 0;
+@media screen and (min-width: 769px) {
+  .c7-account-dashboard .c7-account-block__details:nth-child(3) {
+    margin: 0;
+  }
 }
 
 .c7-account-dashboard__block__header__title h2 {
@@ -2076,7 +2098,7 @@ button.c7-link {
 section .c7-account-details__addresses .c7-account-details__header,
 section .c7-account-details__payment .c7-account-details__header {
   align-items: center;
-  padding: 0;
+  padding: 0 1rem;
 }
 
 section .c7-account-details__addresses .c7-account-details__header h2,
@@ -2096,6 +2118,16 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
 
 @media (min-width: 769px) {
 
+  section .c7-account-details__addresses .c7-account-details__header,
+  section .c7-account-details__payment .c7-account-details__header {
+    padding: 0;
+  }
+
+  .c7-account-details__delete-account .c7-btn {
+    padding-left: 0;
+  }
+
+
   .c7-account-details__addresses,
   .c7-account-details__payment {
     width: 50%;
@@ -2107,9 +2139,6 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   padding-top: 0;
 }
 
-.c7-account-details__delete-account .c7-btn {
-  padding-left: 0;
-}
 
 @media (max-width: 768px) {
   body {
