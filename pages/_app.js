@@ -1,6 +1,7 @@
 import Script from 'next/script'
 
 import '../styles/globals.css'
+import '../fonts/fonts.css'
 
 function MyApp({ Component, pageProps }) {
   return <>

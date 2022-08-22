@@ -686,7 +686,8 @@ section {
 h2 {
   color: #d78628;
   font-size: 3.75rem;
-  font-family: sofia-pro, sans-serif;
+  font-family: SofiaProUltraLight, sans-serif;
+  font-feature-settings: 'ss01';
   font-weight: 100;
   font-style: normal;
   text-transform: lowercase;
@@ -907,7 +908,8 @@ h4 {
 
 section strong {
   color: #d78628;
-  font-family: sofia-pro, sans-serif;
+  font-family: SofiaProExtraLight, sans-serif;
+  font-feature-settings: 'ss01';
   font-weight: 100;
   font-style: normal;
   text-transform: lowercase;

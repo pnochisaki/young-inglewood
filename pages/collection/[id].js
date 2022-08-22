@@ -20,7 +20,6 @@ export async function getServerSideProps() {
   return { props: { data } }
 }
 
-
 export default function Collection({ data }) {
   
   const router = useRouter()
