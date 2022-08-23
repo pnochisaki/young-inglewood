@@ -41,6 +41,7 @@ export default function Layout({ data, home, discover, wine, purchase, taste, me
     }
   }
 
+  const text = "Young Inglewood is committed to producing wines of place, stewarded from vine to bottle by mother and son winemakers Jacky and Scott. With old world non-interventionist winemaking practices, our estate’s signature character is transformed into wines of balance and grace."
 
   return (
     <div className={
@@ -50,18 +51,26 @@ export default function Layout({ data, home, discover, wine, purchase, taste, me
     }>
       {home ?
         <>
-          <div className="home-1">
-            {/* silence */}
+          <div className="mobile-only home">
+            <img src="/images/home-mobile.jpg" />
+            <p className='text'>{text}</p>
           </div>
-          <div className="home-2">
-            <div className="image">
-              <img src="/images/balance.jpg" alt="balance" />
+
+          <div className="desktop-only">
+            <div className="home-1">
+              {/* silence */}
             </div>
-            <div className="text">
-              <p>Young Inglewood is committed to producing wines of place, stewarded from vine to bottle by mother and son winemakers Jacky and Scott. With old world non-interventionist winemaking practices, our estate’s signature character is transformed
-                into wines of balance and grace.</p>
+            <div className="home-2">
+              <div className="image">
+                <img src="/images/balance.jpg" alt="balance" />
+              </div>
+              <div className="text">
+                <p>{text}</p>
+              </div>
             </div>
           </div>
+
+
         </>
         :
         <></>
@@ -107,34 +116,31 @@ export default function Layout({ data, home, discover, wine, purchase, taste, me
         {children}
       </main>
 
-      {
-        !home &&
 
-        <footer>
-          <>
-            <div className='navigation'>
-              <nav>
-                <a href="/faq" className={faq && 'active'}><span>FAQ</span></a>
-                <a href="/contact" className={contact && 'active'}><span>Contact</span></a>
-                <a href="/profile/create-account" className={join && 'active'}><span>Join</span></a>
-                <a href="/profile/account" className={account && 'active'}><span>Manage your Account</span></a>
-                <a href="/credits" className={credits && 'active'}><span>Credits</span></a>
-              </nav>
-            </div>
 
-            <div className="social-links">
-              <Link href="https://www.facebook.com/younginglewood"><a target="_blank"><Facebook /></a></Link>
-              <Link href="https://www.instagram.com/younginglewood"><a target="_blank"><Instagram /></a></Link>
-              <Link href="https://twitter.com/YIVWine"><a target="_blank"><Twitter /></a></Link>
-            </div>
+      <footer>
+        <>
+          <div className='navigation'>
+            <nav>
+              <a href="/faq" className={faq && 'active'}><span>FAQ</span></a>
+              <a href="/contact" className={contact && 'active'}><span>Contact</span></a>
+              <a href="/profile/create-account" className={join && 'active'}><span>Join</span></a>
+              <a href="/profile/account" className={account && 'active'}><span>Manage your Account</span></a>
+              <a href="/credits" className={credits && 'active'}><span>Credits</span></a>
+            </nav>
+          </div>
 
-            <p>
-              ©{new Date().getFullYear()} Young Inglewood Vineyards
-            </p>
-          </>
-        </footer>
+          <div className="social-links">
+            <Link href="https://www.facebook.com/younginglewood"><a target="_blank"><Facebook /></a></Link>
+            <Link href="https://www.instagram.com/younginglewood"><a target="_blank"><Instagram /></a></Link>
+            <Link href="https://twitter.com/YIVWine"><a target="_blank"><Twitter /></a></Link>
+          </div>
 
-      }
+          <p>
+            ©{new Date().getFullYear()} Young Inglewood Vineyards
+          </p>
+        </>
+      </footer>
 
     </div >
   )

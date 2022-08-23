@@ -83,6 +83,29 @@ img {
 }
 
 
+.home.mobile-only {
+  width: 100vw;
+  margin: 3rem 0 0 -1rem;
+}
+
+.home-2 .text,
+.mobile-only .text {
+  font-style: italic;
+  font-size: 1.65rem;
+  letter-spacing: -.03rem;
+  line-height: 1.2;
+  padding: .5rem 0 .25rem 2rem;
+  border-left: 1px solid #000;
+}
+.mobile-only .text {
+  font-size: 1rem;
+  margin: auto;
+  max-width: 18rem;
+  padding: 0;
+  border: 0;
+}
+
+
 @media (min-width: 769px) {
 
 
@@ -95,6 +118,8 @@ img {
   .home.layout>header .branding {
     opacity: 0;
   }
+  
+
 
   .home-1,
   .home-2 {
@@ -134,12 +159,6 @@ img {
     width: 30.5rem;
     transform: translate(38rem, 24rem);
     text-align: left;
-    font-style: italic;
-    font-size: 1.65rem;
-    letter-spacing: -.03rem;
-    line-height: 1.2;
-    padding: .5rem 0 .25rem 2rem;
-    border-left: 1px solid #000;
   }
 
   .home-2 .image {
@@ -2193,6 +2212,8 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
 #c7-content .c7-account__header {
   display: none
 } */
-a:not([disabled]):active {
+a:not([disabled]):active,
+a:not([disabled]):focus
+ {
   text-decoration: none;
 }
