@@ -2144,7 +2144,19 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   body {
     padding: 1rem;
   }
-
+  #c7-account .c7-user-nav__account,
+  .navigation nav .c7-user-nav__account a {
+    padding-right: 0;
+  }
+  #c7-account .c7-user-nav__account {
+    margin-top: -2rem;
+  }
+  .navigation #c7-account {
+    margin-top: -.5rem;
+  }
+  .c7-account__header {
+    display: none;
+  }
   .c7-account__menu ul {
     text-align: center
   }
@@ -2157,4 +2169,27 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   html .c7-content h2 {
     text-align: left;
   }
+  .c7-account__menu li:last-of-type a {
+    /* margin-right: 1.65rem; */
+  }
+  .c7-account__menu li {
+    display: block;
+    padding: .125rem;;
+
+  }
+  
+  .c7-account__menu ul li a {
+    display: block;
+    padding: 0;
+    margin: 1rem;
+  }
+  .c7-account__menu {
+    margin-top: 4rem;
+    box-shadow: none;
+  }
 }
+
+/* #c7-content .c7-account__menu,
+#c7-content .c7-account__header {
+  display: none
+} */
