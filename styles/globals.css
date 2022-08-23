@@ -143,6 +143,9 @@ img {
     animation: 3s fadeIn ease-out forwards;
     animation-delay: 2s;
   }
+  .home footer {
+    margin-top: 40rem;
+  }
 
   @keyframes fadeIn {
     0% {
