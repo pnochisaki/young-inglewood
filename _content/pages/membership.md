@@ -1,7 +1,6 @@
 ---
 title: Membership
 ---
-### ﻿IN ADDITION YOU’LL RECEIVE:
 
 ### IN ADDITION YOU’LL RECEIVE:
 
