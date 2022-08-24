@@ -1681,6 +1681,12 @@ button.c7-link {
   text-decoration: none;
 }
 
+.collections-nav {
+  display: none
+}
+.purchase .collections-nav {
+  display: block
+}
 
 @media (min-width: 769px) {
 
@@ -1689,7 +1695,7 @@ button.c7-link {
     position: fixed;
     width: 100%;
     top: 5rem;
-    z-index: 1;
+    z-index: -2;
     left: 0;
   }
 
@@ -2216,7 +2222,8 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   display: none
 } */
 a:not([disabled]):active,
-a:not([disabled]):focus
+a:not([disabled]):focus,
+a:not([disabled]):hover
  {
   text-decoration: none;
 }
