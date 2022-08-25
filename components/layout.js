@@ -38,7 +38,32 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
     fetchCollections();
   }, [])
 
-
+  const accountNavItems = [
+    {
+      url: "/profile",
+      title: "Dashboard"
+    },
+    {
+      url: "/profile/club-membership",
+      title: "Club Shipments"
+    },
+    {
+      url: "/profile/order-history",
+      title: "Order History"
+    },
+    {
+      url: "/profile/allocation",
+      title: "Allocations"
+    },
+    {
+      url: "/profile/account",
+      title: "Account Details"
+    },
+    {
+      url: "/profile/logout",
+      title: "Logout"
+    }
+  ]
   const text = "Young Inglewood is committed to producing wines of place, stewarded from vine to bottle by mother and son winemakers Jacky and Scott. With old world non-interventionist winemaking practices, our estate’s signature character is transformed into wines of balance and grace."
 
   return (
@@ -73,6 +98,9 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
         :
         <></>
       }
+
+
+
       <header className={hamburgerOpen ? 'hamburger-open' : ''}>
         <div className="mobile-only hamburger" onClick={hamburgerClick}>
           {hamburgerOpen ? <X /> : <Menu />}
@@ -89,26 +117,42 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
               <a href="/membership" className={membership && 'active'}><span>Membership</span></a>
               <a href="/taste" className={taste && 'active'}><span>Taste</span></a>
               <div id="c7-account"></div>
+              <div className="subnavigation">
+                <div className="collections-nav">
+                  {console.log(router.asPath)}
+                  {console.log("data collections: ", collections)}
+                  {collections && collections
+                    .filter(collection => collection.metaData['store-menu'])
+                    .map((collection, index) => {
+                      return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
+                    }
+                    )}
+                </div>
+                {account &&
+                  <div className="account-nav">
+                    {/* {router.asPath != '/profile/login' ? */}
+                      <>
+                        {accountNavItems
+                          .map((navItem, index) => {
+                            return <a className={router.asPath === (navItem.url || navItem.url+'/') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                          }
+                          )}
+                      </>
+
+                      {/* :
+                      <></>
+                    } */}
+                  </div>
+                }
+              </div>
             </nav>
           </div>
           <div id="c7-cart"></div>
-
-          <div className="subnavigation">
-            <div className="collections-nav">
-              {console.log(router.asPath)}
-              {console.log("data collections: ", collections)}
-              {collections && collections
-                .filter(collection => collection.metaData['store-menu'])
-                .map((collection, index) => {
-                  return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
-                }
-                )}
-            </div>
-          </div>
-
         </div>
 
       </header >
+
+
 
       <main>
         {children}

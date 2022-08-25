@@ -81,8 +81,19 @@ img {
   z-index: 1;
   background: rgba(255, 255, 255, 0.95);
 }
+@media (min-width: 769px) {
 
-
+.desktop-navigation {
+  position: relative;;
+}
+.desktop-navigation .subnavigation {
+  max-width: 1260px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+}
 .home.mobile-only {
   width: 100vw;
   margin: 3rem 0 0 -1rem;
@@ -316,15 +327,21 @@ img {
 
 .navigation nav a span,
 .collections-nav a span,
+.account-nav a span,
 .c7-account__menu li {
   position: relative;
+}
+.account-nav {
+  text-align: right;
 }
 
 .navigation nav a.active span:after,
 .collections-nav a.active span:after,
+.account-nav a.active span:after,
 .c7-account__menu li.c7-active a:after,
 .navigation nav a:hover span:after,
 .collections-nav a:hover span:after,
+.account-nav a:hover span:after,
 .c7-account__menu li:hover a:after {
   position: absolute;
   height: 2px;
@@ -352,7 +369,7 @@ img {
 
 .navigation nav a:hover span:after,
 .collections-nav a:hover span:after,
-.c7-account__menu li:hover a:after {
+.account-nav li:hover a:after {
   background-color: #999;
 }
 
@@ -406,6 +423,7 @@ img {
 
   .navigation nav a:after,
   .collections-nav a:after,
+  .account-nav a:after,
   .c7-account__menu li:after,
   .c7-account__header p:first-of-type:after,
   .c7-account__header p:nth-of-type(2):after {
@@ -418,7 +436,8 @@ img {
 
   .c7-account__menu li:last-of-type a:after,
   .c7-account__menu li:last-of-type:after,
-  .collections-nav a:last-of-type:after {
+  .collections-nav a:last-of-type:after,
+  .account-nav a:last-of-type:after {
     content: "";
     padding: 0;
   }
@@ -917,9 +936,10 @@ h4,
 }
 
 .c7-product__subtitle {
-  color: #999;
+  color: #666;
   font-weight: 600;
   margin: 0;
+  opacity: .7;
 }
 
 .c7-product__add-to-cart__price__action-message p {
@@ -1304,6 +1324,14 @@ section.wine h2 {
     padding-top: 3rem;
   }
 
+  section.membership p:first-of-type {
+    padding-right: 3rem;
+  }
+
+  section.membership .image-1 {
+    margin-bottom: 2rem;
+  }
+  
   section.membership .image-2 {
     width: 35.5rem;
   }
@@ -1426,6 +1454,9 @@ section.wine h2 {
 
 @media (min-width: 769px) {
 
+  .team .team-1.float-image {
+    transform: translateY(.35rem);
+  }
   .team-listing {
     padding-bottom: 2.5rem;
   }
@@ -1441,6 +1472,12 @@ section.wine h2 {
     aspect-ratio: 1/1;
     display: block;
   }
+  .team-listing .team-text {
+    transform: translateY(1.25rem);
+  }
+  .team-listing li:last-child .team-text {
+    transform: translateY(0);
+  }
 
   .team-listing li:first-child {
     max-width: 100%;
@@ -1449,14 +1486,16 @@ section.wine h2 {
 
   .team-listing li:nth-child(odd) {
     text-align: right;
-    padding: 19rem 23rem 0 32rem;
+    padding: 18rem 23rem 0 32rem;
     margin-top: -14rem;
+    padding-bottom: 1.5rem;
   }
 
   .team-listing li:nth-child(even) {
     clear: both;
     padding: 19rem 27rem 0 23rem;
     margin-top: -6.5rem;
+    padding-bottom: 1.25rem;
   }
 
   .team-listing li:nth-child(odd) img {
@@ -1644,11 +1683,15 @@ section.wine h2 {
   --c7-block-shadow: 0 1px 3px 0 rgba(222, 222, 227, 0.3);
 }
 
+.c7-order-item .c7-order-item__details .c7-link {
+  font-size: .2rem;
+}
+.c7-order-item .c7-order-item__details .c7-link,
 .c7-btn {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  font-size: .65rem;
+  font-size: .65rem !important;
   font-family: canada-type-gibson, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -1676,7 +1719,9 @@ button.c7-link {
 }
 
 .collections-nav a:not([disabled]):hover,
-.collections-nav a:hover {
+.collections-nav a:hover,
+.account-nav a:not([disabled]):hover,
+.account-nav a:hover {
   background: transparent;
   text-decoration: none;
 }
@@ -1691,17 +1736,15 @@ button.c7-link {
 @media (min-width: 769px) {
 
   .collections-nav,
-  .c7-account__menu {
-    position: fixed;
-    width: 100%;
-    top: 5rem;
-    z-index: -2;
-    left: 0;
+  .account-nav {
+    position: absolute;
+    width: 60rem;
+    top: 1.5rem;
+    right: 0;
   }
-
-  .collections-nav a.c7-btn {
-    padding: 1rem 0;
-    color: #666
+  .collections-nav {
+    width: 70rem;
+    text-align: center;
   }
 
   .purchase.layout>header {
@@ -1778,23 +1821,9 @@ button.c7-link {
     margin-bottom: 1rem;
   }
 
-  .c7-product__teaser {
-    font-style: italic;
-    letter-spacing: .05rem;
-    margin: 0;
-  }
-
   .c7-product__teaser p,
   .c7-product__add-to-cart__price__action-message {
     margin: 0;
-  }
-
-  .c7-product__add-to-cart__price__action-message {
-    display: none;
-  }
-
-  .c7-product__allocation__title {
-    font-weight: normal
   }
 
   .c7-product__add-to-cart__price {
@@ -1820,12 +1849,6 @@ button.c7-link {
     padding: .32rem !important;
   }
 
-  .c7-product__allocation__date,
-  .c7-product__allocation__quantity,
-  .c7-product__allocation__wish {
-    display: none
-  }
-
   .c7-pagination {
     /* text-align: center; */
   }
@@ -1834,6 +1857,32 @@ button.c7-link {
     padding-top: 2rem;
     margin-bottom: 2.25rem;
   }
+}
+
+.c7-product__allocation__title {
+  font-weight: normal
+}
+
+.c7-product__allocation__date,
+.c7-product__allocation__quantity,
+.c7-product__allocation__wish {
+  display: none
+}
+
+.c7-product__add-to-cart__price__action-message {
+  display: none;
+}
+
+.c7-product__teaser {
+  font-style: italic;
+  letter-spacing: .05rem;
+  margin: 0;
+}
+
+.collections-nav a.c7-btn,
+.account-nav a.c7-btn {
+  padding: 1rem 0;
+  color: #666
 }
 
 @media (max-width: 768px) {
@@ -1989,6 +2038,11 @@ button.c7-link {
   .c7-btn--alt--small:not([disabled]):hover {
     text-decoration: underline;
   }
+  
+  .c7-product__login-message p {
+    margin-bottom: 0;
+  }
+
 }
 
 .product-bottom-details {
@@ -2030,6 +2084,11 @@ button.c7-link {
 
 .c7-account-dashboard .c7-order-items {
   padding: 1rem 0;
+}
+
+/* allocations*/
+.c7-account-allocations h1 {
+  display: none;
 }
 
 @media (min-width: 481px) {
@@ -2167,6 +2226,14 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   padding-top: 0;
 }
 
+.c7-product__login-message .c7-btn {
+  padding: 0;
+}
+
+.c7-cart .c7-order-item__description,
+.c7-user-nav__cart .c7-order-item__description {
+  display: none
+}
 
 @media (max-width: 768px) {
   body {
@@ -2215,12 +2282,13 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     margin-top: 4rem;
     box-shadow: none;
   }
+
 }
 
-/* #c7-content .c7-account__menu,
+#c7-content .c7-account__menu,
 #c7-content .c7-account__header {
   display: none
-} */
+}
 a:not([disabled]):active,
 a:not([disabled]):focus,
 a:not([disabled]):hover
