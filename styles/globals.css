@@ -141,6 +141,20 @@ img {
     position: absolute;
     opacity: 0;
   }
+  .home-bg {
+    background-image: url(/images/home-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 2/1;
+    width: 47rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    /* transform: translateX(-7rem); */
+    transform: translateX(-12rem);
+    display: block;
+  }
 
   .home-1 {
     background-image: url(/images/home-1.jpg);
@@ -324,7 +338,7 @@ img {
 
 .c7-account-block__actions button.c7-link,
 .c7-form--coupon-code-container .c7-link  {
-  margin: 0 0 1rem;
+  margin: 1rem 0 1rem;
 }
 
 .navigation nav a span,
@@ -768,7 +782,7 @@ h2 {
 
 @media (max-width: 768px) {
   .desktop-only {
-    display: none;
+    display: none !important;
   }
 
   header {
@@ -872,9 +886,14 @@ h2 {
   }
 
   main {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
+  .navigation nav #c7-account {
+    border-bottom: 2px solid #dedede;
+    width: 75%;
+    margin: auto;
+  }
 
   .contact .copy>h2 {
     display: none;
@@ -901,7 +920,7 @@ h2 {
 
 @media (min-width: 769px) {
   .mobile-only {
-    display: none;
+    display: none !important;
   }
 
   section h2 {
@@ -1835,19 +1854,8 @@ button.c7-link {
     width: auto;
   }
 
-  .c7-form select,
-  .c7-order-item select {
-    height: auto;
-    line-height: 1.1;
-    padding: .25rem;
-    padding-right: 30px;
-    width: 100%;
-    border-radius: 0;
-    background-size: 12px;
-  }
-
   .c7-product__add-to-cart__form button {
-    padding: .32rem !important;
+    padding: .125rem !important;
   }
 
   .c7-pagination {
@@ -1858,6 +1866,21 @@ button.c7-link {
     padding-top: 2rem;
     margin-bottom: 2.25rem;
   }
+}
+
+.c7-form select,
+.c7-order-item select {
+  height: auto;
+  line-height: 1.1;
+  padding: .25rem;
+  padding-right: 30px;
+  width: 100%;
+  min-width: 3rem;
+  border-radius: 0;
+  background-size: 12px;
+}
+select + .c7-form__error {
+  display: none;
 }
 
 .c7-product__allocation__title {
@@ -2263,6 +2286,8 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-account-details__payment {
     width: 50%;
   }
+
+
 }
 
 .c7-account-details__delete-account {
@@ -2327,7 +2352,27 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     box-shadow: none;
   }
 
+  .c7-product-collection .c7-product__title {
+    margin-bottom: 2rem; 
+  }
+  .c7-product-collection .c7-product__subtitle {
+    margin-bottom: 1rem; 
+  }
+  .c7-product__add-to-cart__form__quantity--select + .c7-btn {
+    padding: .33rem;
+  }
+  .c7-account-dashboard__block__header .c7-btn {
+    padding-left: 0;
+  }
+
+  .c7-account-club__shipment .c7-order-items {
+    padding: 1rem 0;
+  }
+
 }
+
+
+
 
 #c7-content .c7-account__menu,
 #c7-content .c7-account__header {
@@ -2338,4 +2383,8 @@ a:not([disabled]):focus,
 a:not([disabled]):hover
  {
   text-decoration: none;
+}
+
+.c7-message svg + a {
+  font-size: .65rem;
 }
