@@ -3,11 +3,11 @@ title: FAQs
 ---
 ### YOUR WINE SOUNDS AMAZING, HOW CAN I GET SOME?
 
-Create a login to get access to an allocation and order our wine on our purchase page.
+We're so glad you think so! Creating a [login](https://young-inglewood.vercel.app/profile/create-account) to get access to a basic allocation and allows you to order our wine on our [purchase page](https://young-inglewood.vercel.app/collection/all).                
 
 ### HOW DO I GUARANTEE AN ALLOCATION?
 
-We recommend you join our Friends of Young Inglewood membership. Our FYI members get first access to all our releases.
+We recommend you join our [Friends of Young Inglewood membership](https://young-inglewood.vercel.app/membership). Our FYI members get first access to all our releases.
 
 ### CAN YOU SHIP WINE TO ME?
 
@@ -20,8 +20,8 @@ If you would like special arrangements for your shipment contact mark@youngingle
 ### YOUR WINERY LOOKS BEAUTIFUL, HOW CAN I VISIT?
 
 We are open 7 days a week from 10am - 3pm.
-We are open to visitors by reservation only.
-We have detailed directions on how to find us on our Contact page.
+We are open to visitors by [reservation only](https://www.exploretock.com/younginglewood).
+We have detailed directions on how to find us on our [contact page](https://young-inglewood.vercel.app/contact).
 
 ### WHAT ARE YOUR COVID-19 PROTOCOLS?
 
