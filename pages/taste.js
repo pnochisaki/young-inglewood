@@ -21,7 +21,7 @@ export default function Taste() {
           tasting salon, thoughtfully
           designed to please every sense.
           Tastings are dedicated to you
-          alone and customized for your <strong>personal enjoyment</strong>. Delight in our eclectic art collection as your gracious host guides you<br class='desktop-only' />through our wines.<a href='https://www.exploretock.com/younginglewood' target='_blank' >Reserve Now</a><br class='desktop-only' /><p>
+          alone and customized for your <strong>personal enjoyment</strong> Delight in our eclectic art collection as your gracious host guides you<br class='desktop-only' />through our wines.<a href='https://www.exploretock.com/younginglewood' target='_blank' >Reserve Now</a><br class='desktop-only' /><p>
           <p>Tours are complimentary for Friends of Young Inglewood (FYI).
           <a href='/membership'>Learn More About FYI</a></p>"
         />
@@ -49,7 +49,7 @@ export default function Taste() {
           home or your favorite local
           dining spot. We'll work with
           you to design the perfect
-          menu and guide you through our <span class='mobile-only'><strong> wine</strong></span><span class='desktop-only'>the <strong>wine pairings.</strong></span>
+          menu and guide you through our <span class='mobile-only'><strong> wine</strong></span><span class='desktop-only'>the <strong>wine pairings</strong></span>
           <a href='#'>Reserve Now</a></p>
           "
         />
