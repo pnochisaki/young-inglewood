@@ -950,6 +950,7 @@ html h2.c7-h2,
 .c7-checkout__review-block h2.c7-h2,
 .c7-account-dashboard__block__header__title h2.c7-h2,
 .c7-product-collection__product-list .c7-product__title a,
+.c7-product-allocation__product-list .c7-product__title a,
 .c7-product__subtitle,
 .c7-wrapper h1,
 .c7-table__header th,
@@ -1011,7 +1012,8 @@ section p {
 }
 
 section a,
-.copy a,
+.copy a.button,
+.contact .copy a,
 .text-link {
   display: block;
   text-transform: uppercase;
@@ -1022,9 +1024,16 @@ section a,
   line-height: 0;
   color: #932761;
   white-space: nowrap;
-
+  text-decoration: none;
 }
 
+.copy a {
+  text-decoration: underline;
+  /* color: #999; */
+}
+.copy a + a {
+  margin-top: .5rem;
+}
 
 .image-1,
 .image-2 {
@@ -1782,7 +1791,6 @@ button.c7-link {
 
 .purchase .collections-nav {
   display: block;
-  position: relative;
 }
 
 .purchase .collections-nav.mobile-only {
@@ -1857,14 +1865,16 @@ button.c7-link {
     width: 22rem;
   }
 
-  .c7-product-collection .c7-product__image {
+  .c7-product-collection .c7-product__image,
+  .c7-product-allocation .c7-product__image {
     flex: none;
     padding: 0 8rem 2rem 8rem;
     margin: 0;
   }
 
   .c7-product-collection .c7-product,
-  .c7-product-collection__products--featured .c7-product {
+  .c7-product-collection__products--featured .c7-product,
+  .c7-product-allocation .c7-product {
     display: inline-block;
     width: 49%;
     vertical-align: top;
@@ -1891,7 +1901,8 @@ button.c7-link {
     margin: 0;
   }
 
-  .c7-product-collection__product-list {
+  .c7-product-collection__product-list,
+  .c7-product-allocation__product-list {
     display: block;
     text-align: center;
   }
@@ -2436,7 +2447,8 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   }
 
   .c7-product-collection__products--featured,
-  .c7-product-collection__product-list {
+  .c7-product-collection__product-list,
+  .c7-product-allocation__product-list {
     margin-bottom: 0;
   }
 
@@ -2461,7 +2473,8 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     text-align: center
   }
 
-  .c7-product-collection__product-list {
+  .c7-product-collection__product-list,
+  .c7-product-allocation__product-list {
     margin-bottom: 0;
   }
 
@@ -2563,4 +2576,24 @@ section.c7-checkout__content h1
 
 .c7-back {
   display: none;
+}
+
+.c7-account-order-detail__left-column .c7-order-contents {
+  margin-top: 0;
+  padding-top: 0;
+}
+.c7-account-order-detail__left-column .c7-order-details {
+  padding-bottom: 0;
+}
+
+.c7-order-status-summary {
+  margin-bottom: 0;
+}
+
+.c7-order-summary *,
+.c7-order-summary__item--total .c7-order-summary__value {
+font-size: 1rem;
+}
+.c7-order-summary__item--total .c7-order-summary__value {
+  font-weight: bold;
 }
