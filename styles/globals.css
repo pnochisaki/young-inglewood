@@ -330,6 +330,7 @@ img {
 .c7-account__header .c7-marker,
 .c7-account__menu a,
 .c7-account-block__actions button.c7-link,
+.c7-account-block__actions a,
 .c7-form--coupon-code-container .c7-link,
 button.c7-link {
   font-family: canada-type-gibson, sans-serif;
@@ -348,8 +349,12 @@ button.c7-link {
 .c7-account-block__actions button.c7-link,
 .c7-form--coupon-code-container .c7-link,
 button.c7-link {
-  margin: 1rem 0 1rem;
+  margin: 0;
 }
+.c7-account-block__actions a {
+  margin: 0;
+}
+
 
 .navigation nav a span,
 .collections-nav a span,
@@ -977,6 +982,7 @@ h4,
 
 .c7-table__header th {
   display: table-cell;
+  padding-bottom: 1rem !important;
 }
 
 .c7-product__subtitle {
@@ -2185,10 +2191,10 @@ select+.c7-form__error {
   .c7-order-items .c7-h2,
   .c7-account-details__header,
   .c7-table__row th {
-    align-items: normal;
+    align-items: center;
     border-bottom: 1px solid #000 !important;
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem 0 1rem;
   }
 
   .c7-account-club-shipments .c7-account-block {
@@ -2206,7 +2212,7 @@ select+.c7-form__error {
   .c7-account-dashboard .c7-account-block__details,
   .c7-account-dashboard .c7-account-block__header,
   .c7-account-block {
-    padding: 1rem 0;
+    padding: 1rem 0 1rem 0;
     box-shadow: none;
   }
 
