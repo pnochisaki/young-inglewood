@@ -167,6 +167,24 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
         </div>
       </header >
 
+      {account &&
+        <div className="account-nav mobile-only">
+          {/* {router.asPath != '/profile/login' ? */}
+          <>
+            {accountNavItems
+              .map((navItem, index) => {
+                return <a className={router.asPath === (navItem.url || navItem.url + '/') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+
+              }
+              )}
+          </>
+
+          {/* :
+                      <></>
+                    } */}
+        </div>
+      }
+
 
       <div className="collections-nav mobile-only">
         <div className="blocker"></div>
