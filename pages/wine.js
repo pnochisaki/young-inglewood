@@ -27,8 +27,8 @@ export default function Wine() {
           image1='/images/estate-1.jpg'
           image2='/images/estate-2.jpg'
           text1="<p>Our Estate Cabernet Sauvignon is our <strong>flagship</strong> wine, which in classic Bordeaux style is Cabernet Sauvignon blended with small quantities of our other varietals.
-          This wine especially reflects our superb terroir that we steward and cultivate.<a href='/collection/estate-cabernet'>Purchase estate</a></p>"
-          text2="<p>Our Reserve Cabernet Sauvignon is extra special, made from the grapes grown in the finest blocks of our vineyard. This beautifully rich full-bodied wine elevates any occasion. <a href='/collection/estate-cabernet'>Purchase Reserve</a></p>
+          This wine especially reflects our superb terroir that we steward and cultivate.<a href='/collection/cabernet-sauvignon'>Purchase estate</a></p>"
+          text2="<p>Our Reserve Cabernet Sauvignon is extra special, made from the grapes grown in the finest blocks of our vineyard. This beautifully rich full-bodied wine elevates any occasion. <a href='/collection/cabernet-sauvignon'>Purchase Reserve</a></p>
           <p>As the name suggests, our Right Bank Blend is a homage to the wines of Saint Emilion, a beguiling blend with Cabernet Franc at its heart.<a href='/collection/right-bank-blend'>Purchase Right Bank</a></p>"
         />
 

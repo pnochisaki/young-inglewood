@@ -169,6 +169,8 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
       {account &&
         <div className="account-nav mobile-only">
+                  <div className="blocker"></div>
+
           {/* {router.asPath != '/profile/login' ? */}
           <>
             {accountNavItems
@@ -207,7 +209,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
       <footer>
         <>
-          <div className='navigation'>
+          <div className='navigation desktop-only'>
             <nav>
               <a href="/faq" className={faq && 'active'}><span>FAQ</span></a>
 
@@ -222,7 +224,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
             </nav>
           </div>
 
-          <div className="social-links">
+          <div className="social-links desktop-only">
             <Link href="https://www.facebook.com/younginglewood"><a ><Facebook /></a></Link>
             <Link href="https://www.instagram.com/younginglewood"><a ><Instagram /></a></Link>
             <Link href="https://twitter.com/YIVWine"><a ><Twitter /></a></Link>

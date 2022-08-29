@@ -859,15 +859,13 @@ h2 {
   }
 
   section p a {
-    font-size: .85rem;
     padding: 1.5rem 0;
     display: block;
   }
 
   .c7-form__buttons button,
-  html .c7-bt,
+  html .c7-btn,
   section p a {
-    font-size: .85rem;
     letter-spacing: .075rem;
   }
 
@@ -911,7 +909,7 @@ h2 {
   }
 
   .navigation nav #c7-account {
-    border-bottom: 2px solid #dedede;
+    border-bottom: .05rem solid #d78628;
     width: 75%;
     margin: auto;
   }
@@ -1018,29 +1016,7 @@ section p {
   margin-bottom: 1.55rem;
 }
 
-section a,
-.copy a.button,
-.contact .copy a,
-.text-link {
-  display: block;
-  text-transform: uppercase;
-  font-family: canada-type-gibson, sans-serif;
-  font-size: .65rem;
-  letter-spacing: .15rem;
-  padding: 1rem 0 0;
-  line-height: 0;
-  color: #932761;
-  white-space: nowrap;
-  text-decoration: none;
-}
 
-.copy a {
-  text-decoration: underline;
-  /* color: #999; */
-}
-.copy a + a {
-  margin-top: .5rem;
-}
 
 .image-1,
 .image-2 {
@@ -1107,7 +1083,7 @@ section a,
 @media (min-width: 769px) {
 
   section.section-a .image-1 {
-    width: 21.85rem;
+    width: 21.65rem;
     aspect-ratio: 798/1139;
     float: left;
     margin-right: 1.5rem;
@@ -1476,7 +1452,7 @@ section.wine h2 {
 .membership-details .table .c7-btn {
   display: inline-block;
   vertical-align: top;
-  padding: .85rem 0 .75rem;
+  padding: .65rem 0 .75rem;
   letter-spacing: .075rem;
 }
 
@@ -1490,6 +1466,12 @@ section.wine h2 {
 
 .membership-details .table .show-more {
   display: block;
+}
+@media (max-width: 768px) {
+  .membership-details .table .show-more,
+  .membership-details .table .show-less {
+    text-align: left;
+  }  
 }
 
 .membership-details .table .club-row.active .show-more {
@@ -1505,7 +1487,7 @@ section.wine h2 {
 }
 
 .contact ul {
-  padding: 2rem 0 0 0;
+  padding: 2rem 0 1rem 0;
   margin: 0;
   list-style-type: none;
 }
@@ -1752,6 +1734,26 @@ section.wine h2 {
   font-size: .2rem;
 }
 
+section a,
+.copy a.button,
+.contact .copy a,
+.text-link {
+  display: block;
+  text-transform: uppercase;
+  font-family: canada-type-gibson, sans-serif;
+  font-size:.65rem;
+  letter-spacing: .15rem;
+  padding: 1rem 0 0;
+  line-height: 0;
+  color: #932761;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/* section a,
+.copy a.button,
+.contact .copy a,
+.text-link, */
 .c7-order-item .c7-order-item__details .c7-link,
 .c7-btn {
   text-transform: uppercase;
@@ -1769,6 +1771,15 @@ section.wine h2 {
   color: #932761;
   vertical-align: middle;
   min-height: 0;
+  white-space: nowrap;
+}
+
+.copy a {
+  text-decoration: underline;
+  color: #932761;
+}
+.copy a + a {
+  margin-top: 1rem;
 }
 
 button.c7-link {
@@ -1800,7 +1811,9 @@ button.c7-link {
   display: block;
 }
 
-.purchase .collections-nav.mobile-only {
+.collections-nav.mobile-only,
+.account-nav.mobile-only
+ {
   transform: translateY(3rem);
   z-index: 1000;
   height: auto;
@@ -1827,7 +1840,9 @@ button.c7-link {
 .collections-nav.mobile-only a.active:after,
 .account-nav.mobile-only a.active:after {
   content: "›";
+  font-size: 1.25rem;
   display: inline-block;
+  vertical-align: middle;
   transform: translateX(.5rem) rotate(90deg);
 }
 
@@ -1953,7 +1968,7 @@ button.c7-link {
   }
 
   .c7-product__add-to-cart__price {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .c7-product__add-to-cart__form__quantity--select {
@@ -1972,6 +1987,10 @@ button.c7-link {
     padding-top: 2rem;
     margin-bottom: 2.25rem;
   }
+}
+
+.c7-product__add-to-cart__price {
+  font-size: 1rem !important;
 }
 
 .c7-form select,
@@ -2205,6 +2224,9 @@ select+.c7-form__error {
     width: 100%;
     padding: 1rem 0 1rem;
   }
+  .c7-account-dashboard__block table + a.c7-btn {
+    padding-left: 0;
+  }
 
   .c7-account-club-shipments .c7-account-block {
     padding: 0;
@@ -2222,6 +2244,9 @@ select+.c7-form__error {
   .c7-account-dashboard .c7-account-block__header,
   .c7-account-block {
     padding: 1rem 0 1rem 0;
+    box-shadow: none;
+  }
+  .c7-account-block {
     box-shadow: none;
   }
 
@@ -2299,9 +2324,16 @@ select+.c7-form__error {
 @media (min-width: 481px) {
 
   .c7-account-dashboard .c7-order-items ul,
-  .c7-order-items--shipment ul {
+  .c7-order-items--shipment ul,
+  .c7-account-order-detail .c7-order-items ul {
     grid-template-columns: repeat(4, 1fr)
   }
+}
+.c7-account-order-detail .c7-order-item__total,
+.c7-order-items:not(.c7-order-items--cart) .c7-order-item__total
+  {
+  text-align: left;
+  margin: 0;
 }
 
 .c7-order-item__image+.c7-order-item__details {
@@ -2439,7 +2471,8 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
 
 .c7-cart .c7-order-item__description,
 .c7-user-nav__cart .c7-order-item__description,
-.c7-checkout__summary-container .c7-order-item__description {
+.c7-checkout__summary-container .c7-order-item__description,
+.c7-order-item__details .c7-order-item__description {
   display: none
 }
 
@@ -2499,8 +2532,6 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-account__menu li {
     display: block;
     padding: .125rem;
-    ;
-
   }
 
   .c7-account__menu ul li a {
@@ -2533,10 +2564,73 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-account-club__shipment .c7-order-items {
     padding: 1rem 0;
   }
+  .c7-table tbody td:not(:nth-of-type(n + 5)) {
+    border-bottom: 1px solid #999;
+  }
 
+  .c7-account-dashboard__block__header__title h2 + p {
+    margin-top: 1rem;
+  }
+  .c7-order-details__shipping-address {
+    padding-bottom: 1rem;
+  }
+  .c7-account-block {
+    box-shadow: none;
+  }
+
+  .c7-account-block--address .c7-account-block__actions,
+  .c7-account-block--credit-card .c7-account-block__actions
+   {
+    padding-top: .5rem;
+  }
+  .c7-account-block--address .c7-account-block__actions .c7-link,
+  .c7-account-block--credit-card .c7-account-block__actions .c7-link {
+    display: block !important;
+  }
+  .c7-account-block__actions .c7-link + .c7-link {
+    margin: 1rem 0 0 !important;
+  }
+  .c7-account-club .c7-account-block {
+    padding: 0;
+  }
+  .c7-marker--small {
+    padding: 1rem 0 0;
+    display: block;
+    margin-left: 0 !important;
+  }
+  .c7-account-block__header {
+    margin-bottom: 1rem;
+  }
+  .c7-account-club {
+    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: #d78628 solid .05rem;
+  }
+  .c7-order-item {
+
+  }
+}
+
+.c7-account-block__actions .c7-link + .c7-link {
+  margin: 1rem 0 1rem 1rem;
+}
+.c7-account-block--address .c7-account-block__actions .c7-link,
+.c7-account-block--credit-card .c7-account-block__actions .c7-link {
+  text-align: right;
+  display: inline-block;
+  text-align: right;
+}
+.c7-account-block--address .c7-account-block__actions,
+.c7-account-block--credit-card .c7-account-block__actions {
+  white-space: nowrap;
 }
 
 
+.c7-callout button {
+  margin: 0;
+  display: inline-block;
+  margin-left: 1rem;
+}
 
 
 #c7-content .c7-account__menu,
@@ -2571,7 +2665,9 @@ section.c7-checkout__content h1
   display: none;
 }
 
-.c7-checkout__review-block {
+.c7-checkout__review-block,
+.c7-account-dashboard__block,
+.c7-table tbody tr {
   box-shadow: none;
 }
 
@@ -2601,4 +2697,7 @@ font-size: 1rem;
 }
 .c7-order-summary__item--total .c7-order-summary__value {
   font-weight: bold;
+}
+.c7-order-items:not(.c7-order-items--cart) .c7-order-item__quantity::before {
+  font-size: .65rem;
 }

@@ -1,6 +1,7 @@
 {
   "extends": "next",
   "rules": {
-    "@next/no-html-link-for-pages": "off"
+    "@next/no-html-link-for-pages": "off",
+    "@next/no-inline-html": "off"
   }
 }
