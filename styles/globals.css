@@ -907,6 +907,9 @@ h2 {
   main {
     margin-top: 4rem;
   }
+  .purchase main {
+    margin-top: 6rem;
+  }
 
   .navigation nav #c7-account {
     border-bottom: .05rem solid #d78628;
@@ -2625,6 +2628,45 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-order-item {
     padding: 0;
   }
+  .c7-account-order-detail .c7-wrapper,
+  .c7-account-details--membership .c7-wrapper,
+  .c7-account-allocations .c7-wrapper {
+    padding: 0 1rem;
+  }
+  .c7-modal--address-book .c7-form__buttons button:nth-last-child(3) {
+    margin: 0;
+  }
+  .c7-account-dashboard__block .c7-order-item {
+    padding: 0 1rem;
+  }
+  .c7-account-club__shipment__footer {
+    padding: 0;
+  }
+  .c7-account-club__shipment__footer__total {
+
+  }
+  .c7-account-club__shipment {
+    box-shadow: none;
+  }
+  .c7-wrapper {
+    padding: 0;
+  }
+  .c7-account-club-shipments .c7-wrapper {
+    padding: 1rem;
+  }
+  .c7-product-allocation__product-list .c7-product__title,
+  .c7-product-allocation__product-list .c7-product__subtitle {
+    margin-bottom: 1.5rem;
+  }
+  .c7-product-allocation__product-list .c7-product__subtitle {
+    margin-bottom: 1rem;
+  }
+  .c7-product-allocation__product-list .c7-product__teaser {
+    display: none;
+  }
+  .c7-content {
+    padding: 0;
+  }
 }
 
 .c7-account-block__actions .c7-link + .c7-link {
@@ -2685,6 +2727,10 @@ section.c7-checkout__content h1
 .c7-account-dashboard__block,
 .c7-table tbody tr {
   box-shadow: none;
+}
+
+.c7-account-dashboard__block > h2.c7-h2 {
+  padding-left: 1rem;
 }
 
 .c7-checkout__content .c7-form__buttons {
