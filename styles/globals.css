@@ -1822,6 +1822,9 @@ button.c7-link {
   padding-top: 3rem;
   margin-bottom: -2rem;
 }
+.account-nav.mobile-only {
+  margin-bottom: auto;
+}
 
 .collections-nav.mobile-only a,
 .account-nav.mobile-only a {
@@ -2111,7 +2114,10 @@ select+.c7-form__error {
   }
 
   .c7-order-items--cart .c7-order-item,
-  .c7-checkout__summary-container .c7-order-item {
+  .c7-checkout__summary-container .c7-order-item,
+  .c7-account-dashboard__block .c7-order-item,
+  .c7-account-order-detail__left-column .c7-order-item,
+  .c7-account-order-detail__content .c7-order-item {
     padding: 0;
   }
 
@@ -2133,14 +2139,20 @@ select+.c7-form__error {
 }
 
 .c7-order-items--cart .c7-order-item,
-.c7-checkout__summary-container .c7-order-item {
+.c7-checkout__summary-container .c7-order-item,
+.c7-order-items--shipment .c7-order-item,
+.c7-account-dashboard__block .c7-order-item,
+.c7-account-order-detail__content .c7-order-item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .c7-order-items--cart .c7-order-item__image img,
-.c7-checkout__summary-container .c7-order-item__image img {
+.c7-checkout__summary-container .c7-order-item__image img,
+.c7-order-items--shipment .c7-order-item__image img,
+.c7-account-dashboard__block .c7-order-item__image img,
+.c7-account-order-detail__content .c7-order-item__image img {
   max-height: 6rem;
   width: auto;
 }
@@ -2152,7 +2164,10 @@ select+.c7-form__error {
 
 .c7-order-items--cart .c7-order-item__title,
 .c7-checkout__summary-container .c7-order-item__title,
-.c7-checkout__summary-container .c7-order-item__pricing {
+.c7-checkout__summary-container .c7-order-item__pricing,
+.c7-order-items--shipment .c7-order-item__image+.c7-order-item__details,
+.c7-account-dashboard__block .c7-order-item__image+.c7-order-item__details,
+.c7-account-order-detail__content .c7-order-item__image+.c7-order-item__details {
   margin-left: 1rem;
 }
 
@@ -2312,7 +2327,8 @@ select+.c7-form__error {
 }
 
 
-.c7-account-dashboard .c7-order-items {
+.c7-account-dashboard .c7-order-items
+ {
   padding: 1rem 0;
 }
 
@@ -2607,7 +2623,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     border-bottom: #d78628 solid .05rem;
   }
   .c7-order-item {
-
+    padding: 0;
   }
 }
 
