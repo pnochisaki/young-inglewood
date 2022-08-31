@@ -43,10 +43,12 @@ body {
   html {
     font-size: 17px;
   }
+
   .layout {
     max-width: 1260px;
     margin: auto;
   }
+
   body {
     font-size: 1rem;
   }
@@ -76,6 +78,7 @@ img {
 .layout {
   position: relative;
 }
+
 .layout>header {
   position: fixed;
   top: 0;
@@ -174,12 +177,13 @@ img {
   .home-2 {
     background-image: url(/images/home-2.jpg);
     z-index: 2;
-    animation: 3s fadeIn ease-out forwards;
-    animation-delay: 2s;
+    opacity: 1;
   }
 
-  .home footer {
-    margin-top: 40rem;
+  .home-2.animated {
+    opacity: 0;
+    animation: 3s fadeIn ease-out forwards;
+    animation-delay: 2s;
   }
 
   @keyframes fadeIn {
@@ -205,6 +209,9 @@ img {
     transform: translate(18rem, 24rem);
   }
 
+  .home footer {
+    margin-top: 40rem;
+  }
 
   .layout>header {
     display: flex;
@@ -278,31 +285,31 @@ img {
 
 /* HOME VERSION IS DIFFERENT  VAUES ABOVE + 5 + */
 
-.home .navigation nav>a:nth-child(5n+1) {
+.home .navigation.animated nav>a:nth-child(5n+1) {
   animation-delay: 6.50s;
 }
 
-.home .navigation nav>a:nth-child(5n+2) {
+.home .navigation.animated nav>a:nth-child(5n+2) {
   animation-delay: 6.25s;
 }
 
-.home .navigation nav>a:nth-child(5n+3) {
+.home .navigation.animated nav>a:nth-child(5n+3) {
   animation-delay: 6.00s;
 }
 
-.home .navigation nav>a:nth-child(5n+4) {
+.home .navigation.animated nav>a:nth-child(5n+4) {
   animation-delay: 5.75s;
 }
 
-.home .navigation nav>a:nth-child(5n+5) {
+.home .navigation.animated nav>a:nth-child(5n+5) {
   animation-delay: 5.5s;
 }
 
-.home #c7-account {
+.home #c7-account.animated {
   animation-delay: 5.5s;
 }
 
-.home #c7-cart {
+.home #c7-cart.animated {
   animation-delay: 5.5s;
 }
 
@@ -1592,6 +1599,7 @@ section.wine h2 {
     width: 13.5%;
     text-align: right;
   }
+
   .membership-details .table>div>div .c7-btn {
     padding: 1.25rem 0 0 0;
   }
@@ -1764,6 +1772,7 @@ section a,
 }
 
 @media (max-width: 768px) {
+
   .navigation nav a,
   .c7-account__menu ul li a,
   .c7-account__header p:first-of-type,
@@ -1804,7 +1813,7 @@ section a,
     display: block;
     margin: 1.5rem;
     padding: .85rem;
-  }  
+  }
 }
 
 .c7-order-item .c7-order-item__details .c7-link,
@@ -2719,6 +2728,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-content {
     padding: 0;
   }
+
   .c7-order-summary h2.c7-h2 {
     margin-bottom: 1rem;
   }
@@ -2823,6 +2833,8 @@ section.c7-checkout__content h1 {
 .c7-order-items:not(.c7-order-items--cart) .c7-order-item__quantity::before {
   font-size: .65rem;
 }
-.c7-user-nav__account, .c7-user-nav__cart {
+
+.c7-user-nav__account,
+.c7-user-nav__cart {
   vertical-align: super;
 }
