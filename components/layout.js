@@ -151,7 +151,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                     <>
                       {accountNavItems
                         .map((navItem, index) => {
-                          return <a className={router.asPath === (navItem.url || navItem.url + '/') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                          return <a className={router.asPath === (navItem.url || navItem.url + '/' || 'profile') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
 
                         }
                         )}
