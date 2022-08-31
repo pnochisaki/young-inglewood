@@ -398,8 +398,6 @@ button.c7-link {
   color: inherit;
   border: 0;
   transform: translateY(-.35rem)
-  /* font-weight: bold; */
-  /* color:#d78628; */
 }
 
 .c7-user-nav__cart>.c7-link:hover .c7-user-nav__cart__count {
@@ -1591,6 +1589,9 @@ section.wine h2 {
     width: 13.5%;
     text-align: right;
   }
+  .membership-details .table>div>div .c7-btn {
+    padding: 1.25rem 0 0 0;
+  }
 
   /* contact */
 
@@ -1709,10 +1710,6 @@ section.wine h2 {
   --c7-block-shadow: 0 1px 3px 0 rgba(222, 222, 227, 0.3);
 }
 
-.c7-order-item .c7-order-item__details .c7-link {
-  font-size: .2rem;
-}
-
 
 .navigation nav a,
 .c7-account__menu ul li a,
@@ -1727,6 +1724,7 @@ button.c7-link {
   display: block;
   margin: 1.65rem;
 }
+
 .navigation nav a,
 .c7-account__menu ul li a,
 .c7-account__header p:first-of-type,
@@ -1742,7 +1740,9 @@ button.c7-link,
 section a,
 .copy a.button,
 .contact .copy a,
-.text-link {
+.text-link,
+.c7-order-items--cart .c7-link span,
+.c7-checkout__summary-container .c7-link span {
   text-transform: uppercase;
   font-family: canada-type-gibson, sans-serif;
   font-size: .65rem !important;
@@ -1776,8 +1776,10 @@ section a,
   section a,
   .copy a.button,
   .contact .copy a,
-  .text-link {
-    font-size: .75rem !important;
+  .text-link,
+  .c7-order-items--cart .c7-link span,
+  .c7-checkout__summary-container .c7-link span {
+    font-size: .85rem !important;
   }
 }
 
@@ -2187,11 +2189,6 @@ select+.c7-form__error {
 .c7-account-order-detail__content .c7-order-item__image img {
   max-height: 6rem;
   width: auto;
-}
-
-.c7-order-items--cart .c7-link span,
-.c7-checkout__summary-container .c7-link span {
-  font-size: .75rem;
 }
 
 .c7-order-items--cart .c7-order-item__title,
