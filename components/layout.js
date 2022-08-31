@@ -215,7 +215,6 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       </main>
 
 
-
       <footer>
         <>
           <div className='navigation desktop-only'>
