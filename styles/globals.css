@@ -95,7 +95,7 @@ img {
     margin: auto;
     position: absolute;
     right: 0;
-    top: 0;
+    top: .5rem;
   }
 }
 
@@ -322,35 +322,12 @@ img {
   overflow: hidden;
 }
 
-
-.navigation nav a,
-.c7-account__menu ul li a,
-.c7-account__header p:first-of-type,
-.c7-account__header p:nth-of-type(2),
-.c7-account__header .c7-marker,
-.c7-account__menu a,
-.c7-account-block__actions button.c7-link,
-.c7-account-block__actions a,
-.c7-form--coupon-code-container .c7-link,
-button.c7-link {
-  font-family: canada-type-gibson, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  text-transform: uppercase;
-  color: #666;
-  letter-spacing: .185rem;
-  font-size: .65rem;
-  display: block;
-  margin: 1.65rem;
-  border: 0;
-  padding: 0;
-}
-
 .c7-account-block__actions button.c7-link,
 .c7-form--coupon-code-container .c7-link,
 button.c7-link {
   margin: 0;
 }
+
 .c7-account-block__actions a {
   margin: 0;
 }
@@ -420,6 +397,7 @@ button.c7-link {
   background: transparent;
   color: inherit;
   border: 0;
+  transform: translateY(-.35rem)
   /* font-weight: bold; */
   /* color:#d78628; */
 }
@@ -489,7 +467,7 @@ button.c7-link {
   }
 
   .navigation {
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
     margin-bottom: 0;
   }
 
@@ -500,6 +478,7 @@ button.c7-link {
 
   header .navigation nav {
     display: flex;
+    align-items: center;
   }
 
   .navigation nav a,
@@ -511,7 +490,6 @@ button.c7-link {
   .c7-account__header .c7-marker {
     display: inline-block;
     margin: 0;
-    font-size: .65rem;
     vertical-align: middle;
     text-decoration: none;
   }
@@ -863,11 +841,6 @@ h2 {
     display: block;
   }
 
-  .c7-form__buttons button,
-  html .c7-btn,
-  section p a {
-    letter-spacing: .075rem;
-  }
 
   #c7-cart {
     position: absolute;
@@ -907,6 +880,7 @@ h2 {
   main {
     margin-top: 4rem;
   }
+
   .purchase main {
     margin-top: 6rem;
   }
@@ -1456,7 +1430,6 @@ section.wine h2 {
   display: inline-block;
   vertical-align: top;
   padding: .65rem 0 .75rem;
-  letter-spacing: .075rem;
 }
 
 .membership-details .table .show-less {
@@ -1470,11 +1443,13 @@ section.wine h2 {
 .membership-details .table .show-more {
   display: block;
 }
+
 @media (max-width: 768px) {
+
   .membership-details .table .show-more,
   .membership-details .table .show-less {
     text-align: left;
-  }  
+  }
 }
 
 .membership-details .table .club-row.active .show-more {
@@ -1544,8 +1519,9 @@ section.wine h2 {
     margin-top: -6.5rem;
     padding-bottom: 1.25rem;
   }
+
   .team-listing li .jim {
-    transform:translateY(1.5rem)
+    transform: translateY(1.5rem)
   }
 
   .team-listing li:nth-child(odd) img {
@@ -1737,51 +1713,107 @@ section.wine h2 {
   font-size: .2rem;
 }
 
+
+.navigation nav a,
+.c7-account__menu ul li a,
+.c7-account__header p:first-of-type,
+.c7-account__header p:nth-of-type(2),
+.c7-account__header .c7-marker,
+.c7-account__menu a,
+.c7-account-block__actions button.c7-link,
+.c7-account-block__actions a,
+.c7-form--coupon-code-container .c7-link,
+button.c7-link {
+  display: block;
+  margin: 1.65rem;
+}
+.navigation nav a,
+.c7-account__menu ul li a,
+.c7-account__header p:first-of-type,
+.c7-account__header p:nth-of-type(2),
+.c7-account__header .c7-marker,
+.c7-account__menu a,
+.c7-account-block__actions button.c7-link,
+.c7-account-block__actions a,
+.c7-form--coupon-code-container .c7-link,
+button.c7-link,
+.c7-order-item .c7-order-item__details .c7-link,
+.c7-btn,
+section a,
+.copy a.button,
+.contact .copy a,
+.text-link {
+  text-transform: uppercase;
+  font-family: canada-type-gibson, sans-serif;
+  font-size: .65rem !important;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  background: transparent;
+  color: #932761;
+  vertical-align: middle;
+  min-height: 0;
+  letter-spacing: .185rem;
+  border: 0;
+  line-height: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .navigation nav a,
+  .c7-account__menu ul li a,
+  .c7-account__header p:first-of-type,
+  .c7-account__header p:nth-of-type(2),
+  .c7-account__header .c7-marker,
+  .c7-account__menu a,
+  .c7-account-block__actions button.c7-link,
+  .c7-account-block__actions a,
+  .c7-form--coupon-code-container .c7-link,
+  button.c7-link,
+  .c7-order-item .c7-order-item__details .c7-link,
+  .c7-btn,
+  section a,
+  .copy a.button,
+  .contact .copy a,
+  .text-link {
+    font-size: .75rem !important;
+  }
+}
+
 section a,
 .copy a.button,
 .contact .copy a,
 .text-link {
   display: block;
-  text-transform: uppercase;
-  font-family: canada-type-gibson, sans-serif;
-  font-size:.65rem;
-  letter-spacing: .15rem;
   padding: 1rem 0 0;
-  line-height: 0;
-  color: #932761;
-  white-space: nowrap;
-  text-decoration: none;
 }
 
-/* section a,
-.copy a.button,
-.contact .copy a,
-.text-link, */
+.navigation nav a {
+  display: inline-block;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .navigation nav a {
+    display: block;
+    margin: 1.5rem;
+    padding: .85rem;
+  }  
+}
+
 .c7-order-item .c7-order-item__details .c7-link,
 .c7-btn {
-  text-transform: uppercase;
-  text-decoration: none;
   display: inline-block;
-  font-size: .65rem !important;
-  font-family: canada-type-gibson, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  text-transform: uppercase;
-  letter-spacing: .185rem;
-  border: 0;
-  background: transparent;
   padding: 1rem 1rem;
-  color: #932761;
-  vertical-align: middle;
-  min-height: 0;
-  white-space: nowrap;
 }
 
 .copy a {
   text-decoration: underline;
   color: #932761;
 }
-.copy a + a {
+
+.copy a+a {
   margin-top: 1rem;
 }
 
@@ -1815,8 +1847,7 @@ button.c7-link {
 }
 
 .collections-nav.mobile-only,
-.account-nav.mobile-only
- {
+.account-nav.mobile-only {
   transform: translateY(3rem);
   z-index: 1000;
   height: auto;
@@ -1825,6 +1856,7 @@ button.c7-link {
   padding-top: 3rem;
   margin-bottom: -2rem;
 }
+
 .account-nav.mobile-only {
   margin-bottom: auto;
 }
@@ -1853,8 +1885,7 @@ button.c7-link {
 }
 
 .collections-nav.mobile-only .blocker,
-.account-nav.mobile-only .blocker
- {
+.account-nav.mobile-only .blocker {
   position: absolute;
   background: transparent;
   width: 100%;
@@ -1865,14 +1896,12 @@ button.c7-link {
 }
 
 .collections-nav.mobile-only a,
-.account-nav.mobile-only a
- {
+.account-nav.mobile-only a {
   display: none;
 }
 
 .collections-nav.mobile-only:hover a,
-.account-nav.mobile-only:hover a
- {
+.account-nav.mobile-only:hover a {
   display: block;
 }
 
@@ -2037,7 +2066,7 @@ select+.c7-form__error {
 
 .collections-nav a.c7-btn,
 .account-nav a.c7-btn {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   color: #666
 }
 
@@ -2162,7 +2191,7 @@ select+.c7-form__error {
 
 .c7-order-items--cart .c7-link span,
 .c7-checkout__summary-container .c7-link span {
-  font-size: .65rem;
+  font-size: .75rem;
 }
 
 .c7-order-items--cart .c7-order-item__title,
@@ -2179,6 +2208,7 @@ select+.c7-form__error {
   text-align: center;
   width: auto;
 }
+
 .c7-notice--empty .c7-btn {
   margin-top: 1rem;
 }
@@ -2242,7 +2272,8 @@ select+.c7-form__error {
     width: 100%;
     padding: 1rem 0 1rem;
   }
-  .c7-account-dashboard__block table + a.c7-btn {
+
+  .c7-account-dashboard__block table+a.c7-btn {
     padding-left: 0;
   }
 
@@ -2264,6 +2295,7 @@ select+.c7-form__error {
     padding: 1rem 0 1rem 0;
     box-shadow: none;
   }
+
   .c7-account-block {
     box-shadow: none;
   }
@@ -2325,13 +2357,13 @@ select+.c7-form__error {
   padding: 0 1rem;
   font-size: 0.85rem;
 }
+
 .c7-marker--active {
   background: none;
 }
 
 
-.c7-account-dashboard .c7-order-items
- {
+.c7-account-dashboard .c7-order-items {
   padding: 1rem 0;
 }
 
@@ -2348,9 +2380,9 @@ select+.c7-form__error {
     grid-template-columns: repeat(4, 1fr)
   }
 }
+
 .c7-account-order-detail .c7-order-item__total,
-.c7-order-items:not(.c7-order-items--cart) .c7-order-item__total
-  {
+.c7-order-items:not(.c7-order-items--cart) .c7-order-item__total {
   text-align: left;
   margin: 0;
 }
@@ -2473,6 +2505,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-account-details__payment {
     width: 50%;
   }
+
   .c7-account-blocks {
     row-gap: 0;
   }
@@ -2583,101 +2616,125 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-account-club__shipment .c7-order-items {
     padding: 1rem 0;
   }
+
   .c7-table tbody td:not(:nth-of-type(n + 5)) {
     border-bottom: 1px solid #999;
   }
 
-  .c7-account-dashboard__block__header__title h2 + p {
+  .c7-account-dashboard__block__header__title h2+p {
     margin-top: 1rem;
   }
+
   .c7-order-details__shipping-address {
     padding-bottom: 1rem;
   }
+
   .c7-account-block {
     box-shadow: none;
   }
 
   .c7-account-block--address .c7-account-block__actions,
-  .c7-account-block--credit-card .c7-account-block__actions
-   {
+  .c7-account-block--credit-card .c7-account-block__actions {
     padding-top: .5rem;
   }
+
   .c7-account-block--address .c7-account-block__actions .c7-link,
   .c7-account-block--credit-card .c7-account-block__actions .c7-link {
     display: block !important;
   }
-  .c7-account-block__actions .c7-link + .c7-link {
+
+  .c7-account-block__actions .c7-link+.c7-link {
     margin: 1rem 0 0 !important;
   }
+
   .c7-account-club .c7-account-block {
     padding: 0;
   }
+
   .c7-marker--small {
     padding: 1rem 0 0;
     display: block;
     margin-left: 0 !important;
   }
+
   .c7-account-block__header {
     margin-bottom: 1rem;
   }
+
   .c7-account-club {
     margin-bottom: 2rem;
     padding-bottom: 3rem;
     border-bottom: #d78628 solid .05rem;
   }
+
   .c7-order-item {
     padding: 0;
   }
+
   .c7-account-order-detail .c7-wrapper,
   .c7-account-details--membership .c7-wrapper,
   .c7-account-allocations .c7-wrapper {
     padding: 0 1rem;
   }
+
   .c7-modal--address-book .c7-form__buttons button:nth-last-child(3) {
     margin: 0;
   }
+
   .c7-account-dashboard__block .c7-order-item {
     padding: 0 1rem;
   }
+
   .c7-account-club__shipment__footer {
     padding: 0;
   }
-  .c7-account-club__shipment__footer__total {
 
-  }
+  .c7-account-club__shipment__footer__total {}
+
   .c7-account-club__shipment {
     box-shadow: none;
   }
+
   .c7-wrapper {
     padding: 0;
   }
+
   .c7-account-club-shipments .c7-wrapper {
     padding: 1rem;
   }
+
   .c7-product-allocation__product-list .c7-product__title,
   .c7-product-allocation__product-list .c7-product__subtitle {
     margin-bottom: 1.5rem;
   }
+
   .c7-product-allocation__product-list .c7-product__subtitle {
     margin-bottom: 1rem;
   }
+
   .c7-product-allocation__product-list .c7-product__teaser {
     display: none;
   }
+
   .c7-content {
     padding: 0;
   }
+  .c7-order-summary h2.c7-h2 {
+    margin-bottom: 1rem;
+  }
 }
 
-.c7-account-block__actions .c7-link + .c7-link {
+.c7-account-block__actions .c7-link+.c7-link {
   margin: 1rem 0 1rem 1rem;
 }
+
 .c7-account-block--address .c7-account-block__actions .c7-link,
 .c7-account-block--credit-card .c7-account-block__actions .c7-link {
   text-align: right;
   display: inline-block;
   text-align: right;
 }
+
 .c7-account-block--address .c7-account-block__actions,
 .c7-account-block--credit-card .c7-account-block__actions {
   white-space: nowrap;
@@ -2703,7 +2760,7 @@ a:not([disabled]):hover {
 }
 
 .c7-message svg+a {
-  font-size: .65rem;
+  font-size: .75rem;
 }
 
 .c7-notice strong {
@@ -2713,9 +2770,9 @@ a:not([disabled]):hover {
   display: inline;
   font-weight: bold;
 }
+
 section.c7-checkout__content h2,
-section.c7-checkout__content h1
- {
+section.c7-checkout__content h1 {
   padding-bottom: 1rem;
 }
 
@@ -2729,7 +2786,7 @@ section.c7-checkout__content h1
   box-shadow: none;
 }
 
-.c7-account-dashboard__block > h2.c7-h2 {
+.c7-account-dashboard__block>h2.c7-h2 {
   padding-left: 1rem;
 }
 
@@ -2745,6 +2802,7 @@ section.c7-checkout__content h1
   margin-top: 0;
   padding-top: 0;
 }
+
 .c7-account-order-detail__left-column .c7-order-details {
   padding-bottom: 0;
 }
@@ -2753,13 +2811,18 @@ section.c7-checkout__content h1
   margin-bottom: 0;
 }
 
-.c7-order-summary *,
+.c7-order-summary *:not(.c7-btn span, button.c7-link),
 .c7-order-summary__item--total .c7-order-summary__value {
-font-size: 1rem;
+  font-size: 1rem;
 }
+
 .c7-order-summary__item--total .c7-order-summary__value {
   font-weight: bold;
 }
+
 .c7-order-items:not(.c7-order-items--cart) .c7-order-item__quantity::before {
   font-size: .65rem;
+}
+.c7-user-nav__account, .c7-user-nav__cart {
+  vertical-align: super;
 }
