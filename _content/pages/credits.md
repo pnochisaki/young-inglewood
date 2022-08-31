@@ -19,7 +19,7 @@ Steve Matthiasson
 
 ### DESIGN
 
-David Hughes, Level Inc.
+Level, Calistoga, CA
 
 ### WEBSITE DEVELOPMENT
 
