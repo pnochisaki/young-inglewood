@@ -11,39 +11,6 @@ html {
   font-size: 16px;
 }
 
-@media (min-width: 769px) {
-  html {
-    font-size: 1.35vw;
-  }
-
-  body {
-    font-size: 1rem;
-    /* font-size: 1.35vw; */
-  }
-}
-
-.layout {
-  position: relative;
-}
-
-@media (min-width: 1260px) {
-  html {
-    font-size: 17px;
-  }
-
-  .layout {
-    max-width: 1260px;
-    margin: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  html {
-    font-size: 4.25vw;
-  }
-}
-
-
 body {
   text-align: center;
   color: #000000;
@@ -53,11 +20,43 @@ body {
   padding: 2rem;
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 4.25vw;
+  }
+}
+
 @media (min-width: 769px) {
+  html {
+    /* font-size: 50%; */
+    font-size: 1.35vw;
+    /* font-size: 1.15vw; */
+  }
+
   body {
+    font-size: 1rem;
     padding: 0;
   }
 }
+
+@media (min-width: 1260px) {
+  html {
+    font-size: 17px;
+  }
+  .layout {
+    max-width: 1260px;
+    margin: auto;
+  }
+  body {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
 
 a {
   color: inherit;
@@ -74,6 +73,9 @@ img {
   height: auto;
 }
 
+.layout {
+  position: relative;
+}
 .layout>header {
   position: fixed;
   top: 0;
@@ -1290,7 +1292,8 @@ section.wine h2 {
 
   section.celebrating .image-2 {
     width: 35rem;
-    margin-top: -.5rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
   }
 
   section.travel:before {
