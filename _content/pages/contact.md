@@ -12,7 +12,7 @@ title: Contact
 * ### Hours
 
   Sunday - Saturday\
-  S 10:00AM – 3:30PM
+  10:00AM – 3:30PM
 * ### Email
 
   [hosp@younginglewood.com](mailto:hosp@younginglewood.com)
