@@ -1944,6 +1944,9 @@ button.c7-link {
     width: 22rem;
   }
 
+  .c7-product-allocation .c7-h2 {
+    padding-bottom: 0;
+  }
   .c7-product-collection .c7-product__image,
   .c7-product-allocation .c7-product__image {
     flex: none;

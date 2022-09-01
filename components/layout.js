@@ -178,8 +178,8 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       {account &&
         <div className="account-nav mobile-only">
           <div className="blocker"></div>
-          {console.log(router.asPath)}
-          {router.asPath === '/profile/login' ?
+          {/* {console.log(router.asPath)}
+          {router.asPath === '/profile/login' ? */}
             <>
               {accountNavItems
                 .map((navItem, index) => {
@@ -187,9 +187,9 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                 }
                 )}
             </>
-            :
+            {/* :
             <></>
-          }
+          } */}
 
 
           {/* :
