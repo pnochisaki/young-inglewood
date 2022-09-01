@@ -16,7 +16,7 @@ export default function Discover() {
           mobileImage='/images/farm-1-mobile.jpg'
           image1='/images/farm-1.jpg'
           image2='/images/farm-2.jpg'
-          text1="<p>Working <strong>with, not against</strong> nature, our vines are organically and regeneratively farmed, vine by vine, by hand and using gentle equipment when needed. Sparsely irrigation promotes deep vine roots, allowing the vines to benefit from underground water reserves.</p>"
+          text1="<p>Working <strong>with, not against</strong> nature, our vines are organically and regeneratively farmed, vine by vine, by hand and using gentle equipment when needed. Sparse irrigation promotes deep vine roots, allowing the vines to benefit from underground water reserves.</p>"
           text2="<p>Optimally sited on an alluvial fan that weaves in and out at the base of the Mayacamas, the gravel in our classic terroir aerates the soil and promotes good drainage.</p><p>We tend our gently sloping estate vineyards in tune with the natural life cycle of our vines. Cover crops, bat and bird boxes, and the introduction of beneficial insects protect the health of the vines without compromising the soil.</p>"
         />
 

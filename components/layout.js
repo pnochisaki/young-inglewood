@@ -41,7 +41,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
   }, [])
 
   useEffect(() => {
-    if (window) { 
+    if (window) {
       setTimeout(() => sessionStorage.setItem("seenAnimation", true), 5000);
     }
   }, []);
@@ -147,12 +147,10 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                 </div>
                 {account &&
                   <div className="account-nav desktop-only">
-                    {/* {router.asPath != '/profile/login' ? */}
                     <>
                       {accountNavItems
                         .map((navItem, index) => {
-                          return <a className={router.asPath === (navItem.url || navItem.url + '/' || 'profile') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
-
+                          return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
                         }
                         )}
                     </>
@@ -180,16 +178,19 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       {account &&
         <div className="account-nav mobile-only">
           <div className="blocker"></div>
+          {console.log(router.asPath)}
+          {router.asPath === '/profile/login' ?
+            <>
+              {accountNavItems
+                .map((navItem, index) => {
+                  return <a className={router.asPath === (navItem.url || navItem.url + '/' || '/profile/login' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                }
+                )}
+            </>
+            :
+            <></>
+          }
 
-          {/* {router.asPath != '/profile/login' ? */}
-          <>
-            {accountNavItems
-              .map((navItem, index) => {
-                return <a className={router.asPath === (navItem.url || navItem.url + '/') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
-
-              }
-              )}
-          </>
 
           {/* :
                       <></>
