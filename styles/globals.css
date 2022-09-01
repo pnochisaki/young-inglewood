@@ -961,7 +961,6 @@ h4,
   color: #999;
 }
 
-
 .c7-table__header th {
   display: table-cell;
   padding-bottom: 1rem !important;
@@ -2732,18 +2731,35 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-order-summary h2.c7-h2 {
     margin-bottom: 1rem;
   }
+
   .membership-details .table .show-less,
   .membership-details .table .show-more {
     padding-top: 1.25rem;
   }
+
   .c7-account-dashboard__block {
     border-bottom: #d78628 1px solid;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
   }
+
   .c7-account-details__addresses .c7-notice--empty,
-  .c7-account-details__payment .c7-notice--empty{
+  .c7-account-details__payment .c7-notice--empty {
     padding-left: 1rem;
+  }
+
+  .c7-product-collection__product-list .c7-product__title a,
+  .c7-product-allocation__product-list .c7-product__title a {
+    white-space: normal;
+    line-height: 1.5;
+  }
+
+  .c7-product-collection__product-list .c7-product__title,
+  .c7-product-allocation__product-list .c7-product__title {
+    margin-bottom: 1.25rem;
+  }
+  .c7-product__login-message p {
+    margin-bottom: 1.5rem;
   }
 }
 
