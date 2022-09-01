@@ -35,7 +35,7 @@ export default function Taste() {
           image2='/images/celebrating-2.jpg'
           text1="<p>The next time you want to <strong>celebrate</strong> with your friends consider a wine focused occasion with Young Inglewood as your host.</p>"
           text2="<p>We have the best wines in the Napa Valley. Why not pair them with dishes prepared by the best chefs here? Create memories that will last a lifetime.<p>
-          <p>Choose from a variety of settings inside the winery or outside in our tranquil gardens. Enjoy delicious food, our sumptuous wine and witty repartee.<a href='https://www.exploretock.com/younginglewood' target='_blank'>Reserve Now</a></p>"
+          <p>Choose from a variety of settings inside the winery or outside in our tranquil gardens. Enjoy delicious food, our sumptuous wine and witty repartee.<a href='https://forms.gle/bW3GbXAbYyiGVtaP7' target='_blank'>Reserve Now</a></p>"
         />
 
         <Section
@@ -50,7 +50,7 @@ export default function Taste() {
           dining spot. We'll work with
           you to design the perfect
           menu and guide you through our <span class='mobile-only'><strong> wine</strong></span><span class='desktop-only'>the <strong>wine pairings</strong></span>
-          <a href='#'>Reserve Now</a></p>
+          <a href='https://forms.gle/bW3GbXAbYyiGVtaP7'>Reserve Now</a></p>
           "
         />
 
