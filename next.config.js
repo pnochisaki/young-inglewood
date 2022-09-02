@@ -663,11 +663,6 @@ module.exports = {
         "permanent": true
       },
       {
-        "source": "",
-        "destination": "/collection/all",
-        "permanent": true
-      },
-      {
         "source": "/tastewithus.html",
         "destination": "/taste",
         "permanent": true
