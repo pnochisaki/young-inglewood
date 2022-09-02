@@ -613,16 +613,6 @@ module.exports = {
         "permanent": true
       },
       {
-        "source": "https://younginglewood.vinespring.com/register",
-        "destination": "/profile/create-account",
-        "permanent": true
-      },
-      {
-        "source": "https://younginglewood.vinespring.com/account#login",
-        "destination": "/profile/login",
-        "permanent": true
-      },
-      {
         "source": "/fyianthology.html",
         "destination": "/membership",
         "permanent": true
@@ -663,46 +653,6 @@ module.exports = {
         "permanent": true
       },
       {
-        "source": "/detail?item=anthology",
-        "destination": "/membership",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=archive",
-        "destination": "/membership",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=epic",
-        "destination": "/membership",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=essay",
-        "destination": "/membership",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=friends-of-young-inglewood",
-        "destination": "/membership",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=novel",
-        "destination": "/membership",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=novella",
-        "destination": "/membership",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=sonnet",
-        "destination": "/membership",
-        "permanent": true
-      },
-      {
         "source": "/newpurchase.html",
         "destination": "/collection/all",
         "permanent": true
@@ -723,57 +673,12 @@ module.exports = {
         "permanent": true
       },
       {
-        "source": "/detail?item=gift-cards",
-        "destination": "/collection/all",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=yi-single-barrel-pack",
-        "destination": "/collection/all",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=2018-cabernet-franc-750",
-        "destination": "/product/2018-cabernet-franc-750",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=2018-estate-cabernet-sauvignon-750",
-        "destination": "/product/2018-estate-cabernet-sauvignon-750",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=2018-right-bank-blend-750",
-        "destination": "/product/2018-right-bank-blend-750",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=2019-napa-valley-chardonnay",
-        "destination": "/product/2019-napa-valley-chardonnay",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=2020-aligote",
-        "destination": "/product/2020-aligote",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=2021-vin-clair-750",
-        "destination": "/product/2021-vin-clair-750",
-        "permanent": true
-      },
-      {
         "source": "/tastewithus.html",
         "destination": "/taste",
         "permanent": true
       },
       {
         "source": "/visitus.html",
-        "destination": "/taste",
-        "permanent": true
-      },
-      {
-        "source": "/detail?item=visit-us",
         "destination": "/taste",
         "permanent": true
       },
