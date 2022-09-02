@@ -172,6 +172,7 @@ img {
     background-image: url(/images/home-1.jpg);
     z-index: 1;
     opacity: 1;
+    height: 100vh;
   }
 
   .home-2 {
@@ -210,7 +211,16 @@ img {
   }
 
   .home footer {
-    margin-top: 40rem;
+    margin-top: 32rem;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+  }
+
+  .home footer.animated {
+    opacity: 0;
+    animation: 2s fadeIn ease-out forwards;
+    animation-delay: 5s;
   }
 
   .layout>header {
@@ -501,9 +511,11 @@ button.c7-link {
     text-decoration: none;
   }
 
-  .navigation nav a:hover {
-    text-decoration: none;
+  .navigation nav a.c7-user-nav__account__name {
+    transform: translateY(2px);
   }
+
+
 
   #c7-account a:after {
     content: '';
@@ -1717,7 +1729,7 @@ section.wine h2 {
   --c7-block-bg: var(--c7-bg);
   --c7-block-border-color: var(--c7-border-color);
   --c7-block-border-radius: var(--c7-border-radius);
-  --c7-block-shadow: 0 1px 3px 0 rgba(222, 222, 227, 0.3);
+  --c7-block-shadow: none;
 }
 
 
@@ -2038,6 +2050,8 @@ button.c7-link {
     padding-top: 2rem;
     margin-bottom: 2.25rem;
   }
+
+  .c7-account-blocks--status .c7-account-block {padding-top:0;}
 }
 
 .c7-product__add-to-cart__price {
@@ -2519,6 +2533,10 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
 
   .c7-account-blocks {
     row-gap: 0;
+  }
+
+  .c7-account-club__shipment {
+    margin-bottom: 0;
   }
 
 }

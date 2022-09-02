@@ -84,7 +84,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       {home ?
         <>
           <div className="mobile-only home">
-            <img src="/images/home-mobile.jpg" />
+            <a href="/discover"><img src="/images/home-mobile.jpg" /></a>
             <p className='text'>{text}</p>
           </div>
 
@@ -131,6 +131,9 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
               <a href="/membership" className={membership && 'active'}><span>Membership</span></a>
 
               <a href="/taste" className={taste && 'active'}><span>Taste</span></a>
+
+              {/* <a href="/profile/" ><span>Login</span></a> */}
+
 
               <div id="c7-account" className={seenAnimation ? "" : "animated"}></div>
               <div className="subnavigation">
@@ -216,7 +219,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       </main>
 
 
-      <footer>
+      <footer className={seenAnimation ? "" : "animated"}>
         <>
           <div className='navigation desktop-only'>
             <nav>
