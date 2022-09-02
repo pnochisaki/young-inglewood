@@ -593,11 +593,6 @@ module.exports = {
         "permanent": true
       },
       {
-        "source": "/detail?item=about-us",
-        "destination": "/discover",
-        "permanent": true
-      },
-      {
         "source": "/safevisit.html",
         "destination": "/faq",
         "permanent": true
