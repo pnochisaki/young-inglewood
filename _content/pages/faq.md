@@ -3,7 +3,7 @@ title: FAQs
 ---
 ### YOUR WINE SOUNDS AMAZING, HOW CAN I GET SOME?
 
-We're so glad you think so! Creating a [login](https://young-inglewood.vercel.app/profile/create-account) to get access to a basic allocation and allows you to order our wine on our [purchase page](https://young-inglewood.vercel.app/collection/all).                
+We're so glad you think so! Creating an [](https://young-inglewood.vercel.app/profile/create-account)[account](https://young-inglewood.vercel.app/profile/create-account) gets you access to a basic allocation and allows you to order our wine on our [purchase page](https://young-inglewood.vercel.app/collection/all).                
 
 ### HOW DO I GUARANTEE AN ALLOCATION?
 
@@ -25,4 +25,4 @@ We have detailed directions on how to find us on our [contact page](https://youn
 
 ### WHAT ARE YOUR COVID-19 PROTOCOLS?
 
-We are all fully vaccinated here at the winery and kindly ask that all visitors be fully vaccinated as well. Currently, we will not be wearing masks during your tastings. However, should you wish to do so, you are welcome to and your host is happy to accommodate and wear a mask as well. Weather permitting, we invite you to taste outside on our beautiful terrace should you prefer.
+We are all fully vaccinated here at the winery and kindly ask that all visitors be fully vaccinated as well. Currently, we will not be wearing masks during your tastings. However, should you wish to do so, you are welcome to and your host is happy to accommodate and wear a mask as well. Weather permitting, we invite you to taste with us outside on our beautiful terrace should you prefer.

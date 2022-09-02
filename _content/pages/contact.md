@@ -7,7 +7,7 @@ title: Contact
 
 ### HOW TO GET TO US:
 
-Young Inglewood Vineyards is on the south side of the Saint Helena AVA in Napa Valley California approximately 2 hours north of San Francisco.
+Young Inglewood Vineyards is on the south side of the Saint Helena AVA in Napa Valley, California approximately 2 hours north of San Francisco.
 
 #### From the South:
 
