@@ -11,7 +11,7 @@ We recommend you join our [Friends of Young Inglewood membership](https://young-
 
 ### CAN YOU SHIP WINE TO ME?
 
-Yes, we can! Our shipping partner takes 2-3 business days to process an order after it has been placed. If possible, we recommend delivery of wine shipments to a business as there is usually someone to accept the package during business hours.
+Yes, we can! Our shipping partner takes 2-3 business days to process an order after it has been placed. If possible, we recommend delivery of wine shipments to a business as there is usually someone there to accept the package during business hours.
 
 Our biggest concern is to deliver you your wine in the same condition as when it left our winery. That means sometimes we delay shipping until weather conditions become favorable.
 
