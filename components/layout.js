@@ -40,6 +40,12 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
     fetchCollections();
   }, [])
 
+  // useEffect(() => {
+  //   setLoggedIn(document.cookie.match(/^(.*;)?\s*customerToken\s*=\s*[^;]+(.*)?$/))
+  // }, [])
+
+
+
   useEffect(() => {
     if (window) {
       setTimeout(() => sessionStorage.setItem("seenAnimation", true), 5000);
@@ -49,7 +55,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
   const accountNavItems = [
     {
-      url: "/profile",
+      url: "/profile/login",
       title: "Dashboard"
     },
     {
@@ -132,10 +138,10 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
               <a href="/taste" className={taste && 'active'}><span>Taste</span></a>
 
-              {/* <a href="/profile/" ><span>Login</span></a> */}
-
-
               <div id="c7-account" className={seenAnimation ? "" : "animated"}></div>
+
+
+
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
                   {console.log(router.asPath)}
@@ -181,18 +187,14 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       {account &&
         <div className="account-nav mobile-only">
           <div className="blocker"></div>
-          {/* {console.log(router.asPath)}
-          {router.asPath === '/profile/login' ? */}
-            <>
-              {accountNavItems
-                .map((navItem, index) => {
-                  return <a className={router.asPath === (navItem.url || navItem.url + '/' || '/profile/login' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
-                }
-                )}
-            </>
-            {/* :
-            <></>
-          } */}
+          {console.log(router.asPath)}
+          <>
+            {accountNavItems
+              .map((navItem, index) => {
+                return <a className={router.asPath === (navItem.url || navItem.url + '/' || '/profile/login' || '/profile') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+              }
+              )}
+          </>
 
 
           {/* :
