@@ -1,29 +1,38 @@
 import Layout from '../components/layout';
 import Section from '../components/section';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { getMarkdownData } from '../lib/markdown'
 
-const userPass = Buffer.from(process.env.C7_USER + ":" + process.env.C7_PASS).toString('base64');
+const mdDir = '_content/pages/'
 
-// This gets called on every request
-export async function getServerSideProps() {
-  // Fetch data from external API
-  const res = await fetch('https://api.commerce7.com/v1/club', {
-    method: 'get',
-    headers: new Headers({
-      'Authorization': 'Basic ' + userPass,
-      'Content-Type': 'application/json',
-      'tenant': 'young-inglewood-vineyards'
-    })
-  });
-  const data = await res.json()
-
-  // Pass data to the page via props
-  return { props: { data } }
+export async function getStaticProps({ params }) {
+  const markdownData = await getMarkdownData('membership', mdDir)
+  console.log("POST", markdownData);
+  return {
+    props: {
+      markdownData
+    }
+  }
 }
 
+export default function Membership({markdownData}) {
 
+  const [clubs, setClubs] = useState(null);
 
-export default function Membership(props) {
+  const fetchClubs = () => {
+    fetch('/api/clubs')
+      .then(response => response.json())
+      .then(data => {
+        setClubs(data.clubs)
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+  }
+
+  useEffect(() => {
+    fetchClubs();
+  }, [])
 
   const [activeItem, setActiveItem] = useState(-1);
   const handleClick = (e) => {
@@ -52,6 +61,10 @@ export default function Membership(props) {
         />
 
         <div className="membership-details">
+
+                    <div dangerouslySetInnerHTML={{ __html: markdownData.contentHtml }} />
+
+{/* 
           <h3>IN ADDITION YOU’LL RECEIVE:</h3>
           <ul>
             <li>advance notice of all releases</li>
@@ -59,14 +72,14 @@ export default function Membership(props) {
             <li>access to exclusive library wines and large formats</li>
             <li>allocations of Single Barrel Series wines</li>
             <li>the ability to pause, cancel or customize your membership at any time</li>
-          </ul>
+          </ul> */}
           <br />
           <h3 id="membership">CHOOSE YOUR MEMBERSHIP</h3>
           <div className="table">
 
-            {console.log(props.data.clubs)}
+            {console.log(clubs)}
 
-            {props.data.clubs
+            {clubs && clubs
               .filter(club => club.webStatus == 'Available')
               .map((club, index) => {
                 return <div
