@@ -2,6 +2,7 @@ import { Facebook, Instagram, YouTube, Twitter } from '@styled-icons/boxicons-lo
 import { Menu } from '@styled-icons/feather/Menu'
 import { X } from '@styled-icons/feather/X'
 import useSessionStorage from '../hooks/useSessionStorage'
+import { useCookies } from "react-cookie"
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -13,6 +14,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
   const router = useRouter()
 
+  const [loggedIn, setLoggedIn] = useCookies(["customerToken"])
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   const seenAnimation = useSessionStorage('seenAnimation')
 
@@ -40,9 +42,9 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
     fetchCollections();
   }, [])
 
-  // useEffect(() => {
-  //   setLoggedIn(document.cookie.match(/^(.*;)?\s*customerToken\s*=\s*[^;]+(.*)?$/))
-  // }, [])
+  useEffect(() => {
+    setLoggedIn(loggedIn)
+  }, [])
 
 
 
@@ -73,12 +75,37 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
     {
       url: "/profile/account",
       title: "Account Details"
+    }
+  ]
+
+  const accountNavItemsLoggedIn = [
+    {
+      url: "/profile",
+      title: "Dashboard"
+    },
+    {
+      url: "/profile/club-membership",
+      title: "Club Shipments"
+    },
+    {
+      url: "/profile/order-history",
+      title: "Order History"
+    },
+    {
+      url: "/profile/allocation",
+      title: "Allocations"
+    },
+    {
+      url: "/profile/account",
+      title: "Account Details"
     },
     {
       url: "/profile/logout",
       title: "Logout"
     }
   ]
+
+
   const text = "Young Inglewood is committed to producing wines of place, stewarded from vine to bottle by mother and son winemakers Jacky and Scott. With old world non-interventionist winemaking practices, our estate’s signature character is transformed into wines of balance and grace."
 
   return (
@@ -150,25 +177,39 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                     .filter(collection => collection.metaData['store-menu'])
                     .map((collection, index) => {
                       return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
-
                     }
                     )}
                 </div>
-                {account &&
-                  <div className="account-nav desktop-only">
-                    <>
-                      {accountNavItems
-                        .map((navItem, index) => {
-                          return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
-                        }
-                        )}
-                    </>
 
-                    {/* :
-                      <></>
-                    } */}
-                  </div>
-                }
+                {console.log(loggedIn.customerToken)}
+
+                <>
+                  {account &&
+                    <div className="account-nav desktop-only">
+                      <>
+                        {(loggedIn.customerToken !== undefined) ?
+                          <>
+                            {accountNavItemsLoggedIn
+                              .map((navItem, index) => {
+                                return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                              }
+                              )}
+                          </>
+                          :
+                          <>
+                            {accountNavItems
+                              .map((navItem, index) => {
+                                return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile'  || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                              }
+                              )}
+                          </>
+                        }
+                      </>
+                    </div>
+                  }
+                </>
+
+
               </div>
             </nav>
             <nav className="mobile-only">
@@ -189,17 +230,26 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
           <div className="blocker"></div>
           {console.log(router.asPath)}
           <>
-            {accountNavItems
-              .map((navItem, index) => {
-                return <a className={router.asPath === (navItem.url || navItem.url + '/' || '/profile/login' || '/profile') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+            <>
+              {(loggedIn.customerToken !== undefined) ?
+                <>
+                  {accountNavItemsLoggedIn
+                    .map((navItem, index) => {
+                      return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                    }
+                    )}
+                </>
+                :
+                <>
+                  {accountNavItems
+                    .map((navItem, index) => {
+                      return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                    }
+                    )}
+                </>
               }
-              )}
+            </>
           </>
-
-
-          {/* :
-                      <></>
-                    } */}
         </div>
       }
 
