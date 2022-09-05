@@ -2038,14 +2038,6 @@ button.c7-link {
     width: auto;
   }
 
-  .c7-product__add-to-cart__form button {
-    padding: .125rem !important;
-  }
-
-  .c7-pagination {
-    /* text-align: center; */
-  }
-
   .c7-account-club {
     padding-top: 2rem;
     margin-bottom: 2.25rem;
@@ -2447,6 +2439,16 @@ select+.c7-form__error {
   }
 
 
+}
+.product-detail .c7-product__add-to-cart__form button {
+  padding: .8rem 0 !important;
+}
+@media (max-width: 768px) {
+
+  .c7-product__details .c7-product__add-to-cart__form button {
+    padding: .8rem 0 !important;
+  }
+  
 }
 
 .c7-order-item * {
