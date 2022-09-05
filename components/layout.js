@@ -101,7 +101,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
     },
     {
       url: "/profile/logout",
-      title: "Logout"
+      title: "Log out"
     }
   ]
 

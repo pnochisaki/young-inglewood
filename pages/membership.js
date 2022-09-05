@@ -61,18 +61,7 @@ export default function Membership({markdownData}) {
         />
 
         <div className="membership-details">
-
-                    <div dangerouslySetInnerHTML={{ __html: markdownData.contentHtml }} />
-
-{/* 
-          <h3>IN ADDITION YOU’LL RECEIVE:</h3>
-          <ul>
-            <li>advance notice of all releases</li>
-            <li>concierge service and a reserved space at the winery when you visit</li>
-            <li>access to exclusive library wines and large formats</li>
-            <li>allocations of Single Barrel Series wines</li>
-            <li>the ability to pause, cancel or customize your membership at any time</li>
-          </ul> */}
+            <div dangerouslySetInnerHTML={{ __html: markdownData.contentHtml }} />
           <br />
           <h3 id="membership">CHOOSE YOUR MEMBERSHIP</h3>
           <div className="table">

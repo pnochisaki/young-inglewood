@@ -3,7 +3,7 @@ title: Contact
 ---
 ### FOR RESERVATIONS
 
-[Book Now](https://www.exploretock.com/younginglewood)
+<a href="https://www.exploretock.com/younginglewood" target="_blank">Book Now</a>
 
 ### HOW TO GET TO US:
 
