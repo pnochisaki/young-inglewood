@@ -20,6 +20,8 @@ collections: # our content types, this is just an example!
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact"
     label: "Contact Info"
+    editor:
+      preview: false
     files:
       - label: "Contact Page"
         name: "contact"
