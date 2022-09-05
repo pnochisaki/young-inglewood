@@ -135,6 +135,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                 <p>{text}</p>
               </div>
             </div>
+            <a className="home-click" href="/discover">Enter</a>
           </div>
 
 

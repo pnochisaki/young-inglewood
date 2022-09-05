@@ -2933,3 +2933,13 @@ section.c7-checkout__content h1 {
 .c7-user-nav__cart {
   vertical-align: super;
 }
+
+.home-click {
+  text-indent: -1000rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40rem;
+  z-index: 3;
+}
