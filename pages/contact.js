@@ -45,7 +45,7 @@ export default function Contact({ markdownData }) {
           </ul>
           <div>
           <h3>For Reservations</h3>
-          <a href={markdownData.reservations_link} target="_blank">Book Now</a>
+          <a style={{'marginBottom':'15px'}} href={markdownData.reservations_link} target="_blank">Book Now</a>
           <br />
           </div>
           <div dangerouslySetInnerHTML={{ __html: markdownData.contentHtml }} />
