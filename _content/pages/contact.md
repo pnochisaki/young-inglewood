@@ -1,20 +1,19 @@
 ---
-title: Contact
-address_line_1: 1919 Inglewood Ave.
-address_line_2: Saint Helena, CA 94574
 directions_link: https://www.google.com/maps/dir//Young+Inglewood+Vineyards,+1919+Inglewood+Ave,+St+Helena,+CA+94574/@38.4829002,-122.4576348,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80845129d0b14dbd:0xc5e5a83d96dde51d!2m2!1d-122.4554103!2d38.4828658!3e0
 phone: 707-200-4572
+address_line_1: 1919 Inglewood Ave.
+address_line_2: Saint Helena, CA 94574
+reservations_link: https://www.exploretock.com/younginglewood
 hours_line_1: Sunday - Saturday
 hours_line_2: 10:00AM – 3:00PM
+title: Contact
 email: hosp@younginglewood.com
-reservations_link: https://www.exploretock.com/younginglewood
 ---
-
-### HOW TO GET TO US2
+### HOW TO GET TO US
 
 Young Inglewood Vineyards is on the south side of the Saint Helena AVA in Napa Valley, California approximately 2 hours north of San Francisco.
 
-#### From the South2
+#### From the South
 
 Take Highway 29 North to Inglewood Avenue and turn left. (Inglewood Avenue is about 1 mile past the railroad crossing on the western side. There is a gas station at the corner.) Continue on Inglewood Ave for a half mile. We are on the left at 1919 Inglewood.
 
