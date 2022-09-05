@@ -1,13 +1,13 @@
 ---
-title: Contact
-address_line_1: 1919 Inglewood Ave.
-address_line_2: Saint Helena, CA 94574
-reservations_link: https://www.exploretock.com/younginglewood
-hours_line_1: Sunday - Saturday
-hours_line_2: 10:00AM – 3:00PM
-email: hosp@younginglewood.com
-phone: 707-200-4572
+title: Contact2
+address_line_1: 1919 Inglewood Ave.2
+address_line_2: Saint Helena, CA 945742
 directions_link: https://www.google.com/maps/dir//Young+Inglewood+Vineyards,+1919+Inglewood+Ave,+St+Helena,+CA+94574/@38.4829002,-122.4576348,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80845129d0b14dbd:0xc5e5a83d96dde51d!2m2!1d-122.4554103!2d38.4828658!3e0
+phone: 707-200-45722
+hours_line_1: Sunday - Saturday2
+hours_line_2: 10:00AM – 3:00PM2
+email: hosp@younginglewood.com2
+reservations_link: https://www.exploretock.com/younginglewood2
 ---
 
 ### HOW TO GET TO US
