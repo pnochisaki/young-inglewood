@@ -3,7 +3,9 @@ export default function Profile() {
   return (
     <>
       <Layout account>
-        <div id="c7-content"></div>
+        <div className="profile">
+          <div id="c7-content"></div>
+        </div>
       </Layout>
     </>
   )
