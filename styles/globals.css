@@ -1596,8 +1596,6 @@ section.wine h2 {
     padding: 0;
   }
 
-
-
   .membership-details .table p {
     padding: .5rem 0;
     margin: 0;
@@ -1682,6 +1680,13 @@ section.wine h2 {
     display: block;
     margin-bottom: .25rem;
   }
+
+  .c7-table a {
+    margin: 5px !important;
+    display: block;
+    padding: 1rem 0;
+  }
+
 }
 
 /* ================================================================== */
