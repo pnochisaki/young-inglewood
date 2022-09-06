@@ -49,7 +49,7 @@ export default function Taste() {
           home or your favorite local
           dining spot. We'll work with
           you to design the perfect
-          menu and guide you through our <span class='mobile-only'><strong> wine</strong></span><span class='desktop-only'>the <strong>wine pairings</strong></span>
+          menu and guide you through our <span class='mobile-only'><strong> wine</strong></span><span class='desktop-only'><strong>wine pairings</strong></span>
           <a  href='https://forms.gle/bW3GbXAbYyiGVtaP7' target='_blank'>Reserve Now</a></p>
           "
         />
