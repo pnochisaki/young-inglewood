@@ -1,38 +1,27 @@
 import Layout from '../components/layout';
 import Section from '../components/section';
-import { useState, useEffect } from 'react';
-import { getMarkdownData } from '../lib/markdown'
+import { useState } from 'react';
 
-const mdDir = '_content/pages/'
+const userPass = Buffer.from(process.env.C7_USER + ":" + process.env.C7_PASS).toString('base64');
 
-export async function getStaticProps({ params }) {
-  const markdownData = await getMarkdownData('membership', mdDir)
-  console.log("POST", markdownData);
-  return {
-    props: {
-      markdownData
-    }
-  }
+// This gets called on every request
+export async function getServerSideProps() {
+  // Fetch data from external API
+  const res = await fetch('https://api.commerce7.com/v1/club', {
+    method: 'get',
+    headers: new Headers({
+      'Authorization': 'Basic ' + userPass,
+      'Content-Type': 'application/json',
+      'tenant': 'young-inglewood-vineyards'
+    })
+  });
+  const data = await res.json()
+
+  // Pass data to the page via props
+  return { props: { data } }
 }
 
-export default function Membership({markdownData}) {
-
-  const [clubs, setClubs] = useState(null);
-
-  const fetchClubs = () => {
-    fetch('/api/clubs')
-      .then(response => response.json())
-      .then(data => {
-        setClubs(data.clubs)
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-      });
-  }
-
-  useEffect(() => {
-    fetchClubs();
-  }, [])
+export default function Membership(props) {
 
   const [activeItem, setActiveItem] = useState(-1);
   const handleClick = (e) => {
@@ -43,6 +32,7 @@ export default function Membership({markdownData}) {
       e.currentTarget.parentNode.parentNode.classList.remove("active");
     }
   }
+
 
   return (
     <Layout membership>
@@ -61,14 +51,21 @@ export default function Membership({markdownData}) {
         />
 
         <div className="membership-details">
-            <div dangerouslySetInnerHTML={{ __html: markdownData.contentHtml }} />
+          <h3>IN ADDITION YOU’LL RECEIVE:</h3>
+          <ul>
+            <li>advance notice of all releases</li>
+            <li>concierge service and a reserved space at the winery when you visit</li>
+            <li>access to exclusive library wines and large formats</li>
+            <li>allocations of limited wines</li>
+            <li>the ability to pause, cancel or customize your membership at any time</li>
+          </ul>
           <br />
           <h3 id="membership">CHOOSE YOUR MEMBERSHIP</h3>
           <div className="table">
 
-            {console.log(clubs)}
+            {console.log(props.data.clubs)}
 
-            {clubs && clubs
+            {props.data.clubs
               .filter(club => club.webStatus == 'Available')
               .map((club, index) => {
                 return <div
