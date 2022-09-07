@@ -1494,13 +1494,15 @@ section.wine h2 {
   padding: 2rem 0 !important;
   text-align: center;
 }
-.c7-content.c7-account-login .c7-message.c7-message--alert-success {
+.c7-content.c7-account-login .c7-message {
   padding: 4rem 0 !important;
   background: transparent;
 }
-.c7-message p strong {
+.c7-message p strong,
+.c7-content.c7-account-login strong {
   font: inherit;
   font-weight: bold;
+  color: inherit;
 }
 
 @media (min-width: 769px) {
