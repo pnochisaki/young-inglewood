@@ -39,8 +39,10 @@ export default function Contact({ markdownData }) {
               {markdownData.hours_line_2}</p>
             </li>
             <li>
-              <h3>Email</h3>
+              <h3>General Inquiries</h3>
               <p><a href={'mailto:'+markdownData.email}>{markdownData.email}</a></p>
+              <h3>FYI Inquiries</h3>
+              <p><a href={'mailto:'+markdownData.email2}>{markdownData.email2}</a></p>
             </li>
           </ul>
           <div>
