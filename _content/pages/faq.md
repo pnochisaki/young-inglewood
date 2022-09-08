@@ -5,9 +5,9 @@ title: FAQs
 
 We're so glad you think so! Creating an [](https://younginglewood.com/profile/create-account)[account](https://younginglewood.com/profile/create-account) gets you access to an introductory allocation and allows you to order our wine on our [purchase page](https://younginglewood.com/collection/all).                
 
-### HOW DO I GUARANTEE AN ALLOCATION?
+### HOW DO I GET A MORE EXTENSIVE ALLOCATION?
 
-We recommend you join our [Friends of Young Inglewood membership](https://younginglewood.com/membership). Our FYI members get first access to all our releases.
+We recommend you join our [Friends of Young Inglewood membership](https://younginglewood.com/membership). In addition to other benefits, our FYI members get first access to all our releases.
 
 ### CAN YOU SHIP WINE TO ME?
 
