@@ -3,11 +3,11 @@ title: FAQs
 ---
 ### YOUR WINE SOUNDS AMAZING, HOW CAN I GET SOME?
 
-We're so glad you think so! Creating an [](https://young-inglewood.vercel.app/profile/create-account)[account](https://young-inglewood.vercel.app/profile/create-account) gets you access to an introductory allocation and allows you to order our wine on our [purchase page](https://young-inglewood.vercel.app/collection/all).                
+We're so glad you think so! Creating an [](https://younginglewood.com/profile/create-account)[account](https://younginglewood.com/profile/create-account) gets you access to an introductory allocation and allows you to order our wine on our [purchase page](https://younginglewood.com/collection/all).                
 
 ### HOW DO I GUARANTEE AN ALLOCATION?
 
-We recommend you join our [Friends of Young Inglewood membership](https://young-inglewood.vercel.app/membership). Our FYI members get first access to all our releases.
+We recommend you join our [Friends of Young Inglewood membership](https://younginglewood.vercel.app/membership). Our FYI members get first access to all our releases.
 
 ### CAN YOU SHIP WINE TO ME?
 
@@ -21,12 +21,12 @@ If you would like special arrangements for your shipment contact [mark@youngingl
 
 We are open 7 days a week from 10am - 3pm.
 We are open to visitors by [reservation only](https://www.exploretock.com/younginglewood).
-We have detailed directions on how to find us on our [contact page](https://young-inglewood.vercel.app/contact).
+We have detailed directions on how to find us on our [contact page](https://younginglewood.com/contact).
 
 ### HOW DO I RESET MY PASSWORD?
 
 It's very easy - you'll be back on line with us in no time. just follow these simple steps.
-1. Click this link: [https://younginglewood.com/profile/forgot-password](Https://younginglewood.com/profile/forgot-password)
+1. Click this link: [https://younginglewood.com/profile/forgot-password](https://younginglewood.com/profile/forgot-password)
 2. Enter your email address, then click "SEND RESET EMAIL"
 3. You will receive an email from us called "Reset Young Inglewood Password". Click the button in the email to access your account, then type in your new password.
 4. Now, you're in! 
