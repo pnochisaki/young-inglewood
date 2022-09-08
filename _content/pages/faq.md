@@ -7,7 +7,7 @@ We're so glad you think so! Creating an [](https://younginglewood.com/profile/cr
 
 ### HOW DO I GUARANTEE AN ALLOCATION?
 
-We recommend you join our [Friends of Young Inglewood membership](https://younginglewood.vercel.app/membership). Our FYI members get first access to all our releases.
+We recommend you join our [Friends of Young Inglewood membership](https://younginglewood.com/membership). Our FYI members get first access to all our releases.
 
 ### CAN YOU SHIP WINE TO ME?
 
