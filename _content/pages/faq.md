@@ -19,8 +19,7 @@ If you would like special arrangements for your shipment contact [mark@youngingl
 
 ### YOUR WINERY LOOKS BEAUTIFUL, CAN I VISIT?
 
-Absolutely! We are open 7 days a week from 10am - 3pm.
-We are open to visitors by [reservation only](https://www.exploretock.com/younginglewood).
+Absolutely! We are open to visitors by [reservation only](https://www.exploretock.com/younginglewood) 7 days a week from 10am - 3pm.
 We have detailed directions on how to find us on our [contact page](https://younginglewood.com/contact).
 
 ### HOW DO I RESET MY PASSWORD?
