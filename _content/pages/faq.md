@@ -3,9 +3,9 @@ title: FAQs
 ---
 ### YOUR WINE SOUNDS AMAZING, HOW CAN I GET SOME?
 
-We're so glad you think so! Creating an [](https://younginglewood.com/profile/create-account)[account](https://younginglewood.com/profile/create-account) gets you access to an introductory allocation and allows you to order our wine on our [purchase page](https://younginglewood.com/collection/all).                
+We're so glad you think so! Creating an [](https://younginglewood.com/profile/create-account)[account](https://younginglewood.com/profile/create-account) gets you access to an introductory allocation and allows you to order wine on our [purchase page](https://younginglewood.com/collection/all).                
 
-### HOW DO I GET A MORE EXTENSIVE ALLOCATION?
+### WHAT IF I WANT A MORE EXTENSIVE ALLOCATION?
 
 We recommend you join our [Friends of Young Inglewood membership](https://younginglewood.com/membership). In addition to other perks, our FYI members get first access to all our releases.
 
