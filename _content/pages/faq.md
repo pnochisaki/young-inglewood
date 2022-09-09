@@ -17,7 +17,7 @@ Our biggest concern is to deliver you your wine in the same condition as when it
 
 If you would like special arrangements for your shipment contact [mark@younginglewood.com](mailto:mark@younginglewood.com).
 
-### YOUR WINERY LOOKS BEAUTIFUL, HOW CAN I VISIT?
+### YOUR WINERY LOOKS BEAUTIFUL, CAN I VISIT?
 
 We are open 7 days a week from 10am - 3pm.
 We are open to visitors by [reservation only](https://www.exploretock.com/younginglewood).
