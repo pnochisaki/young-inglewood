@@ -24,11 +24,11 @@ We have detailed directions on how to find us on our [contact page](https://youn
 
 ### HOW DO I RESET MY PASSWORD?
 
-It's very easy - just follow these simple steps.
+It's very easy - just follow these simple steps
 1. Click this link: [https://younginglewood.com/profile/forgot-password](https://younginglewood.com/profile/forgot-password)
 2. Enter your email address, then click "SEND RESET EMAIL"
 3. You will receive an email from us called "Reset Young Inglewood Password". Click the button in the email to access your account, then type in your new password.
-4. Now, you're in! 
+4. That's it! 
 
 ### WHAT ARE YOUR COVID-19 PROTOCOLS?
 
