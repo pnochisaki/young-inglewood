@@ -7,7 +7,13 @@ We're so glad you think so! Creating an [](https://younginglewood.com/profile/cr
 
 ### WHAT IF I WANT A MORE EXTENSIVE ALLOCATION?
 
-We recommend you join our [Friends of Young Inglewood membership](https://younginglewood.com/membership). In addition to other perks, our FYI members get first access to all our releases.
+We recommend you join our [Friends of Young Inglewood (FYI) membership](https://younginglewood.com/membership). In addition to other perks, our FYI members get first access to all our releases.
+
+### AS A MEMBER OF FYI, CAN I CUSTOMIZE MY SHIPMENTS?
+
+Sure, for each scheduled shipment, you can add or replace wines to suit your taste.
+
+* P﻿ro Tip: To replace a bottle, first add the replacement bottle, then remove the one you are replacing.
 
 ### CAN YOU SHIP WINE TO ME?
 
@@ -25,10 +31,13 @@ We have detailed directions on how to find us on our [contact page](https://youn
 ### HOW DO I RESET MY PASSWORD?
 
 It's very easy - just follow these simple steps:
-1. Click this link: [https://younginglewood.com/profile/forgot-password](https://younginglewood.com/profile/forgot-password)
+
+1. Click this link: <https://younginglewood.com/profile/forgot-password>
 2. Enter your email address, then click "SEND RESET EMAIL"
 3. You will receive an email from us called "Reset Young Inglewood Password". Click the button in the email to access your account, then type in your new password.
 4. That's it! 
+
+H﻿ere's a quick [video](https://youtu.be/Wro6zD4DOKM).
 
 ### WHAT ARE YOUR COVID-19 PROTOCOLS?
 
