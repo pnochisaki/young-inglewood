@@ -1,8 +1,30 @@
 import '../styles/globals.css'
 import '../fonts/fonts.css'
-import Script from 'next/script'
+import $ from 'jquery'
+import { useEffect } from 'react'
+
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+
+    $("a").each (function(){
+      var href = $(this).attr('href');
+      if (href.substr(0, 1) === '/') {
+        console.log('internal link', href)
+      } else {
+        console.log('external link', href);
+        $(this).on('click', function() {
+          window.open(href)
+          return false;          
+        })
+
+      }
+    })
+
+    
+  })
+
+  
   return <>
     <Component {...pageProps} />
     {/* <Script
