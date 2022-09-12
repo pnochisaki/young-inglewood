@@ -7,7 +7,7 @@ We're so glad you think so! Creating an [](https://younginglewood.com/profile/cr
 
 ### WHAT IF I WANT A MORE EXTENSIVE ALLOCATION?
 
-We recommend you join our [Friends of Young Inglewood (FYI) membership](https://younginglewood.com/membership). In addition to other perks, our FYI members get first access to all our releases.
+We recommend you join our [Friends of Young Inglewood (FYI) membership](/membership). In addition to other perks, our FYI members get first access to all our releases.
 
 ### AS A MEMBER OF FYI, CAN I CUSTOMIZE MY SHIPMENTS?
 
