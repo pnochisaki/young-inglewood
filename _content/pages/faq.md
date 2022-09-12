@@ -37,7 +37,7 @@ It's very easy - just follow these simple steps:
 3. You will receive an email from us called "Reset Young Inglewood Password". Click the button in the email to access your account, then type in your new password.
 4. That's it! 
 
-H﻿ere's a quick <a href="https://youtu.be/Wro6zD4DOKM" target="_blank">video</a>.
+Here's a quick [video](https://youtu.be/Wro6zD4DOKM).
 
 ### WHAT ARE YOUR COVID-19 PROTOCOLS?
 
