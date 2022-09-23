@@ -15,6 +15,8 @@ Sure, for each scheduled shipment, you can add or replace wines to suit your tas
 
 * P﻿ro Tip: To replace a bottle, first add the replacement bottle, then remove the one you are replacing.
 
+ Here's a quick [video](https://youtu.be/VOzUYARZhC4).
+
 ### CAN YOU SHIP WINE TO ME?
 
 Yes, we can! Our shipping partner takes 2-3 business days to process an order after it has been placed. If possible, we recommend delivery of wine shipments to a business since usually someone is there to accept the package during business hours.
