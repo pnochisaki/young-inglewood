@@ -557,6 +557,10 @@ footer {
   padding: 1rem 0 2rem;
 }
 
+.social-links span {
+  display: none;
+}
+
 .social-links svg {
   display: inline-block;
   height: 1.125rem;
