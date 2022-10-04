@@ -924,7 +924,7 @@ h2 {
     }
 
     .contact .map {
-      height: 20rem;
+      height: 30rem;
     }
 
     .contact .map iframe {
@@ -2735,6 +2735,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-account-block--address .c7-account-block__actions .c7-link,
   .c7-account-block--credit-card .c7-account-block__actions .c7-link {
     display: block !important;
+    padding-bottom: 1rem;
   }
 
   .c7-account-block__actions .c7-link+.c7-link {
@@ -2806,8 +2807,29 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     margin-bottom: 1rem;
   }
 
+  .c7-account-allocations .c7-h2 {
+    padding-top: 2rem;
+    margin-bottom: -1rem;
+  }
+
   .c7-product-allocation__product-list .c7-product__teaser {
     display: none;
+  }
+
+  .c7-form--creditCard .c7-form .c7-radio--box {
+    padding: 40px 15px;
+  }
+
+  .c7-form--creditCard fieldset {
+    margin-bottom: 1rem;
+  }
+
+  .c7-form--creditCard .c7-link {
+    padding: 15px 0;
+  }
+
+  #c7-payment-creditcard-group .c7-form__buttons {
+    padding-top: 2rem;
   }
 
   .c7-content {
