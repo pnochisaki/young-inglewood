@@ -25,6 +25,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       setHamburgerOpen(false)
     }
   }
+
   const [collections, setCollections] = useState(false);
 
   const fetchCollections = () => {
@@ -80,7 +81,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
   const accountNavItemsLoggedIn = [
     {
-      url: "/profile",
+      url: "/profile?",
       title: "Dashboard"
     },
     {

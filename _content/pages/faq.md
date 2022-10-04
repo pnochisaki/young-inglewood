@@ -3,7 +3,7 @@ title: FAQs
 ---
 ### YOUR WINE SOUNDS AMAZING, HOW CAN I GET SOME?
 
-We're so glad you think so! Creating an [](https://younginglewood.com/profile/create-account)[account](https://younginglewood.com/profile/create-account) gets you access to an introductory allocation and allows you to order wine on our [purchase page](https://younginglewood.com/collection/all).                
+We're so glad you think so! Creating an [](/profile/create-account)[account](/profile/create-account) gets you access to an introductory allocation and allows you to order wine on our [purchase page](/collection/all).                
 
 ### WHAT IF I WANT A MORE EXTENSIVE ALLOCATION?
 
@@ -28,13 +28,13 @@ If you would like special arrangements for your shipment contact [mark@youngingl
 ### YOUR WINERY LOOKS BEAUTIFUL, CAN I VISIT?
 
 Absolutely! We are open to visitors by [reservation only](https://www.exploretock.com/younginglewood) 7 days a week from 10am - 3pm.
-We have detailed directions on how to find us on our [contact page](https://younginglewood.com/contact).
+We have detailed directions on how to find us on our [contact page](/contact).
 
 ### HOW DO I RESET MY PASSWORD?
 
 It's very easy - just follow these simple steps:
 
-1. Click this link: <https://younginglewood.com/profile/forgot-password>
+1. Click this link: </profile/forgot-password>
 2. Enter your email address, then click "SEND RESET EMAIL"
 3. You will receive an email from us called "Reset Young Inglewood Password". Click the button in the email to access your account, then type in your new password.
 4. That's it! 

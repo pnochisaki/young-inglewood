@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, Script, NextScript } from 'next/document'
 
 
 export default function Document() {
@@ -6,11 +6,12 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Young Inglewood</title>
         <link rel="stylesheet" href="https://use.typekit.net/hky1kqm.css" />
         <meta name='description' content='Young Inglewood' />
         <link href="https://cdn.commerce7.com/v2/commerce7.css" rel="stylesheet" />
+
       </Head>
+
       <body>
         <Main />
         <NextScript />
