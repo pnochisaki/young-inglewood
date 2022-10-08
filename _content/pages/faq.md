@@ -34,7 +34,7 @@ We have detailed directions on how to find us on our [contact page](/contact).
 
 It's very easy - just follow these simple steps:
 
-1. Click this link: </profile/forgot-password>
+1. Click this [link](/profile/forgot-password)
 2. Enter your email address, then click "SEND RESET EMAIL"
 3. You will receive an email from us called "Reset Young Inglewood Password". Click the button in the email to access your account, then type in your new password.
 4. That's it! 
