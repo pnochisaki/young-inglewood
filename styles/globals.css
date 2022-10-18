@@ -934,6 +934,10 @@ h2 {
     }
   }
 
+  #c7-delivery-shipping-group .c7-form__field button.c7-link {
+    padding: 1rem 0;
+    display: block;
+  }
 
 }
 
@@ -1498,10 +1502,12 @@ section.wine h2 {
   padding: 2rem 0 !important;
   text-align: center;
 }
+
 .c7-content.c7-account-login .c7-message {
   padding: 4rem 0 !important;
   background: transparent;
 }
+
 .c7-message p strong,
 .c7-content.c7-account-login strong {
   font: inherit;
@@ -1633,9 +1639,7 @@ section.wine h2 {
     padding: 1.35rem 0 1.25rem 0;
   }
 
-  .membership-details .table>div>div .c7-btn.contact-button {
-
-  }
+  .membership-details .table>div>div .c7-btn.contact-button {}
 
   .membership-details .table>div>div .c7-btn.contact-button:hover {
     text-decoration: underline;
@@ -1959,7 +1963,8 @@ button.c7-link {
 }
 
 .collections-nav.mobile-only:hover a,
-.account-nav.mobile-only:hover a {
+.account-nav.mobile-only:hover a,
+.account-nav.mobile-only .c7-btn.active {
   display: block;
 }
 
@@ -2140,6 +2145,7 @@ select+.c7-form__error {
   padding: 0;
   margin: 2rem 0 2rem;
   text-align: right;
+  display: none;
 }
 
 .c7-account__header a svg {
@@ -2645,12 +2651,21 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .navigation nav .c7-user-nav__account a {
     padding-right: 1rem;
   }
+
   .navigation #c7-account {
     margin-top: -.5rem;
   }
 
   .c7-account__header {
-    display: none;
+    height: 10rem
+  }
+
+  .c7-account__header * {
+    height: 2rem;
+    display: block;
+    white-space: normal;
+    text-align: center;
+    line-height: normal;
   }
 
   .c7-account__menu ul {
