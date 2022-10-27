@@ -4,17 +4,19 @@ import $ from 'jquery'
 import { useEffect } from 'react'
 import Head from 'next/head'
 import Script from 'next/script'
+import Router from 'next/router'
 
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
 
+    // external links in new window
     $("a").each(function () {
       var href = $(this).attr('href');
       if (href.substr(0, 1) === '/') {
-        console.log('internal link', href)
+        // console.log('internal link', href)
       } else {
-        console.log('external link', href);
+        // console.log('external link', href);
         $(this).on('click', function () {
           window.open(href)
           return false;
@@ -23,9 +25,17 @@ function MyApp({ Component, pageProps }) {
       }
     })
 
-
   })
 
+  // const onHashChangeStart = (url) => {
+  //   console.log(`Path changing to ${url}`);
+  // };
+
+  // Router.events.on("hashChangeStart", onHashChangeStart);
+
+  // return () => {
+  //   Router.events.off("hashChangeStart", onHashChangeStart);
+  // };
 
   return <>
     <Head>

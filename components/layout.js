@@ -3,6 +3,7 @@ import { Menu } from '@styled-icons/feather/Menu'
 import { X } from '@styled-icons/feather/X'
 import useSessionStorage from '../hooks/useSessionStorage'
 import { useCookies } from "react-cookie"
+import $ from 'jquery'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -45,6 +46,10 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
   useEffect(() => {
     setLoggedIn(loggedIn)
+    console.log("customerToken (from State):", loggedIn.customerToken)
+    const authState = (loggedIn.customerToken !== undefined) ? "logged-in" : "logged-out"
+    $('.layout').addClass(authState)
+
   }, [])
 
 
@@ -106,14 +111,13 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
     }
   ]
 
-
   const text = "Young Inglewood is committed to producing wines of place, stewarded from vine to bottle by mother and son winemakers Jacky and Scott. With old world non-interventionist winemaking practices, our estate’s signature character is transformed into wines of balance and grace."
 
   return (
     <div className={
-      home ? "home layout" :
-        purchase ? "purchase layout" :
-          "layout"
+      home ? " home layout" :
+        purchase ? " purchase layout" :
+          " layout"
     }>
       {home ?
         <>
@@ -173,8 +177,6 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
-                  {console.log(router.asPath)}
-                  {console.log("data collections: ", collections)}
                   {collections && collections
                     .filter(collection => collection.metaData['store-menu'])
                     .map((collection, index) => {
@@ -183,33 +185,27 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                     )}
                 </div>
 
-                {console.log(loggedIn.customerToken)}
-
                 <>
                   {account &&
-                    <div className="account-nav desktop-only">
-                      <>
-                        {(loggedIn.customerToken !== undefined) ?
-                          <>
-                            {accountNavItemsLoggedIn
-                              .map((navItem, index) => {
-                                console.log("logged in", router.asPath)
-                                return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
-                              }
-                              )}
-                          </>
-                          :
-                          <>
-                            {accountNavItems
-                              .map((navItem, index) => {
-                                console.log("logged out", router.asPath)
-                                return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
-                              }
-                              )}
-                          </>
-                        }
-                      </>
-                    </div>
+                    <>
+                      <div className="account-nav desktop-only logged-in">
+                        {accountNavItemsLoggedIn
+                          .map((navItem, index) => {
+                            console.log("logged in", router.asPath)
+                            return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                          }
+                          )}
+
+                      </div>
+                      <div className="account-nav desktop-only logged-out">
+                        {accountNavItems
+                          .map((navItem, index) => {
+                            console.log("logged out", router.asPath)
+                            return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                          }
+                          )}
+                      </div>
+                    </>
                   }
                 </>
 
@@ -234,38 +230,32 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       </header >
 
       {account &&
-        <div className="account-nav mobile-only">
-          <div className="blocker"></div>
-          {console.log(router.asPath)}
-          <>
-            <>
-              {(loggedIn.customerToken !== undefined) ?
-                <>
-                  {accountNavItemsLoggedIn
-                    .map((navItem, index) => {
-                      return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
-                    }
-                    )}
-                </>
-                :
-                <>
-                  {accountNavItems
-                    .map((navItem, index) => {
-                      return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
-                    }
-                    )}
-                </>
+
+        <>
+          <div className="account-nav mobile-only logged-in">
+            <div className="blocker"></div>
+            {accountNavItemsLoggedIn
+              .map((navItem, index) => {
+                return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
               }
-            </>
-          </>
-        </div>
+              )}
+          </div>
+
+          <div className="account-nav mobile-only logged-out">
+            <div className="blocker"></div>
+            {accountNavItems
+              .map((navItem, index) => {
+                return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+              }
+              )}
+          </div>
+        </>
+
       }
 
 
       <div className="collections-nav mobile-only">
         <div className="blocker"></div>
-        {console.log(router.asPath)}
-        {console.log("data collections: ", collections)}
         {collections && collections
           .filter(collection => collection.metaData['store-menu'])
           .map((collection, index) => {
