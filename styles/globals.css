@@ -3006,3 +3006,7 @@ section.c7-checkout__content h1 {
 .logged-in .logged-out {
   display: none;
 }
+
+.c7-account-dashboard .c7-link {
+  padding: 2rem 0;
+}
