@@ -850,7 +850,12 @@ h2 {
   #c7-content section:nth-child(odd) h2 {
     text-align: left;
   }
-
+  .c7-table__number .c7-link {
+    font-size: .85rem !important;
+  }
+  .c7-account-dashboard__left-column .c7-account-dashboard__block:nth-child(2) .c7-h2 {
+    margin-left: 1rem;
+  }
   section p strong {
     line-height: 1;
   }
@@ -1796,6 +1801,7 @@ button.c7-link {
 button.c7-link,
 .c7-order-item .c7-order-item__details .c7-link,
 .c7-btn,
+.c7-link,
 section a,
 .copy a.button,
 .contact .copy a,
@@ -1817,6 +1823,7 @@ section a,
   border: 0;
   line-height: 0;
   margin: 0;
+  font-weight: normal !important;
 }
 
 @media (max-width: 768px) {
@@ -2281,7 +2288,6 @@ select+.c7-form__error {
 
 @media (min-width: 769px) {
 
-
   .product-detail {
     display: flex;
     align-items: center;
@@ -2503,6 +2509,13 @@ select+.c7-form__error {
 
 }
 
+@media (min-width: 769px) {
+  .c7-table td span:not(.c7-table__mobile-header) {
+    margin-right: 1rem;
+    display: inline-block;
+  }
+}
+
 .c7-order-item * {
   font-size: 1rem;
 }
@@ -2555,8 +2568,11 @@ select+.c7-form__error {
   display: none !important;
 }
 
-.c7-table tr {
-  border-bottom: 1px solid #000;
+@media (max-width: 768px) {
+  .c7-table tr {
+    border-bottom: 1px solid #000;
+  }
+  
 }
 
 /* account details */
@@ -2777,6 +2793,10 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     margin-bottom: 1rem;
   }
 
+  .c7-account-block__header  .c7-link {
+    padding: 0;
+  }
+
   .c7-account-club {
     margin-bottom: 2rem;
     padding-bottom: 3rem;
@@ -2955,9 +2975,6 @@ section.c7-checkout__content h1 {
   box-shadow: none;
 }
 
-.c7-account-dashboard__block>h2.c7-h2 {
-  padding-left: 1rem;
-}
 
 .c7-checkout__content .c7-form__buttons {
   margin-top: 1rem;
@@ -3015,4 +3032,10 @@ section.c7-checkout__content h1 {
 
 .c7-account-dashboard .c7-link {
   padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .c7-table__number .c7-link {
+    padding-top: .5rem;
+  }
 }
