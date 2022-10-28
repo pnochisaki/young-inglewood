@@ -2482,6 +2482,10 @@ select+.c7-form__error {
     grid-template-columns: repeat(6, 1fr);
   }
 
+  .c7-account-dashboard__block .c7-order-item .c7-order-item__image img {
+    max-width: 74%;
+  }
+
 
 }
 
