@@ -11,7 +11,7 @@ collections: # our content types, this is just an example!
   - name: "pages"
     label: "Pages"
     folder: "_content/pages"
-    create: true
+    create: false
     slug: "{{title}}"
     editor:
       preview: false
