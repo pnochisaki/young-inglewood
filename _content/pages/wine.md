@@ -1,5 +1,5 @@
 ---
-title: Wine XXX
-description: goes here
-og_image: 
+title: Wine
+description: ""
+og_image: null
 ---
