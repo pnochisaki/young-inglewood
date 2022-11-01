@@ -1,12 +1,25 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
+import Meta from '../components/meta'
+import { getMarkdownData } from '../lib/markdown'
 
-export default function Home() {
+const mdDir = '_content/pages/'
+
+export async function getStaticProps({ params }) {
+  const markdownData = await getMarkdownData('home', mdDir)
+  console.log("POST", markdownData);
+  return {
+    props: {
+      markdownData
+    }
+  }
+}
+
+export default function Home({markdownData}) {
   return (
-    <Layout home>
-      <Head>
-        <title>Young Inglewood</title>
-      </Head>
-    </Layout>
+    <>
+    <Meta data={markdownData} />
+    <Layout home />
+    </>    
   )
 }

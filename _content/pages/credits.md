@@ -1,5 +1,5 @@
 ---
-title: Credit where credit is due
+title: Credits
 ---
 ### ARCHITECT
 

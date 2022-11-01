@@ -1,4 +1,5 @@
 import Layout from '../components/layout';
+import Meta from '../components/meta';
 import Section from '../components/section';
 import { getMarkdownData } from '../lib/markdown'
 
@@ -19,18 +20,21 @@ export async function getStaticProps({ params }) {
 export default function Credits({ markdownData }) {
 
   return (
-    <Layout credits>
-      <>
-        <Section
-          title={markdownData.title}
-          slug='credits'
-          style='section-b'
-          image1='/images/credits-1.jpg'
-          image2='/images/credits-2.jpg'
-          mobileImage='/images/credits-1-mobile.jpg'
-          text2={markdownData.contentHtml}
-        />
+    <>
+      <Meta data={markdownData} />
+      <Layout credits>
+        <>
+          <Section
+            title="Credit where credit is due"
+            slug='credits'
+            style='section-b'
+            image1='/images/credits-1.jpg'
+            image2='/images/credits-2.jpg'
+            mobileImage='/images/credits-1-mobile.jpg'
+            text2={markdownData.contentHtml}
+          />
         </>
-    </Layout>
+      </Layout>
+    </>
   )
 }

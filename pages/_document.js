@@ -7,9 +7,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="stylesheet" href="https://use.typekit.net/hky1kqm.css" />
-        <meta name='description' content='Young Inglewood' />
         <link href="https://cdn.commerce7.com/v2/commerce7.css" rel="stylesheet" />
-
       </Head>
 
       <body>

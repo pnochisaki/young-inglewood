@@ -6,7 +6,7 @@ address_line_2: Saint Helena, CA 94574
 reservations_link: https://www.exploretock.com/younginglewood
 hours_line_1: Sunday - Saturday
 hours_line_2: 10:00AM – 3:00PM
-title: contact
+title: Contact
 email: hosp@younginglewood.com
 email2: mark@younginglewood.com
 ---
