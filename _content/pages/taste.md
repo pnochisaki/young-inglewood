@@ -1,5 +1,5 @@
 ---
-title: Taste XXX
-description: goes here
-og_image: 
+title: Taste
+description: ""
+og_image: null
 ---
