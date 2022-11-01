@@ -1,5 +1,5 @@
 ---
-title: Discover XXX
-description: goes here
-og_image: 
+title: Discover
+description: ""
+og_image: null
 ---
