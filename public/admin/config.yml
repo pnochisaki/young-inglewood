@@ -16,10 +16,10 @@ collections: # our content types, this is just an example!
     editor:
       preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta Description", name: "description", widget: "string" }
-      - { label: "Open Graph Image", name: "og_image", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string" , required: false}
+      - { label: "Meta Description", name: "description", widget: "string" , required: false}
+      - { label: "Open Graph Image", name: "og_image", widget: "image",  required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false}
   - name: "contact"
     label: "Contact Info"
     editor:
