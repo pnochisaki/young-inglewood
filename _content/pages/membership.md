@@ -1,5 +1,6 @@
 ---
 title: Membership
+og_image: /uploads/148-274a1271.jpg
 ---
 ### IN ADDITION YOU’LL RECEIVE:
 
