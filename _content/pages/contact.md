@@ -4,12 +4,14 @@ phone: 707-200-4572
 address_line_1: 1919 Inglewood Ave.
 address_line_2: Saint Helena, CA 94574
 reservations_link: https://www.exploretock.com/younginglewood
-og_image: ""
+og_image: /uploads/photoemmakmorris-0446.jpg
 email2: mark@younginglewood.com
 hours_line_1: Sunday - Saturday
 hours_line_2: 10:00AM – 3:00PM
 title: Contact
 email: hosp@younginglewood.com
+description: We'd be delighted for you to be in touch with us and come visit us.
+  Please use the directions on this page to help you arrive comfortably.
 ---
 ### HOW TO GET TO US
 
