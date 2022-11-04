@@ -5,5 +5,5 @@ description: Discover more about Young Inglewood. Our process starts with
   bring out our gorgeous terroir using non interventionalist practices to give
   you the best wine experience. Our small but mighty team is a family that hopes
   to invite you to join us around our table.
-og_image: null
+og_image: /uploads/148-274a1271.jpg
 ---
