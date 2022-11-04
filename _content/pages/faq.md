@@ -2,7 +2,7 @@
 title: FAQs
 description: New to our site or need help navigating our new site? We hope that
   these FAQs will help you get where you need to go.
-og_image: /uploads/photoemmakmorris-0446.jpg
+og_image: /uploads/148-274a1271.jpg
 ---
 ### YOUR WINE SOUNDS AMAZING, HOW CAN I GET SOME?
 
