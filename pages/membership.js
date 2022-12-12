@@ -88,7 +88,7 @@ export default function Membership( {markdownData} ) {
                     </div>
                     <div>{club.title.split('-')[0].replace('Friends of Young Inglewood', '').trim() === 'Epic' ?
                       <div><a className="c7-btn contact-button" href="/contact"><span>Contact Us</span></a></div> :
-                      <div dangerouslySetInnerHTML={{ __html: '<div class="c7-club-join-button" data-club-slug="' + club.slug + '">Join FYI</div>' }} />
+                      <div dangerouslySetInnerHTML={{ __html: '<div class="c7-club-join-button c7-btn" data-club-slug="' + club.slug + '">Join FYI</div>' }} />
                     }
 
                     </div>
