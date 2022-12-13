@@ -3,6 +3,7 @@ import Section from '../components/section';
 import { useState, useEffect } from 'react';
 import { getMarkdownData } from '../lib/markdown'
 import Meta from '../components/meta';
+import $ from 'jquery'
 
 const userPass = Buffer.from(process.env.C7_USER + ":" + process.env.C7_PASS).toString('base64');
 
@@ -32,6 +33,13 @@ export async function getStaticProps({ params }) {
 export default function Membership( {markdown, memberships} ) {
 
   console.log(markdown, memberships)
+
+  useEffect(() => {
+    // $(".c7-club-join-button a").each(function () {
+    //   $(this).text("Join FYI")
+    // })
+  }, [])
+
   const [activeItem, setActiveItem] = useState(-1);
   const handleClick = (e) => {
     const isActive = (e.currentTarget.parentNode.parentNode.classList.contains('active'))
