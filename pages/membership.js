@@ -4,40 +4,34 @@ import { useState, useEffect } from 'react';
 import { getMarkdownData } from '../lib/markdown'
 import Meta from '../components/meta';
 
+const userPass = Buffer.from(process.env.C7_USER + ":" + process.env.C7_PASS).toString('base64');
+
 const mdDir = '_content/pages/'
 
 export async function getStaticProps({ params }) {
   const markdownData = await getMarkdownData('membership', mdDir)
-  console.log("POST", markdownData);
+  const membershipsData = await fetch('https://api.commerce7.com/v1/club', {
+    method: 'get',
+    headers: new Headers({
+      'Authorization': 'Basic ' + userPass,
+      'Content-Type': 'application/json',
+      'tenant': 'young-inglewood-vineyards'
+    })
+  });
+
+  const membershipsResponse = await membershipsData.json()
+  
   return {
     props: {
-      markdownData
+      markdown: markdownData,
+      memberships: membershipsResponse.clubs
     }
   }
 }
 
+export default function Membership( {markdown, memberships} ) {
 
-const userPass = Buffer.from(process.env.C7_USER + ":" + process.env.C7_PASS).toString('base64');
-
-export default function Membership( {markdownData} ) {
-
-  const [memberships, setMemberships] = useState([]);
-
-  const fetchMemberships = () => {
-    fetch('/api/memberships')
-      .then(response => response.json())
-      .then(data => {
-        setMemberships(data.clubs)
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-      });
-  }
-
-  useEffect(() => {
-    fetchMemberships();
-  }, [])
-
+  console.log(markdown, memberships)
   const [activeItem, setActiveItem] = useState(-1);
   const handleClick = (e) => {
     const isActive = (e.currentTarget.parentNode.parentNode.classList.contains('active'))
@@ -51,7 +45,7 @@ export default function Membership( {markdownData} ) {
 
   return (
     <>
-      <Meta data={markdownData} />
+      <Meta data={markdown} />
       <Layout membership>
         <>
           <h1>Membership</h1>
@@ -68,7 +62,7 @@ export default function Membership( {markdownData} ) {
           />
 
           <div className="membership-details">
-          <div dangerouslySetInnerHTML={{ __html: markdownData.contentHtml }} />
+          <div dangerouslySetInnerHTML={{ __html: markdown.contentHtml }} />
             <br />
             <h3 id="membership">CHOOSE YOUR MEMBERSHIP</h3>
             <div className="table">
