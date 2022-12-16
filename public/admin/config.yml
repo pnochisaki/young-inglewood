@@ -20,8 +20,8 @@ collections: # our content types, this is just an example!
       - { label: "Meta Description", name: "description", widget: "string" , required: false}
       - { label: "Open Graph Image", name: "og_image", widget: "image",  required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false}
-  - name: "contact"
-    label: "Contact Info"
+  - name: "additional"
+    label: "Additional Fields"
     editor:
       preview: false
     files:
@@ -39,5 +39,23 @@ collections: # our content types, this is just an example!
           - {label: General Email, name: email, widget: string}
           - {label: FYI Email, name: email2, widget: string}
           - {label: Reservation Link, name: reservations_link, widget: string}
+      - label: "Wine Page Links"
+        name: "wine"
+        file: "_content/pages/wine.md"
+        fields:
+          - {label: Estate Link 1, name: estate_link_1, widget: string}
+          - {label: Estate Link 1 Text, name: estate_link_1_text, widget: string}
+          - {label: Estate Link 2, name: estate_link_2, widget: string}
+          - {label: Estate Link 2 Text, name: estate_link_2_text, widget: string}
+          - {label: Estate Link 3, name: estate_link_3, widget: string}
+          - {label: Estate Link 3 Text, name: estate_link_3_text, widget: string}
+          - {label: Varietal Link 1, name: varietal_link_1, widget: string}
+          - {label: Varietal Link 1 Text, name: varietal_link_1_text, widget: string}
+          - {label: Varietal Link 2, name: varietal_link_2, widget: string}
+          - {label: Varietal Link 2 Text, name: varietal_link_2_text, widget: string}
+          - {label: Varietal Link 3, name: varietal_link_3, widget: string}
+          - {label: Varietal Link 3 Text, name: varietal_link_3_text, widget: string}   
+          - {label: Library Link 1, name: library_link_1, widget: string}
+          - {label: Library Link 1 Text, name: library_link_1_text, widget: string}                
 
 
