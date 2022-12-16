@@ -3039,3 +3039,10 @@ section.c7-checkout__content h1 {
     padding-top: .5rem;
   }
 }
+
+.c7-account-login__options .c7-link,
+.c7-message .c7-link
+ {
+  margin: 1rem 0;
+
+}
