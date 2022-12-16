@@ -20,6 +20,8 @@ export default function Wine({ markdownData }) {
   return (
     <>
       <Meta data={markdownData} />
+      {console.log(markdownData)}
+
       <Layout wine>
         <>
           <h1>Wine</h1>
@@ -42,26 +44,24 @@ export default function Wine({ markdownData }) {
             mobileImage='/images/estate-1-mobile.jpg'
             image1='/images/estate-1.jpg'
             image2='/images/estate-2.jpg'
-            text1="<p>Our Estate Cabernet Sauvignon is our <strong>flagship</strong> wine, which in classic Bordeaux style is Cabernet Sauvignon blended with small quantities of our other varietals.
-          This wine especially reflects our superb terroir that we steward and cultivate.<a href='/collection/cabernet-sauvignon'>Purchase estate</a></p>"
-            text2="<p>Our Reserve Cabernet Sauvignon is extra special, made from the grapes grown in the finest blocks of our vineyard. This beautifully rich full-bodied wine elevates any occasion. <a href='/collection/cabernet-sauvignon'>Purchase Reserve</a></p>
-          <p>As the name suggests, our Right Bank Blend is a homage to the wines of Saint Emilion, a beguiling blend with Cabernet Franc at its heart.<a href='/collection/right-bank-blend'>Purchase Right Bank</a></p>"
+            text1={`<p>Our Estate Cabernet Sauvignon is our <strong>flagship</strong> wine, which in classic Bordeaux style is Cabernet Sauvignon blended with small quantities of our other varietals. This wine especially reflects our superb terroir that we steward and cultivate.<a href='${markdownData.estate_link_1}'>${markdownData.estate_link_1_text}</a></p>`}
+            text2={`<p>Our Reserve Cabernet Sauvignon is extra special, made from the grapes grown in the finest blocks of our vineyard. This beautifully rich full-bodied wine elevates any occasion.<a href='${markdownData.estate_link_2}'>${markdownData.estate_link_2_text}</a></p>
+            <p>As the name suggests, our Right Bank Blend is a homage to the wines of Saint Emilion, a beguiling blend with Cabernet Franc at its heart.<a href='${markdownData.estate_link_3}'>${markdownData.estate_link_3_text}</a></p>`}
           />
-
           <Section
             title='Playful Varietals'
             slug='varietals'
             style='section-a'
             mobileImage='/images/varietals-1-mobile.jpg'
             image1='/images/varietals-1.jpg'
-            text1="<p>Each varietal we grow has its <strong>own character</strong> and story, too good not to tell.</p>
+            text1={`<p>Each varietal we grow has its <strong>own character</strong> and story, too good not to tell.</p>
           <p>Every vintage we show the lesser known grapes at their best with our varietal red bottlings of Cabernet Franc, Malbec, Merlot and Petit Verdot.
-          <a href='/collection/varietal-reds'>Purchase Varietal Reds</a></p>
+          <a href='${markdownData.varietal_link_1}'>${markdownData.varietal_link_1_text}</a></p>
           <p>Delicately colored, crisp and refreshing, our Vin Clair Rosé shows the lighter side of Malbec and Merlot.
-          <a href='/collection/rose'>Purchase Vin Clair Rosé </a></p>
+          <a href='${markdownData.varietal_link_2}'>${markdownData.varietal_link_2_text}</a></p>
           <p>Our estate Aligoté is a rarity in California and indeed the United States. Don't miss this special white wine. The grapes for our elegant Burgundy style Napa Valley Chardonnay are grown in the Oak Knoll district, world renowned for excellent Chardonnay.
-          <a href='/collection/varietal-whites'>Purchase Varietal Whites </a></p>
-          "
+          <a href='${markdownData.varietal_link_3}'>${markdownData.varietal_link_3_text}</a></p>
+          `}
           />
 
           <Section
@@ -72,7 +72,7 @@ export default function Wine({ markdownData }) {
             image1='/images/library-1.jpg'
             image2='/images/library-2.jpg'
             text1="<p>With every wine we make, graceful <strong>aging</strong> is a primary characteristic.</p>"
-            text2="<p>We pull several cases of each vintage for our wine library and check in on them regularly. At special events we share our favorite vintages. Each year we release some to you.<a href='/collection/library'>Purchase Library Offering</a></p>"
+            text2={`<p>We pull several cases of each vintage for our wine library and check in on them regularly. At special events we share our favorite vintages. Each year we release some to you.<a href='${markdownData.library_link_1}'>${markdownData.lirbary_link_1_text}</a></p>`}
           />
 
           <Section
