@@ -72,7 +72,7 @@ export default function Wine({ markdownData }) {
             image1='/images/library-1.jpg'
             image2='/images/library-2.jpg'
             text1="<p>With every wine we make, graceful <strong>aging</strong> is a primary characteristic.</p>"
-            text2={`<p>We pull several cases of each vintage for our wine library and check in on them regularly. At special events we share our favorite vintages. Each year we release some to you.<a href='${markdownData.library_link_1}'>${markdownData.lirbary_link_1_text}</a></p>`}
+            text2={`<p>We pull several cases of each vintage for our wine library and check in on them regularly. At special events we share our favorite vintages. Each year we release some to you.<a href='${markdownData.library_link_1}'>${markdownData.library_link_1_text}</a></p>`}
           />
 
           <Section
