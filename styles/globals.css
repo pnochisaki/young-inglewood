@@ -2612,8 +2612,8 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     padding: 0;
   }
 
-  .c7-account-details__delete-account .c7-btn {
-    padding-left: 0;
+  .c7-account-details__delete-account {
+    display: none;
   }
 
 
@@ -2635,10 +2635,6 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   }
 }
 
-.c7-account-details__delete-account {
-  margin-top: 0;
-  padding-top: 0;
-}
 
 .c7-product__login-message .c7-btn {
   padding: 0;
