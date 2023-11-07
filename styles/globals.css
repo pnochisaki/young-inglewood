@@ -2605,15 +2605,15 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   grid-template-columns: 1fr;
 }
 
+.c7-account-details__delete-account {
+  display: none;
+}
+
 @media (min-width: 769px) {
 
   section .c7-account-details__addresses .c7-account-details__header,
   section .c7-account-details__payment .c7-account-details__header {
     padding: 0;
-  }
-
-  .c7-account-details__delete-account {
-    display: none;
   }
 
 
