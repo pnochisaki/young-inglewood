@@ -8,7 +8,7 @@ og_image: /uploads/148-274a1271.jpg
 email2: mark@younginglewood.com
 hours_line_1: Sunday - Saturday
 hours_line_2: 10:00AM – 3:00PM
-title: Contact
+title: "Contact "
 email: hosp@younginglewood.com
 description: We'd be delighted for you to be in touch with us and come visit us.
   Please use the directions on this page to help you arrive comfortably.
