@@ -179,6 +179,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                 <div className="collections-nav desktop-only">
                   {collections && 
                   collections
+                    .sort((a, b) => a.metaData['position'] - b.metaData['position'])
                     .filter(collection => collection.metaData['store-menu'])
                     .map((collection, index) => {
                       return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
