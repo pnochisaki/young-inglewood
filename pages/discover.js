@@ -61,7 +61,7 @@ export default function Discover({ markdownData }) {
                 <li><img src="/images/team-listing-1.jpg" alt="Team Image" /><div className="team-text">Scott Young and Jacky Young collaborate to produce delicious wines authentic to our estate.</div></li>
                 <li><img src="/images/team-listing-2.jpg" alt="Team Image" /><div className="team-text jim">Jim Young works to ensure a smoothly operating winery.</div></li>
                 <li><img src="/images/team-listing-3.1.jpg" alt="Team Image" /><div className="team-text">Michael Swenton takes meticulous care of our wines from field to bottle.</div></li>
-                <li><img src="/images/team-listing-4.1.jpg" alt="Team Image" /><div className="team-text">Mark Simon takes care of our Friends of Young Inglewood, while Peter Greerty greets and hosts our guests.</div></li>
+                <li><img src="/images/team-listing-4.1.jpg" alt="Team Image" /><div className="team-text">Peter Greerty greets and hosts our guests.</div></li>
               </ul>
             </div>
           </section>
