@@ -44,7 +44,7 @@ export default function Wine({ markdownData }) {
             mobileImage='/images/estate-1-mobile.jpg'
             image1='/images/estate-1.jpg'
             image2='/images/estate-2.jpg'
-            text1={`<p>Our Estate Cabernet Sauvignon is our <strong>flagship</strong> wine, which in classic Bordeaux style is Cabernet Sauvignon blended with small quantities of our other varietals. This wine especially reflects our superb terroir that we steward and cultivate.<a href='${markdownData.estate_link_1}'>${markdownData.estate_link_1_text}</a></p>`}
+            text1={`<p>Our Estate Cabernet Sauvignon is our <strong>flagship</strong> wine, which in classic Bordeaux style we accent it with small quantities of our other varieties This wine especially reflects our superb terroir that we steward and cultivate.<a href='${markdownData.estate_link_1}'>${markdownData.estate_link_1_text}</a></p>`}
             text2={`<p>Our Reserve Cabernet Sauvignon is extra special, made from the grapes grown in the finest blocks of our vineyard. This beautifully rich full-bodied wine elevates any occasion.<a href='${markdownData.estate_link_2}'>${markdownData.estate_link_2_text}</a></p>
             <p>As the name suggests, our Right Bank Blend is a homage to the wines of Saint Emilion, a beguiling blend with Cabernet Franc at its heart.<a href='${markdownData.estate_link_3}'>${markdownData.estate_link_3_text}</a></p>`}
           />
@@ -81,7 +81,7 @@ export default function Wine({ markdownData }) {
             style='section-a'
             mobileImage='/images/venn-1-mobile.jpg'
             image1='/images/venn-1.jpg'
-            image2='/images/venn-2.jpg'
+            image2='/images/venn-2.1.jpg'
             text1="<p>We’re very excited about our <strong>sister label</strong> VENN.</p>"
             text2="<p>The idea came out of a simple question: how does the philosophy of old school Napa Cabernet intersect our modern approachable wine making culture? This label is filled with interesting whites and reds. Check it out:<a href='https://venn.wine' target='_blank'>Venn.wine</a></p>"
           />

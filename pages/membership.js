@@ -64,9 +64,9 @@ export default function Membership( {markdown, memberships} ) {
             mobileImage='/images/membership-1-mobile.jpg'
             image1='/images/membership-1.jpg'
             image2='/images/membership-2.jpg'
-            text1="<p>You are going to love being an FYI (Friends of Young Inglewood) member. Our FYI members are the first to hear about new wine releases and the first to get allocations so you’ll never miss another Young Inglewood release.</p>"
-            text2="<p>Our team will be delighted to help you customize your FYI membership to suit your taste, so you’ll always get just what you want.</p>
-          <p>Relax and enjoy our beautiful surroundings at a complimentary visit and estate tasting for you and up to three of your friends. Members only events are also open to you.</p>"
+            text1="<p>You are going to love being a Friends of Young Inglewood member. Our FYI members are the first to hear about new wine releases and the first to get allocations so you’ll never miss another Young Inglewood release.</p>"
+            text2="<p>Choose from a rage of seven different memberships.  Our team will be delighted to help you customize your FYI membership to suit your taste, so you’ll always get just what you want.</p>
+          <p>Relax and enjoy our beautiful surroundings at a complimentary visit and estate tasting, and am members only events.</p>"
           />
 
           <div className="membership-details">

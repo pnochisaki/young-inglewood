@@ -48,7 +48,7 @@ export default function Taste({markdownData}) {
             image1='/images/celebrating-1.jpg'
             image2='/images/celebrating-2.jpg'
             text1="<p>The next time you want to <strong>celebrate</strong> with your friends consider a wine focused occasion with Young Inglewood as your host.</p>"
-            text2="<p>We have the best wines in the Napa Valley. Why not pair them with dishes prepared by the best chefs here? Create memories that will last a lifetime.<p>
+            text2="<p>We are making truly special wines in our beautiful corner of the Napa Valley. Why not pair them with dishes prepared by the best local chefs here? Create memories that will last a lifetime.<p>
           <p>Choose from a variety of settings inside the winery or outside in our tranquil gardens. Enjoy delicious food, our sumptuous wine and witty repartee.<a href='https://forms.gle/bW3GbXAbYyiGVtaP7' target='_blank'>Reserve Now</a></p>"
           />
 
