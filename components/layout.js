@@ -187,8 +187,6 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                     )}
                 </div>
 
-<>{collections && console.log("collections", collections)}</>
-
                 <>
                   {account &&
                     <>
