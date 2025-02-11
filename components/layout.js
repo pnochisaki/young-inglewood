@@ -177,13 +177,16 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
-                  {collections && collections
+                  {collections && 
+                  collections
                     .filter(collection => collection.metaData['store-menu'])
                     .map((collection, index) => {
                       return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
                     }
                     )}
                 </div>
+
+<>{collections && console.log("collections", collections)}</>
 
                 <>
                   {account &&
@@ -288,7 +291,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
           <div className="social-links desktop-only">
             <Link href="https://www.facebook.com/younginglewood"><a title="Facebook"><Facebook /><span>Facebook</span></a></Link>
-            <Link href="https://www.instagram.com/younginglewood"><a  title="Instagram"><Instagram /><span>Instagram</span></a></Link>
+            <Link href="https://www.instagram.com/younginglewood"><a title="Instagram"><Instagram /><span>Instagram</span></a></Link>
             <Link href="https://twitter.com/YIVWine"><a title="Twitter"><Twitter /><span>Twitter</span></a></Link>
           </div>
 
