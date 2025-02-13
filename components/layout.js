@@ -33,7 +33,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
     fetch('/api/collections')
       .then(response => response.json())
       .then(data => {
-        setCollections(data.collections.sort((a, b) => a.metaData[Math.number(position)] - b.metaData[Math.number(position)]))
+        setCollections(data.collections.sort((a, b) => a.metaData.Math.number['position'] - b.metaData.Math.number['position']))
       })
       .catch((error) => {
         console.error('Error:', error);
