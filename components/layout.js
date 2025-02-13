@@ -224,7 +224,6 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
             <div className="social-links mobile-only">
               <Link href="https://www.facebook.com/younginglewood"><a ><Facebook /><span>Facebook</span></a></Link>
               <Link href="https://www.instagram.com/younginglewood"><a ><Instagram /><span>Instagram</span></a></Link>
-              <Link href="https://twitter.com/YIVWine"><a ><Twitter /><span>Twitter</span></a></Link>
             </div>
           </div>
           <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
@@ -259,13 +258,13 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       <div className="collections-nav mobile-only">
         <div className="blocker"></div>
         {collections && collections
+          .sort((a, b) => a.metaData['position'] - b.metaData['position'])
           .filter(collection => collection.metaData['store-menu'])
           .map((collection, index) => {
             return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
           }
           )}
       </div>
-
 {console.log("collections after sort", collections)}
       <main>
         {children}
