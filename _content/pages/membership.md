@@ -1,8 +1,8 @@
 ---
 title: Membership
-description: We'd love you to join our Friends of Young Inglewood membership.
+description: "We'd love you to join our Friends of Young Inglewood membership.
   You'll be the first to receive and hear about new wine releases and
-  allocations, so you'll never miss another Young Inglewood release.
+  allocations, so you'll never miss another Young Inglewood release. "
 og_image: /uploads/148-274a1271.jpg
 ---
 ### IN ADDITION YOU’LL RECEIVE
