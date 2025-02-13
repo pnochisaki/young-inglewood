@@ -255,7 +255,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
       }
 
-
+{console.log("collections before sort", collections)}
       <div className="collections-nav mobile-only">
         <div className="blocker"></div>
         {collections && collections
@@ -266,6 +266,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
           )}
       </div>
 
+{console.log("collections after sort", collections)}
       <main>
         {children}
       </main>
