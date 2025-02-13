@@ -33,7 +33,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
     fetch('/api/collections')
       .then(response => response.json())
       .then(data => {
-        setCollections(data.collections)
+        setCollections(data.collections.sort((a, b) => a.metaData?['position'] - b.metaData?['position']))
       })
       .catch((error) => {
         console.error('Error:', error);
@@ -179,7 +179,6 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                 <div className="collections-nav desktop-only">
                   {collections && 
                   collections
-                    .sort((a, b) => a.metaData['position'] - b.metaData['position'])
                     .filter(collection => collection.metaData['store-menu'])
                     .map((collection, index) => {
                       return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
@@ -254,18 +253,15 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
       }
 
-{console.log("collections before sort", collections)}
       <div className="collections-nav mobile-only">
         <div className="blocker"></div>
         {collections && collections
-          .sort((a, b) => a.metaData['position'] - b.metaData['position'])
           .filter(collection => collection.metaData['store-menu'])
           .map((collection, index) => {
             return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
           }
           )}
       </div>
-{console.log("collections after sort", collections)}
       <main>
         {children}
       </main>
