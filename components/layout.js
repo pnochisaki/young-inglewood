@@ -254,18 +254,19 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
       }
 
-{console.log("collections before sort", collections)}
       <div className="collections-nav mobile-only">
         <div className="blocker"></div>
         {collections && collections
+          .console.log("collections before sort", collections)
           .sort((a, b) => a.metaData['position'] - b.metaData['position'])
+          .console.log("collections after sort", collections)
           .filter(collection => collection.metaData['store-menu'])
           .map((collection, index) => {
             return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
           }
           )}
       </div>
-{console.log("collections after sort", collections)}
+
       <main>
         {children}
       </main>
