@@ -19,6 +19,9 @@ export default function Home({markdownData}) {
   return (
     <>
     <Meta data={markdownData} />
+      <Head>
+        <meta name="google-site-verification" content="gpSzpMZJC5S8co7a1vpuXsvKDpQZDVHAzxAIbuNttTA" />
+      </Head>
     <Layout home />
     </>    
   )
