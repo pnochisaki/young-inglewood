@@ -3046,6 +3046,7 @@ section.c7-checkout__content h1 {
 
 .c7-product-collection__content {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .c7-product-collection__content h2 {
@@ -3054,5 +3055,4 @@ section.c7-checkout__content h1 {
   font-family: sofia-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
-  margin-bottom: 20px;
 }
