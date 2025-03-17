@@ -181,7 +181,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                   collections.sort((a, b) => Number(a.metaData['position']) - Number(b.metaData['position']))
                     .filter(collection => collection.metaData['store-menu'])
                     .map((collection, index) => {
-                      // console.log("collection.meta.position (reordered)", collection.title, collection.meta.position)
+                      console.log("collection.metaData.position (reordered)", collection.title, collection.metaData.position)
                       return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
                     }
                     )}
