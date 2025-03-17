@@ -178,8 +178,9 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
                   {collections && 
-                  collections.sort((a, b) => Number(a.metaData['position']) - Number(b.metaData['position']))
+                  collections
                     .filter(collection => collection.metaData['store-menu'])
+                    .sort((a, b) => Number(a.metaData['position']) - Number(b.metaData['position']))
                     .map((collection, index) => {
                       console.log("collection.metaData.position (reordered)", collection.title, collection.metaData.position)
                       return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
