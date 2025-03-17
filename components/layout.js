@@ -184,6 +184,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
                       return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
                     }
                     )}
+                    {console.log("collections (reordered)", collections)}
                 </div>
 
                 <>
