@@ -8,7 +8,7 @@ og_image: /uploads/148-274a1271.jpg
 email2: mark@younginglewood.com
 hours_line_1: Sunday - Saturday
 hours_line_2: 10:00AM – 3:00PM
-title: Contact Young Inglewood Vineyards | Get in Touch Today
+title: How to Reach Us
 email: hosp@younginglewood.com
 description: Have questions? Contact Young Inglewood Vineyards for more
   information about our handcrafted wines, tastings, and vineyard experiences.
