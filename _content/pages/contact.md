@@ -1,15 +1,15 @@
 ---
-title: How Do I Reach You?
-address_line_1: 1919 Inglewood Ave.
-address_line_2: Saint Helena, CA 94574
 directions_link: https://www.google.com/maps/dir//Young+Inglewood+Vineyards,+1919+Inglewood+Ave,+St+Helena,+CA+94574/@38.4829002,-122.4576348,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80845129d0b14dbd:0xc5e5a83d96dde51d!2m2!1d-122.4554103!2d38.4828658!3e0
 phone: 707-200-4572
-hours_line_2: 10:00AM – 3:00PM
+address_line_1: 1919 Inglewood Ave.
+address_line_2: Saint Helena, CA 94574
 reservations_link: https://www.exploretock.com/younginglewood
 og_image: /uploads/148-274a1271.jpg
-hours_line_1: Sunday - Saturday
-email: hosp@younginglewood.com
 email2: kevin@younginglewood.com
+hours_line_1: Sunday - Saturday
+hours_line_2: 10:00AM – 3:00PM
+title: How Do I Reach You?
+email: hosp@younginglewood.com
 description: Have questions? Contact Young Inglewood Vineyards for more
   information about our handcrafted wines, tastings, and vineyard experiences.
 ---
@@ -23,7 +23,7 @@ Take Highway 29 North to Inglewood Avenue and turn left. (Inglewood Avenue is ab
 
 #### From the North
 
-Take Highway 29 South through Saint Helena to Inglewood Avenue. (First street on the right after passing Press Restaurant & Gary’s Marketplace). Continue on Inglewood Ave for a half mile. We are on the left at 1919 Inglewood.
+Take Highway 29 South through Saint Helena to Inglewood Avenue. (First street on the right after passing Press Restaurant & Napa Valley Museum of Arts and Culture (The MAC)). Continue on Inglewood Ave for a half mile. We are on the left at 1919 Inglewood.
 
 ### THE CALL BOX
 
