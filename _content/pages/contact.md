@@ -1,15 +1,15 @@
 ---
-directions_link: https://www.google.com/maps/dir//Young+Inglewood+Vineyards,+1919+Inglewood+Ave,+St+Helena,+CA+94574/@38.4829002,-122.4576348,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80845129d0b14dbd:0xc5e5a83d96dde51d!2m2!1d-122.4554103!2d38.4828658!3e0
-phone: 707-200-4572
+title: How Do I Reach You?
 address_line_1: 1919 Inglewood Ave.
 address_line_2: Saint Helena, CA 94574
+directions_link: https://www.google.com/maps/dir//Young+Inglewood+Vineyards,+1919+Inglewood+Ave,+St+Helena,+CA+94574/@38.4829002,-122.4576348,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80845129d0b14dbd:0xc5e5a83d96dde51d!2m2!1d-122.4554103!2d38.4828658!3e0
+phone: 707-200-4572
+hours_line_2: 10:00AM – 3:00PM
 reservations_link: https://www.exploretock.com/younginglewood
 og_image: /uploads/148-274a1271.jpg
-email2: mark@younginglewood.com
 hours_line_1: Sunday - Saturday
-hours_line_2: 10:00AM – 3:00PM
-title: How Do I Reach You?
 email: hosp@younginglewood.com
+email2: kevin@younginglewood.com
 description: Have questions? Contact Young Inglewood Vineyards for more
   information about our handcrafted wines, tastings, and vineyard experiences.
 ---
