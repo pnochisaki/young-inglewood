@@ -19,7 +19,7 @@ Young Inglewood Vineyards is on the south side of the Saint Helena AVA in Napa V
 
 #### From the South
 
-Take Highway 29 North to Inglewood Avenue and turn left. (Inglewood Avenue is about 1 mile past the railroad crossing on the western side. There is a gas station at the corner.) Continue on Inglewood Ave for a half mile. We are on the left at 1919 Inglewood.
+Take Highway 29 North to Inglewood Avenue and turn left. (Inglewood Avenue is about 1 mile past the railroad crossing on the western side. There is a filling station at the corner.) Continue on Inglewood Ave for a half mile. We are on the left at 1919 Inglewood.
 
 #### From the North
 
