@@ -165,7 +165,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
               <a href="/wine" className={wine && 'active'}><span>Wine</span></a>
 
-              <a href="/collection/all/" className={purchase && 'active'} ><span>Purchase</span></a>
+              <a href="/collection/all" className={purchase && 'active'} ><span>Purchase</span></a>
 
               <a href="/membership" className={membership && 'active'}><span>Membership</span></a>
 
