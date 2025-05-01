@@ -223,8 +223,8 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
               <a href="/credits"><span>Credits</span></a>
             </nav>
             <div className="social-links mobile-only">
-              <Link href="https://www.facebook.com/younginglewood"><a ><Facebook /><span>Facebook</span></a></Link>
-              <Link href="https://www.instagram.com/younginglewood"><a ><Instagram /><span>Instagram</span></a></Link>
+              <Link href="https://www.facebook.com/younginglewood"><Facebook /><span>Facebook</span></Link>
+              <Link href="https://www.instagram.com/younginglewood"><Instagram /><span>Instagram</span></Link>
             </div>
           </div>
           <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
@@ -287,8 +287,8 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
           </div>
 
           <div className="social-links desktop-only">
-            <Link href="https://www.facebook.com/younginglewood"><a title="Facebook"><Facebook /><span>Facebook</span></a></Link>
-            <Link href="https://www.instagram.com/younginglewood"><a title="Instagram"><Instagram /><span>Instagram</span></a></Link>
+            <Link href="https://www.facebook.com/younginglewood"><Facebook /><span>Facebook</span></Link>
+            <Link href="https://www.instagram.com/younginglewood"><Instagram /><span>Instagram</span></Link>
           </div>
 
           <p>
