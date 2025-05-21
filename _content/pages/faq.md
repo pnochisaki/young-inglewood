@@ -44,6 +44,11 @@ It's very easy - just follow these simple steps:
 
 Here's a quick [video](https://youtu.be/Wro6zD4DOKM).
 
+### UNDER WHAT CIRCUMSTANCES CAN I GET A REFUND OR REPLACEMENT?
+By law, we cannot accept returns of alcoholic beverages unless the product is corked or flawed. If you believe that you are in receipt of a corked or flawed bottle and would like to exchange it, please send an email to orders@younginglewood.com within two days of opening the bottle. We ask that you return the unfinished portion of the original bottle for testing and replacement or refund. 
+Upon receipt and inspection of your returned shipment, we will send you an email to let you know the status of your return. Replacement bottles of the exact vintage and format are subject to availability and may not be possible. Refunds will be applied to the credit card or other original method of payment within one month.
+
+
 ### CAN I CANCEL AN ORDER?
 You can cancel an order if it has not shipped yet by emailing us at orders@younginglewood.com
 
