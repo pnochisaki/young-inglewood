@@ -44,6 +44,6 @@ It's very easy - just follow these simple steps:
 
 Here's a quick [video](https://youtu.be/Wro6zD4DOKM).
 
-**If I still have questions or need special assistance, how do I get in touch?**
+**IF I STILL HAVE QUESTIONS OR NEED SPECIAL ASSISTANCE, HOW DO I GET IN TOUCH?**
 
 Please email orders@younginglewood.com with any questions or concerns you may have regarding our shipping and return policies.
