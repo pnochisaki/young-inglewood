@@ -44,6 +44,10 @@ It's very easy - just follow these simple steps:
 
 Here's a quick [video](https://youtu.be/Wro6zD4DOKM).
 
-**IF I STILL HAVE QUESTIONS OR NEED SPECIAL ASSISTANCE, HOW DO I GET IN TOUCH?**
+### CAN I CANCEL AN ORDER?
+You can cancel an order if it has not shipped yet by emailing us at orders@younginglewood.com
+
+
+### IF I STILL HAVE QUESTIONS OR NEED SPECIAL ASSISTANCE, HOW DO I GET IN TOUCH?
 
 Please email orders@younginglewood.com with any questions or concerns you may have regarding our shipping and return policies.
