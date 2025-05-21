@@ -61,7 +61,8 @@ We will notify you by email when your wines have been shipped. As noted above, y
 
 
 ### WHAT IF MY WINE HAS BEEN DAMAGED IN SHIPMENT?
-If you receive your wine and it has been damaged during shipping, please email us at orders@younginglewood.com within three days of receiving the shipment. Please include a description of the damages and photos, if possible. 
+If you receive your wine and it has been damaged during shipping, please email us at [orders@younginglewood.com](mailto:orders@younginglewood.com)
+ within three days of receiving the shipment. Please include a description of the damages and photos, if possible. 
 
 ### UNDER WHAT CIRCUMSTANCES CAN I GET A REFUND OR REPLACEMENT?
 By law, we cannot accept returns of alcoholic beverages unless the product is corked or flawed. If you believe that you are in receipt of a corked or flawed bottle and would like to exchange it, please send an email to orders@younginglewood.com within two days of opening the bottle. We ask that you return the unfinished portion of the original bottle for testing and replacement or refund. 
