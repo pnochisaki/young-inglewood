@@ -26,7 +26,7 @@ Yes, we can! Our shipping partner takes 2-3 business days to process an order af
 
 Our biggest concern is to deliver you your wine in the same condition as when it left our winery. That means sometimes we delay shipping until weather conditions become favorable.
 
-If you would like special arrangements for your shipment contact [kevin@younginglewood.com](mailto:kevin@younginglewood.com)
+If you would like special arrangements for your shipment contact [kevin@younginglewood.com](mailto:kevin@younginglewood.com) Please see below for more details about our shipping policies.
 
 ### YOUR WINERY LOOKS BEAUTIFUL, CAN I VISIT?
 
@@ -65,13 +65,13 @@ If you receive your wine and it has been damaged during shipping, please email u
  within three days of receiving the shipment. Please include a description of the damages and photos, if possible. 
 
 ### UNDER WHAT CIRCUMSTANCES CAN I GET A REFUND OR REPLACEMENT?
-By law, we cannot accept returns of alcoholic beverages unless the product is corked or flawed. If you believe that you are in receipt of a corked or flawed bottle and would like to exchange it, please send an email to orders@younginglewood.com within two days of opening the bottle. We ask that you return the unfinished portion of the original bottle for testing and replacement or refund. 
+By law, we cannot accept returns of alcoholic beverages unless the product is corked or flawed. If you believe that you are in receipt of a corked or flawed bottle and would like to exchange it, please send an email to [orders@younginglewood.com](mailto:orders@younginglewood.com) within two days of opening the bottle. We ask that you return the unfinished portion of the original bottle for testing and replacement or refund. 
 Upon receipt and inspection of your returned shipment, we will send you an email to let you know the status of your return. Replacement bottles of the exact vintage and format are subject to availability and may not be possible. Refunds will be applied to the credit card or other original method of payment within one month.
 
 ### CAN I CANCEL AN ORDER?
-You can cancel an order if it has not shipped yet by emailing us at orders@younginglewood.com
+You can cancel an order if it has not shipped yet by emailing us at [orders@younginglewood.com](mailto:orders@younginglewood.com)
 
 
 ### IF I STILL HAVE QUESTIONS OR NEED SPECIAL ASSISTANCE, HOW DO I GET IN TOUCH?
 
-Please email orders@younginglewood.com with any questions or concerns you may have regarding our shipping and return policies.
+Please email [orders@younginglewood.com](mailto:orders@younginglewood.com) with any questions or concerns you may have regarding our shipping and return policies.
