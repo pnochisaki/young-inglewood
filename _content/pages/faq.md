@@ -26,7 +26,7 @@ Yes, we can! Our shipping partner takes 2-3 business days to process an order af
 
 Our biggest concern is to deliver you your wine in the same condition as when it left our winery. That means sometimes we delay shipping until weather conditions become favorable.
 
-If you would like special arrangements for your shipment contact kevin[@younginglewood.com](mailto:mark@younginglewood.com).
+If you would like special arrangements for your shipment contact [kevin@younginglewood.com](mailto:kevin@younginglewood.com)
 
 ### YOUR WINERY LOOKS BEAUTIFUL, CAN I VISIT?
 
