@@ -26,7 +26,7 @@ Yes, we can! Our shipping partner takes 2-3 business days to process an order af
 
 Our biggest concern is to deliver you your wine in the same condition as when it left our winery. That means sometimes we delay shipping until weather conditions become favorable.
 
-If you would like special arrangements for your shipment contact [kevin@younginglewood.com](mailto:kevin@younginglewood.com)
+If you would like special arrangements for your shipment contact [orders@younginglewood.com](mailto:orders@younginglewood.com)
 
 Please see below for more details about our shipping policies.
 
@@ -52,7 +52,7 @@ Here's a quick [video](https://youtu.be/Wro6zD4DOKM).
 Young Inglewood Vineyards takes protection of your wine seriously. With an uncompromising focus on quality and excellence, we will take care of your wine to the best of our ability while it is in our possession. Our goal is to ensure that your shipment reaches you in the same condition as when it leaves the winery. During the winter and summer months, weather conditions can result in the spoilage of your order. In case of extreme heat or cold on your shipping route, we reserve the right to hold shipments until better weather conditions prevail. Young Inglewood Vineyards is not responsible for, and will not replace wine that is damaged by, extreme weather conditions during shipment.
 
 
-Our shippers cannot deliver to a P.O. box. If possible, we recommend you ship to a business, rather than a home address, as there is usually someone there to take delivery of the package during business hours.
+Our shippers cannot deliver to a P.O. box. If possible, we recommend you ship to a business, rather than a home address, as there is usually an adult over 21 there to take delivery of the package during business hours.
 
 
 Young Inglewood may not be able to ship wine to certain states. Due to constantly changing direct shipping laws and regulations, the list of states that we ship to may change at any time. Our website will not allow you to place an order if we cannot legally ship to you. If you live in a state where the direct shipment of wine to you by us may violate the law, we will contact you to discuss options, such as shipping to an alternative address in a state where the direct shipment of wines to consumers is permitted, or storage of the wines at an acceptable third-party storage facility.
