@@ -6,7 +6,9 @@ export default function Checkout() {
   return (
     <Layout>
       <div className="page-margins">
-      <div id="c7-content"></div>
+        <div id="c7-content"></div>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFFRHCGB"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </Layout>
   )
