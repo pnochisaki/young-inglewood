@@ -1,4 +1,5 @@
 import Layout from '../../components/layout';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 
 export default function Product() {
@@ -7,9 +8,7 @@ export default function Product() {
     <Layout>
       <div className="page-margins">
       <div id="c7-content"></div>
-              <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFFRHCGB"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
+      <GoogleTagManager gtmId="GTM-TFFRHCGB" />
       </div>
     </Layout>
   )
