@@ -20,7 +20,6 @@ export default function Wine({ markdownData }) {
   return (
     <>
       <Meta data={markdownData} />
-      {console.log(markdownData)}
 
       <Layout wine>
         <>
