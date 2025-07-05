@@ -1550,6 +1550,19 @@ section.wine h2 {
     transform: translateY(-1.5rem)
   }
 
+  html section .team-listing .team-text a {
+    font-family: inherit;
+    font-size: 1rem !important;
+    text-transform: none;
+    letter-spacing: normal;
+    color: inherit;
+    display: inline;
+    padding: 0;
+    vertical-align: baseline;
+    text-decoration: underline;
+    color:#d78628;
+  }
+
   .team-listing li:first-child {
     max-width: 100%;
     margin-top: 0 !important;
