@@ -128,6 +128,9 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
           <div className="desktop-only">
             <div className="home-bg"></div>
+            <div className="home-headline">
+              <h2><span>Signature wines of</span> balance & grace</h2>
+            </div>
             <div className="home-1">
               {/* silence */}
             </div>
