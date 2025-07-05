@@ -168,22 +168,6 @@ img {
     display: block;
   }
 
-  .home-headline {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-65%, -260%);
-    z-index: 4;
-    text-align: right;
-    width: 100%;
-  }
-  .home-headline h2 {
-    letter-spacing: 0;
-  }
-  .home-headline h2 span {
-    font-size: 1.5rem;
-  }
-
   .home-1 {
     background-image: url(/images/home-1.jpg);
     z-index: 1;
@@ -865,15 +849,12 @@ h2 {
   #c7-content section:nth-child(odd) h2 {
     text-align: left;
   }
-
   .c7-table__number .c7-link {
     font-size: .85rem !important;
   }
-
   .c7-account-dashboard__left-column .c7-account-dashboard__block:nth-child(2) .c7-h2 {
     margin-left: 1rem;
   }
-
   section p strong {
     line-height: 1;
   }
@@ -1567,19 +1548,6 @@ section.wine h2 {
 
   .team-listing li:last-child .team-text {
     transform: translateY(-1.5rem)
-  }
-
-  html section .team-listing .team-text a {
-    font-family: inherit;
-    font-size: 1rem !important;
-    text-transform: none;
-    letter-spacing: normal;
-    color: inherit;
-    display: inline;
-    padding: 0;
-    vertical-align: baseline;
-    text-decoration: underline;
-    color:#d78628;
   }
 
   .team-listing li:first-child {
@@ -2520,7 +2488,7 @@ select+.c7-form__error {
   }
 
   .c7-account-dashboard__block .c7-order-item .c7-order-item__image img,
-  .c7-account-order-detail__content .c7-order-item .c7-order-item__image img,
+  .c7-account-order-detail__content .c7-order-item .c7-order-item__image img, 
   .c7-account-order-detail__left-column .c7-order-item .c7-order-item__image img {
     max-width: 74%;
   }
@@ -2603,7 +2571,7 @@ select+.c7-form__error {
   .c7-table tr {
     border-bottom: 1px solid #000;
   }
-
+  
 }
 
 /* account details */
@@ -2821,7 +2789,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     margin-bottom: 1rem;
   }
 
-  .c7-account-block__header .c7-link {
+  .c7-account-block__header  .c7-link {
     padding: 0;
   }
 
@@ -3069,7 +3037,8 @@ section.c7-checkout__content h1 {
 }
 
 .c7-account-login__options .c7-link,
-.c7-message .c7-link {
+.c7-message .c7-link
+ {
   margin: 1rem 0;
 
 }
