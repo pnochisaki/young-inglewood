@@ -1547,7 +1547,7 @@ section.wine h2 {
   }
 
   .team-listing li:last-child .team-text {
-    transform: translateY(0);
+    transform: translateY(-1.5rem)
   }
 
   .team-listing li:first-child {
