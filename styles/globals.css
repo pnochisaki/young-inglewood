@@ -168,6 +168,26 @@ img {
     display: block;
   }
 
+  .home-headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -300%);
+    z-index: 4;
+    text-align: right;
+    width: 100%;
+  }
+
+  .home-headline h1 {
+    font-size: 1.25rem;
+    display: block;
+  }
+
+  .home-headline h1 em {
+    font-size: 3rem;
+    font-style: normal;
+  }
+
   .home-1 {
     background-image: url(/images/home-1.jpg);
     z-index: 1;
@@ -760,7 +780,7 @@ section {
   text-align: left;
 }
 
-h2 {
+h1, h2 {
   color: #d78628;
   font-size: 3.75rem;
   font-family: SofiaProUltraLight, sans-serif;
