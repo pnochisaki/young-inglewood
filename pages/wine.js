@@ -23,7 +23,7 @@ export default function Wine({ markdownData }) {
 
       <Layout wine>
         <>
-          <h1>There's something about <em>Young Inglewood</em></h1>
+          <h1>Young Inglewood makes <em>wines of place</em></h1>
 
 
           <Section

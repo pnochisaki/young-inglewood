@@ -90,10 +90,16 @@ img {
 }
 
 .greybox {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1260px;
+  z-index: 1;
   background: #999;
   padding: 2rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 5rem;
 }
 
@@ -251,7 +257,7 @@ img {
   }
 
   .layout>main {
-    padding-top: 7.5rem;
+    padding-top: 14rem;
   }
 }
 
