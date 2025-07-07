@@ -55,11 +55,6 @@ body {
 }
 
 
-
-
-
-
-
 a {
   color: inherit;
   text-decoration: none;
@@ -86,6 +81,20 @@ img {
   max-width: 1260px;
   z-index: 1;
   background: rgba(255, 255, 255, 0.95);
+}
+
+@media (min-width:768px) {
+  .layout>header {
+    margin-top: 5rem;
+  }
+}
+
+.greybox {
+  background: #999;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  height: 5rem;
 }
 
 @media (min-width: 769px) {
@@ -178,16 +187,6 @@ img {
     width: 100%;
   }
 
-  .home-headline h1 {
-    font-size: 1.25rem;
-    display: block;
-  }
-
-  .home-headline h1 em {
-    font-size: 3rem;
-    font-style: normal;
-  }
-
   .home-1 {
     background-image: url(/images/home-1.jpg);
     z-index: 1;
@@ -246,7 +245,7 @@ img {
   .layout>header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 2.25rem 2rem;
 
   }
@@ -480,6 +479,10 @@ button.c7-link {
     padding: 0 1rem;
     color: #666;
     font-size: .65rem;
+  }
+
+  .navigation nav a:last-of-type::after {
+    display: none;
   }
 
   .c7-account__menu li:last-of-type a:after,
@@ -780,7 +783,9 @@ section {
   text-align: left;
 }
 
-h1, h2 {
+
+h1,
+h2 {
   color: #d78628;
   font-size: 3.75rem;
   font-family: SofiaProUltraLight, sans-serif;
@@ -792,6 +797,20 @@ h1, h2 {
   letter-spacing: .1rem;
 }
 
+h1 {
+  font-size: 1.25rem;
+  display: block;
+}
+
+h1 em {
+  font-size: 3.75rem;
+  font-style: normal;
+}
+
+main>h1 {
+  padding: 0 0 5rem 3rem;
+  text-align: left;
+}
 
 .navigation nav ac7-product__title a:hover {
   text-decoration: none;
@@ -869,12 +888,15 @@ h1, h2 {
   #c7-content section:nth-child(odd) h2 {
     text-align: left;
   }
+
   .c7-table__number .c7-link {
     font-size: .85rem !important;
   }
+
   .c7-account-dashboard__left-column .c7-account-dashboard__block:nth-child(2) .c7-h2 {
     margin-left: 1rem;
   }
+
   section p strong {
     line-height: 1;
   }
@@ -2521,7 +2543,7 @@ select+.c7-form__error {
   }
 
   .c7-account-dashboard__block .c7-order-item .c7-order-item__image img,
-  .c7-account-order-detail__content .c7-order-item .c7-order-item__image img, 
+  .c7-account-order-detail__content .c7-order-item .c7-order-item__image img,
   .c7-account-order-detail__left-column .c7-order-item .c7-order-item__image img {
     max-width: 74%;
   }
@@ -2604,7 +2626,7 @@ select+.c7-form__error {
   .c7-table tr {
     border-bottom: 1px solid #000;
   }
-  
+
 }
 
 /* account details */
@@ -2822,7 +2844,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     margin-bottom: 1rem;
   }
 
-  .c7-account-block__header  .c7-link {
+  .c7-account-block__header .c7-link {
     padding: 0;
   }
 
@@ -3070,8 +3092,7 @@ section.c7-checkout__content h1 {
 }
 
 .c7-account-login__options .c7-link,
-.c7-message .c7-link
- {
+.c7-message .c7-link {
   margin: 1rem 0;
 
 }

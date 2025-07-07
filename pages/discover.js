@@ -23,7 +23,7 @@ export default function Discover({ markdownData }) {
       <Meta data={markdownData} />
       <Layout discover>
         <>
-          <h1>Wine</h1>
+          <h1>There's something about <em>Young Inglewood</em></h1>
 
           <Section
             title='Farm'

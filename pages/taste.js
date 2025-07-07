@@ -15,14 +15,15 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export default function Taste({markdownData}) {
+export default function Taste({ markdownData }) {
 
   return (
     <>
       <Meta data={markdownData} />
       <Layout taste>
         <>
-          <h1>Taste</h1>
+          <h1>There's something about <em>Young Inglewood</em></h1>
+
           <Section
             title='Winery Tasting'
             slug='tasting'

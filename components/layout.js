@@ -152,15 +152,25 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
         <></>
       }
 
+      <div className="greybox desktop-only">
+        <a className='branding' href="/">
+          <Image alt='logo' src='/images/logo.svg' layout='fill' />
+        </a>
 
-
+        <div className="utility-links">
+          <Link href="/profile/create-account" className="c7-btn"><span>Join</span></Link>
+          <Link href="/profile/account" className="c7-btn"><span>Account</span></Link>
+          <div id="c7-account" className={seenAnimation ? "" : "animated"}></div>
+          <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
+        </div>
+      </div>
       <header className={hamburgerOpen ? 'hamburger-open' : ''}>
         <div className="mobile-only hamburger" onClick={hamburgerClick}>
           {hamburgerOpen ? <X /> : <Menu />}
         </div>
-        <a className='branding' href="/">
+        <a className='branding mobile-only' href="/">
           <Image alt='logo' src='/images/logo.svg' layout='fill' />
-        </a>
+        </a> 
         <div className="desktop-navigation">
           <div className={seenAnimation ? "navigation" : "navigation animated"}>
             <nav>
@@ -174,21 +184,19 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
               <a href="/taste" className={taste && 'active'}><span>Taste</span></a>
 
-              <div id="c7-account" className={seenAnimation ? "" : "animated"}></div>
-
 
 
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
-                  {collections && 
-                  collections
-                    .filter(collection => collection.metaData['store-menu'])
-                    .sort((a, b) => Number(a.metaData['position']) - Number(b.metaData['position']))
-                    .map((collection, index) => {
-                      console.log("collection.metaData.position (reordered)", collection.title, collection.metaData.position)
-                      return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
-                    }
-                    )}
+                  {collections &&
+                    collections
+                      .filter(collection => collection.metaData['store-menu'])
+                      .sort((a, b) => Number(a.metaData['position']) - Number(b.metaData['position']))
+                      .map((collection, index) => {
+                        console.log("collection.metaData.position (reordered)", collection.title, collection.metaData.position)
+                        return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
+                      }
+                      )}
                 </div>
 
                 <>
@@ -230,7 +238,6 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
               <Link href="https://www.instagram.com/younginglewood"><Instagram /><span>Instagram</span></Link>
             </div>
           </div>
-          <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
         </div>
       </header >
 
