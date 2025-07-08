@@ -94,13 +94,19 @@ img {
   top: 0;
   width: 100%;
   max-width: 1260px;
-  z-index: 1;
-  background: #999;
+  z-index: 3;
+  background: #B3B3B3;
   padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 5rem;
+}
+
+.utility-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 @media (min-width: 769px) {
@@ -178,8 +184,7 @@ img {
     left: 0;
     top: 0;
     z-index: 3;
-    /* transform: translateX(-7rem); */
-    transform: translateX(-12rem);
+    transform: translate(-65%, -230%);
     display: block;
   }
 
@@ -187,7 +192,7 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-70%, -300%);
+    transform: translate(-65%, -295%);
     z-index: 4;
     text-align: right;
     width: 100%;

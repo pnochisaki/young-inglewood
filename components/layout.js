@@ -126,7 +126,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
             <p className='text'>{text}</p>
           </div>
 
-          <div className="desktop-only">
+          <div className="desktop-only home-box">
             <div className="home-bg"></div>
             <div className="home-headline">
               <h1>Signature wines of <em>balance & grace</em></h1>
@@ -154,13 +154,13 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
       <div className="greybox desktop-only">
         <a className='branding' href="/">
-          <Image alt='logo' src='/images/logo.svg' layout='fill' />
+          <Image alt='logo' src='/images/logo-alt.svg' layout='fill' />
         </a>
 
         <div className="utility-links">
           <Link href="/profile/create-account" className="c7-btn"><span>Join</span></Link>
           <Link href="/profile/account" className="c7-btn"><span>Account</span></Link>
-          <div id="c7-account" className={seenAnimation ? "" : "animated"}></div>
+          <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
           <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
         </div>
       </div>
@@ -170,7 +170,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
         </div>
         <a className='branding mobile-only' href="/">
           <Image alt='logo' src='/images/logo.svg' layout='fill' />
-        </a> 
+        </a>
         <div className="desktop-navigation">
           <div className={seenAnimation ? "navigation" : "navigation animated"}>
             <nav>
@@ -239,6 +239,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
             </div>
           </div>
         </div>
+        <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
       </header >
 
       {account &&
