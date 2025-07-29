@@ -838,6 +838,14 @@ h1 em {
   font-size: 3.75rem;
   font-style: normal;
 }
+@media (max-width: 768px) {
+  main>h1 {
+    padding-left: 0 !important;
+  }
+  h1 em {
+    line-height: 1;
+  }
+}
 
 main>h1 {
   padding: 0 0 5rem 3rem;
@@ -3106,7 +3114,7 @@ section.c7-checkout__content h1 {
   left: 0;
   width: 100%;
   height: 40rem;
-  z-index: 3;
+  z-index: 2;
 }
 
 .logged-out .logged-in,
