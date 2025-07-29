@@ -153,15 +153,17 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
       }
 
       <div className="greybox desktop-only">
-        <a className='branding' href="/">
-          <Image alt='logo' src='/images/logo-alt.svg' layout='fill' />
-        </a>
+        <div className='greybox-inner'>
+          <a className='branding' href="/">
+            <Image alt='logo' src='/images/logo-alt.svg' layout='fill' />
+          </a>
 
-        <div className="utility-links">
-          <Link href="/profile/create-account" className="c7-btn"><span>Join</span></Link>
-          <Link href="/profile/account" className="c7-btn"><span>Account</span></Link>
-          <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
-          <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
+          <div className="utility-links">
+            <Link href="/profile/create-account" className="c7-btn"><span>Join</span></Link>
+            <Link href="/profile/account" className="c7-btn"><span>Account</span></Link>
+            {/* <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div> */}
+            <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
+          </div>
         </div>
       </div>
       <header className={hamburgerOpen ? 'hamburger-open' : ''}>
