@@ -2146,7 +2146,7 @@ button.c7-link {
   display: block;
 }
 
-.button-shadow, .c7-btn {
+.button-shadow {
   display: inline-block;
   padding: 1rem .75rem;
   background: #fff;
