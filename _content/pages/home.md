@@ -5,11 +5,11 @@ description: Young Inglewood Vineyards is a family-owned estate winery in St.
 og_image: /uploads/148-274a1271.jpg
 faqs:
  - question: What is the best time of year to visit Napa Valley for wine tasting?
-   answer: yyyy
+   answer: Answer goes here. Answer goes here. Answer goes here. Answer goes here. Answer goes here. Answer goes here. 
  - question: Can you visit Napa Valley wineries without a reservation?
-   answer: bbb   
+   answer: Answer goes here. Answer goes here. Answer goes here. Answer goes here. Answer goes here. Answer goes here.   
  - question: Are Napa Valley wine tastings expensive?
-   answer: bbb   
+   answer: Answer goes here. Answer goes here. Answer goes here. Answer goes here. Answer goes here. Answer goes here.   
  - question: Can you bring your dog to a wine tasting in the Napa Valley?
-   answer: bbb   
+   answer: Answer goes here. Answer goes here. Answer goes here. Answer goes here. Answer goes here. Answer goes here.   
 ---
