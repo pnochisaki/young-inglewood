@@ -20,6 +20,13 @@ collections: # our content types, this is just an example!
       - { label: "Meta Description", name: "description", widget: "string" , required: false}
       - { label: "Open Graph Image", name: "og_image", widget: "image",  required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Faqs"
+        name: "faqs"
+        widget: "list"
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }
+
   - name: "additional"
     label: "Additional Fields"
     editor:

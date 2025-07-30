@@ -10,8 +10,9 @@ import Link from 'next/link'
 import { useEffect, useState, useContext } from 'react'
 
 import { useRouter } from 'next/router';
+import Faqs from './faqs'
 
-export default function Layout({ home, discover, wine, purchase, taste, membership, faq, contact, join, account, credits, children, props }) {
+export default function Layout({ home, discover, wine, purchase, taste, membership, faq, contact, join, account, credits, children, props, data }) {
 
   const router = useRouter()
 
@@ -284,6 +285,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
       <footer className={seenAnimation ? "" : "animated"}>
         <>
+          <Faqs data={data} />
           <div className='navigation desktop-only'>
             <nav>
               <a href="/faq" className={faq && 'active'}><span>FAQ</span></a>

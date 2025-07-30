@@ -22,7 +22,7 @@ export default function Home({markdownData}) {
       {/* <Head>
         <meta name="google-site-verification" content="gpSzpMZJC5S8co7a1vpuXsvKDpQZDVHAzxAIbuNttTA" />
       </Head> */}
-    <Layout home />
+    <Layout home data={markdownData} />
     </>    
   )
 }

@@ -10,18 +10,21 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
 
     // external links in new window
-    $("a").each(function () {
-      var href = $(this).attr('href');
-      if (href.substr(0, 1) === '/') {
-        // console.log('internal link', href)
-      } else {
-        // console.log('external link', href);
-        $(this).on('click', function () {
-          window.open(href)
-          return false;
-        })
+    // $("a").each(function () {
+    //   var href = $(this).attr('href');
+    //   if (href.slice(0, 1) === '/') {
+    //     // console.log('internal link', href)
+    //   } else {
+    //     // console.log('external link', href);
+    //     $(this).on('click', function () {
+    //       window.open(href)
+    //       return false;
+    //     })
 
-      }
+    //   }
+    // })
+    $('.faqs ul li .box').on('click', function () {
+      $(this).toggleClass('active');
     })
 
   })

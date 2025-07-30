@@ -197,8 +197,8 @@ img {
 
   .home-headline {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30rem;
+    left: 37rem;
     transform: translate(-65%, -295%);
     z-index: 3;
     text-align: right;
@@ -1964,6 +1964,53 @@ section a,
     margin: 1.5rem;
     padding: .85rem;
   }
+}
+
+.faqs {
+  padding: 2rem 0;
+  max-width: 60rem;
+  margin: auto;
+}
+
+.faqs ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  
+}
+@media (min-width: 769px) {
+  .faqs ul {
+    columns: 2;
+  }
+}
+.faqs ul li .box {
+  text-align: left;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 .5rem 1rem;
+  margin-bottom: 1.5rem;
+  background: #fff;
+}
+.faqs ul li .box:hover {
+  cursor: pointer;
+}
+.faqs .answer {
+  display: none;
+}
+.faqs .box.active .answer {
+  display: block;
+}
+
+.faqs .box a {
+  background-image: url(/images/plus.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: .75rem;
+  padding-right: 1.5rem;
+  display: inline-block;
+  width: 100%;
+}
+.faqs .box.active a {
+  background-image: url(/images/minus.svg);
 }
 
 .c7-order-item .c7-order-item__details .c7-link,
