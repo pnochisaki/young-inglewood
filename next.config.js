@@ -8,6 +8,11 @@ module.exports = {
         "permanent": true
       },
       {
+        "source": "/taste",
+        "destination": "/visit",
+        "permanent": true
+      },
+      {
         "source": "/events.html",
         "destination": "/",
         "permanent": true
