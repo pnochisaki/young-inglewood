@@ -1995,6 +1995,7 @@ section a,
 }
 .faqs .answer {
   display: none;
+  padding-top: 1rem;
 }
 .faqs .box.active .answer {
   display: block;
