@@ -245,7 +245,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
         <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
       </header >
 
-      <a className='visit-us' target="_blank" href="https://exploretock.com/younginglewood">Visit Us</a>
+      <a className='visit-us' target='_blank' href="https://exploretock.com/younginglewood">Visit Us</a>
 
       {account &&
 

@@ -1,7 +1,7 @@
 backend:
   name: github # our repository provider
   repo: pnochisaki/young-inglewood # username/repo
-  branch: main # the main branch of our repo
+  branch: updates # the main branch of our repo
   base_url: "https://www.younginglewood.com/" # our site's base URL 
   auth_endpoint: "api/auth" # used together with base_url for our custom endpoints (more on this later)
 logo_url: "https://www.younginglewood.com/images/logo.svg"
