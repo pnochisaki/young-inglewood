@@ -12,7 +12,7 @@ import { useEffect, useState, useContext } from 'react'
 import { useRouter } from 'next/router';
 import Faqs from './faqs'
 
-export default function Layout({ home, discover, wine, purchase, taste, membership, faq, contact, join, account, credits, children, props, data }) {
+export default function Layout({ home, discover, wine, purchase, visit, membership, faq, contact, join, account, credits, children, props, data }) {
 
   const router = useRouter()
 
@@ -185,7 +185,7 @@ export default function Layout({ home, discover, wine, purchase, taste, membersh
 
               <a href="/membership" className={membership && 'active'}><span>Membership</span></a>
 
-              <a href="/taste" className={taste && 'active'}><span>Taste</span></a>
+              <a href="/visit" className={visit && 'active'}><span>Visit</span></a>
 
 
 

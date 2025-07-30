@@ -6,7 +6,7 @@ import { getMarkdownData } from '../lib/markdown'
 const mdDir = '_content/pages/'
 
 export async function getStaticProps({ params }) {
-  const markdownData = await getMarkdownData('taste', mdDir)
+  const markdownData = await getMarkdownData('visit', mdDir)
   console.log("POST", markdownData);
   return {
     props: {
@@ -15,12 +15,12 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export default function Taste({ markdownData }) {
+export default function Visit({ markdownData }) {
 
   return (
     <>
       <Meta data={markdownData} />
-      <Layout taste>
+      <Layout visit>
         <>
           <h1>There's something about <em>Young Inglewood</em></h1>
 
