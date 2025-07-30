@@ -294,8 +294,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
 
               <a href="/contact" className={contact && 'active'}><span>Contact</span></a>
 
-              <a href="/profile/create-account" className={join && 'active'}><span>Join</span></a>
-
               <a href="/profile/account" className={account && 'active'}><span>Manage your Account</span></a>
 
               <a href="/credits" className={credits && 'active'}><span>Credits</span></a>

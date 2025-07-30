@@ -113,9 +113,11 @@ img {
   align-items: center;
   justify-content: flex-end;
 }
+
 .utility-links a {
   padding: 0;
 }
+
 @media (min-width: 769px) {
 
   .desktop-navigation {
@@ -560,17 +562,18 @@ button.c7-link {
     transform: translateY(2px);
   }
 
-.utility-links a span,
-.utility-links a:after {
-  color: #fff;
-}
-.utility-links a:hover span:after {
-  background-color: #fff;
-}
+  .utility-links a span,
+  .utility-links a:after {
+    color: #fff;
+  }
 
-.utility-links #c7-account {
-  display: none
-}
+  .utility-links a:hover span:after {
+    background-color: #fff;
+  }
+
+  .utility-links #c7-account {
+    display: none
+  }
 
   #c7-account a:after {
     content: '';
@@ -838,10 +841,12 @@ h1 em {
   font-size: 3.75rem;
   font-style: normal;
 }
+
 @media (max-width: 768px) {
   main>h1 {
     padding-left: 0 !important;
   }
+
   h1 em {
     line-height: 1;
   }
@@ -1220,7 +1225,7 @@ section p {
   }
 
   .section-b .image-2 {
-    width: 36.25rem;
+    width: 34rem;
     aspect-ratio: 907/605;
     float: left;
     margin-top: 1.5rem;
@@ -1977,13 +1982,15 @@ section a,
   padding: 0;
   margin: 0;
   list-style-type: none;
-  
+
 }
+
 @media (min-width: 769px) {
   .faqs ul {
     columns: 2;
   }
 }
+
 .faqs ul li .box {
   text-align: left;
   padding: 1rem;
@@ -1991,13 +1998,16 @@ section a,
   margin-bottom: 1.5rem;
   background: #fff;
 }
+
 .faqs ul li .box:hover {
   cursor: pointer;
 }
+
 .faqs .answer {
   display: none;
   padding-top: 1rem;
 }
+
 .faqs .box.active .answer {
   display: block;
 }
@@ -2011,12 +2021,13 @@ section a,
   display: inline-block;
   width: 100%;
 }
+
 .faqs .box.active a {
   background-image: url(/images/minus.svg);
 }
 
 a.visit-us {
-  position:fixed;
+  position: fixed;
   right: -2rem;
   top: 12rem;
   z-index: 1000;
@@ -2030,6 +2041,7 @@ a.visit-us {
   transform: rotate(90deg);
   box-shadow: rgba(0, 0, 0, 0.225) 0 .5rem 1rem
 }
+
 .c7-order-item .c7-order-item__details .c7-link,
 .c7-btn {
   display: inline-block;
@@ -2134,7 +2146,13 @@ button.c7-link {
   display: block;
 }
 
-
+.button-shadow {
+  display: inline-block;
+  padding: 1rem .75rem;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 .5rem 1rem;
+  margin: .2rem 0 0 0;
+}
 
 @media (min-width: 769px) {
 
