@@ -2028,6 +2028,7 @@ a.visit-us {
   color: #fff !important;
   border-radius: .25rem;
   transform: rotate(90deg);
+  box-shadow: rgba(0, 0, 0, 0.225) 0 .5rem 1rem
 }
 .c7-order-item .c7-order-item__details .c7-link,
 .c7-btn {
