@@ -6,8 +6,8 @@ description: Join the Friends of Young Inglewood wine club membership and
 og_image: /uploads/148-274a1271.jpg
 faqs:
   - question: What are the benefits of joining the Friends of Young Inglewood membership?
-    answer: Members receive advance notice of wine releases, allocations of limited
-      wines, access to exclusive library wines and large formats, a
+    answer: As members, you'll receive advance notice of wine releases, allocations
+      of limited wines, access to exclusive library wines and large formats, a
       complimentary estate tasting, concierge service, and the flexibility to
       customize their membership at any time.
   - question: How many membership options does Young Inglewood offer, and what are they?
