@@ -26,9 +26,10 @@ faqs:
       historic 16-acre property first planted with Cabernet vines in the 1870s.
       ​
   - question: What is Young Inglewood's approach winemaking?
-    answer: The winery employs sustainable and thoughtful stewardship, utilizing
+    answer: The winery employs sustainable and thoughtful stewardship, using
       minimalist winemaking techniques to produce wines with balance and
-      elegance, reflecting their commitment to quality.
+      elegance, reflecting our commitment to quality.
 varietal_link_1_text: Purchase Varietal Reds
 estate_link_1: /collection/all
 ---
+t﻿est of body
