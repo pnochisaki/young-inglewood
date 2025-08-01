@@ -32,4 +32,3 @@ faqs:
 varietal_link_1_text: Purchase Varietal Reds
 estate_link_1: /collection/all
 ---
-t﻿est of body
