@@ -21,7 +21,7 @@ export default function Discover({ markdownData }) {
   return (
     <>
       <Meta data={markdownData} />
-      <Layout discover>
+      <Layout discover data={markdownData}>
         <>
           <h1>There's something about <em>Young Inglewood</em></h1>
 

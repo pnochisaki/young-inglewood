@@ -21,7 +21,7 @@ export default function Wine({ markdownData }) {
     <>
       <Meta data={markdownData} />
 
-      <Layout wine>
+      <Layout wine data={markdownData}>
         <>
           <h1>Young Inglewood makes <em>wines of place</em></h1>
 

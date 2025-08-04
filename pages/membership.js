@@ -54,7 +54,7 @@ export default function Membership( {markdown, memberships} ) {
   return (
     <>
       <Meta data={markdown} />
-      <Layout membership>
+      <Layout membership data={markdown}>
         <>
           <h1>Membership</h1>
           <Section

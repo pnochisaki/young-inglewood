@@ -20,7 +20,7 @@ export default function Contact({ markdownData }) {
   return (
     <>
       <Meta data={markdownData} />
-      <Layout contact>
+      <Layout contact data={markdownData}>
         <div className="contact">
           <h2 className="mobile-only">{markdownData.title}</h2>
           <div className="map"><iframe src="https://snazzymaps.com/embed/416147"></iframe></div>

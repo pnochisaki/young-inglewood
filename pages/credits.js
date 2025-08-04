@@ -22,7 +22,7 @@ export default function Credits({ markdownData }) {
   return (
     <>
       <Meta data={markdownData} />
-      <Layout credits>
+      <Layout credits data={markdownData}>
         <>
           <Section
             title="Credit where credit is due"

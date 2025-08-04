@@ -20,7 +20,7 @@ export default function Visit({ markdownData }) {
   return (
     <>
       <Meta data={markdownData} />
-      <Layout visit>
+      <Layout visit data={markdownData}>
         <>
           <h1>There's something about <em>Young Inglewood</em></h1>
 
