@@ -1987,7 +1987,15 @@ section a,
 
 @media (min-width: 769px) {
   .faqs ul {
-    columns: 2;
+    /* columns: 2; */
+  }
+
+  .faqs ul li {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: .5%;
+    margin-right: .5%;
   }
 }
 
@@ -2146,12 +2154,31 @@ button.c7-link {
   display: block;
 }
 
-.button-shadow {
+.button-shadow,
+html .c7-btn>span,
+html .c7-link
+ {
   display: inline-block;
   padding: 1rem .75rem;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0 .5rem 1rem;
-  margin: .2rem 0 0 0;
+  margin: 0;
+  line-height: 0;
+}
+
+html .c7-link {
+  display: inline-block;
+}
+
+.button-shadow {
+  margin-top: .2rem;
+}
+
+html .utility-links .c7-btn>span,
+html .subnavigation .c7-btn>span {
+    background: transparent;
+    box-shadow: none;
+    padding: .5rem 0;
 }
 
 @media (min-width: 769px) {
