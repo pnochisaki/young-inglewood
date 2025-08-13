@@ -2184,7 +2184,7 @@ html .utility-links .c7-btn>span,
 html .subnavigation .c7-btn>span {
     background: transparent;
     box-shadow: none;
-    padding: .5rem 0;
+    padding: .5rem 0 !important;
 }
 
 @media (min-width: 769px) {
