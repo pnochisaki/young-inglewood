@@ -3270,3 +3270,7 @@ section.c7-checkout__content h1 {
   font-weight: 300;
   font-style: normal;
 }
+
+.c7-cart__summary-container {
+  margin-left: 130px !important;
+}
