@@ -2157,7 +2157,8 @@ button.c7-link {
 .button-shadow,
 html .c7-btn>span,
 html .c7-link,
-html button.c7-link
+html button.c7-link,
+.c7-account-dashboard__block__header__actions .c7-btn
  {
   display: inline-block;
   padding: 1rem .75rem !important;
