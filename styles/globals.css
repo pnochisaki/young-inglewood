@@ -2159,7 +2159,8 @@ html .c7-btn>span,
 html .c7-link,
 html button.c7-link,
 .c7-account-dashboard__block__header__actions .c7-btn,
-.c7-notice--empty .c7-btn
+.c7-notice--empty .c7-btn,
+.c7-btn--alt--small
  {
   display: inline-block;
   padding: 1rem .75rem !important;
