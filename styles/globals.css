@@ -2160,7 +2160,7 @@ html .c7-link,
 html button.c7-link
  {
   display: inline-block;
-  padding: 1rem .75rem;
+  padding: 1rem .75rem !important;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0 .5rem 1rem;
   margin: 0;
