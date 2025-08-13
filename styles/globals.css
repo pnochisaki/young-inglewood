@@ -2169,9 +2169,12 @@ html button.c7-link,
   padding: 1rem .75rem !important;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0 .5rem 1rem;
-  margin: 0;
+  margin: 0 0 1rem 0;
   line-height: 0;
   text-transform: uppercase;
+}
+.c7-account-details__header .c7-btn--alt--small {
+  margin-bottom: 1rem;
 }
 
 html .c7-link {
