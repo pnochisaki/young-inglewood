@@ -450,6 +450,8 @@ button.c7-link {
 #c7-cart .c7-user-nav__cart>button {
   padding: 0;
   opacity: .65;
+  background: none;
+  box-shadow: none;
 }
 
 .c7-user-nav__cart>.c7-link .c7-user-nav__cart__count {
