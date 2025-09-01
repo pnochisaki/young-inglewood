@@ -13,11 +13,11 @@ collections: # our content types, this is just an example!
     folder: "_content/pages"
     create: false
     slug: "{{title}}"
+    identifier_field: "name"
     editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" , required: false}
-      - { identifier_field: "name"}
       - { label: "Meta Description", name: "description", widget: "string" , required: false}
       - { label: "Open Graph Image", name: "og_image", widget: "image",  required: false }
       - { label: "Headline", name: "headline", widget: "string" , required: false}
