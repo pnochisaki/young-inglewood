@@ -56,7 +56,7 @@ export default function Membership( {markdown, memberships} ) {
       <Meta data={markdown} />
       <Layout membership data={markdown}>
         <>
-          <h1 dangerouslySetInnerHTML={{__html: markdownData.headline}} />
+          <h1 dangerouslySetInnerHTML={{__html: markdown.headline}} />
 
           <Section
             title='Friends of young inglewood'
