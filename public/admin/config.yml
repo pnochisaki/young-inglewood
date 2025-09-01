@@ -13,6 +13,7 @@ collections: # our content types, this is just an example!
     folder: "_content/pages"
     create: false
     slug: "{{title}}"
+    summary: "{{filename}} - {{title}}"
     editor:
       preview: false
     fields:
