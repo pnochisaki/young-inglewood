@@ -1,5 +1,6 @@
 ---
 title: "Exclusive Wine Club Membership | Friends of Young Inglewood "
+headline: <em>Membership</em>
 description: Join the Friends of Young Inglewood wine club membership and
   indulge in exclusive wines, private events, and special perks for true wine
   enthusiasts.

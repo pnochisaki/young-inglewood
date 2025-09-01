@@ -31,4 +31,5 @@ faqs:
       elegance, reflecting our commitment to quality.
 varietal_link_1_text: Purchase Varietal Reds
 estate_link_1: /collection/all
+headline: Young Inglewood makes <em>wines of place</em>
 ---

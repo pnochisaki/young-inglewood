@@ -22,7 +22,7 @@ export default function Visit({ markdownData }) {
       <Meta data={markdownData} />
       <Layout visit data={markdownData}>
         <>
-          <h1>There's something about <em>Young Inglewood</em></h1>
+          <h1 dangerouslySetInnerHTML={{__html: markdownData.headline}} />
 
           <Section
             title='Winery Tasting'

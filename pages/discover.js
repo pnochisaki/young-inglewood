@@ -23,7 +23,7 @@ export default function Discover({ markdownData }) {
       <Meta data={markdownData} />
       <Layout discover data={markdownData}>
         <>
-          <h1>There's something about <em>Young Inglewood</em></h1>
+          <h1 dangerouslySetInnerHTML={{__html: markdownData.headline}} />
 
           <Section
             title='Farm'

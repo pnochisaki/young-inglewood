@@ -23,8 +23,9 @@ export default function Wine({ markdownData }) {
 
       <Layout wine data={markdownData}>
         <>
-          <h1>Young Inglewood makes <em>wines of place</em></h1>
-
+        
+          <h1 dangerouslySetInnerHTML={{__html: markdownData.headline}} />
+          
 
           <Section
             title='Wine'
