@@ -297,8 +297,7 @@ img {
 }
 
 .navigation a,
-#c7-account,
-#c7-cart {
+#c7-account {
   opacity: 0;
   animation: fadeIn 1s ease-out;
   animation-fill-mode: forwards;
