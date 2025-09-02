@@ -2163,7 +2163,8 @@ html button.c7-link,
 .c7-account-dashboard__block__header__actions .c7-btn,
 .c7-notice--empty .c7-btn,
 .c7-account-details__header .c7-btn--alt--small,
-.c7-account-details__header .c7-btn--alt
+.c7-account-details__header .c7-btn--alt,
+html .membership-details .table>div>div .c7-btn
  {
   display: inline-block;
   padding: 1rem .75rem !important;
@@ -2173,6 +2174,15 @@ html button.c7-link,
   line-height: 0;
   text-transform: uppercase;
 }
+
+html .membership-details .table>div>div .c7-btn.show-less {
+  display: none;
+}
+html .membership-details .table>div>div .c7-btn > span {
+  padding: 0 !important;
+  box-shadow: 0 !important;
+}
+
 .c7-account-details__header .c7-btn--alt--small {
   margin-bottom: 1rem;
 }
