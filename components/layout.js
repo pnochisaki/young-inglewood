@@ -61,6 +61,16 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     }
   }, []);
 
+  const utilityNavItems = [
+    {
+      url: "/profile/create-account",
+      title: "Join"
+    },
+    {
+      url: "/profile/account",
+      title: "Account"
+    } 
+  ]
 
   const accountNavItems = [
     {
@@ -160,8 +170,11 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           </a>
 
           <div className="utility-links">
-            <Link href="/profile/create-account" className="c7-btn"><span>Join</span></Link>
-            <Link href="/profile/account" className="c7-btn"><span>Account</span></Link>
+            {utilityNavItems
+                .map((navItem, index) => {
+                  return <a className={'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                }
+            )}
             {/* <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div> */}
             <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
           </div>
