@@ -25,7 +25,6 @@ export default function Wine({ markdownData }) {
         <>
         
           <h1 dangerouslySetInnerHTML={{__html: markdownData.headline}} />
-          
 
           <Section
             title='Wine'

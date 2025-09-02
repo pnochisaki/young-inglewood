@@ -20,8 +20,10 @@ export default function Visit({ markdownData }) {
   return (
     <>
       <Meta data={markdownData} />
+      
       <Layout visit data={markdownData}>
         <>
+
           <h1 dangerouslySetInnerHTML={{__html: markdownData.headline}} />
 
           <Section
