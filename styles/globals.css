@@ -2165,8 +2165,8 @@ html button.c7-link,
 .c7-account-details__header .c7-btn--alt--small,
 .c7-account-details__header .c7-btn--alt,
 html .membership-details .table>div>div .c7-btn,
-html .c7-order-summary__buttons .c7-btn
- {
+html .c7-order-summary__buttons .c7-btn,
+html .c7-order-summary .c7-btn {
   display: inline-block;
   padding: 1rem .75rem !important;
   background: #fff;
