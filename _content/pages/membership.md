@@ -26,4 +26,4 @@ faqs:
 * concierge service and a reserved space at the winery when you visit
 * access to exclusive library wines and large formats
 * allocations of limited wines
-* the ability to customize your membership at any time
+* customize your membership at any time
