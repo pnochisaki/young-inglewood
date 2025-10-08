@@ -7,6 +7,7 @@ export default function Checkout() {
   return (
     <Layout>
       <div className="page-margins">
+        HELLO
         <div id="c7-content"></div>
       <GoogleTagManager gtmId="GTM-TFFRHCGB" />
       </div>
