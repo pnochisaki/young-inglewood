@@ -6,13 +6,13 @@ export default function Checkout() {
 
   return (
     <Layout>
-      <div className="page-margins">
-        HELLO
+      <div className="page-margins checkout">
         <div id="c7-content"></div>
       <GoogleTagManager gtmId="GTM-TFFRHCGB" />
       </div>
     </Layout>
   )
 
+  // undo hiding of nav on checkout
 }
 
