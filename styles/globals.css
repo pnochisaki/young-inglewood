@@ -2926,7 +2926,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     width: 100%;
   }
 
-  html .c7-content h1 {
+  html #c7-content h1.c7-h1 {
     display: none;
   }
   html .c7-content h2 {
