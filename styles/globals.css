@@ -3306,8 +3306,13 @@ section.c7-checkout__content h1 {
 
 .checkout #c7-content.c7-content--checkout {
   position: relative !important;
+  z-index: -1 !important;
 }
 
 .checkout .c7-checkout__header > a {
   display: none;
+}
+
+.c7-checkout__header {
+  padding: 0 20px 60px;
 }
