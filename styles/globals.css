@@ -114,6 +114,11 @@ img {
   justify-content: flex-end;
 }
 
+.utility-links #c7-account {
+  height: 0;
+  margin-left: -1.12rem;
+}
+
 .utility-links a {
   padding: 0;
 }
@@ -483,6 +488,7 @@ button.c7-link {
 .c7-user-nav__cart>button {
   padding: 0;
   margin: 0;
+  color: #fff;
 }
 
 @media (min-width: 769px) {
@@ -570,10 +576,6 @@ button.c7-link {
 
   .utility-links a:hover span:after {
     background-color: #fff;
-  }
-
-  .utility-links #c7-account {
-    display: none
   }
 
   #c7-account a:after {

@@ -65,11 +65,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     {
       url: "/profile/create-account",
       title: "Join"
-    },
-    {
-      url: "/profile/account",
-      title: "Account"
-    } 
+    }
   ]
 
   const accountNavItems = [
@@ -175,7 +171,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
                   return <a className={'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
                 }
             )}
-            {/* <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div> */}
+            <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
             <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
           </div>
         </div>
