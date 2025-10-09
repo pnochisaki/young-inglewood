@@ -2207,13 +2207,13 @@ html .subnavigation .c7-btn>span {
   .collections-nav,
   .account-nav {
     position: absolute;
-    width: 60rem;
-    top: 1.5rem;
+    width: 70rem;
+    top: 0;
     right: 0;
   }
 
   .collections-nav {
-    width: 70rem;
+    width: 66rem;
     text-align: center;
   }
 
