@@ -2165,7 +2165,8 @@ html button.c7-link,
 .c7-account-details__header .c7-btn--alt,
 html .membership-details .table>div>div .c7-btn,
 html .c7-order-summary__buttons .c7-btn,
-html .c7-order-summary + .c7-btn {
+html .c7-order-summary + .c7-btn,
+.c7-account-club__header + .c7-message > a {
   display: inline-block;
   padding: 1rem .75rem !important;
   background: #fff;
@@ -2643,6 +2644,7 @@ select+.c7-form__error {
 .c7-account-club__header__title h2 {
   padding-bottom: .65rem;
 }
+
 
 .c7-marker--small {
   padding: 0 1rem;
