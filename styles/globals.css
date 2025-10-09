@@ -3305,7 +3305,7 @@ section.c7-checkout__content h1 {
 }
 
 .checkout #c7-content.c7-content--checkout {
-  position: relative;
+  position: relative !important;
 }
 
 .checkout .c7-checkout__header > a {
