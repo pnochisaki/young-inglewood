@@ -2165,8 +2165,8 @@ html button.c7-link,
 .c7-account-details__header .c7-btn--alt,
 html .membership-details .table>div>div .c7-btn,
 html .c7-order-summary__buttons .c7-btn,
-html .c7-order-summary + .c7-btn,
-.c7-account-club__header + .c7-message > a {
+html .c7-order-summary+.c7-btn,
+.c7-account-club__header+.c7-message>a {
   display: inline-block;
   padding: 1rem .75rem !important;
   background: #fff;
@@ -2176,7 +2176,7 @@ html .c7-order-summary + .c7-btn,
   text-transform: uppercase;
 }
 
-.c7-account-club__header + .c7-message > a {
+.c7-account-club__header+.c7-message>a {
   display: block;
   width: 11rem;
   margin: 1rem 0;
@@ -2185,7 +2185,8 @@ html .c7-order-summary + .c7-btn,
 html .membership-details .table>div>div .c7-btn.show-less {
   display: none;
 }
-html .membership-details .table>div>div .c7-btn > span {
+
+html .membership-details .table>div>div .c7-btn>span {
   padding: 0 !important;
   box-shadow: 0 !important;
 }
@@ -2204,9 +2205,9 @@ html .c7-link {
 
 html .utility-links .c7-btn>span,
 html .subnavigation .c7-btn>span {
-    background: transparent;
-    box-shadow: none;
-    padding: .5rem 0 !important;
+  background: transparent;
+  box-shadow: none;
+  padding: .5rem 0 !important;
 }
 
 @media (min-width: 769px) {
@@ -3295,10 +3296,18 @@ section.c7-checkout__content h1 {
   margin-left: 130px !important;
 }
 
-.c7-product-collection > h1 {
+.c7-product-collection>h1 {
   display: none
 }
 
 .c7-account-login h1.c7-h1 {
-    display: none;
-  }
+  display: none;
+}
+
+.checkout #c7-content.c7-content--checkout {
+  position: relative;
+}
+
+.checkout .c7-checkout__header > a {
+  display: none;
+}
