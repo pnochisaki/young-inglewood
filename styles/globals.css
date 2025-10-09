@@ -2176,6 +2176,12 @@ html .c7-order-summary + .c7-btn,
   text-transform: uppercase;
 }
 
+.c7-account-club__header + .c7-message > a {
+  display: block;
+  width: 11rem;
+  margin: 1rem 0;
+}
+
 html .membership-details .table>div>div .c7-btn.show-less {
   display: none;
 }
