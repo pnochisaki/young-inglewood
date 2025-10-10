@@ -12,7 +12,5 @@ export default function Checkout() {
       </div>
     </Layout>
   )
-
-  // undo hiding of nav on checkout
 }
 

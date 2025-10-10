@@ -271,8 +271,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 2.25rem 2rem 5.25rem;
+    padding: 2.25rem 2rem 2.25rem;
+  }
 
+  .purchase.layout>header,
+  .account.layout>header {
+    padding-bottom: 5.25rem;
   }
 
   .layout>main {
@@ -2251,9 +2255,6 @@ html .subnavigation .c7-btn>span {
     text-align: center;
   }
 
-  .purchase.layout>header {
-    padding-bottom: 5.25rem;
-  }
 
   .faq .image-1 {
     float: right;

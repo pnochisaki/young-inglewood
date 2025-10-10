@@ -124,6 +124,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     <div className={
       home ? " home layout" :
         purchase ? " purchase layout" :
+        account ? " account layout" :
           " layout"
     }>
       {home ?
