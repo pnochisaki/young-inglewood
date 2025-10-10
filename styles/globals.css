@@ -394,6 +394,10 @@ button.c7-link {
   margin-bottom: 5px;
 }
 
+.c7-form__group .c7-form__field + button {
+  padding: 3px;
+}
+
 .c7-account-block__actions a {
   margin: 0;
 }
