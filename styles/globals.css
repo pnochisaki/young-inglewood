@@ -1912,7 +1912,7 @@ section a,
 .text-link,
 .c7-order-items--cart .c7-link span,
 .c7-checkout__summary-container .c7-link span,
-.c7-side-cart__content-container .c7-notice--empty a {
+.c7-side-cart__content-container .c7-notice--empty > a {
   text-transform: uppercase;
   font-family: canada-type-gibson, sans-serif;
   font-size: .65rem !important;
@@ -1950,7 +1950,8 @@ section a,
   .contact .copy a,
   .text-link,
   .c7-order-items--cart .c7-link span,
-  .c7-checkout__summary-container .c7-link span {
+  .c7-checkout__summary-container .c7-link span,
+  .c7-side-cart__content-container .c7-notice--empty > a {
     font-size: .85rem !important;
   }
 }
@@ -2169,7 +2170,8 @@ html button.c7-link,
 html .membership-details .table>div>div .c7-btn,
 html .c7-order-summary__buttons .c7-btn,
 html .c7-order-summary+.c7-btn,
-.c7-account-club__header+.c7-message>a {
+.c7-account-club__header+.c7-message>a,
+.c7-side-cart__content-container .c7-notice--empty > a {
   display: inline-block;
   padding: 1rem .75rem !important;
   background: #fff;
@@ -2177,6 +2179,13 @@ html .c7-order-summary+.c7-btn,
   margin: 0;
   line-height: 0;
   text-transform: uppercase;
+}
+
+.c7-side-cart__content-container .c7-notice--empty > a {
+  text-align: center;
+}
+.c7-side-cart__content-container .c7-notice--empty > a:after {
+  display: none;
 }
 
 .c7-account-club__header+.c7-message>a {
