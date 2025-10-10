@@ -2337,6 +2337,11 @@ html .subnavigation .c7-btn>span {
     width: auto;
   }
 
+  .c7-product__add-to-cart__form__quantity input {
+    padding: 0;
+    height: 2rem;
+  }
+
   .c7-account-club {
     padding-top: 2rem;
     margin-bottom: 2.25rem;
