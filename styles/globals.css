@@ -3318,7 +3318,7 @@ section.c7-checkout__content h1 {
 
 .checkout #c7-content.c7-content--checkout {
   position: relative !important;
-  z-index: -1 !important;
+  z-index: 0 !important;
 }
 
 .checkout .c7-checkout__header > a,
