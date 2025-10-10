@@ -2467,6 +2467,10 @@ select+.c7-form__error {
   /* font-size: 1rem; */
 }
 
+.c7-side-cart .c7-price--discounted {
+  margin-left: .5rem;
+}
+
 /* cart */
 
 @media (min-width: 769px) {
