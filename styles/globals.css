@@ -577,6 +577,10 @@ button.c7-link {
     text-decoration: none;
   }
 
+  .logged-in .utility-links > a {
+    display: none;
+  }
+
   .navigation nav a.c7-user-nav__account__name {
     transform: translateY(2px);
   }
