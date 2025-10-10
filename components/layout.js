@@ -167,7 +167,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           </a>
 
           <div className="utility-links">
-            {utilityNavItems
+            {!account && utilityNavItems
                 .map((navItem, index) => {
                   return <a className={'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
                 }
