@@ -2337,9 +2337,9 @@ html .subnavigation .c7-btn>span {
     width: auto;
   }
 
-  .c7-product__add-to-cart__form__quantity input {
-    padding: 0;
-    height: 2rem;
+  .c7-product__add-to-cart__form__quantity input[type='text'] {
+    padding: 0 !important;
+    height: 2rem !important;
   }
 
   .c7-account-club {
