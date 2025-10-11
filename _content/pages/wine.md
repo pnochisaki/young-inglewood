@@ -39,5 +39,5 @@ faqs:
       of our wines. "
 varietal_link_1_text: Purchase Varietal Reds
 estate_link_1: /collection/all
-headline: Young Inglewood makes <em>wines of place</em>
+# headline: Young Inglewood makes <em>wines of place</em>
 ---
