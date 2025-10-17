@@ -22,7 +22,7 @@ Steve Matthiasson
 
 ### DESIGN
 
-<a href=“https://levelinc.com”>Level, Calistoga, CA</a>
+Level, Calistoga, CA
 
 ### WEBSITE DEVELOPMENT
 
