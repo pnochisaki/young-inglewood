@@ -12,6 +12,32 @@ title: How Do I Reach You?
 email: hosp@younginglewood.com
 description: Have questions? Contact Young Inglewood Vineyards for more
   information about our handcrafted wines, tastings, and vineyard experiences.
+faqs:
+  - answer: Young Inglewood Vineyards is on the south side of the Saint Helena AVA
+      in Napa Valley, California approximately 2 hours north of San Francisco.
+      Our estate on the benchland in the western reaches of St Helena has
+      endowed us with well drained gravelly loam soils, ideal for growing
+      Cabernet Sauvignon and other red Bourdeaux grape varieties.
+    question: Where is Young Inglewood located?
+  - answer: We welcome you to visit our winery by making a reservation on <a
+      href=“https://www.exploretock.com/younginglewood”>Tock</a>. We offer a
+      private estate tour and winery tasting that lasts approximately 90
+      minutes. Here, you can enjoy our wines at a seated private tasting
+      surrounded by favorite pieces from Jim & Jacky Young’s art collection.
+    question: How can I visit Young Inglewood?
+  - answer: >
+      Please text us at: or email us at hosp@younginglewood.com. We will get
+      back to you within one business day.
+    question: What’s the best way to reach Young Inglewood?
+  - answer: "We would love to have in our membership. We have several membership
+      options that you can see and join from <a
+      href=“https://www.younginglewood.com/membership”>our membership page</a>.
+      FYI Members receive wines twice a year with first access to wine releases,
+      special allocations of limited wines, access to exclusive library wines
+      and large formats, one complimentary estate tasting a year, concierge
+      service, access to member only events, and the flexibility to customize
+      their membership at any time. "
+    question: How do you join Friends of Young Inglewood?
 ---
 ### HOW TO GET TO US
 
