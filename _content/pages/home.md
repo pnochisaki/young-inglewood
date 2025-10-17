@@ -6,19 +6,20 @@ og_image: /uploads/148-274a1271.jpg
 headline: Young Inglewood makes <em> wines of place </em>
 faqs:
   - question: What makes Young Inglewood Vineyards unique?
-    answer: At Young Inglewood Vineyards we pride ourselves in our commitment to
-      producing authentic to our special vineyard on the benchland in St Helena
-      Napa Valley. They are wines of place, stewarded from vine to bottle by
-      mother and son winemakers Jacky and Scott. Our wines reflect the taste of
-      our land, as well as our desire for balance in the bottle and with food.
-      We offer personalized wine tasting experiences in the intimate environment
-      of our tranquil art-filled tasting salon.
-  - answer: "Book a private estate wine tasting on Tock to experience exquisite
-      wines at Young Inglewood Vineyards in St Helena, Napa Valley. "
-    question: How can I visit Young Inglewood Vineyards?
-  - question: What types of wines does Young Inglewood produce
-    answer: Young Inglewood Vineyards offers a range of wines, including Cabernet
-      Sauvignon, Cabernet Franc, Malbec, Merlot, Petit Verdot, Pinot Noir,
-      Aligoté, Napa Valley Chardonnay and Vin Clair Rosé. We create wines that
-      reflect our unique terroir and non-interventialist winemaking philosophy.
+    answer: "We aim to produce elegance in a bottle. Starting with our sustainable
+      farming practices, we work with, not against nature by farming organically
+      and regeneratively. We pick grapes by hand to bring them into the winery
+      and have a light touch using non-interventionalist winemaking practices.
+      This allows us to translate our estate’s signature character into wines of
+      elegance and grace. Young Inglewood focuses on aiding, rather than
+      fighting, natural processes to grow healthy wines and a collegial
+      environment. "
+  - answer: Fans of Young Inglewood wines love the versatility of our wines. We have
+      cracked the code on complexity and depth of flavor while maintaining its
+      approachability and flexibility to enjoy with food. Fans are just as
+      likely to open our bottles to enjoy alongside a delicious meal as they are
+      to savor our bottle over a delightful fireside chat. Fans enjoy our estate
+      tasting experience commenting on how beautiful our property is, aptly
+      reflecting our elegant and delicious wine.
+    question: Why do folks love Young Inglewood wine?
 ---

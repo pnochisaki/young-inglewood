@@ -18,25 +18,27 @@ varietal_link_3_text: Purchase Varietal Whites
 library_link_1_text: Purchase Library Offering
 varietal_link_2_text: Purchase Vin Clair Rosé
 faqs:
-  - question: "What wines does Young Inglewood produce? "
-    answer: Young Inglewood offers a range of wines, including Cabernet Sauvignon,
-      Cabernet Franc, Malbec, Merlot, Petit Verdot, Pinot Noir, Aligoté, Napa
-      Valley Chardonnay and Vin Clair Rosé.
-  - question: How does Young Inglewood Vineyards' estate Napa Valley location
-      influence our wine?
-    answer: Situated in St. Helena, Napa Valley, Young Inglewood Vineyards is on a
-      historic 16-acre property first planted with grapevines in the 1800s. Our
-      estate on the benchland in the western reaches of St Helena has endowed us
-      with well drained gravelly loam soils, ideal for growing Cabernet
-      Sauvignon and other red grape varieties.  ​
+  - question: What wines does the FYI membership give access to?
+    answer: >
+      We release our current vintage wines first to FYI members, who are able to
+      purchase and enjoy them a full month before the general public.
+      Additionally, FYI members get sole access to any library and large format
+      wines we release. 
+  - question: How does Young Inglewood Vineyards' location influence our wine?
+    answer: Our family-owned, organically and regeneratively farmed Napa Valley
+      estate in St. Helena rests on the alluvial fan that spreads from the base
+      of the Mayacamas, where gravelly loam soils nurture wines of balance and
+      depth. Cover crops, bat and bird boxes, and the introduction of beneficial
+      insects protect the health of the vines without compromising the soil.
+      This connection between family, land, and craftsmanship is what makes
+      Young Inglewood wines so special. ​
   - question: What is Young Inglewood's approach winemaking?
-    answer: "Non-interventionist winemaking is key to translating our estate’s
-      signature character into wines of balance and elegance. Indigenous yeasts
-      ferment our wine. They are an integral part of what makes our wines
-      authentically ours. A short sojourn in stainless steel protects the purity
-      of our Rosé, while extended aging in French oak builds complexity in our
-      other wines. Our minimalist approach to winemaking protects the pedigree
-      of our wines. "
+    answer: Young Inglewood makes wines of place. We guide each vintage with care,
+      crafting elegant, site-driven Cabernet Sauvignon and Bordeaux-style wines
+      through thoughtful, minimal-intervention winemaking. This allows us to
+      fully express our terroir with a light touch, producing distinctly Napa
+      Valley wine with balance, sophistication and depth of flavor. Every step
+      honors the integrity of our vineyard and the people who bring it to life.
 varietal_link_1_text: Purchase Varietal Reds
 estate_link_1: /collection/all
 # headline: Young Inglewood makes <em>wines of place</em>

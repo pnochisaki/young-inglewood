@@ -12,15 +12,30 @@ faqs:
       library wines and large formats, one complimentary estate tasting a year,
       concierge service, access to member only events, and the flexibility to
       customize their membership at any time. "
-  - question: How many membership options does Young Inglewood offer and what are they?
-    answer: "Young Inglewood provides three membership options: Sonnet, Novella, and
-      Novel, each offering a unique selection of wines and benefits. These give
-      you the option to receive 6 or 12 bottles of newly released wine twice a
-      year."
-  - question: Can I customize my wine selections in the Friends of Young Inglewood
-      membership?
-    answer: Yes, members can customize their wine selections to suit their
-      preferences, ensuring they receive wines they truly enjoy.
+  - question: Why join the Friends of Young Inglewood membership?
+    answer: >
+      Our FYI membership is a welcoming group of wine enthusiasts. FYI members
+      receive wine twice a year and have the opportunity to meet at FYI member
+      exclusive events. These events bring likeminded folks together to bond
+      over our delicious wine and excellent food. Members love bringing friends
+      to their complimentary estate tasting to share our wines and unforgettable
+      property.  
+  - question: Why do folks love Young Inglewood wine?
+    answer: Fans of Young Inglewood wines love the versatility of our wines. We have
+      cracked the code on complexity and depth of flavor while maintaining its
+      approachability and flexibility to enjoy with food. Fans are just as
+      likely to open our bottles to enjoy alongside a delicious meal as they are
+      to savor our bottle over a delightful fireside chat. Fans enjoy our estate
+      tasting experience commenting on how beautiful our property is, aptly
+      reflecting our elegant and delicious wine.
+  - answer: >
+      We ship wine to you twice a year. The month before your shipment, when you
+      login to our site and go to the Club Shipments tab, you will see what
+      wines are included in the current shipment for your wine membership. We
+      will also include a couple of optional winemaker wine selections for you
+      to add to or substitute in your shipment. You have the flexibility to
+      decide and customize your wine selections for each shipment.
+    question: How do I customize my membership?
 ---
 ### IN ADDITION YOU’LL RECEIVE
 
