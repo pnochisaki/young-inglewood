@@ -9,7 +9,7 @@ export default function Faqs(props) {
                             <li key={index}>
                                 <div className='box'>
                                     <a className='question'>{faq.question}</a>
-                                    <div className='answer'>{faq.answer}</div>
+                                    <div className='answer' dangerouslySetInnerHTML = {{__html: faq.answer}} />
                                 </div>
                             </li>
                         ))}

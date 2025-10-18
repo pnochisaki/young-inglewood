@@ -2042,12 +2042,16 @@ section a,
   display: none;
   padding-top: 1rem;
 }
+.faqs .answer a {
+  color: inherit;
+  text-decoration: underline;
+}
 
 .faqs .box.active .answer {
   display: block;
 }
 
-.faqs .box a {
+.faqs .box > a {
   background-image: url(/images/plus.svg);
   background-position: right center;
   background-repeat: no-repeat;
@@ -2057,7 +2061,7 @@ section a,
   width: 100%;
 }
 
-.faqs .box.active a {
+.faqs .box.active > a {
   background-image: url(/images/minus.svg);
 }
 
