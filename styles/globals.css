@@ -2208,7 +2208,7 @@ html .c7-order-summary+.c7-btn,
 }
 .c7-side-cart__content-container,
 .c7-side-cart__summary-container {
-  padding: 20px 70px 20px 20px !important;
+  padding: 20px 70px 20px 30px!important
 }
 .c7-side-cart__content-container .c7-notice--empty > a {
   text-align: center;
@@ -2485,7 +2485,7 @@ select+.c7-form__error {
 /* side cart */
 
 .c7-side-cart {
-  max-width: 55% !important;
+  max-width: 695px !important;
 }
 
 .c7-side-cart .c7-order-items--cart {
@@ -2830,6 +2830,10 @@ select+.c7-form__error {
 
 .c7-order-item__details * {
   text-align: left;
+}
+
+.c7-order-item__details > button {
+  margin: .5rem 0 0 1rem;
 }
 
 /* dashboard */
