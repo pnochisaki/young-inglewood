@@ -21,6 +21,9 @@ faqs:
       our unique Aligote vines and enjoying the beautiful Napa Valley weather
       and atmosphere.
     question: Where do you give our private tasting?
+  - question: Does your winery welcome dogs?
+    answer: "As we welcome you to your private tasting experience, please feel free
+      to bring your well behaved pup with you.  "
   - question: Are you able to host my company dinner at your winery?
     answer: "We would love to welcome you and your team at our winery. We’ll work
       with you to create a personalized wine experience for you and your team
@@ -28,7 +31,4 @@ faqs:
       unforgettable company event. Enjoy a feast curated by a local chef that
       pairs perfectly with our wines in the room where those wines are first
       created. "
-  - question: Does your winery welcome dogs?
-    answer: "As we welcome you to your private tasting experience, please feel free
-      to bring your well behaved pup with you.  "
 ---
