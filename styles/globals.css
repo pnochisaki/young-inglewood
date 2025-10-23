@@ -2216,6 +2216,9 @@ html .c7-order-summary+.c7-btn,
 .c7-side-cart__content-container .c7-notice--empty > a:after {
   display: none;
 }
+.c7-side-cart__header h1.c7-h1 {
+    margin: 0 1rem .5rem;
+}
 
 .c7-account-club__header+.c7-message>a {
   display: block;
