@@ -21,13 +21,15 @@ faqs:
       to their complimentary estate tasting to share our wines and unforgettable
       property.  
   - question: Why do folks love Young Inglewood wine?
-    answer: Fans of Young Inglewood wines love the versatility of our wines. We have
-      cracked the code on complexity and depth of flavor while maintaining its
-      approachability and flexibility to enjoy with food. Fans are just as
-      likely to open our bottles to enjoy alongside a delicious meal as they are
-      to savor our bottle over a delightful fireside chat. Fans enjoy our estate
-      tasting experience commenting on how beautiful our property is, aptly
-      reflecting our elegant and delicious wine.
+    answer: >-
+      Fans of Young Inglewood wines love the versatility of our wines. We have
+      cracked the code on complexity and depth of flavor while maintaining our
+      wines’ approachability and flexibility with food. Fans are just as likely
+      to open our bottles to enjoy alongside a delicious meal as they are to
+      savor our bottle over a delightful fireside chat. 
+
+
+      Wine cellar enthusiasts love the ageability of our wines. Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
   - answer: >
       We ship wine to you twice a year. The month before your shipment, when you
       login to our site and go to the Club Shipments tab, you will see what
