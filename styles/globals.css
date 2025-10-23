@@ -2833,7 +2833,7 @@ select+.c7-form__error {
 }
 
 .c7-order-item__details > button {
-  margin: .5rem 0 0 1rem;
+  margin: .5rem 0 0 1rem !important;
 }
 
 /* dashboard */
