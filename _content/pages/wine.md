@@ -22,8 +22,8 @@ faqs:
     answer: >
       We release our current vintage wines first to FYI members, who are able to
       purchase and enjoy them a full month before the general public.
-      Additionally, FYI members get sole access to any library and large format
-      wines we release. 
+      Additionally, FYI members get priority access to any library and large
+      format wines we release. 
   - question: How does Young Inglewood Vineyards' location influence our wine?
     answer: Our family-owned, organically and regeneratively farmed Napa Valley
       estate in St. Helena rests on the alluvial fan that spreads from the base
