@@ -5,6 +5,7 @@ address_line_1: 1919 Inglewood Ave.
 address_line_2: Saint Helena, CA 94574
 reservations_link: https://www.exploretock.com/younginglewood
 og_image: /uploads/148-274a1271.jpg
+headline: How Do I Reach You?
 email2: kevin@younginglewood.com
 hours_line_1: Sunday - Saturday
 hours_line_2: 10:00AM – 3:00PM
@@ -19,18 +20,20 @@ faqs:
       endowed us with well drained gravelly loam soils, ideal for growing
       Cabernet Sauvignon and other red Bourdeaux grape varieties.
     question: Where is Young Inglewood located?
+  - answer: >
+      Please text or call us at <a href="tel:7072004572" 707-200-4572</a> or
+      email us at <a href="mailto:hosp@younginglewood.com"
+      hosp@younginglewood.com /a>. We will get back to you within one business
+      day.
+    question: What’s the best way to reach Young Inglewood?
   - answer: We welcome you to visit our winery by making a reservation on <a
       href=“https://www.exploretock.com/younginglewood”>Tock</a>. We offer a
       private estate tour and winery tasting that lasts approximately 90
       minutes. Here, you can enjoy our wines at a seated private tasting
       surrounded by favorite pieces from Jim & Jacky Young’s art collection.
     question: How can I visit Young Inglewood?
-  - answer: >
-      Please text us at: or email us at hosp@younginglewood.com. We will get
-      back to you within one business day.
-    question: What’s the best way to reach Young Inglewood?
-  - answer: "We would love to have in our membership. We have several membership
-      options that you can see and join from <a
+  - answer: "We would love to welcome you to our membership. We have several
+      membership options that you can see and join from <a
       href=“https://www.younginglewood.com/membership”>our membership page</a>.
       FYI Members receive wines twice a year with first access to wine releases,
       special allocations of limited wines, access to exclusive library wines

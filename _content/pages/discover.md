@@ -5,24 +5,31 @@ description: Learn about Young Inglewood Vineyards, a family-owned winery in St.
 og_image: /uploads/148-274a1271.jpg
 headline: There's something about <em>Young Inglewood</em>
 faqs:
-  - answer: At Young Inglewood Vineyards we pride ourselves in our commitment to
-      producing authentic to our special vineyard on the benchland in St Helena
-      Napa Valley. They are wines of place, stewarded from vine to bottle by
-      mother and son winemakers Jacky and Scott. Our wines reflect the taste of
-      our land, as well as our desire for balance in the bottle and with food.
-      We offer personalized wine tasting experiences in the intimate environment
-      of our tranquil art-filled tasting salon.
+  - question: What defines Young Inglewood wine?
+    answer: "We guide each vintage with care, crafting elegant, site-driven Cabernet
+      Sauvignon and Bordeaux-style wines through thoughtful,
+      minimal-intervention winemaking. Just as in life, the guiding principle in
+      our wine is balance. From hand farming and native yeast fermentation to
+      gentle aging in the cellar, every step honors the integrity of our
+      vineyard and the people who bring it to life. While our wines are
+      delicious to drink at the vintage, they also age beautifully, providing
+      the perfect addition to your cellar. "
+  - question: What principles drive Young Inglewood farming and winemaking?
+    answer: At our family-owned, Napa Valley estate in St. Helena, we focus on
+      producing sustainable, organic, ethical, and superb quality wine. We enjoy
+      a terroir that rests on the alluvial fan that spreads from the base of the
+      Mayacamas, where gravelly loam soils help us nurture wines of balance and
+      depth. Working with, not against nature, we farm our vines organically and
+      regeneratively, by hand and using gentle equipment when needed.
+      Non-interventionist winemaking is key to translating our estate’s
+      signature character into wines of elegance, balance, and grace.
+  - answer: >-
+      We aim to produce elegance in a bottle. Starting with our farming
+      practices, we work with, not against nature by farming organically and
+      regeneratively. We pick grapes by hand to bring them into the winery at
+      the perfect moment for depth of flavor. 
+
+
+      In the cellar we use a light touch. Our non-interventionalist winemaking practices allow us to translate our estate’s signature character into wines of elegance and grace. Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers.
     question: What makes Young Inglewood Vineyards unique?
-  - question: What are Young Inglewood’s sustainable farming practices?
-    answer: We farm with nature, not against it. To do this, we farm our vines
-      organically and regeneratively, by hand and using gentle equipment when
-      needed. Sparse irrigation promotes deep vine roots, allowing the vines to
-      benefit from underground water reserves. Our approach helps maintain the
-      vineyard's health and enhances the quality of the wines produced.
-  - question: Can you visit Young Inglewood Vineyards for a wine tasting?
-    answer: Yes, Young Inglewood Vineyards is a reservation only winery. You can
-      visit Young Inglewood Vineyards for a wine tasting by scheduling an
-      appointment through Tock or calling to make a tasting appointment. We
-      offer tours and tastings that allow visitors to experience our exquisite
-      wines and learn about our winemaking philosophy and our art collection.
 ---
