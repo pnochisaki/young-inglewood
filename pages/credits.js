@@ -25,7 +25,7 @@ export default function Credits({ markdownData }) {
       <Layout credits data={markdownData}>
         <>
           <Section
-            title="Credit where credit is due"
+            title={markdownData.headline}
             slug='credits'
             style='section-b'
             image1='/images/credits-1.jpg'

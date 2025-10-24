@@ -22,10 +22,10 @@ export default function Contact({ markdownData }) {
       <Meta data={markdownData} />
       <Layout contact data={markdownData}>
         <div className="contact">
-          <h2 className="mobile-only">{markdownData.title}</h2>
+          <h2 className="mobile-only" dangerouslySetInnerHTML={{__html: markdownData.headline}} />
           <div className="map"><iframe src="https://snazzymaps.com/embed/416147"></iframe></div>
           <div className="copy">
-            <h2>{markdownData.title}</h2>
+            <h2 dangerouslySetInnerHTML={{__html: markdownData.headline}} />
             <ul>
               <li>
                 <h3>Address</h3>
