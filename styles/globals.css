@@ -281,6 +281,9 @@ img {
 
   .layout>main {
     padding-top: 14rem;
+  }  
+  .layout.checkout>main {
+    padding-top: 5rem;
   }
 }
 
@@ -557,6 +560,12 @@ button.c7-link {
     display: flex;
     align-items: flex-end;
   }
+
+  .checkout header .desktop-navigation {
+    display: none
+  }
+
+
 
   header .navigation nav {
     display: flex;
