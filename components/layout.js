@@ -124,9 +124,9 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     <div className={
       home ? " home layout" :
         purchase ? " purchase layout" :
-        account ? " account layout" :
-        checkout ? " checkout layout" :
-          " layout"
+          account ? " account layout" :
+            checkout ? " checkout layout" :
+              " layout"
     }>
       {home ?
         <>
@@ -166,16 +166,22 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           <a className='branding' href="/">
             <Image alt='logo' src='/images/logo-alt.svg' layout='fill' />
           </a>
-
-          <div className="utility-links">
-            {utilityNavItems
+          {checkout ?
+            <div className="utility-links">
+              {utilityNavItems
                 .map((navItem, index) => {
                   return <a className={'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
                 }
-            )}
-            <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
-            <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
-          </div>
+                )}
+              <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
+              <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
+            </div>
+            :
+            <div className="utility-links">
+              <a className={'c7-btn'} href="/collections/all"><span>Continue shopping</span></a>
+            </div>
+          }
+
         </div>
       </div>
       <header className={hamburgerOpen ? 'hamburger-open' : ''}>
