@@ -168,6 +168,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           </a>
           {checkout ?
             <div className="utility-links">
+              <a className={'c7-btn'} href="/collections/all"><span>Continue shopping</span></a>
+            </div>
+            :
+            <div className="utility-links">
               {utilityNavItems
                 .map((navItem, index) => {
                   return <a className={'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
@@ -175,10 +179,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
                 )}
               <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
               <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
-            </div>
-            :
-            <div className="utility-links">
-              <a className={'c7-btn'} href="/collections/all"><span>Continue shopping</span></a>
             </div>
           }
 
