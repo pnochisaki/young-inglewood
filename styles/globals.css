@@ -2532,6 +2532,10 @@ select+.c7-form__error {
     flex: inherit;
   }
 
+  .c7-checkout__summary-container {
+    padding: 40px 40px 0 40px !important;
+  }
+
   .c7-cart .c7-callout {
     max-width: 60%;
     margin: auto;
