@@ -32,14 +32,14 @@ faqs:
       minutes. Here, you can enjoy our wines at a seated private tasting
       surrounded by favorite pieces from Jim & Jacky Young’s art collection.
     question: How can I visit Young Inglewood?
-  - answer: "We would love to welcome you to our membership. We have several
+  - answer: We would love to welcome you to our membership. We have several
       membership options that you can see and join from <a
       href=“https://www.younginglewood.com/membership”>our membership page</a>.
       FYI Members receive wines twice a year with first access to wine releases,
       special allocations of limited wines, access to exclusive library wines
       and large formats, one complimentary estate tasting a year, concierge
       service, access to member only events, and the flexibility to customize
-      their membership at any time. "
+      their membership at any time.
     question: How do you join Friends of Young Inglewood?
 ---
 ### HOW TO GET TO US
