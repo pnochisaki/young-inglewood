@@ -29,8 +29,8 @@ faqs:
   - answer: We welcome you to visit our winery by making a reservation on <a
       href="https://www.exploretock.com/younginglewood">Tock</a>. We offer a
       private estate tour and winery tasting that lasts approximately 90
-      minutes. Here, you can enjoy our wines at a seated private tasting
-      surrounded by favorite pieces from Jim & Jacky Young’s art collection.
+      minutes. You can enjoy our wines at a seated private tasting surrounded by
+      favorite pieces from Jim & Jacky Young’s art collection.
     question: How can I visit Young Inglewood?
   - answer: We would love to welcome you to our membership. We have several
       membership options that you can see and join from <a
