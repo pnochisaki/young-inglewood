@@ -595,6 +595,9 @@ button.c7-link {
   .checkout.logged-in .utility-links>a {
     display: inline-block;
   }  
+  .checkout.logged-in .utility-links>a:after {
+    display: none
+  }  
 
   .navigation nav a.c7-user-nav__account__name {
     transform: translateY(2px);
