@@ -12,7 +12,7 @@ import { useEffect, useState, useContext } from 'react'
 import { useRouter } from 'next/router';
 import Faqs from './faqs'
 
-export default function Layout({ home, discover, wine, purchase, visit, membership, faq, contact, join, account, credits, children, props, data }) {
+export default function Layout({ home, discover, wine, purchase, visit, membership, faq, contact, join, checkout, account, credits, children, props, data }) {
 
   const router = useRouter()
 
@@ -125,6 +125,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       home ? " home layout" :
         purchase ? " purchase layout" :
         account ? " account layout" :
+        checkout ? " checkout layout" :
           " layout"
     }>
       {home ?
