@@ -1955,9 +1955,8 @@ section a,
 .text-link,
 .c7-order-items--cart .c7-link span,
 .c7-checkout__summary-container .c7-link span,
-.c7-side-cart__content-container .c7-notice--empty>a,
-.c7-table-cell__text-right .c7-btn.c7-btn--alt,
-.c7-account-dashboard__block .c7-btn.c7-btn--alt--small {
+.c7-side-cart__content-container .c7-notice--empty>a
+ {
   text-transform: uppercase;
   font-family: canada-type-gibson, sans-serif;
   font-size: .65rem !important;
@@ -2221,7 +2220,9 @@ html .membership-details .table>div>div .c7-btn,
 html .c7-order-summary__buttons .c7-btn,
 html .c7-order-summary+.c7-btn,
 .c7-account-club__header+.c7-message>a,
-.c7-side-cart__content-container .c7-notice--empty>a {
+.c7-side-cart__content-container .c7-notice--empty>a,
+.c7-table-cell__text-right .c7-btn.c7-btn--alt,
+.c7-account-dashboard__block .c7-btn.c7-btn--alt--small {
   display: inline-block;
   padding: 1rem .75rem !important;
   background: #fff;
