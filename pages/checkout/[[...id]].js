@@ -5,7 +5,7 @@ import { GoogleTagManager } from '@next/third-parties/google'
 export default function Checkout() {
 
   return (
-    <Layout>
+    <Layout checkout>
       <div className="page-margins checkout">
         <div id="c7-content"></div>
       <GoogleTagManager gtmId="GTM-TFFRHCGB" />
