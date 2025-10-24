@@ -33,7 +33,7 @@ export default function Discover({ markdownData }) {
             image1='/images/farm-1.jpg'
             image2='/images/farm-2.jpg'
             text1="<p>Working <strong>with, not against</strong> nature, we farm our vines organically and regeneratively, by hand and using gentle equipment when needed. Sparse irrigation promotes deep vine roots, allowing the vines to benefit from underground water reserves.</p>"
-            text2="<p>Optimally sited on an alluvial fan that spreads out from the base of the Mayacamas, our classic terror enjoys gravelly loam soils, perfect for drainage and aeration.</p><p>We tend our gently sloping estate vineyards in tune with the natural life cycle of our vines. Cover crops, bat and bird boxes, and the introduction of beneficial insects protect the health of the vines without compromising the soil.</p>"
+            text2="<p>Optimally sited on an alluvial fan that spreads out from the base of the Mayacamas, our classic terroir enjoys gravelly loam soils, perfect for drainage and aeration.</p><p>We tend our gently sloping estate vineyards in tune with the natural life cycle of our vines. Cover crops, bat and bird boxes, and the introduction of beneficial insects protect the health of the vines without compromising the soil.</p>"
           />
 
           <Section

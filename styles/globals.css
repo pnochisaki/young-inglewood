@@ -283,7 +283,7 @@ img {
   }
 
   .layout>main {
-    padding-top: 14rem;
+    padding-top: 11rem;
   }  
   .layout.checkout>main {
     padding-top: 5rem;
@@ -1339,7 +1339,6 @@ section.wine h2 {
   section.wine.section-b span:first-of-type p {
     padding: 2rem 1.5rem 0 0;
     display: inline-block;
-    visibility: hidden;
   }
 
   section.wine span:first-of-type {
