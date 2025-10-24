@@ -168,7 +168,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           </a>
           {checkout ?
             <div className="utility-links">
-              <a className={'c7-btn'} href="/collections/all"><span>Continue shopping</span></a>
+              <a className={'c7-btn'} href="/collection/all"><span>Continue shopping</span></a>
             </div>
             :
             <div className="utility-links">
