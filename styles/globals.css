@@ -1956,7 +1956,9 @@ section a,
 .text-link,
 .c7-order-items--cart .c7-link span,
 .c7-checkout__summary-container .c7-link span,
-.c7-side-cart__content-container .c7-notice--empty>a {
+.c7-side-cart__content-container .c7-notice--empty>a,
+.c7-table-cell__text-right .c7-btn.c7-btn--alt,
+.c7-account-dashboard__block .c7-btn.c7-btn--alt--small {
   text-transform: uppercase;
   font-family: canada-type-gibson, sans-serif;
   font-size: .65rem !important;
