@@ -11,7 +11,7 @@ faqs:
       into our winemaking process and a close up look at our organically farmed
       vines near the winery. The tour lands at our tasting salon for a seated
       private tasting surrounded by favorite pieces from Jim & Jacky Young’s art
-      collection. Here you can relax and enjoy tasting a selection of our
+      collection. Here, you can relax and enjoy tasting a selection of our
       delicious wines.
     question: What can I expect during my winery tasting?
   - answer: We host tasting onsite at our winery in Saint Helena, Napa Valley. Our
@@ -25,10 +25,10 @@ faqs:
     answer: "As we welcome you to your private tasting experience, please feel free
       to bring your well behaved pup with you.  "
   - question: Are you able to host my company dinner at your winery?
-    answer: "We would love to welcome you and your team at our winery. We’ll work
+    answer: "We would love to welcome you and your team to our winery. We’ll work
       with you to create a personalized wine experience for you and your team
-      within your budget. Our fermentation room sets the scene for an
-      unforgettable company event. Enjoy a feast curated by a local chef that
-      pairs perfectly with our wines in the room where those wines are first
-      created. "
+      within your budget. Our fermentation room or gorgeous tasting salon sets
+      the scene for an unforgettable company event. Enjoy a feast curated by a
+      local chef that pairs perfectly with our wines in the room where those
+      wines are first created. "
 ---
