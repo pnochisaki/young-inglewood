@@ -87,6 +87,9 @@ img {
   .layout>header {
     margin-top: 5rem;
   }
+  .layout.checkout>header {
+    margin-top: 0;
+  }
 }
 
 .greybox {
