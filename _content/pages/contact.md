@@ -20,8 +20,10 @@ faqs:
       Cabernet Sauvignon and other red Bourdeaux grape varieties.
     question: Where is Young Inglewood located?
   - answer: >
-      Please text us at: or email us at hosp@younginglewood.com. We will get
-      back to you within one business day.
+      Please text or call us at <a href="tel:7072004572" 707-200-4572</a> or
+      email us at <a href="mailto:hosp@younginglewood.com"
+      hosp@younginglewood.com /a>. We will get back to you within one business
+      day.
     question: What’s the best way to reach Young Inglewood?
   - answer: We welcome you to visit our winery by making a reservation on <a
       href=“https://www.exploretock.com/younginglewood”>Tock</a>. We offer a
