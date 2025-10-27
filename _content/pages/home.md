@@ -17,11 +17,13 @@ faqs:
   - answer: >-
       Fans of Young Inglewood wines love the versatility of our wines. We have
       cracked the code on complexity and depth of flavor while maintaining our
-      wines’ approachability and flexibility with food. Fans are just as likely
+      wines approachability and flexibility with food. Fans are just as likely
       to open our bottles to enjoy alongside a delicious meal as they are to
       savor our bottle over a delightful fireside chat. 
 
 
-      Wine cellar enthusiasts love the ageability of our wines. Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
+      Wine cellar enthusiasts love the ageability of our wines. We hear from fans who open an
+
+      older vintage of ours that they love the smoothness and finish of those wines. Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
     question: Why do folks love Young Inglewood wine?
 ---
