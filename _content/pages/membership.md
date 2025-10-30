@@ -32,13 +32,12 @@ faqs:
       Wine cellar enthusiasts love the ageability of our wines. We hear from fans who open an
 
       older vintage of ours that they love the smoothness and finish of those wines. Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
-  - answer: >
-      We ship wine to you twice a year. The month before your shipment, when you
-      login to our site and go to the Club Shipments tab, you will see what
-      wines are included in the current shipment for your wine membership. We
-      will also include a couple of optional winemaker wine selections for you
-      to add to or substitute in your shipment. You have the flexibility to
-      decide and customize your wine selections for each shipment.
+  - answer: We ship wine to you twice a year. The month before your shipment, on the
+      Club Shipments tab, you will see what wines our winemakers have included
+      for you in the current shipment for your wine membership. We will also
+      include a couple of optional winemaker selections for you to add to or
+      substitute in your shipment. You have the flexibility to decide and
+      customize your wine selections for each shipment.
     question: How do I customize my membership?
 ---
 ### IN ADDITION YOU’LL RECEIVE
