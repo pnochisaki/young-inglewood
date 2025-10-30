@@ -40,7 +40,7 @@ faqs:
       and large formats, one complimentary estate tasting a year, concierge
       service, access to member only events, and the flexibility to customize
       their membership at any time.
-    question: How do you join Friends of Young Inglewood?
+    question: How do I join Friends of Young Inglewood?
 ---
 ### HOW TO GET TO US
 
