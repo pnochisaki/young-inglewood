@@ -9,21 +9,24 @@ varietal_link_2: /collection/all
 library_link_1: /collection/all
 varietal_link_3: /collection/all
 title: Our Superb Wines in St. Helena | Napa Valley Wines
+description: With sustainable and thoughtful stewardship of our St. Helena Napa
+  estate, we produce beautiful, classic wines in St. Helena with an old world
+  sensibility.
 og_image: /uploads/148-274a1271.jpg
 headline: signature wines of <em> balance and grace </em>
 varietal_link_3_text: Purchase Varietal Whites
 library_link_1_text: Purchase Library Offering
 varietal_link_2_text: Purchase Vin Clair Rosé
-description: With sustainable and thoughtful stewardship of our St. Helena Napa
-  estate, we produce beautiful, classic wines in St. Helena with an old world
-  sensibility.
 faqs:
   - question: What wines does the FYI membership give access to?
-    answer: >
+    answer: >-
       We release our current vintage wines first to FYI members, who are able to
       purchase and enjoy them a full month before non members. Additionally, FYI
       members get priority access to any library and large format wines we
       release. 
+
+
+      community/extension of family/ get togethers a few times a year/ offer members free tastings/ allow folks to transfer
   - question: How does Young Inglewood Vineyards' location influence our wine?
     answer: Our family-owned, organically and regeneratively farmed Napa Valley
       estate in St. Helena rests on the alluvial fan that spreads from the base
@@ -32,7 +35,7 @@ faqs:
       insects protect the health of the vines without compromising the soil.
       This connection between family, land, and craftsmanship is what makes
       Young Inglewood wines so special. ​
-  - question: What is Young Inglewood's approach winemaking?
+  - question: What is Young Inglewood's approach to winemaking?
     answer: Young Inglewood makes wines of place. We guide each vintage with care,
       crafting elegant, site-driven Cabernet Sauvignon and Bordeaux-style wines
       through thoughtful, minimal-intervention winemaking. This allows us to
