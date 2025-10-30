@@ -18,7 +18,7 @@ faqs:
       in Napa Valley, California approximately 2 hours north of San Francisco.
       Our estate on the benchland in the western reaches of St Helena has
       endowed us with well drained gravelly loam soils, ideal for growing
-      Cabernet Sauvignon and other red Bourdeaux grape varieties.
+      Cabernet Sauvignon and other red Bordeaux grape varieties.
     question: Where is Young Inglewood located?
   - answer: >
       Please text or call us at <a href="tel:7072004572" 707-200-4572</a> or
