@@ -6,7 +6,7 @@ description: Join the Friends of Young Inglewood wine club membership and
 og_image: /uploads/148-274a1271.jpg
 headline: "FYI: join our <em> wine membership </em>"
 faqs:
-  - question: What are the benefits of joining the Friends of Young Inglewood membership?
+  - question: What are the benefits the Friends of Young Inglewood membership?
     answer: "FYI Members receive wines twice a year with first access to wine
       releases, special allocations of limited wines, access to exclusive
       library wines and large formats, one complimentary estate tasting a year,
