@@ -13,7 +13,10 @@ faqs:
       the perfect moment for depth of flavor. 
 
 
-      In the cellar we use a light touch. Our non-interventionalist winemaking practices allow us to translate our estate’s signature character into wines of elegance and grace. Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers.
+      In the cellar we use a light touch. Our non-interventionalist winemaking practices allow us to translate our estate’s signature character into wines of elegance and grace. 
+
+
+      Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers.
   - answer: >-
       Fans of Young Inglewood wines love the versatility of our wines. We have
       cracked the code on complexity and depth of flavor while maintaining our
@@ -22,8 +25,9 @@ faqs:
       savor our bottle over a delightful fireside chat. 
 
 
-      Wine cellar enthusiasts love the ageability of our wines. We hear from fans who open an
+      Wine cellar enthusiasts love the ageability of our wines. We hear from fans who open an older vintage of ours that they love the smoothness and finish. 
 
-      older vintage of ours that they love the smoothness and finish. Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
+
+      Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
     question: Why do folks love Young Inglewood wine?
 ---
