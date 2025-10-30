@@ -22,9 +22,8 @@ faqs:
     question: Where is Young Inglewood located?
   - answer: >
       Please <a href="sms:7072004572"> text us </a> or <a href="tel:7072004572">
-      call us </a> or email us at <a href="mailto:hosp@younginglewood.com">
-      hosp@younginglewood.com </a>. We will get back to you within one business
-      day.
+      call us </a> or <a href="mailto:hosp@younginglewood.com"> email us </a>.
+      We will get back to you within one business day.
     question: What’s the best way to contact Young Inglewood?
   - answer: We welcome you to visit our winery by making a reservation on <a
       href="https://www.exploretock.com/younginglewood">Tock</a>. We offer a
