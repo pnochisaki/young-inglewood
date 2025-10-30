@@ -24,6 +24,6 @@ faqs:
 
       Wine cellar enthusiasts love the ageability of our wines. We hear from fans who open an
 
-      older vintage of ours that they love the smoothness and finish of those wines. Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
+      older vintage of ours that they love the smoothness and finish. Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
     question: Why do folks love Young Inglewood wine?
 ---
