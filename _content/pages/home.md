@@ -13,7 +13,7 @@ faqs:
       the perfect moment for depth of flavor. 
 
 
-      In the cellar we use a light touch. Our non-interventionalist winemaking practices allow us to translate our estate’s signature character into wines of elegance and grace. 
+      In the cellar we use a light touch. Our non-interventionist winemaking practices allow us to translate our estate’s signature character into wines of elegance and grace. 
 
 
       Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers.
