@@ -19,14 +19,10 @@ library_link_1_text: Purchase Library Offering
 varietal_link_2_text: Purchase Vin Clair Rosé
 faqs:
   - question: What wines does the FYI membership give access to?
-    answer: >-
-      We release our current vintage wines first to FYI members, who are able to
-      purchase and enjoy them a full month before non members. Additionally, FYI
-      members get priority access to any library and large format wines we
-      release. 
-
-
-      community/extension of family/ get togethers a few times a year/ offer members free tastings/ allow folks to transfer
+    answer: "We release our current vintage wines first to FYI members, who are able
+      to purchase and enjoy them a full month before non members. Additionally,
+      FYI members get priority access to any library and large format wines we
+      release. "
   - question: How does Young Inglewood Vineyards' location influence our wine?
     answer: Our family-owned, organically and regeneratively farmed Napa Valley
       estate in St. Helena rests on the alluvial fan that spreads from the base
