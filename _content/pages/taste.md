@@ -10,11 +10,11 @@ faqs:
       start with a leisurely guided walking winery tour where we offer a glimpse
       into our winemaking process and a close up look at our organically farmed
       vines near the winery. The tour lands at our tasting salon for a seated
-      private tasting surrounded by favorite pieces from Jim & Jacky Young’s art
+      private tasting surrounded by favorite pieces from Jim & Jacky's art
       collection. Here, you can relax and enjoy tasting a selection of our
       delicious wines.
     question: What can I expect during my winery tasting?
-  - answer: We host tasting onsite at our winery in Saint Helena, Napa Valley. Our
+  - answer: We host tastings onsite at our winery in Saint Helena, Napa Valley. Our
       private tastings are conducted in the tasting salon surrounded by favorite
       pieces from Jim & Jacky Young’s art collection. We invite you to enjoy a
       leisurely experience sipping through several wines while looking out at
