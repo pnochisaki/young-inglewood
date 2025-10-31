@@ -28,4 +28,13 @@ faqs:
       the scene for an unforgettable company event. Enjoy a feast curated by a
       local chef that pairs perfectly with our wines in the room where those
       wines are first created. "
+  - question: How do I join Friends of Young Inglewood?
+    answer: We would love to welcome you to our membership. We have several
+      membership options that you can see and join from <a
+      href="https://www.younginglewood.com/membership">our membership page</a>.
+      FYI Members receive wines twice a year with first access to wine releases,
+      special allocations of limited wines, access to exclusive library wines
+      and large formats, two complimentary estate tasting a year, concierge
+      service, access to member only events, and the flexibility to customize
+      their membership at any time.
 ---
