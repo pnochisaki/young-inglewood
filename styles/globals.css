@@ -2250,8 +2250,7 @@ html .c7-order-summary+.c7-btn,
 }
 
 .c7-account-club__header+.c7-message>a {
-  display: block;
-  width: 11rem;
+  width: auto;
   margin: 1rem 0;
 }
 
