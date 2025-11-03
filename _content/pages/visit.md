@@ -10,20 +10,17 @@ faqs:
       start with a leisurely guided walking winery tour where we offer a glimpse
       into our winemaking process and a close up look at our organically farmed
       vines near the winery. The tour lands at our tasting salon for a seated
-      private tasting surrounded by favorite pieces from Jim & Jacky Young’s art
+      private tasting surrounded by favorite pieces from Jim & Jacky's art
       collection. Here, you can relax and enjoy tasting a selection of our
       delicious wines.
     question: What can I expect during my winery tasting?
-  - answer: We host tasting onsite at our winery in Saint Helena, Napa Valley. Our
+  - answer: We host tastings onsite at our winery in Saint Helena, Napa Valley. Our
       private tastings are conducted in the tasting salon surrounded by favorite
       pieces from Jim & Jacky Young’s art collection. We invite you to enjoy a
       leisurely experience sipping through several wines while looking out at
       our unique Aligote vines and enjoying the beautiful Napa Valley weather
       and atmosphere.
     question: Where do you give our private tasting?
-  - question: Does your winery welcome dogs?
-    answer: "As we welcome you to your private tasting experience, please feel free
-      to bring your well behaved pup with you.  "
   - question: Are you able to host my company dinner at your winery?
     answer: "We would love to welcome you and your team to our winery. We’ll work
       with you to create a personalized wine experience for you and your team
@@ -31,4 +28,13 @@ faqs:
       the scene for an unforgettable company event. Enjoy a feast curated by a
       local chef that pairs perfectly with our wines in the room where those
       wines are first created. "
+  - question: How do I join Friends of Young Inglewood?
+    answer: We would love to welcome you to our membership. We have several
+      membership options that you can see and join from <a
+      href="https://www.younginglewood.com/membership">our membership page</a>.
+      FYI Members receive wines twice a year with first access to wine releases,
+      special allocations of limited wines, access to exclusive library wines
+      and large formats, two complimentary estate tasting a year, concierge
+      service, access to member only events, and the flexibility to customize
+      their membership at any time.
 ---

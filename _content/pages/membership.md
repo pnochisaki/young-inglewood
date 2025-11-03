@@ -6,7 +6,7 @@ description: Join the Friends of Young Inglewood wine club membership and
 og_image: /uploads/148-274a1271.jpg
 headline: "FYI: join our <em> wine membership </em>"
 faqs:
-  - question: What are the benefits of joining the Friends of Young Inglewood membership?
+  - question: What is included in an FYI membership?
     answer: "FYI Members receive wines twice a year with first access to wine
       releases, special allocations of limited wines, access to exclusive
       library wines and large formats, one complimentary estate tasting a year,
@@ -32,14 +32,22 @@ faqs:
       Wine cellar enthusiasts love the ageability of our wines. We hear from fans who open an
 
       older vintage of ours that they love the smoothness and finish of those wines. Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
-  - answer: >
-      We ship wine to you twice a year. The month before your shipment, when you
-      login to our site and go to the Club Shipments tab, you will see what
-      wines are included in the current shipment for your wine membership. We
-      will also include a couple of optional winemaker wine selections for you
-      to add to or substitute in your shipment. You have the flexibility to
-      decide and customize your wine selections for each shipment.
+  - answer: We ship wine to you twice a year. The month before your shipment, on the
+      Club Shipments tab, you will see what wines our winemakers have included
+      for you in the current shipment for your wine membership. We will also
+      include a couple of optional winemaker selections for you to add to or
+      substitute in your shipment. You have the flexibility to decide and
+      customize your wine selections for each shipment.
     question: How do I customize my membership?
+  - answer: By appointment only, your exclusive wine tasting at Young Inglewood
+      lasts approximately 90 minutes and is limited to groups of 8 or fewer. We
+      start with a leisurely guided walking winery tour where we offer a glimpse
+      into our winemaking process and a close up look at our organically farmed
+      vines near the winery. The tour lands at our tasting salon for a seated
+      private tasting surrounded by favorite pieces from Jim & Jacky’s art
+      collection. Here you can relax and enjoy tasting a selection of our
+      delicious wines.
+    question: What is a wine tasting like at Young Inglewood?
 ---
 ### IN ADDITION YOU’LL RECEIVE
 

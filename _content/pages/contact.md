@@ -3,11 +3,11 @@ directions_link: https://www.google.com/maps/dir//Young+Inglewood+Vineyards,+191
 phone: 707-200-4572
 address_line_1: 1919 Inglewood Ave.
 address_line_2: Saint Helena, CA 94574
-reservations_link: https://www.exploretock.com/younginglewood
+reservations_link: https://www.exploretock.com/younginglewoood
 og_image: /uploads/148-274a1271.jpg
 headline: How Do I Reach You?
-email2: kevin@younginglewood.com
-hours_line_1: Sunday - Saturday
+email2: shannon@younginglewood.com
+hours_line_1: Tuesday - Saturday
 hours_line_2: 10:00AM – 3:00PM
 title: How Do I Reach You?
 email: hosp@younginglewood.com
@@ -18,29 +18,28 @@ faqs:
       in Napa Valley, California approximately 2 hours north of San Francisco.
       Our estate on the benchland in the western reaches of St Helena has
       endowed us with well drained gravelly loam soils, ideal for growing
-      Cabernet Sauvignon and other red Bourdeaux grape varieties.
+      Cabernet Sauvignon and other red Bordeaux grape varieties.
     question: Where is Young Inglewood located?
   - answer: >
-      Please text or call us at <a href="tel:7072004572" 707-200-4572</a> or
-      email us at <a href="mailto:hosp@younginglewood.com"
-      hosp@younginglewood.com /a>. We will get back to you within one business
-      day.
-    question: What’s the best way to reach Young Inglewood?
+      Please <a href="sms:7072004572"> text us </a> or <a href="tel:7072004572">
+      call us </a> or <a href="mailto:hosp@younginglewood.com"> email us </a>.
+      We will get back to you within one business day.
+    question: What’s the best way to contact Young Inglewood?
   - answer: We welcome you to visit our winery by making a reservation on <a
       href="https://www.exploretock.com/younginglewood">Tock</a>. We offer a
       private estate tour and winery tasting that lasts approximately 90
       minutes. You can enjoy our wines at a seated private tasting surrounded by
-      favorite pieces from Jim & Jacky Young’s art collection.
+      favorite pieces from Jim & Jacky's art collection.
     question: How can I visit Young Inglewood?
   - answer: We would love to welcome you to our membership. We have several
       membership options that you can see and join from <a
       href="https://www.younginglewood.com/membership">our membership page</a>.
       FYI Members receive wines twice a year with first access to wine releases,
       special allocations of limited wines, access to exclusive library wines
-      and large formats, one complimentary estate tasting a year, concierge
+      and large formats, two complimentary estate tastings a year, concierge
       service, access to member only events, and the flexibility to customize
       their membership at any time.
-    question: How do you join Friends of Young Inglewood?
+    question: How do I join Friends of Young Inglewood?
 ---
 ### HOW TO GET TO US
 
