@@ -42,13 +42,14 @@ faqs:
       substitute in your shipment. You have the flexibility to decide and
       customize your wine selections for each shipment.
     question: How do I customize my membership?
-  - answer: "Yes, by appointment only, Young Inglewood tastings provide a welcome
-      moment of tranquility in a busy world. Amongst olive trees and 200 year
-      old oaks, enjoy a short leisurely guided winery tour. Relax in our art
-      filled tasting salon while you sip exquisite Young Inglewood wines during
-      your exclusive wine tasting. Delight in the decor based on Jim and Jacky’s
-      family room from the table setting to the art on the walls to the sweeping
-      view of the vineyard. "
+  - answer: 'Yes, by appointment only, <a
+      href="https://www.exploretock.com/younginglewood"> Young Inglewood
+      tastings </a> provide a welcome moment of tranquility in a busy world.
+      Amongst olive trees and 200 year old oaks, enjoy a short leisurely guided
+      winery tour. Relax in our art filled tasting salon while you sip exquisite
+      Young Inglewood wines during your exclusive wine tasting. Delight in the
+      decor based on Jim and Jacky’s family room from the table setting to the
+      art on the walls to the sweeping view of the vineyard. '
     question: Does Young Inglewood offer wine tastings
 ---
 ### IN ADDITION YOU’LL RECEIVE
