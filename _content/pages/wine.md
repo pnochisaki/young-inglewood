@@ -19,14 +19,16 @@ library_link_1_text: Purchase Library Offering
 varietal_link_2_text: Purchase Vin Clair Rosé
 faqs:
   - question: Does Young Inglewood have a wine membership?
-    answer: Yes, our membership is called Friends of Young Inglewood. Our FYI
-      membership is a welcoming group of wine enthusiasts. FYI members receive
-      wine twice a year and have the opportunity to meet at FYI member exclusive
-      events. These events bring likeminded folks together to bond over our
-      delicious wine and excellent food. Members love bringing friends to their
-      complimentary tasting to share our wines and unforgettable organically
-      farmed estate. Members can even transfer one of their complimentary wine
-      tasting to a friend for their use.
+    answer: Yes, our membership is called  <a
+      href="https://www.younginglewood.com/membership">Friends of Young
+      Inglewood</a>. Our FYI membership is a welcoming group of wine
+      enthusiasts. FYI members receive wine twice a year and have the
+      opportunity to meet at FYI member exclusive events. These events bring
+      likeminded folks together to bond over our delicious wine and excellent
+      food. Members love bringing friends to their complimentary tasting to
+      share our wines and unforgettable organically farmed estate. Members can
+      even transfer one of their complimentary wine tasting to a friend for
+      their use.
   - question: How does Young Inglewood Vineyards' location influence our wine?
     answer: Our family-owned, organically and regeneratively farmed Napa Valley
       estate in St. Helena rests on the alluvial fan that spreads from the base
