@@ -26,7 +26,7 @@ export default function Credits({ markdownData }) {
         <>
           <h1 dangerouslySetInnerHTML={{ __html: markdownData.headline }} />
 
-          <Section
+          <Section credits
             // title={markdownData.headline}
             slug='credits'
             style='section-b'
