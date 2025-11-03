@@ -12,11 +12,11 @@ faqs:
       regeneratively. We pick grapes by hand to bring them into the winery at
       the perfect moment for depth of flavor. 
 
-      <br>
+      <br><br>
 
       In the cellar we use a light touch. Our non-interventionist winemaking practices allow us to translate our estate’s signature character into wines of elegance and grace. 
 
-      <br>
+      <br><br>
 
       Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers. </p>
   - answer: >-
@@ -26,9 +26,11 @@ faqs:
       to open our bottles to enjoy alongside a delicious meal as they are to
       savor our bottle over a delightful fireside chat. 
 
+      <br><br>
 
       Wine cellar enthusiasts love the ageability of our wines. We hear from fans who open an older vintage of ours that they love the smoothness and finish. 
 
+      <br><br>
 
       Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
     question: Why do folks love Young Inglewood wine?
