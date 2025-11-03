@@ -13,13 +13,13 @@ faqs:
       concierge service, access to member only events, and the flexibility to
       customize their membership at any time. "
   - question: Why join the Friends of Young Inglewood membership?
-    answer: >
-      Our FYI membership is a welcoming group of wine enthusiasts. FYI members
+    answer: Our FYI membership is a welcoming group of wine enthusiasts. FYI members
       receive wine twice a year and have the opportunity to meet at FYI member
-      exclusive events. These events bring like-minded folks together to bond
+      exclusive events. These events bring likeminded folks together to bond
       over our delicious wine and excellent food. Members love bringing friends
       to their complimentary estate tasting to share our wines and unforgettable
-      property.  
+      property. Members can even transfer one of their complimentary wine
+      tasting to a friend for their use.
   - question: Why do folks love Young Inglewood wine?
     answer: >-
       Fans of Young Inglewood wines love the versatility of our wines. We have
@@ -28,10 +28,13 @@ faqs:
       to open our bottles to enjoy alongside a delicious meal as they are to
       savor our bottle over a delightful fireside chat. 
 
+      <br><br>
 
-      Wine cellar enthusiasts love the ageability of our wines. We hear from fans who open an
+      Wine cellar enthusiasts love the ageability of our wines. Fans love the smoothness and finish of our older vintages.
 
-      older vintage of ours that they love the smoothness and finish of those wines. Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
+      <br><br> 
+
+      Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
   - answer: We ship wine to you twice a year. The month before your shipment, on the
       Club Shipments tab, you will see what wines our winemakers have included
       for you in the current shipment for your wine membership. We will also
@@ -39,15 +42,15 @@ faqs:
       substitute in your shipment. You have the flexibility to decide and
       customize your wine selections for each shipment.
     question: How do I customize my membership?
-  - answer: By appointment only, your exclusive wine tasting at Young Inglewood
-      lasts approximately 90 minutes and is limited to groups of 8 or fewer. We
-      start with a leisurely guided walking winery tour where we offer a glimpse
-      into our winemaking process and a close up look at our organically farmed
-      vines near the winery. The tour lands at our tasting salon for a seated
-      private tasting surrounded by favorite pieces from Jim & Jacky’s art
-      collection. Here you can relax and enjoy tasting a selection of our
-      delicious wines.
-    question: What is a wine tasting like at Young Inglewood?
+  - answer: 'Yes, by appointment only, <a
+      href="https://www.exploretock.com/younginglewood"> Young Inglewood
+      tastings </a> provide a welcome moment of tranquility in a busy world.
+      Amongst olive trees and 200 year old oaks, enjoy a short leisurely guided
+      winery tour. Relax in our art filled tasting salon while you sip exquisite
+      Young Inglewood wines during your exclusive wine tasting. Delight in the
+      decor based on Jim and Jacky’s family room from the table setting to the
+      art on the walls to the sweeping view of the vineyard. '
+    question: Does Young Inglewood offer wine tastings
 ---
 ### IN ADDITION YOU’LL RECEIVE
 

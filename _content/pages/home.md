@@ -5,20 +5,6 @@ description: Young Inglewood Vineyards is a family-owned estate winery in St.
 og_image: /uploads/148-274a1271.jpg
 headline: Young Inglewood makes <em> wines of place </em>
 faqs:
-  - question: What makes Young Inglewood Vineyards unique?
-    answer: >-
-      <p>We aim to produce elegance in a bottle. Starting with our farming
-      practices, we work with, not against nature by farming organically and
-      regeneratively. We pick grapes by hand to bring them into the winery at
-      the perfect moment for depth of flavor. 
-
-      <br>
-
-      In the cellar we use a light touch. Our non-interventionist winemaking practices allow us to translate our estate’s signature character into wines of elegance and grace. 
-
-      <br>
-
-      Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers. </p>
   - answer: >-
       Fans of Young Inglewood wines love the versatility of our wines. We have
       cracked the code on complexity and depth of flavor while maintaining our
@@ -26,10 +12,29 @@ faqs:
       to open our bottles to enjoy alongside a delicious meal as they are to
       savor our bottle over a delightful fireside chat. 
 
+      <br><br>
 
-      Wine cellar enthusiasts love the ageability of our wines. We hear from fans who open an older vintage of ours that they love the smoothness and finish. 
+      Wine cellar enthusiasts love the ageability of our wines. Fans love the smoothness and finish of our older vintages. 
 
+      <br><br>
 
       Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
     question: Why do folks love Young Inglewood wine?
+  - answer: "By appointment only, Young Inglewood tastings provide a welcome moment
+      of tranquility in a busy world. Amongst olive trees and 200 year old oaks,
+      enjoy a short leisurely guided winery tour. Relax in our art filled
+      tasting salon while you sip exquisite Young Inglewood wines during your
+      exclusive wine tasting. Delight in the decor based on Jim and Jacky’s
+      family room from the table setting to the art on the walls to the sweeping
+      view of the organically farmed vines. "
+    question: What’s special about Young Inglewood tastings?
+  - answer: Yes, our membership is called Friends of Young Inglewood. Our FYI
+      membership is a welcoming group of wine enthusiasts. FYI members receive
+      wine twice a year and have the opportunity to meet at FYI member exclusive
+      events. These events bring likeminded folks together to bond over our
+      delicious wine and excellent food. Members love bringing friends to their
+      complimentary tasting to share our wines and unforgettable organically
+      farmed estate. Members can even transfer one of their complimentary wine
+      tasting to a friend for their use.
+    question: Does Young Inglewood have a wine membership?
 ---

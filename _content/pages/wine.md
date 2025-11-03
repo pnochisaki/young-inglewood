@@ -18,11 +18,17 @@ varietal_link_3_text: Purchase Varietal Whites
 library_link_1_text: Purchase Library Offering
 varietal_link_2_text: Purchase Vin Clair Rosé
 faqs:
-  - question: What wines does the FYI membership give access to?
-    answer: "We release our current vintage wines first to FYI members, who are able
-      to purchase and enjoy them a full month before non members. Additionally,
-      FYI members get priority access to any library and large format wines we
-      release. "
+  - question: Does Young Inglewood have a wine membership?
+    answer: Yes, our membership is called  <a
+      href="https://www.younginglewood.com/membership">Friends of Young
+      Inglewood</a>. Our FYI membership is a welcoming group of wine
+      enthusiasts. FYI members receive wine twice a year and have the
+      opportunity to meet at FYI member exclusive events. These events bring
+      likeminded folks together to bond over our delicious wine and excellent
+      food. Members love bringing friends to their complimentary tasting to
+      share our wines and unforgettable organically farmed estate. Members can
+      even transfer one of their complimentary wine tasting to a friend for
+      their use.
   - question: How does Young Inglewood Vineyards' location influence our wine?
     answer: Our family-owned, organically and regeneratively farmed Napa Valley
       estate in St. Helena rests on the alluvial fan that spreads from the base
@@ -30,7 +36,7 @@ faqs:
       Cover crops, bat and bird boxes, and the introduction of beneficial
       insects protect the health of the vines without compromising the soil.
       This connection between family, land, and craftsmanship is what makes
-      Young Inglewood wines so special. ​
+      Young Inglewood wines so special.
   - question: What is Young Inglewood's approach to winemaking?
     answer: Young Inglewood makes wines of place. We guide each vintage with care,
       crafting elegant, site-driven Cabernet Sauvignon and Bordeaux-style wines

@@ -18,18 +18,21 @@ faqs:
       in Napa Valley, California approximately 2 hours north of San Francisco.
       Our estate on the benchland in the western reaches of St Helena has
       endowed us with well drained gravelly loam soils, ideal for growing
-      Cabernet Sauvignon and other red Bordeaux grape varieties.
+      Cabernet Sauvignon and other red Bourdeaux grape varieties.
     question: Where is Young Inglewood located?
   - answer: >
-      Please <a href="sms:7072004572"> text us </a> or <a href="tel:7072004572">
-      call us </a> or <a href="mailto:hosp@younginglewood.com"> email us </a>.
-      We will get back to you within one business day.
+      You can reach us by <a href="sms:7072004572"> texting us </a>, <a
+      href="tel:7072004572"> calling us </a> or <a
+      href="mailto:hosp@younginglewood.com"> emailing us </a>. We will get back
+      to you within one business day.
     question: What’s the best way to contact Young Inglewood?
-  - answer: We welcome you to visit our winery by making a reservation on <a
+  - answer: >
+      We welcome you to visit our winery by making a reservation on <a
       href="https://www.exploretock.com/younginglewood">Tock</a>. We offer a
       private estate tour and winery tasting that lasts approximately 90
-      minutes. You can enjoy our wines at a seated private tasting surrounded by
-      favorite pieces from Jim & Jacky's art collection.
+      minutes. Enjoy our delicious wines in our beautiful tasting salon
+      surrounded by art looking out at our unique Aligoté vines and 200 year old
+      oaks.
     question: How can I visit Young Inglewood?
   - answer: We would love to welcome you to our membership. We have several
       membership options that you can see and join from <a
