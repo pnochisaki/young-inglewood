@@ -23,7 +23,7 @@ export default function Faq({ markdownData }) {
       <Layout faq>
         <div className='faq'>
           <div className="copy">
-            <h2 dangerouslySetInnerHTML={{__html: markdownData.headline}} />
+            <h1 dangerouslySetInnerHTML={{__html: markdownData.headline}} />
             <img className='image-1 desktop-only' src='/images/faq.jpg' alt='image' />
             <img className='image-1 mobile-only' src='/images/faq-mobile.jpg' alt='image' />
             <div className="mobile-only">

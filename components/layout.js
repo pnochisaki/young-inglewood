@@ -138,7 +138,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           <div className="desktop-only home-box">
             <div className="home-bg"></div>
             <div className="home-headline">
-              <h1>Signature wines of <em>balance & grace</em></h1>
+              <h1 dangerouslySetInnerHTML={{ __html: data.headline }} />
             </div>
             <div className="home-1">
               {/* silence */}

@@ -24,8 +24,10 @@ export default function Credits({ markdownData }) {
       <Meta data={markdownData} />
       <Layout credits data={markdownData}>
         <>
+          <h1 dangerouslySetInnerHTML={{ __html: markdownData.headline }} />
+
           <Section
-            title={markdownData.headline}
+            // title={markdownData.headline}
             slug='credits'
             style='section-b'
             image1='/images/credits-1.jpg'
