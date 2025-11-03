@@ -36,7 +36,7 @@ faqs:
       href="https://www.younginglewood.com/membership">our membership page</a>.
       FYI Members receive wines twice a year with first access to wine releases,
       special allocations of limited wines, access to exclusive library wines
-      and large formats, two complimentary estate tasting a year, concierge
+      and large formats, two complimentary estate tastings a year, concierge
       service, access to member only events, and the flexibility to customize
       their membership at any time.
     question: How do I join Friends of Young Inglewood?
