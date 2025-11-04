@@ -5,7 +5,7 @@ address_line_1: 1919 Inglewood Ave.
 address_line_2: Saint Helena, CA 94574
 reservations_link: https://www.exploretock.com/younginglewoood
 og_image: /uploads/148-274a1271.jpg
-headline: How Do I Reach You?
+headline: <em> How Do I Reach You? </em>
 email2: shannon@younginglewood.com
 hours_line_1: Tuesday - Saturday
 hours_line_2: 10:00AM – 3:00PM
