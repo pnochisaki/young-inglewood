@@ -19,7 +19,7 @@ library_link_1_text: Purchase Library Offering
 varietal_link_2_text: Purchase Vin Clair Rosé
 faqs:
   - question: Does Young Inglewood have a wine membership?
-    answer: Yes, our membership is called  <a
+    answer: Yes, our membership is called  <a target="_blank"
       href="https://www.younginglewood.com/membership">Friends of Young
       Inglewood</a>. Our FYI membership is a welcoming group of wine
       enthusiasts. FYI members receive wine twice a year and have the

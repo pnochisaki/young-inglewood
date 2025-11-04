@@ -30,7 +30,7 @@ faqs:
       wines are first created. "
   - question: How do I join Friends of Young Inglewood?
     answer: We would love to welcome you to our membership. We have several
-      membership options that you can see and join from <a
+      membership options that you can see and join from <a target="_blank"
       href="https://www.younginglewood.com/membership">our membership page</a>.
       FYI Members receive wines twice a year with first access to wine releases,
       special allocations of limited wines, access to exclusive library wines

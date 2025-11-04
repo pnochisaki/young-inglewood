@@ -38,7 +38,7 @@ faqs:
       Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers.
     question: What makes Young Inglewood Vineyards unique?
   - question: Does Young Inglewood offer wine tastings?
-    answer: 'Yes, by appointment only, <a
+    answer: 'Yes, by appointment only, <a target="_blank"
       href="https://www.exploretock.com/younginglewood">Young Inglewood
       tastings</a> provide a welcome moment of tranquility in a busy world.
       Amongst olive trees and 200 year old oaks, enjoy a short leisurely guided
