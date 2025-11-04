@@ -28,6 +28,7 @@ faqs:
     question: What’s the best way to contact Young Inglewood?
   - answer: >
       We welcome you to visit our winery by making a reservation on <a
+      target="_blank"
       href="https://www.exploretock.com/younginglewood">Tock</a>. We offer a
       private estate tour and winery tasting that lasts approximately 90
       minutes. Enjoy our delicious wines in our beautiful tasting salon
@@ -35,7 +36,7 @@ faqs:
       oaks.
     question: How can I visit Young Inglewood?
   - answer: We would love to welcome you to our membership. We have several
-      membership options that you can see and join from <a
+      membership options that you can see and join from <a target="_blank"
       href="https://www.younginglewood.com/membership">our membership page</a>.
       FYI Members receive wines twice a year with first access to wine releases,
       special allocations of limited wines, access to exclusive library wines
