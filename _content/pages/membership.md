@@ -42,7 +42,7 @@ faqs:
       substitute in your shipment. You have the flexibility to decide and
       customize your wine selections for each shipment.
     question: How do I customize my membership?
-  - answer: 'Yes, by appointment only, <a
+  - answer: 'Yes, by appointment only, <a target="_blank"
       href="https://www.exploretock.com/younginglewood">Young Inglewood
       tastings</a> provide a welcome moment of tranquility in a busy world.
       Amongst olive trees and 200 year old oaks, enjoy a short leisurely guided
