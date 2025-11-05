@@ -60,4 +60,4 @@ faqs:
 * access to exclusive library wines and large formats
 * allocations of limited wines
 * customize your membership at any time
-*﻿ complimentary tickets to member events
+* complimentary tickets to member events
