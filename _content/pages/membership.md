@@ -56,7 +56,8 @@ faqs:
 
 * special pricing
 * advance notice of all releases
-* concierge service and a reserved space at the winery when you visit
+* concierge service and complimentary tastings
 * access to exclusive library wines and large formats
 * allocations of limited wines
 * customize your membership at any time
+*﻿ complimentary tickets to member events
