@@ -7,7 +7,7 @@ headline: <em> Credit where credit is due </em>
 ---
 ### ARCHITECT
 
-Taylor Lombardo Architects
+[Taylor Lombardo Architects](https://www.taylorlombardo.com)
 
 ### LANDSCAPING ARCHITECT
 
@@ -15,24 +15,24 @@ Jonathan Plant
 
 ### FARMING
 
-Silverado Farming Company
+[Silverado Farming Company](http://www.silveradofarming.com/)
 
 ### VITICULTURE CONSULTANT
 
-Steve Matthiasson
+[Steve Matthiasson](https://www.matthiasson.com/)
 
 ### DESIGN
 
-Level, Calistoga, CA
+[Level, Calistoga, CA](https://www.levelinc.com/)
 
 ### WEBSITE DEVELOPMENT
 
-Peter Nochisaki, 510interactive
+[Peter Nochisaki, 510interactive](https://www.510interactive.com)
 
 ### PHOTOGRAPHY
 
-Bryan Coppede\
-Emma K Morris\
-Gabrielle Lurie\
+[Bryan Coppede](https://www.bryancoppede.com/)
+[Emma K Morris](https://www.emmakcreative.com/)
+[Gabrielle Lurie](https://www.gabriellelurie.com/)
 Mary Young\
 Stephen Ciauri
