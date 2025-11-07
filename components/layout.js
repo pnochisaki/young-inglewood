@@ -75,7 +75,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     },
     {
       url: "/profile/club-membership",
-      title: "Club Shipments"
+      title: "FYI Shipments"
     },
     {
       url: "/profile/order-history",
@@ -98,7 +98,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     },
     {
       url: "/profile/club-membership",
-      title: "Club Shipments"
+      title: "FYI Shipments"
     },
     {
       url: "/profile/order-history",
