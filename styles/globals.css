@@ -97,7 +97,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 3;
+  z-index: 5;
   background: #B3B3B3;
 }
 
@@ -170,9 +170,9 @@ img {
 
 
   .home.layout>header {
-    background: transparent;
-    position: absolute;
-    z-index: 2;
+    /* background: transparent; */
+    position: fixed;
+    z-index: 3;
   }
 
   .home.layout>header .branding {
@@ -200,7 +200,7 @@ img {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 3;
+    z-index: 4;
     transform: translate(-15rem, 5rem);
     display: block;
   }
