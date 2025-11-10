@@ -8,7 +8,7 @@ faqs:
   - answer: >-
       Fans of Young Inglewood wines love the versatility of our wines. We have
       cracked the code on complexity and depth of flavor while maintaining our
-      wines approachability and flexibility with food. Fans are just as likely
+      wines' approachability and flexibility with food. Fans are just as likely
       to open our bottles to enjoy alongside a delicious meal as they are to
       savor our bottle over a delightful fireside chat. 
 
