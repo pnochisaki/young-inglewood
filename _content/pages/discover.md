@@ -14,17 +14,6 @@ faqs:
       <br><br>
 
       Just as in life, the guiding principle in our wine is balance. From hand farming and native yeast fermentation to gentle aging in the cellar, every step honors the integrity of our vineyard and the people who bring it to life. While our wines are delicious to drink at the vintage, they also age beautifully, providing the perfect addition to your cellar.
-  - question: What principles drive Young Inglewood farming and winemaking?
-    answer: >-
-      At our family-owned Napa Valley estate in St. Helena, we focus on
-      producing sustainable, organic, ethical, and superb quality wine. We enjoy
-      a terroir that rests on the alluvial fan that spreads from the base of the
-      Mayacamas, where gravelly loam soils help us nurture wines of balance and
-      depth. 
-
-      <br><br>
-
-      Working with, not against nature, we farm our vines organically and regeneratively, by hand and using gentle equipment when needed. Non-interventionist winemaking is key to translating our estate’s signature character into wines of elegance, balance, and grace.
   - answer: >-
       We aim to produce elegance in a bottle. Starting with our farming
       practices, we work with, not against, nature by farming organically and
@@ -38,7 +27,19 @@ faqs:
       <br><br>
 
       Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers.
-    question: What makes Young Inglewood Vineyards unique?
+    question: What makes Young Inglewood one of Napa Valley’s most distinctive
+      boutique producers?
+  - question: What principles drive Young Inglewood farming and winemaking?
+    answer: >-
+      At our family-owned Napa Valley estate in St. Helena, we focus on
+      producing sustainable, organic, ethical, and superb quality wine. We enjoy
+      a terroir that rests on the alluvial fan that spreads from the base of the
+      Mayacamas, where gravelly loam soils help us nurture wines of balance and
+      depth. 
+
+      <br><br>
+
+      Working with, not against nature, we farm our vines organically and regeneratively, by hand and using gentle equipment when needed. Non-interventionist winemaking is key to translating our estate’s signature character into wines of elegance, balance, and grace.
   - question: Does Young Inglewood offer wine tastings?
     answer: >-
       Yes, by appointment only, <a target="_blank"
