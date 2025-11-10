@@ -26,24 +26,27 @@ faqs:
       Valley wine with balance, sophistication and depth of flavor. Every step
       honors the integrity of our vineyard and the people who bring it to life.
   - question: How does Young Inglewood Vineyards' location influence our wine?
-    answer: Our family-owned, organically and regeneratively farmed Napa Valley
-      estate in St. Helena rests on the alluvial fan that spreads from the base
-      of the Mayacamas. Gravelly loam soils nurture wines of balance and depth.
-      Cover crops, bat and bird boxes, and the introduction of beneficial
-      insects protect the health of the vines without compromising the soil.
-      This connection between family, land, and craftsmanship is what makes
-      Young Inglewood wines so special.
+    answer: >-
+      Our family-owned, organically and regeneratively farmed Napa Valley estate
+      in St. Helena rests on the alluvial fan that spreads from the base of the
+      Mayacamas. Gravelly loam soils nurture wines of balance and depth. 
+
+      <br><br>
+
+      Cover crops, bat and bird boxes, and the introduction of beneficial insects protect the health of the vines without compromising the soil. This connection between family, land, and craftsmanship is what makes Young Inglewood wines so special.
   - question: Does Young Inglewood have a wine membership?
-    answer: Yes, our membership is called  <a target="_blank"
+    answer: >-
+      Yes, our membership is called <a target="_blank"
       href="https://www.younginglewood.com/membership">Friends of Young
       Inglewood</a>. Our FYI membership is a welcoming group of wine
       enthusiasts. FYI members receive wine twice a year and have the
       opportunity to meet at FYI member exclusive events. These events bring
       likeminded folks together to bond over our delicious wine and excellent
-      food. Members love bringing friends to their complimentary tasting to
-      share our wines and unforgettable organically farmed estate. Members can
-      even transfer one of their complimentary wine tastings to friends for
-      their use.
+      food. 
+
+      <br> <br>
+
+      Members love bringing friends to their complimentary tastings to share our wines and unforgettable organically farmed estate. Members can even transfer one of their complimentary wine tastings to friends for their use.
 varietal_link_1_text: Purchase Varietal Reds
 estate_link_1: /collection/all
 ---
