@@ -37,9 +37,9 @@ faqs:
 
       <br><br>
 
-      Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers.
+      Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique wine producers.
     question: What makes Young Inglewood one of Napa Valley’s most distinctive
-      boutique producers?
+      boutique wine producers?
   - question: Does Young Inglewood offer wine tastings?
     answer: >-
       Yes, by appointment only, <a target="_blank"
