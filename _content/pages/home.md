@@ -20,13 +20,15 @@ faqs:
 
       Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
     question: Why do folks love Young Inglewood wine?
-  - answer: "By appointment only, Young Inglewood tastings provide a welcome moment
-      of tranquility in a busy world. Amongst olive trees and 200 year old oaks,
-      enjoy a short leisurely guided winery tour. Relax in our art filled
-      tasting salon while you sip exquisite Young Inglewood wines during your
-      exclusive wine tasting. Delight in the decor based on Jim and Jacky’s
-      family room from the table setting to the art on the walls to the sweeping
-      view of the organically farmed vines. "
+  - answer: >-
+      Our estate tasting experience brings fans back again and again. By
+      appointment only, Young Inglewood tastings provide a welcome moment of
+      tranquility in a busy world. Amongst olive trees and 200 year old oaks,
+      enjoy a short leisurely guided winery tour. 
+
+      <br> <br> 
+
+      Relax in our art filled tasting salon while you sip exquisite Young Inglewood wines during your exclusive wine tasting. Delight in the decor based on Jim and Jacky’s family room from the table setting to the art on the walls to the sweeping view of the organically farmed vines. 
     question: What’s special about Young Inglewood tastings?
   - answer: Yes, our membership is called Friends of Young Inglewood. Our FYI
       membership is a welcoming group of wine enthusiasts. FYI members receive
