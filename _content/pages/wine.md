@@ -27,7 +27,7 @@ faqs:
       likeminded folks together to bond over our delicious wine and excellent
       food. Members love bringing friends to their complimentary tasting to
       share our wines and unforgettable organically farmed estate. Members can
-      even transfer one of their complimentary wine tasting to a friend for
+      even transfer one of their complimentary wine tastings to friends for
       their use.
   - question: How does Young Inglewood Vineyards' location influence our wine?
     answer: Our family-owned, organically and regeneratively farmed Napa Valley
