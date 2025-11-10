@@ -6,14 +6,14 @@ og_image: /uploads/148-274a1271.jpg
 headline: There's something about <em>Young Inglewood</em>
 faqs:
   - question: What defines Young Inglewood wine?
-    answer: "We guide each vintage with care, crafting elegant, site-driven Cabernet
+    answer: >-
+      We guide each vintage with care, crafting elegant, site-driven Cabernet
       Sauvignon and Bordeaux-style wines through thoughtful,
-      minimal-intervention winemaking. Just as in life, the guiding principle in
-      our wine is balance. From hand farming and native yeast fermentation to
-      gentle aging in the cellar, every step honors the integrity of our
-      vineyard and the people who bring it to life. While our wines are
-      delicious to drink at the vintage, they also age beautifully, providing
-      the perfect addition to your cellar. "
+      minimal-intervention winemaking. 
+
+      <br> <br> 
+
+      Just as in life, the guiding principle in our wine is balance. From hand farming and native yeast fermentation to gentle aging in the cellar, every step honors the integrity of our vineyard and the people who bring it to life. While our wines are delicious to drink at the vintage, they also age beautifully, providing the perfect addition to your cellar. 
   - question: What principles drive Young Inglewood farming and winemaking?
     answer: At our family-owned Napa Valley estate in St. Helena, we focus on
       producing sustainable, organic, ethical, and superb quality wine. We enjoy
