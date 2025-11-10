@@ -27,8 +27,8 @@ faqs:
       Working with, not against nature, we farm our vines organically and regeneratively, by hand and using gentle equipment when needed. Non-interventionist winemaking is key to translating our estate’s signature character into wines of elegance, balance, and grace.
   - answer: >-
       We aim to produce elegance in a bottle. Starting with our farming
-      practices, we work with, not against nature by farming organically and
-      regeneratively. We pick grapes by hand to bring them into the winery at
+      practices, we work with, not against, nature by farming organically and
+      regeneratively. We pick grapes by hand bringing them into the winery at
       the perfect moment for depth of flavor. 
 
       <br> <br>
@@ -40,12 +40,14 @@ faqs:
       Our enduring connection between family, land, and craftsmanship is what makes Young Inglewood one of Napa Valley’s most distinctive boutique producers.
     question: What makes Young Inglewood Vineyards unique?
   - question: Does Young Inglewood offer wine tastings?
-    answer: 'Yes, by appointment only, <a target="_blank"
+    answer: >-
+      Yes, by appointment only, <a target="_blank"
       href="https://www.exploretock.com/younginglewood">Young Inglewood
       tastings</a> provide a welcome moment of tranquility in a busy world.
       Amongst olive trees and 200 year old oaks, enjoy a short leisurely guided
-      winery tour. Relax in our art filled tasting salon while you sip exquisite
-      Young Inglewood wines during your exclusive wine tasting. Delight in the
-      decor based on Jim and Jacky’s family room from the table setting to the
-      art on the walls to the sweeping view of the vineyard. '
+      winery tour. 
+
+      <br> <br>
+
+      Relax in our art filled tasting salon while you sip exquisite Young Inglewood wines during your exclusive wine tasting. Delight in the decor based on Jim and Jacky’s family room, from the table setting to the art on the walls to the sweeping view of the organically farmed vines.
 ---
