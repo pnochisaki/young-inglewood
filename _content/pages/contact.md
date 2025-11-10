@@ -35,14 +35,14 @@ faqs:
       surrounded by art looking out at our unique Aligoté vines and 200 year old
       oaks.
     question: How can I visit Young Inglewood?
-  - answer: We would love to welcome you to our membership. We have several
-      membership options that you can see and join from <a target="_blank"
-      href="https://www.younginglewood.com/membership">our membership page</a>.
-      FYI Members receive wines twice a year with first access to wine releases,
-      special allocations of limited wines, access to exclusive library wines
-      and large formats, two complimentary estate tastings a year, concierge
-      service, access to member only events, and the flexibility to customize
-      their membership at any time.
+  - answer: >-
+      We would love to welcome you to our membership. We have several membership
+      options that you can see and join on <a target="_blank"
+      href="https://www.younginglewood.com/membership">our membership page</a>. 
+
+      <br><br>
+
+      FYI Members receive wines twice a year with first access to wine releases, special allocations of limited wines, access to exclusive library wines and large formats, complimentary estate tastings, access to member only events, and the flexibility to customize their membership at any time. 
     question: How do I join Friends of Young Inglewood?
 ---
 ### HOW TO GET TO US
