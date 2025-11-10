@@ -9,38 +9,42 @@ faqs:
   - question: What is included in an FYI membership?
     answer: "FYI Members receive wines twice a year with first access to wine
       releases, special allocations of limited wines, access to exclusive
-      library wines and large formats, complimentary estate tastings, concierge
-      service, access to member only events, and the flexibility to customize
-      their membership at any time. "
+      library wines and large formats, complimentary estate tastings, access to
+      member only events, and the flexibility to customize their membership at
+      any time. "
   - question: Why join the Friends of Young Inglewood membership?
-    answer: Our FYI membership is a welcoming group of wine enthusiasts. FYI members
+    answer: >-
+      Our FYI membership is a welcoming group of wine enthusiasts. FYI members
       receive wine twice a year and have the opportunity to meet at FYI member
       exclusive events. These events bring likeminded folks together to bond
-      over our delicious wine and excellent food. Members love bringing friends
-      to their complimentary estate tasting to share our wines and unforgettable
-      property. Members can even transfer one of their complimentary wine
-      tastings to friends for their use.
+      over our delicious wine and excellent food. 
+
+      <br> <br>
+
+      Members love bringing friends to their complimentary tastings to share our wines and unforgettable organically farmed estate. Members can even transfer one of their complimentary wine tastings to friends for their use.
   - question: Why do folks love Young Inglewood wine?
     answer: >-
       Fans of Young Inglewood wines love the versatility of our wines. We have
       cracked the code on complexity and depth of flavor while maintaining our
       wines’ approachability and flexibility with food. Fans are just as likely
       to open our bottles to enjoy alongside a delicious meal as they are to
-      savor our bottle over a delightful fireside chat. 
+      savor our bottle over a fireside chat. 
 
-      <br><br>
+      <br> <br>
 
-      Wine cellar enthusiasts love the ageability of our wines. Fans love the smoothness and finish of our older vintages.
+      Wine cellar enthusiasts love the ageability of our wines. Fans love the smoothness and finish of our older vintages. 
 
-      <br><br> 
+      <br> <br>
 
       Our estate tasting experience brings fans back again and again. They love the beauty of our property and comment on how aptly it reflects our elegant and delicious wine.
-  - answer: We ship wine to you twice a year. The month before your shipment, on the
+  - answer: >-
+      We ship wine to you twice a year. The month before your shipment, on the
       Club Shipments tab, you will see what wines our winemakers have included
-      for you in the current shipment for your wine membership. We will also
-      include a couple of optional winemaker selections for you to add to or
-      substitute in your shipment. You have the flexibility to decide and
-      customize your wine selections for each shipment.
+      for you in the current shipment for your wine membership. 
+
+      <br> <br>
+
+      Our winemakers have also included a couple of optional wine selections for you to add to or substitute in your shipment. You have the flexibility to decide and customize your wine selections for each shipment.
     question: How do I customize my membership?
   - answer: >-
       Yes, by appointment only, <a target="_blank"
@@ -49,9 +53,9 @@ faqs:
       Amongst olive trees and 200 year old oaks, enjoy a short leisurely guided
       winery tour. 
 
-      <br> <br>
+      <br><br>
 
-      Relax in our art filled tasting salon while you sip exquisite Young Inglewood wines during your exclusive wine tasting. Delight in the decor based on Jim and Jacky’s family room from the table setting to the art on the walls to the sweeping view of the organically farmed vines. 
+      Relax in our art filled tasting salon while you sip exquisite Young Inglewood wines during your exclusive wine tasting. Delight in the decor based on Jim and Jacky’s family room, from the table setting to the art on the walls to the sweeping view of the organically farmed vines. 
     question: Does Young Inglewood offer wine tastings?
 ---
 ### IN ADDITION YOU’LL RECEIVE
