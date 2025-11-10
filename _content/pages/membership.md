@@ -19,7 +19,7 @@ faqs:
       over our delicious wine and excellent food. Members love bringing friends
       to their complimentary estate tasting to share our wines and unforgettable
       property. Members can even transfer one of their complimentary wine
-      tasting to a friend for their use.
+      tastings to friends for their use.
   - question: Why do folks love Young Inglewood wine?
     answer: >-
       Fans of Young Inglewood wines love the versatility of our wines. We have
