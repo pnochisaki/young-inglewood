@@ -50,7 +50,7 @@ faqs:
       Young Inglewood wines during your exclusive wine tasting. Delight in the
       decor based on Jim and Jacky’s family room from the table setting to the
       art on the walls to the sweeping view of the vineyard. '
-    question: Does Young Inglewood offer wine tastings
+    question: Does Young Inglewood offer wine tastings?
 ---
 ### IN ADDITION YOU’LL RECEIVE
 
