@@ -37,7 +37,7 @@ faqs:
     question: How can I visit Young Inglewood?
   - answer: >-
       We would love to welcome you to our membership. We have several membership
-      options that you can see and join on <a target="_blank"
+      options that you can see and join on <a
       href="https://www.younginglewood.com/membership">our membership page</a>. 
 
       <br><br>
