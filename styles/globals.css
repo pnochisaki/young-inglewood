@@ -980,7 +980,7 @@ main>h1 {
   }
 
   .c7-table__number .c7-link {
-    font-size: .85rem !important;
+    /* font-size: .85rem !important; */
   }
 
   .c7-account-dashboard__left-column .c7-account-dashboard__block:nth-child(2) .c7-h2 {
@@ -2011,7 +2011,7 @@ section a,
   .c7-order-items--cart .c7-link span,
   .c7-checkout__summary-container .c7-link span,
   .c7-side-cart__content-container .c7-notice--empty>a {
-    font-size: .85rem !important;
+    /* font-size: .85rem !important; */
   }
 }
 
