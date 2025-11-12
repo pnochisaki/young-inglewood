@@ -1001,7 +1001,8 @@ main>h1 {
   }
 
 
-  #c7-cart {
+  #c7-cart,
+  #c7-cart-wrapper {
     position: absolute;
     top: 1.25rem;
     right: 1rem;

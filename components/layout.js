@@ -58,6 +58,8 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
   useEffect(() => {
     if (window) {
       setTimeout(() => sessionStorage.setItem("seenAnimation", true), 5000);
+      if (window.innerWidth > '769') {$('#c7-cart-wrapper').append($('#c7-cart'))}
+      
     }
   }, []);
 
@@ -259,7 +261,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             </div>
           </div>
         </div>
-        <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
+        <div id="c7-cart-wrapper" />
       </header >
 
       <a className='visit-us' target='_blank' href="https://exploretock.com/younginglewood">Visit Us</a>
