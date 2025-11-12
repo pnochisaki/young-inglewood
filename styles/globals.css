@@ -2465,9 +2465,14 @@ select+.c7-form__error {
 }
 
 @media (max-width: 768px) {
-  
+
   .c7-product-collection .c7-product__image img {
     max-height: 100%;
+  }
+
+  .account-nav a.c7-btn.active,
+  .collections-nav a.c7-btn.active {
+    padding: 1.5rem 0;
   }
 
   .collections-nav a.c7-btn,
