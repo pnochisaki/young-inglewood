@@ -33,7 +33,7 @@ faqs:
       Relax in our art filled tasting salon while you sip exquisite Young Inglewood wines during your exclusive wine tasting. Delight in the decor based on Jim and Jacky’s family room, from the table setting to the art on the walls to the sweeping view of the organically farmed vines. 
     question: What’s special about Young Inglewood tastings?
   - answer: >-
-      Yes, our membership is called <a target="_blank"
+      Yes, our membership is called <a
       href="https://www.younginglewood.com/membership">Friends of Young
       Inglewood</a>. Our FYI membership is a welcoming group of wine
       enthusiasts. FYI members receive wine twice a year and have the

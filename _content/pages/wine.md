@@ -36,7 +36,7 @@ faqs:
       Cover crops, bat and bird boxes, and the introduction of beneficial insects protect the health of the vines without compromising the soil. This connection between family, land, and craftsmanship is what makes Young Inglewood wines so special.
   - question: Does Young Inglewood have a wine membership?
     answer: >-
-      Yes, our membership is called <a target="_blank"
+      Yes, our membership is called <a
       href="https://www.younginglewood.com/membership">Friends of Young
       Inglewood</a>. Our FYI membership is a welcoming group of wine
       enthusiasts. FYI members receive wine twice a year and have the
