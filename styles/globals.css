@@ -1009,6 +1009,7 @@ main>h1 {
     width: 1rem;
     height: 1rem;
   }
+
   #c7-cart-wrapper #c7-cart {
     top: -.85rem;
     right: 0;
@@ -1026,6 +1027,9 @@ main>h1 {
 
   #c7-cart .c7-side-cart__header button {
     float: right;
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
   }
 
   .hamburger {
