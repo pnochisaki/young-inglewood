@@ -1015,9 +1015,9 @@ main>h1 {
     right: 0;
   }
 
-  #c7-cart .c7-user-nav__cart__count {
+  /* #c7-cart .c7-user-nav__cart__count {
     display: none;
-  }
+  } */
 
   #c7-cart .c7-side-cart__header {
     display: block;
