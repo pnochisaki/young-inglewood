@@ -1873,11 +1873,15 @@ html section .team-listing .team-text a {
     padding: 1rem 0;
   }
 
+}
+
+@media (max-width: 768px) {
   .c7-table__row .c7-btn {
     flex: none;
   }
-
 }
+
+
 
 /* ================================================================== */
 
