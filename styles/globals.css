@@ -2500,16 +2500,6 @@ select+.c7-form__error {
     max-height: 100%;
   }
 
-  .account-nav a.c7-btn.active span,
-  .collections-nav a.c7-btn.active span {
-    /* padding: 1.5rem 0 !important; */
-  }
-
-  .collections-nav a.c7-btn,
-  .account-nav a.c7-btn {
-    padding: 0;
-  }
-
   .collections-nav a.c7-btn span,
   .account-nav a.c7-btn span {
     box-shadow: none;
