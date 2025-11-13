@@ -2,7 +2,7 @@ MOBILE
 - - 
 Cart is TOO WIDE
 h1 treatment
-Collections Subnav fix order on mobile
+- Collections Subnav fix order on mobile
 - Visit us to the bottom on Mobile
 Subnav gold line just under word, match live site
 Mobile divider line in nav
