@@ -2500,10 +2500,10 @@ select+.c7-form__error {
     max-height: 100%;
   }
 
-  .collections-nav a.c7-btn span,
-  .account-nav a.c7-btn span {
+  html .collections-nav a.c7-btn>span,
+  html .account-nav a.c7-btn>span {
     box-shadow: none;
-    padding: 1.5rem 0 !important;
+    padding: .5rem 0 !important;
   }
 
 }
