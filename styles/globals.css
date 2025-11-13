@@ -2502,7 +2502,7 @@ select+.c7-form__error {
 
   .account-nav a.c7-btn.active span,
   .collections-nav a.c7-btn.active span {
-    padding: 1.5rem 0 !important;
+    /* padding: 1.5rem 0 !important; */
   }
 
   .collections-nav a.c7-btn,
