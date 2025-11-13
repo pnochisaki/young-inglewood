@@ -2137,6 +2137,18 @@ a.visit-us {
   box-shadow: rgba(0, 0, 0, 0.225) 0 .5rem 1rem
 }
 
+@media (max-width: 768px) {
+  a.visit-us {
+    left: 0;
+    bottom: 0;
+    top: auto;
+    right: auto;
+    border-radius: 0;
+    transform: rotate(0deg);
+    width: 100%;
+  }
+}
+
 .c7-order-item .c7-order-item__details .c7-link,
 .c7-btn {
   display: inline-block;
