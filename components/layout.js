@@ -58,8 +58,8 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
   useEffect(() => {
     if (window) {
       setTimeout(() => sessionStorage.setItem("seenAnimation", true), 5000);
-      if (window.innerWidth < '769') {$('#c7-cart-wrapper').append($('#c7-cart'))}
-      
+      if (window.innerWidth < '769') { $('#c7-cart-wrapper').append($('#c7-cart')) }
+
     }
   }, []);
 
@@ -295,6 +295,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
         <div className="blocker"></div>
         {collections && collections
           .filter(collection => collection.metaData['store-menu'])
+          .sort((a, b) => Number(a.metaData['position']) - Number(b.metaData['position']))
           .map((collection, index) => {
             return <a className={router.asPath === '/collection/' + collection.slug ? 'c7-btn active' : 'c7-btn'} key={index} href={'/collection/' + collection.slug}><span>{collection.title}</span></a>
           }

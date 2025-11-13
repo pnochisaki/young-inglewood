@@ -3,13 +3,13 @@ MOBILE
 Cart is TOO WIDE
 h1 treatment
 Collections Subnav fix order on mobile
-Visit us to the bottom on Mobile
+- Visit us to the bottom on Mobile
 Subnav gold line just under word, match live site
 Mobile divider line in nav
 Credit where credit is due, should match live
 Credits hyperlinks need desktop treatment
 Center add to cart on purchase page
-Mobile menu, larger font on the main nav
+- Mobile menu, larger font on the main nav, (Larger buttons overall)
 
 DESKTOP
 - - 
