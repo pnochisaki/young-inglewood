@@ -2507,13 +2507,13 @@ select+.c7-form__error {
 
   .collections-nav a.c7-btn,
   .account-nav a.c7-btn {
-    padding: 0;
+    padding: 1.5rem 0;
   }
 
   .collections-nav a.c7-btn span,
   .account-nav a.c7-btn span {
     box-shadow: none;
-    padding: 1.5rem 0;
+    padding: 1.5rem 0 !important;
   }
 
 }
