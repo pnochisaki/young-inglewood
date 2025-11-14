@@ -450,6 +450,7 @@ button.c7-link {
 }
 
 @media (max-width: 768px) {
+
   .navigation nav a.active span:after,
   .collections-nav a.active span:after,
   .account-nav a.active span:after,
@@ -461,6 +462,7 @@ button.c7-link {
     bottom: -10px;
   }
 }
+
 .collections-nav a.active span:after,
 .account-nav a.active span:after,
 .c7-account__menu li.c7-active a:after,
@@ -901,22 +903,24 @@ h2 {
 }
 
 h1 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   display: block;
+  text-transform: none;
 }
 
 h1 em {
-  font-size: 3.75rem;
+  font-size: 3rem;
   font-style: normal;
+    text-transform: none;
 }
 
 @media (max-width: 768px) {
   main>h1 {
-    padding-left: 0 !important;
+    padding: 0 2rem 2rem !important;
   }
 
   h1 em {
-    line-height: 1;
+    line-height: 1.2;
   }
 }
 
@@ -987,14 +991,25 @@ main>h1 {
     height: 4rem;
   }
 
-  h2 {
+  h2,
+  .credits h1,
+  .faq h1,
+  .contact h1 {
     margin: 2.5rem 0 .5rem;
     line-height: 1.2;
     font-size: 2.5rem;
   }
 
+  .credits h1 em,
+  .faq h1 em,
+  .contact h1 em {
+    line-height: 1.2;
+    font-size: 2.5rem;
+  }
 
-  section:nth-child(odd) h2 {
+
+  section:nth-child(odd) h2,
+  section.credits:nth-child(odd) h1 {
     text-align: right;
   }
 
@@ -1076,10 +1091,16 @@ main>h1 {
     margin-top: 6rem;
   }
 
-  .navigation nav #c7-account {
+  .navigation nav #c7-account,
+  .account-links {
     border-bottom: .05rem solid #d78628;
     width: 75%;
     margin: auto;
+  }
+
+  .account-links a,
+  .account-links a span {
+    color: #d78628;
   }
 
   .contact .copy>h2 {
@@ -1879,23 +1900,23 @@ html section .team-listing .team-text a {
     margin-bottom: .25rem;
   }
 
-  .credits p a {
-    font-family: baskerville-urw, serif;
-    text-transform: none;
-    letter-spacing: normal;
-    font-size: 1rem !important;
-    padding: 0;
-    line-height: inherit;
-    color: inherit;
-    text-decoration: underline;
-  }
-
   .c7-table a {
     margin: 5px !important;
     display: block;
     padding: 1rem 0;
   }
 
+}
+
+.credits p a {
+  font-family: baskerville-urw, serif;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 1rem !important;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -2904,9 +2925,8 @@ select+.c7-form__error {
 }
 
 @media (max-width: 768px) {
-
   .c7-product__details .c7-product__add-to-cart__form button {
-    padding: .8rem 0 !important;
+    padding: .235rem 0 !important;
   }
 
 }

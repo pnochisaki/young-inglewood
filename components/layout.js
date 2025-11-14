@@ -59,9 +59,14 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     if (window) {
       setTimeout(() => sessionStorage.setItem("seenAnimation", true), 5000);
       if (window.innerWidth < '769') { $('#c7-cart-wrapper').append($('#c7-cart')) }
-
     }
   }, []);
+
+  useEffect(() => {
+    $('.section-a > h2').insertAfter($('.section-a > h2 + .mobile-image'))
+    $('.section-c > h2').insertAfter($('.section-c > h2 + .mobile-image'))
+  }, []);
+
 
   const utilityNavItems = [
     {
@@ -202,12 +207,9 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
 
               <a href="/wine" className={wine && 'active'}><span>Wine</span></a>
 
-
               <a href="/membership" className={membership && 'active'}><span>Membership</span></a>
 
               <a href="/visit" className={visit && 'active'}><span>Visit</span></a>
-
-
 
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
@@ -250,9 +252,15 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
               </div>
             </nav>
             <nav className="mobile-only">
+              <div className='account-links'>
+                {account ?
+                  <a href="/profile/login"><span>Login</span></a>
+                  :
+                  <a href="/profile"><span>Account</span></a>
+                }
+              </div>
               <a href="/faq"><span>FAQ</span></a>
               <a href="/contact"><span>Contact</span></a>
-              <a href="/profile/create-account"><span>Join</span></a>
               <a href="/profile/account"><span>Manage your Account</span></a>
               <a href="/credits"><span>Credits</span></a>
             </nav>
