@@ -63,8 +63,8 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
   }, []);
 
   useEffect(() => {
-    $('.section-a > h2').insertAfter($('.section-a > h2 + .mobile-image'))
-    $('.section-c > h2').insertAfter($('.section-c > h2 + .mobile-image'))
+    $('.section-a:first-of-type > h2').insertAfter($('.section-a:first-of-type > h2 + .mobile-image'))
+    $('.section-c:first-of-type > h2').insertAfter($('.section-c:first-of-type > h2 + .mobile-image'))
   }, []);
 
 
