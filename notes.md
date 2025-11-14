@@ -14,10 +14,10 @@ Cart is TOO WIDE
 
 DESKTOP
 - - 
-Checkout phantom scroller
 Membership - Join and More detail (increase space)
-Membreship page: widen the more details
+Membership page: widen the more details
 col. 2, 4, 5 decrease width, col 3 increase
+Checkout phantom scroller
 - h1, remove forced lowercase
 
 GO LIVE
