@@ -14,13 +14,14 @@ Cart is TOO WIDE
 
 DESKTOP
 - - 
-Membership - Join and More detail (increase space)
-Membership page: widen the more details
-col. 2, 4, 5 decrease width, col 3 increase
 Checkout phantom scroller
+- Membership - Join and More detail (increase space)
+- Membership page: widen the more details
+- col. 2, 4, 5 decrease width, col 3 increase
 - h1, remove forced lowercase
 
 GO LIVE
 - - 
 Check Credit links
+credit links in new browser
 
