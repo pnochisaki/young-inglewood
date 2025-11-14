@@ -1833,16 +1833,16 @@ html section .team-listing .team-text a {
     width: 12%;
   }
   .membership-details .table>div>div:nth-child(2) {
-    width: 12%;
+    width: 20%;
   }
   .membership-details .table>div>div:nth-child(3) {
-    width: 36%;
+    width: 43%;
   }
   .membership-details .table>div>div:nth-child(4) {
-    width: 15%;
+    width: 10%;
   }
   .membership-details .table>div>div:nth-child(5) {
-    width: 15%;
+    width: 13%;
     text-align: right;
   }
 
