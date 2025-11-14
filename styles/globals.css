@@ -911,7 +911,7 @@ h1 {
 h1 em {
   font-size: 3rem;
   font-style: normal;
-    text-transform: none;
+  text-transform: none;
 }
 
 @media (max-width: 768px) {
@@ -1636,6 +1636,7 @@ section.wine h2 {
 .membership-details .table .club-row ul {
   list-style-type: none;
   display: none;
+  padding-left: 0;
 }
 
 .membership-details .table {
@@ -1672,6 +1673,10 @@ section.wine h2 {
   .membership-details .table .show-more,
   .membership-details .table .show-less {
     text-align: left;
+  }
+
+  .membership-details .table .club-row.active .show-less {
+    display: inline-block;
   }
 }
 
@@ -1832,15 +1837,19 @@ html section .team-listing .team-text a {
     text-align: left;
     width: 12%;
   }
+
   .membership-details .table>div>div:nth-child(2) {
     width: 20%;
   }
+
   .membership-details .table>div>div:nth-child(3) {
     width: 43%;
   }
+
   .membership-details .table>div>div:nth-child(4) {
     width: 10%;
   }
+
   .membership-details .table>div>div:nth-child(5) {
     width: 13%;
     text-align: right;
