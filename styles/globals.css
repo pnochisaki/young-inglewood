@@ -2339,6 +2339,13 @@ html .c7-order-summary+.c7-btn,
   padding: 20px 70px 20px 30px !important
 }
 
+@media (max-width: 768px) {
+  .c7-side-cart__content-container,
+  .c7-side-cart__summary-container {
+    padding: 20px 30px !important
+  }
+} 
+
 .c7-side-cart__content-container .c7-notice--empty>a {
   text-align: center;
 }
