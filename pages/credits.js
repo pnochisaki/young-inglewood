@@ -2,8 +2,6 @@ import Layout from '../components/layout';
 import Meta from '../components/meta';
 import Section from '../components/section';
 import { getMarkdownData } from '../lib/markdown'
-import { useEffect } from 'react'
-import $ from 'jquery'
 
 const mdDir = '_content/pages/'
 
@@ -20,10 +18,6 @@ export async function getStaticProps({ params }) {
 
 
 export default function Credits({ markdownData }) {
-
-  useEffect(() => {
-    $('.credits a').attr('target', '_blank');
-  }, [])
 
   return (
     <>

@@ -50,9 +50,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     console.log("customerToken (from State):", loggedIn.customerToken)
     const authState = (loggedIn.customerToken !== undefined) ? "logged-in" : "logged-out"
     $('.layout').addClass(authState)
-
   }, [])
-
 
 
   useEffect(() => {
@@ -66,6 +64,17 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     $('.section-a:first-of-type > h2').insertAfter($('.section-a:first-of-type > h2 + .mobile-image'))
     $('.section-c:first-of-type > h2').insertAfter($('.section-c:first-of-type > h2 + .mobile-image'))
   }, []);
+
+  useEffect(() => {
+    $('a').each(function () {
+      const href = $(this).attr('href');
+      if (href && href.startsWith('http') && !href.includes(window.location.hostname)) {
+        $(this).attr('target', '_blank');
+      }
+    });
+  }, []);
+
+
 
 
   const utilityNavItems = [
@@ -138,7 +147,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       {home ?
         <>
           <div className="mobile-only home">
-            <a href="/discover"><img src="/images/home-mobile.jpg" alt="discover" /></a>
+            <a href="/collection/all"><img src="/images/home-mobile.jpg" alt="discover" /></a>
             <p className='text'>{text}</p>
           </div>
 

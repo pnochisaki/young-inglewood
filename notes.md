@@ -21,7 +21,7 @@ Checkout phantom scroller
 - col. 2, 4, 5 decrease width, col 3 increase
 - h1, remove forced lowercase
 - credit links in new browser window
-- 
+
 GO LIVE
 - - 
 Check Credit links in the CMS
