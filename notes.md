@@ -1,6 +1,6 @@
 MOBILE
 - - 
-Cart is TOO WIDE
+- Cart is TOO WIDE
 - h1 treatment
 - Credit where credit is due, should match live
 - Mobile menu, larger font on the main nav, (Larger buttons overall)
@@ -11,6 +11,7 @@ Cart is TOO WIDE
 - Mobile divider line in nav
 - Credits hyperlinks need desktop treatment
 - h1, remove forced lowercase
+- credit links in new browser window
 
 DESKTOP
 - - 
@@ -19,9 +20,10 @@ Checkout phantom scroller
 - Membership page: widen the more details
 - col. 2, 4, 5 decrease width, col 3 increase
 - h1, remove forced lowercase
-
+- credit links in new browser window
+- 
 GO LIVE
 - - 
-Check Credit links
-credit links in new browser
+Check Credit links in the CMS
+
 

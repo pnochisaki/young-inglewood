@@ -286,6 +286,9 @@ img {
   .layout>main {
     padding-top: 11rem;
   }
+   .layout>main>.contact {
+    padding-top: 2rem;
+  }
 
   .layout.checkout>main {
     padding-top: 7rem;
@@ -1108,7 +1111,7 @@ main>h1 {
   }
 
   @media (max-width: 768px) {
-    .contact>h2 {
+    .contact>h1 {
       text-align: left;
     }
 
