@@ -61,8 +61,9 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
   }, []);
 
   useEffect(() => {
-    $('.section-a:first-of-type > h2').insertAfter($('.section-a:first-of-type > h2 + .mobile-image'))
-    $('.section-c:first-of-type > h2').insertAfter($('.section-c:first-of-type > h2 + .mobile-image'))
+    if (window.innerWidth < 769) {
+      $('.section-a, .section-b, .section-c, .team').each(function() {$(this).find('h2').insertAfter($(this).find('.mobile-image'))})
+    }
   }, []);
 
   useEffect(() => {
