@@ -208,7 +208,7 @@ img {
 
   .home-headline {
     position: absolute;
-    top: 30rem;
+    top: 25rem;
     left: 37rem;
     transform: translate(-65%, -295%);
     z-index: 3;
@@ -286,7 +286,8 @@ img {
   .layout>main {
     padding-top: 11rem;
   }
-   .layout>main>.contact {
+
+  .layout>main>.contact {
     padding-top: 2rem;
   }
 
@@ -1106,6 +1107,11 @@ main>h1 {
     color: #d78628;
   }
 
+  .account-links a span {
+    white-space: normal;
+    line-height: 1.2;
+  }
+
   .contact .copy>h2 {
     display: none;
   }
@@ -1208,8 +1214,8 @@ section strong {
 
 @media (max-width: 769px) {
   section strong {
-  font-size: 1.75rem;
-}
+    font-size: 1.75rem;
+  }
 }
 
 section p {
@@ -2349,11 +2355,12 @@ html .c7-order-summary+.c7-btn,
 }
 
 @media (max-width: 768px) {
+
   .c7-side-cart__content-container,
   .c7-side-cart__summary-container {
     padding: 20px 30px !important
   }
-} 
+}
 
 .c7-side-cart__content-container .c7-notice--empty>a {
   text-align: center;
@@ -3477,6 +3484,7 @@ section.c7-checkout__content h1 {
     text-align: center;
     display: block;
   }
+
   .c7-order-summary .c7-order-summary__buttons>a {
     display: inline-block;
     width: auto;
