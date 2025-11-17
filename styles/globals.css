@@ -912,7 +912,7 @@ h1 {
 }
 
 h1 em {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-style: normal;
   text-transform: none;
 }
@@ -998,20 +998,20 @@ main>h1 {
   .credits h1,
   .faq h1,
   .contact h1 {
-    margin: 1.25rem 0 .25rem;
-    line-height: 1.2;
+    margin: .25rem 0 .5rem;
+    line-height: 1;
     font-size: 2.5rem;
   }
 
   .credits h1 em,
   .faq h1 em,
   .contact h1 em {
-    line-height: 1.2;
+    line-height: 1;
     font-size: 2.5rem;
   }
 
 
-  /* section:nth-child(odd) h2, */
+  section:nth-child(odd) h2,
   section.credits:nth-child(odd) h1 {
     text-align: right;
   }
@@ -1204,6 +1204,12 @@ section strong {
   text-transform: lowercase;
   font-size: 2rem;
   line-height: 0;
+}
+
+@media (max-width: 769px) {
+  section strong {
+  font-size: 1.75rem;
+}
 }
 
 section p {
@@ -1438,7 +1444,7 @@ section.wine h2 {
   }
 
   section.varietals h2 {
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 
   section.library:before {
@@ -2384,7 +2390,7 @@ html .c7-link {
 }
 
 .button-shadow {
-  margin-top: .2rem;
+  margin-top: .5rem;
 }
 
 html .utility-links .c7-btn>span,
