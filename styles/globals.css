@@ -1560,7 +1560,7 @@ html section .team-listing .team-text a {
   }
 
   .team-listing li:last-child .team-text {
-    transform: translateY(-1.5rem)
+    transform: translateY(-3rem)
   }
 
   html section .team-listing .team-text a {
