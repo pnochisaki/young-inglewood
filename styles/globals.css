@@ -3650,3 +3650,7 @@ html .c7-product-allocation h2 {
 .c7-checkout__header {
   padding: 0 20px 60px;
 }
+
+.c7-order-item--giftcard .c7-order-item__image {
+  max-width: 100%;
+}
