@@ -3173,7 +3173,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
 
   .c7-product-collection__product-list,
   .c7-product-allocation__product-list {
-    margin-bottom: 0;
+    margin: 1rem 0 0 0;
   }
 
   .c7-account__menu li.c7-active a:after,
@@ -3584,7 +3584,8 @@ html .c7-product-allocation h2 {
   font-style: normal !important;
   margin: .25rem 0 .5rem !important;
   line-height: 1.2 !important;
-  padding-top: 0 !important
+  padding-top: 0 !important;
+  letter-spacing: .1rem !important;
 }
 
 .c7-cart__summary-container {
