@@ -2360,6 +2360,9 @@ html .c7-order-summary+.c7-btn,
   .c7-side-cart__summary-container {
     padding: 20px 30px !important
   }
+  .c7-side-cart__summary-container .c7-order-summary__buttons .c7-btn--alt {
+    display: none;
+  }
 }
 
 .c7-side-cart__content-container .c7-notice--empty>a {
