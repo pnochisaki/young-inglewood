@@ -3573,11 +3573,11 @@ section.c7-checkout__content h1 {
 
 .c7-product-collection__content h2,
 .c7-product-allocation h2 {
-  text-transform: uppercase;
-  font-size: 1.6rem;
-  font-family: sofia-pro, sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  text-transform: uppercase !important;
+  font-size: 1.6rem !important;
+  font-family: sofia-pro, sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
 }
 
 .c7-cart__summary-container {
