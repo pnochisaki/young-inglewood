@@ -3424,6 +3424,10 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-table__refundStatus {
     padding: .5rem 0;
   }
+
+  .c7-account-details__view-all {
+    text-align: center
+  }
 }
 
 .c7-account-block__actions .c7-link+.c7-link {
