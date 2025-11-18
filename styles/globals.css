@@ -3441,7 +3441,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     text-align: center
   }
 
-  .c7-account-details__addresses .c7-account-details__view-al {
+  .c7-account-details__addresses .c7-account-details__view-all {
     margin-top: -2rem;
   }
 }
