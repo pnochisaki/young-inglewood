@@ -2943,6 +2943,12 @@ section.c7-side-cart .c7-order-items--cart .c7-order-item__title a {
   margin: 1rem 0 0 0;
 }
 
+@media (min-width: 769px) {
+  .c7-order-item__image+.c7-order-item__details  {
+    margin: 1rem 0 0 1rem;
+  }
+}
+
 
 @media screen and (min-width: 769px) {
 
