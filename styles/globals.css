@@ -2360,6 +2360,7 @@ html .c7-order-summary+.c7-btn,
   .c7-side-cart__summary-container {
     padding: 20px 30px !important
   }
+
   .c7-side-cart__summary-container .c7-order-summary__buttons .c7-btn--alt {
     display: none;
   }
@@ -2396,6 +2397,7 @@ html .membership-details .table>div>div .c7-btn>span {
 }
 
 @media (max-width: 768px) {
+
   .c7-account-details__addresses .c7-account-details__header .c7-btn--alt--small,
   .c7-account-details__payment .c7-account-details__header .c7-btn--alt--small {
     margin-bottom: 0;
@@ -2944,7 +2946,7 @@ section.c7-side-cart .c7-order-items--cart .c7-order-item__title a {
 }
 
 @media (min-width: 769px) {
-  .c7-order-item__image+.c7-order-item__details  {
+  .c7-order-item__image+.c7-order-item__details {
     margin: 1rem 0 0 1rem;
   }
 }
@@ -3190,6 +3192,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-product-collection__product-list {
     margin: 2rem 0 0 0;
   }
+
   .c7-product-allocation__product-list {
     margin: 1rem 0 0 0;
   }
@@ -3232,7 +3235,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     margin-bottom: 1rem;
   }
 
-  .c7-product__add-to-cart__form__quantity--select select{
+  .c7-product__add-to-cart__form__quantity--select select {
     height: 46px !important;
     padding-left: 1rem;
   }
@@ -3436,6 +3439,10 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
 
   .c7-account-details__view-all {
     text-align: center
+  }
+
+  .c7-account-details__addresses .c7-account-details__view-al {
+    margin-top: -2rem;
   }
 }
 
