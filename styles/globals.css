@@ -2516,6 +2516,11 @@ html .subnavigation .c7-btn>span {
     height: 2rem !important;
   }
 
+  .c7-product__add-to-cart__form__quantity select[type='quantity'] {
+    padding: 0 !important;
+    height: 2rem !important;
+  }
+
 
   .c7-account-club {
     padding-top: 2rem;
@@ -3209,6 +3214,15 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     margin-bottom: 1rem;
   }
 
+  .c7-product__add-to-cart__form__quantity--select {
+    height: 46px !important;
+  }
+
+  .c7-product__add-to-cart__form__quantity input[type='text'] {
+    height: 46px !important;
+  }
+
+
   .c7-product__add-to-cart__form__quantity--select+.c7-btn {
     padding: .33rem;
   }
@@ -3217,12 +3231,14 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     padding-left: 0;
   }
 
-  .c7-account-dashboard__block + .c7-table {
+  .c7-account-dashboard__block+.c7-table {
     text-align: left;
   }
+
   .c7-account-dashboard__block {
     text-align: center;
   }
+
   .c7-account-dashboard__block.c7-account-block {
     text-align: left;
   }
