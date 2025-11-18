@@ -929,7 +929,7 @@ h1 em {
 }
 
 main>h1 {
-  padding: 0 0 5rem 3rem;
+  padding: 0 0 4rem 3rem;
   text-align: left;
 }
 
@@ -3217,6 +3217,16 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     padding-left: 0;
   }
 
+  .c7-account-dashboard__block + .c7-table {
+    text-align: left;
+  }
+  .c7-account-dashboard__block {
+    text-align: center;
+  }
+  .c7-account-dashboard__block .c7-account-block {
+    text-align: left;
+  }
+
   .c7-account-club__shipment .c7-order-items {
     padding: 1rem 0;
   }
@@ -3524,6 +3534,8 @@ section.c7-checkout__content h1 {
 @media (max-width: 768px) {
   .c7-table__number .c7-link {
     padding-top: .5rem;
+    margin-bottom: 1rem;
+    margin-top: -.25rem
   }
 }
 
