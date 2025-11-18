@@ -2393,7 +2393,8 @@ html .membership-details .table>div>div .c7-btn>span {
 }
 
 @media (max-width: 768px) {
-  .c7-account-details__header .c7-btn--alt--small {
+  .c7-account-details__addresses .c7-account-details__header .c7-btn--alt--small,
+  .c7-account-details__payment .c7-account-details__header .c7-btn--alt--small {
     margin-bottom: 0;
   }
 }
