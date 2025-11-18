@@ -3549,7 +3549,8 @@ section.c7-checkout__content h1 {
 
 }
 
-.c7-product-collection__content {
+.c7-product-collection__content,
+.c7-product-allocation {
   text-align: center;
   margin-bottom: -20px;
 }
