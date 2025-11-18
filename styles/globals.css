@@ -3171,7 +3171,9 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     text-align: center
   }
 
-  .c7-product-collection__product-list,
+  .c7-product-collection__product-list {
+    margin: 2rem 0 0 0;
+  }
   .c7-product-allocation__product-list {
     margin: 1rem 0 0 0;
   }
@@ -3214,7 +3216,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     margin-bottom: 1rem;
   }
 
-  .c7-product__add-to-cart__form__quantity--select {
+  .c7-product__add-to-cart__form__quantity--select select{
     height: 46px !important;
   }
 
