@@ -912,11 +912,18 @@ h1 {
   text-transform: none;
 }
 
-h1 em {
+h1 em,
+.c7-side-cart__header h1 {
   font-size: 3rem;
   font-style: normal;
   text-transform: none;
 }
+.c7-side-cart__header h1 {
+  font-family: SofiaProUltraLight, sans-serif;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
 
 @media (max-width: 768px) {
   main>h1 {
