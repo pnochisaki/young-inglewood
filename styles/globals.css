@@ -2517,7 +2517,7 @@ html .subnavigation .c7-btn>span {
   }
 
   .c7-product__add-to-cart__form__quantity--select select[name='quantity'] {
-    padding: 0 !important;
+    padding: 0 0 0 1rem !important;
     height: 2rem !important;
   }
 
@@ -3218,6 +3218,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
 
   .c7-product__add-to-cart__form__quantity--select select{
     height: 46px !important;
+    padding-left: 1rem;
   }
 
   .c7-product__add-to-cart__form__quantity input[type='text'] {
