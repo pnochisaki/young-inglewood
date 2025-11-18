@@ -3223,7 +3223,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
   .c7-account-dashboard__block {
     text-align: center;
   }
-  .c7-account-dashboard__block .c7-account-block {
+  .c7-account-dashboard__block.c7-account-block {
     text-align: left;
   }
 
