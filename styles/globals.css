@@ -1000,7 +1000,7 @@ main>h1 {
   .faq h1,
   .contact h1 {
     margin: .25rem 0 .5rem;
-    line-height: 1;
+    line-height: 1.2;
     font-size: 2.5rem;
   }
 
@@ -3572,7 +3572,7 @@ section.c7-checkout__content h1 {
 }
 
 .c7-product-collection__content h2,
-.c7-product-allocation h2 {
+html .c7-product-allocation h2 {
   text-transform: uppercase !important;
   font-size: 1.6rem !important;
   font-family: sofia-pro, sans-serif !important;
