@@ -2392,6 +2392,12 @@ html .membership-details .table>div>div .c7-btn>span {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 768px) {
+  .c7-account-details__header .c7-btn--alt--small {
+    margin-bottom: 0;
+  }
+}
+
 html .c7-link {
   display: inline-block;
 }
