@@ -79,6 +79,7 @@ export default function Membership( {markdown, memberships} ) {
 
               {memberships
                 .filter(club => club.webStatus == 'Available')
+                .sort((a, b) => Number(a.updatedAt) - Number(b.updatedAt))
                 .map((club, index) => {
                   return <div
                     key={club.slug}

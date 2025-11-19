@@ -125,7 +125,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       title: "Order History"
     },
     {
-      url: "/profile/allocation",
+      url: "/profile/allocation", 
       title: "Allocations"
     },
     {
