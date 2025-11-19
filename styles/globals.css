@@ -980,6 +980,10 @@ main>h1 {
     height: 100vh;
   }
 
+  header.hamburger-open {
+    overflow: auto;
+  }
+
   .desktop-navigation {
     height: 0;
   }

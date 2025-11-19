@@ -23,8 +23,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
   const hamburgerClick = (e) => {
     if (!hamburgerOpen) {
       setHamburgerOpen(true)
+      $('body').css('overflow', 'hidden')
     } else {
       setHamburgerOpen(false)
+      $('body').css('overflow', 'auto')      
     }
   }
 
