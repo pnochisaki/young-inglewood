@@ -1124,6 +1124,11 @@ main>h1 {
   }
 
   @media (max-width: 768px) {
+
+    .navigation nav #c7-account{
+      border: 0;
+    }
+
     .contact>h1 {
       text-align: left;
     }

@@ -57,6 +57,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     if (window) {
       setTimeout(() => sessionStorage.setItem("seenAnimation", true), 5000);
       if (window.innerWidth < '769') { $('#c7-cart-wrapper').append($('#c7-cart')) }
+      if (window.innerWidth < '769') { $('.mobile-only .account-links').append($('#c7-account')) }
     }
   }, []);
 
@@ -263,11 +264,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             </nav>
             <nav className="mobile-only">
               <div className='account-links'>
-                {account ?
-                  <a href="/profile/login"><span>Login</span></a>
-                  :
-                  <a href="/profile"><span>Account</span></a>
-                }
               </div>
               <a href="/faq"><span>FAQ</span></a>
               <a href="/contact"><span>Contact</span></a>
