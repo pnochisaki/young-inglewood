@@ -24,9 +24,9 @@ Checkout phantom scroller
 
 GO LIVE
 - - 
-Login / out on mobile
+- Login / out on mobile
 Check Credit links in the CMS
-Scroll issue on small mobile hamburger, not seeing lower content
+- Scroll issue on small mobile hamburger, not seeing lower content
 c7-order items, mimic the cart, images slightly bigger
 (.c7-order-items--cart applly to c7-order-items)
 

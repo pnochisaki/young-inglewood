@@ -2073,6 +2073,7 @@ section a,
 .contact .copy a,
 .text-link,
 .c7-order-items--cart .c7-link span,
+.c7-order-items .c7-link span,
 .c7-checkout__summary-container .c7-link span,
 .c7-side-cart__content-container .c7-notice--empty>a {
   text-transform: uppercase;
@@ -2113,6 +2114,7 @@ section a,
   .contact .copy a,
   .text-link,
   .c7-order-items--cart .c7-link span,
+  .c7-order-items .c7-link span,
   .c7-checkout__summary-container .c7-link span,
   .c7-side-cart__content-container .c7-notice--empty>a {
     font-size: .85rem !important;
@@ -2712,6 +2714,7 @@ section.c7-side-cart .c7-order-items--cart .c7-order-item__title a {
     margin: auto;
   }
 
+  .c7-order-items .c7-order-item,
   .c7-order-items--cart .c7-order-item,
   .c7-checkout__summary-container .c7-order-item,
   .c7-account-dashboard__block .c7-order-item,
@@ -2741,16 +2744,18 @@ section.c7-side-cart .c7-order-items--cart .c7-order-item__title a {
 
 }
 
+.c7-order-items .c7-order-item,
 .c7-order-items--cart .c7-order-item,
 .c7-checkout__summary-container .c7-order-item,
 .c7-order-items--shipment .c7-order-item,
 .c7-account-dashboard__block .c7-order-item,
 .c7-account-order-detail__content .c7-order-item {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
 }
 
+.c7-order-items .c7-order-item__image img,
 .c7-order-items--cart .c7-order-item__image img,
 .c7-checkout__summary-container .c7-order-item__image img,
 .c7-order-items--shipment .c7-order-item__image img,
@@ -2943,12 +2948,14 @@ section.c7-side-cart .c7-order-items--cart .c7-order-item__title a {
   .c7-account-dashboard .c7-order-items ul,
   .c7-order-items--shipment ul,
   .c7-account-order-detail .c7-order-items ul {
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: repeat(1, 1fr)
   }
 }
 
 .c7-account-order-detail .c7-order-item__total,
-.c7-order-items:not(.c7-order-items--cart) .c7-order-item__total {
+.c7-order-items:not(.c7-order-items--cart) .c7-order-item__total,
+.c7-order-items:not(.c7-order-items) .c7-order-item__total
+ {
   text-align: left;
   margin: 0;
 }
@@ -2986,6 +2993,12 @@ section.c7-side-cart .c7-order-items--cart .c7-order-item__title a {
     max-width: 100%;
     width: 100%;
     height: 100%;
+  }
+  .c7-order-items .c7-order-item .c7-order-item__image img {
+    max-height: auto;
+    max-width: auto;
+    width: auto;
+    height: auto;
   }
 
   .c7-order-items--shipment .c7-order-item__image+.c7-order-item__details,
