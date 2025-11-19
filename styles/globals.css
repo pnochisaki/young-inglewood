@@ -3685,3 +3685,7 @@ html .c7-product-allocation h2 {
 .c7-account-order-detail__header {
   margin: 40px 0 40px !important
 }
+
+.c7-order-item--giftcard__details {
+  padding-right: 33%;
+}
