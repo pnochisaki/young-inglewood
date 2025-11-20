@@ -26,6 +26,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     const authState = (loggedIn.customerToken !== undefined) ? "logged-in" : "logged-out"
     $('.layout').addClass(authState)
   }
+
   const hamburgerClick = (e) => {
     if (!hamburgerOpen) {
       setHamburgerOpen(true)
@@ -56,7 +57,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
   }, [])
 
   useEffect(() => {
-    alterPageAuthState();
+    setTimeout(() => alterPageAuthState(), 500);
   }, [])
 
 
