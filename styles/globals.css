@@ -76,6 +76,7 @@ img {
 
 .layout>header {
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   max-width: 1260px;
