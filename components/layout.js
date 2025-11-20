@@ -20,13 +20,21 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   const seenAnimation = useSessionStorage('seenAnimation')
 
+  function alterPageAuthState() {
+    setLoggedIn(loggedIn)
+    console.log("customerToken (from State):", loggedIn.customerToken)
+    const authState = (loggedIn.customerToken !== undefined) ? "logged-in" : "logged-out"
+    $('.layout').addClass(authState)
+  }
   const hamburgerClick = (e) => {
     if (!hamburgerOpen) {
       setHamburgerOpen(true)
       $('body').css('overflow', 'hidden')
+      alterPageAuthState()
     } else {
       setHamburgerOpen(false)
       $('body').css('overflow', 'auto')      
+      alterPageAuthState()
     }
   }
 
@@ -48,10 +56,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
   }, [])
 
   useEffect(() => {
-    setLoggedIn(loggedIn)
-    console.log("customerToken (from State):", loggedIn.customerToken)
-    const authState = (loggedIn.customerToken !== undefined) ? "logged-in" : "logged-out"
-    $('.layout').addClass(authState)
+    alterPageAuthState();
   }, [])
 
 
