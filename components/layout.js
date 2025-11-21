@@ -86,6 +86,16 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       }
     }, 500)
 
+    let hasActiveClass = false;
+
+    $('.account-nav a').each(function () {
+      if ($(this).hasClass('active')) {
+        hasActiveClass = true;
+      } else {
+        $('.account-nav a:first-child').addClass('active');
+      }
+    });
+
   }, [])
 
 
