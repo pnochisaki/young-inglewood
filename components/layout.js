@@ -108,7 +108,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
 
           console.log("logged in")
           console.log("router.asPath:", router.asPath)
-          window.location.href = '/profile?redirect=true'
+          // window.location.href = '/profile?redirect=true'
           clearInterval();
         }
 
