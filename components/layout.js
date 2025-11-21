@@ -104,16 +104,17 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           $('.layout').addClass('logged-in').removeClass('logged-out')
           if ($('.account-nav.mobile-only.logged-in a.active').length === 0) { console.log("ADD THE CLASS"); $('.account-nav.mobile-only.logged-in a:first-of-type').addClass('active') }
         } else {
-          window.location.href = '/profile?redirect=true'
+          if (window.location.pathname === '/profile/login') {
+            window.location.href = '/profile?redirect=true'
+          }
           clearInterval();
-        }
 
-      } else if (!checkCookie) {
-        setLoggedIn(false)
-        $('.layout').addClass('logged-out').removeClass('logged-in')
-        // clearInterval();
-      }
-    }, 500)
+        } else if (!checkCookie) {
+          setLoggedIn(false)
+          $('.layout').addClass('logged-out').removeClass('logged-in')
+          // clearInterval();
+        }
+      }, 500)
 
   }, [])
 
