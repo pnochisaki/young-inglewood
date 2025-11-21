@@ -79,11 +79,11 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
         setLoggedIn(true)
         $('.layout').addClass('logged-in').removeClass('logged-out')
         if ($('.account-nav a.active').length === 0) {$('.account-nav a:first-of-type').addClass('active')}
-        console.log("I gezz they be loggd IN!!!")
+        console.log("logged in")
       } else if (!checkCookie && cookieSet) {
         setLoggedIn(false)
         $('.layout').addClass('logged-out').removeClass('logged-in')
-        console.log("I gezz they be loggd Awt")
+        console.log("logged out")
       }
     }, 500)
 
