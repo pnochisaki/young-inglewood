@@ -2,9 +2,9 @@
 
 const userPass = Buffer.from(process.env.C7_USER + ":" + process.env.C7_PASS).toString('base64');
 
-export default async function fetchClubs(req, res) {
+export default async function fetchcart(req, res) {
 
-  const clubs = await fetch('https://api.commerce7.com/v1/cart', {
+  const cart = await fetch('https://api.commerce7.com/v1/cart', {
     method: 'get',
     headers: new Headers({
       'Authorization': 'Basic ' + userPass,
