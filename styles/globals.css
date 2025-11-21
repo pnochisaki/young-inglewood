@@ -276,7 +276,7 @@ img {
     align-items: center;
     justify-content: flex-end;
     padding: 2.25rem 2rem 2.25rem;
-    z-index: 11;
+    z-index: 3;
   }
 
   .purchase.layout>header,
