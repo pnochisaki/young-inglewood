@@ -107,14 +107,15 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           if (window.location.pathname === '/profile/login') {
             window.location.href = '/profile?redirect=true'
           }
-          clearInterval();
-
-        } else if (!checkCookie) {
-          setLoggedIn(false)
-          $('.layout').addClass('logged-out').removeClass('logged-in')
-          // clearInterval();
         }
-      }, 500)
+        clearInterval();
+
+      } else if (!checkCookie) {
+        setLoggedIn(false)
+        $('.layout').addClass('logged-out').removeClass('logged-in')
+        // clearInterval();
+      }
+    }, 500)
 
   }, [])
 
