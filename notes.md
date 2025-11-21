@@ -33,8 +33,8 @@ Check Credit links in the CMS
 - gift card cart fix
 - cart h1 header
 
-Cart overlay 
-Logged in
+- Cart overlay 
+- Logged in
 Logout is hard to find
 Reorder clubs
 
