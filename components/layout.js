@@ -98,7 +98,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       const isRedirect = urlParams.get('redirect'); // "true"
 
       const checkCookie = isThereCookie('customerToken')
-      if (checkCookie) {
+      if (checkCookie && (window.location.pathname != '/profile/logout')) {
         if (isRedirect === 'true') {
           setLoggedIn(true)
           $('.layout').addClass('logged-in').removeClass('logged-out')
