@@ -91,10 +91,12 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     $('.account-nav a').each(function () {
       if ($(this).hasClass('active')) {
         hasActiveClass = true;
-      } else {
-        $('.account-nav a:first-child').addClass('active');
       }
     });
+
+    if (!hasActiveClass) {
+      $('.account-nav a').first().addClass('active');
+    }
 
   }, [])
 
