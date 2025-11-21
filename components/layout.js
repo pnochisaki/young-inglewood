@@ -78,7 +78,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       if (checkCookie) {
         setLoggedIn(true)
         $('.layout').addClass('logged-in').removeClass('logged-out')
-        if ($('.account-nav a.active').length === 0) {$('.account-nav a:first-child').addClass('active')}
+        if (!$('.account-nav a.active')) {$('.account-nav a').addClass('active')}
         console.log("logged in")
       } else if (!checkCookie && cookieSet) {
         setLoggedIn(false)
