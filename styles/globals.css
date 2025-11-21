@@ -3612,7 +3612,7 @@ section.c7-checkout__content h1 {
   display: none;
 }
 
-.logged-out .logged-out {
+.logged-out .account-nav.logged-out {
   display: none;
 }
 
