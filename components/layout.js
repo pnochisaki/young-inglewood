@@ -279,7 +279,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
                         {accountNavItemsLoggedIn
                           .map((navItem, index) => {
                             console.log("logged in", router.asPath)
-                            return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                            return <a className={(router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') || (index === 1)) ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
                           }
                           )}
 
