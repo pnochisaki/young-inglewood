@@ -78,7 +78,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       if (checkCookie) {
         setLoggedIn(true)
         $('.layout').addClass('logged-in').removeClass('logged-out')
-        if (!$('.account-nav a.active')) {$('.account-nav a').addClass('active')}
+        if (!$('.account-nav.mobile-only.logged-in a.active')) {$('.account-nav.mobile-only.logged-in a:first-of-type').addClass('active')}
         console.log("logged in")
       } else if (!checkCookie && cookieSet) {
         setLoggedIn(false)
@@ -279,7 +279,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
                         {accountNavItemsLoggedIn
                           .map((navItem, index) => {
                             console.log("logged in", router.asPath)
-                            return <a className={(router.asPath === (navItem.url || (navItem.url + '/') || '/profile/login' || '/profile' || '/profile/' || '/profile/[id]') || (index === 1)) ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                            return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile' || '/profile/login' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
                           }
                           )}
 
