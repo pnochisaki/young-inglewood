@@ -2,7 +2,6 @@ import { Facebook, Instagram, YouTube, Twitter } from '@styled-icons/boxicons-lo
 import { Menu } from '@styled-icons/feather/Menu'
 import { X } from '@styled-icons/feather/X'
 import useSessionStorage from '../hooks/useSessionStorage'
-import { useCookies } from "react-cookie"
 import $ from 'jquery'
 
 import Image from 'next/image'
@@ -16,13 +15,12 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
 
   const router = useRouter()
 
-  const [loggedIn, setLoggedIn] = useCookies(["customerToken"])
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(false)
+  const [hamburgerOpen, setHamburgerOpen] = useState(false)
   const seenAnimation = useSessionStorage('seenAnimation')
 
   function alterPageAuthState() {
     setLoggedIn(loggedIn)
-    console.log("customerToken (from State):", loggedIn.customerToken)
     const authState = (loggedIn.customerToken !== undefined) ? "logged-in" : "logged-out"
     $('.layout').addClass(authState)
   }
@@ -34,7 +32,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       alterPageAuthState()
     } else {
       setHamburgerOpen(false)
-      $('body').css('overflow', 'auto')      
+      $('body').css('overflow', 'auto')
       alterPageAuthState()
     }
   }
@@ -56,8 +54,38 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     fetchCollections();
   }, [])
 
+
   useEffect(() => {
-    setTimeout(() => alterPageAuthState(), 500);
+
+    function getCookie(cookieName) {
+      const cookies = document.cookie.split(';');
+      for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        // Does this cookie string begin with the name we want?
+        if (cookie.startsWith(cookieName + '=')) {
+          return cookie.substring(cookieName.length + 1);
+        }
+      }
+      return null; // Return null if cookie is not found
+    }
+
+    function isThereCookie(cookieName) {
+      return getCookie(cookieName)
+    }
+
+    setInterval(() => {
+      const checkCookie = isThereCookie('customerToken')
+      if (checkCookie) {
+        setLoggedIn(true)
+        $('.layout').addClass('logged-in').removeClass('logged-out')
+        console.log("I gezz they be loggd IN!!!")
+      } else if (!checkCookie && cookieSet) {
+        setLoggedIn(false)
+        $('.layout').addClass('logged-out').removeClass('logged-in')
+        console.log("I gezz they be loggd Awt")
+      }
+    }, 500)
+
   }, [])
 
 
@@ -71,7 +99,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
 
   useEffect(() => {
     if (window.innerWidth < 769) {
-      $('.section-a, .section-b, .section-c, .team').each(function() {$(this).find('h2').insertAfter($(this).find('.mobile-image'))})
+      $('.section-a, .section-b, .section-c, .team').each(function () { $(this).find('h2').insertAfter($(this).find('.mobile-image')) })
     }
   }, []);
 
@@ -131,7 +159,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       title: "Order History"
     },
     {
-      url: "/profile/allocation", 
+      url: "/profile/allocation",
       title: "Allocations"
     },
     {
