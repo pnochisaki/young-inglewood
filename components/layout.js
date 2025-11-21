@@ -102,7 +102,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       } else if (!checkCookie) {
         setLoggedIn(false)
         $('.layout').addClass('logged-out').removeClass('logged-in')
-        clearInterval();
+        // clearInterval();
       }
     }, 500)
 
