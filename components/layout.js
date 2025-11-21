@@ -78,6 +78,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       if (checkCookie) {
         setLoggedIn(true)
         $('.layout').addClass('logged-in').removeClass('logged-out')
+        if (!$('.account-nav a.active').length) {$('.account-nav a:firstof-type').addClass('active')}
         console.log("I gezz they be loggd IN!!!")
       } else if (!checkCookie && cookieSet) {
         setLoggedIn(false)
@@ -85,18 +86,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
         console.log("I gezz they be loggd Awt")
       }
     }, 500)
-
-    let hasActiveClass = false;
-
-    $('.account-nav a').each(function () {
-      if ($(this).hasClass('active')) {
-        hasActiveClass = true;
-      }
-    });
-
-    if (!hasActiveClass) {
-      $('.account-nav a').first().addClass('active');
-    }
 
   }, [])
 
