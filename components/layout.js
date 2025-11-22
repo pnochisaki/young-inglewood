@@ -116,6 +116,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       } else if (!checkCookie) {
         setLoggedIn(false)
         $('.layout').addClass('logged-out').removeClass('logged-in')
+        console.log("looping until we find cookie")
         // clearInterval();
       }
     }, 500)
