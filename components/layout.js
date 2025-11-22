@@ -107,7 +107,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
         if (isRedirect === 'true') {
             window.location.href = '/profile?cachebust=true'
         } else {
-          if (window.location.pathname === '/profile/login') {
+          if (window.location.pathname === '/profile/login' || window.location.pathname === '/profile') {
             window.location.href = '/profile?redirect=true'
           }
         }
