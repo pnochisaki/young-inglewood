@@ -99,10 +99,13 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
 
       const checkCookie = isThereCookie('customerToken')
       if (checkCookie && (window.location.pathname != '/profile/logout')) {
+        
+        setLoggedIn(true)
+        $('.layout').addClass('logged-in').removeClass('logged-out')
+        if ($('.account-nav.mobile-only.logged-in a.active').length === 0) { console.log("ADD THE CLASS"); $('.account-nav.mobile-only.logged-in a:first-of-type').addClass('active') }
+
         if (isRedirect === 'true') {
-          setLoggedIn(true)
-          $('.layout').addClass('logged-in').removeClass('logged-out')
-          if ($('.account-nav.mobile-only.logged-in a.active').length === 0) { console.log("ADD THE CLASS"); $('.account-nav.mobile-only.logged-in a:first-of-type').addClass('active') }
+          // refresh the cart
         } else {
           if (window.location.pathname === '/profile/login') {
             window.location.href = '/profile?redirect=true'
