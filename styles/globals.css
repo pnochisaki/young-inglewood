@@ -2735,7 +2735,7 @@ section.c7-side-cart .c7-order-items--cart .c7-order-item__title a {
 
   .c7-cart__item-container,
   .c7-checkout__summary-container {
-    flex: inherit;
+    /* flex: inherit; */
   }
 
   .c7-checkout__summary-container {
