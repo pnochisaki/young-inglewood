@@ -296,6 +296,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
 
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
+                  <div id="c7-collection-list"></div>
                   {collections &&
                     collections
                       .filter(collection => collection.metaData['store-menu'])
