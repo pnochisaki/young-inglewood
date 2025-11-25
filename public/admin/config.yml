@@ -31,7 +31,7 @@ collections: # our content types, this is just an example!
 
   - name: "blog"
     label: "Blog"
-    folder: "_content/blogs"
+    folder: "_content/blog"
     create: false
     slug: "{{title}}"
     summary: "{{filename}} - {{title}}"
