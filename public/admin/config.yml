@@ -29,6 +29,21 @@ collections: # our content types, this is just an example!
           - { label: "Question", name: "question", widget: "string" }
           - { label: "Answer", name: "answer", widget: "text" }
 
+  - name: "blog"
+    label: "Blog"
+    folder: "_content/blogs"
+    create: false
+    slug: "{{title}}"
+    summary: "{{filename}} - {{title}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" , required: false}
+      - { label: "Meta Description", name: "description", widget: "string" , required: false}
+      - { label: "Open Graph Image", name: "og_image", widget: "image",  required: false }
+      - { label: "Headline", name: "headline", widget: "string" , required: false}
+      - { label: "Body", name: "body", widget: "markdown", required: false}
+
   - name: "additional"
     label: "Additional Fields"
     editor:
