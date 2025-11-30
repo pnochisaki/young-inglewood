@@ -41,6 +41,7 @@ collections: # our content types, this is just an example!
       - { label: "Title", name: "title", widget: "string" , required: false}
       - { label: "Meta Description", name: "description", widget: "string" , required: false}
       - { label: "Open Graph Image", name: "og_image", widget: "image",  required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image"}
       - { label: "Headline", name: "headline", widget: "string" , required: false}
       - { label: "Body", name: "body", widget: "markdown", required: false}
 
