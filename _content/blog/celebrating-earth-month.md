@@ -1,5 +1,6 @@
 ---
 title: Celebrating Earth Month
+featured_image: /uploads/earthday-1.jpg
 ---
 At Young Inglewood Vineyards, we consider every day Earth Day. We're sharing some of the ways we're working to keep our farming, winemaking and operations as sustainable and Mother Nature friendly as possible. 
 
