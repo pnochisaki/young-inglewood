@@ -34,7 +34,7 @@ collections: # our content types, this is just an example!
     folder: "_content/blog"
     create: true
     slug: "{{title}}"
-    summary: "{{filename}} - {{title}}"
+    summary: "{{title}}"
     editor:
       preview: false
     fields:
