@@ -895,7 +895,8 @@ section {
 
 
 h1,
-h2 {
+h2,
+html .blog-post article h1 {
   color: #d78628;
   font-size: 3.75rem;
   font-family: SofiaProUltraLight, sans-serif;
@@ -3702,10 +3703,40 @@ html .c7-product-allocation h2 {
   }
 }
 
+ul.blog-listing {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.blog-listing li {
+  display: block;
+}
+
+ul.blog-listing li {
+  display: block;
+  margin-bottom: 3rem
+}
+ul.blog-listing li img {
+  margin-bottom: 1rem;;
+}
+
+ul.blog-listing li .image-container {
+  aspect-ratio: 3/2;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+
 
 .blog-post article,
 .blog main {
   text-align: left;
+}
+
+html .blog-post article h1 {
+  line-height: 1;
+  margin-bottom: 2rem
 }
 
 @media (min-width: 769px) {
