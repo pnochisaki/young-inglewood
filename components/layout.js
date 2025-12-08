@@ -153,30 +153,30 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
 
   const utilityNavItems = [
     {
-      url: "/profile/create-account?x=1",
+      url: "/profile/create-account",
       title: "Join"
     }
   ]
 
   const accountNavItems = [
     {
-      url: "/profile/login?x=1",
+      url: "/profile/login",
       title: "Dashboard"
     },
     {
-      url: "/profile/club-membership?x=1",
+      url: "/profile/club-membership",
       title: "FYI Shipments"
     },
     {
-      url: "/profile/order-history?x=1",
+      url: "/profile/order-history",
       title: "Order History"
     },
     {
-      url: "/profile/allocation?x=1",
+      url: "/profile/allocation",
       title: "Allocations"
     },
     {
-      url: "/profile/account?x=1",
+      url: "/profile/account",
       title: "Account Details"
     }
   ]
