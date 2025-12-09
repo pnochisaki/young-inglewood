@@ -1,13 +1,13 @@
 ---
-title: What to Expect from a Boutique Winery Experience in Napa
+title: What to Expect from a Boutique Winery Experience in Napa (title)
 featured_image: /uploads/young_93.jpg
-headline: What to Expect from a Boutique Winery Experience in Napa
+headline: What to Expect from a Boutique Winery Experience in Napa (headline)
 ---
 A visit to Napa Valley often brings visions of sprawling estates, world-famous wines, and polished tasting rooms. For those who prefer something more private and enlightening—a boutique winery experience offers an entirely different kind of magic and draw. 
 
 Here at Young Inglewood Vineyards, our tasting experience is intimate and elevated. Guests aren’t just poured wines; they’re welcomed into our story—one shaped by family, guided by craft, and surrounded by nature. From thoughtful hospitality to immersive vineyard views, every moment is curated for connection. 
 
-##### What is a Boutique Winery? The Heart of Napa's Wine Culture
+##### What is a Boutique Winery? The Heart of Napa's Wine Culture (heading 5)
 
 Boutique wineries are small-scale production wineries that produce less than 10,000 cases annually. Here at Young Inglewood, we take boutique to the next level, producing only 1200 cases annually. Our small scale production allows us to focus on quality and the consumer. Hospitality is tailored to each visitor’s unique desires. 
 
@@ -18,7 +18,7 @@ Boutique wineries like us are deeply tied to our land and our community. Our sma
 \
 We identify as a family-run winery. Led by a mother-son winemaking team, the estate embraces balance in all things—from vine to cellar . We invite you to share and experience our beautiful and peaceful property as you drink our elegant, delicious wine.
 
-###### Custom Wine Tasting Moments for Creating Lasting Memories
+###### Custom Wine Tasting Moments for Creating Lasting Memories (heading 6)
 
 One of the greatest pleasures of visiting a boutique estate is the opportunity for a custom wine tasting—a format where guests engage directly with knowledgeable hosts in a relaxed, conversational setting. These tastings are not rushed or standardized. They’re designed to meet you where you are, whether you’re a seasoned collector or exploring wine for the first time.
 
@@ -31,19 +31,19 @@ It’s this sense of welcome that transforms a wine tasting into a memory—wher
 
 ![](/uploads/gabrielle.lurie.wine100_grl_659_jimandjackywtihguests.jpg)
 
-### Vineyard Views and Experiences: The Beauty of St. Helena
+### Vineyard Views and Experiences: The Beauty of St. Helena (heading 3)
 
 Saint Helena sits at the heart of Napa Valley, known for its scenic beauty and quiet sophistication. At Young Inglewood, the setting is both refined and grounded—an estate that unfolds gently from the road, surrounded by olive trees, heritage vines, and soft golden light.
 
 The views aren’t just picturesque; they’re immersive. Visitors are encouraged to take in the surroundings, wander between rows, or sit beneath shaded trees. It’s a chance to feel the rhythm of the vineyard and understand how place influences the wine in your glass.
 
-### The Romantic Ambiance of Vineyard Landscapes in St. Helena
+### The Romantic Ambiance of Vineyard Landscapes in St. Helena (heading 3)
 
 There is a distinct romantic ambiance at play here. It’s in the way the vines move in the breeze, how the light shifts throughout the afternoon, and the quiet hum of the countryside. For couples, anniversaries, or anyone craving stillness, Young Inglewood offers one of the most tranquil and atmospheric settings in Napa Valley.
 
 This setting is not staged or overly manicured. It feels lived-in and loved—like a place that continues to grow, season by season, into something enduring.
 
-### The Intimate Charm of a Personal Wine Tasting at Young Inglewood
+### The Intimate Charm of a Personal Wine Tasting at Young Inglewood (heading 3
 
 Hospitality at Young Inglewood is deliberately personal. The personal wine tasting format isn’t just about preference—it’s about presence. You’ll be greeted by name, guided with care, and invited to engage in real conversation about the wines and the people behind them.
 
@@ -71,7 +71,7 @@ This kind of winery education creates a deeper appreciation—not just for a sin
 
 ![](/uploads/young_93.jpg)
 
-#### Visit Young Inglewood: Where Memorable Wine Experiences Await
+#### Visit Young Inglewood: Where Memorable Wine Experiences Await (heading 4)
 
 A visit to Young Inglewood is less like a tour and more like being let in on a secret. It’s tranquil, polished, and unforgettable. Whether you're coming for the wines, the setting, or the people, you’ll leave with a sense of connection that goes far beyond the tasting room.
 
