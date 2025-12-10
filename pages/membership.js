@@ -7,6 +7,7 @@ import $ from 'jquery'
 
 const userPass = Buffer.from(process.env.C7_USER + ":" + process.env.C7_PASS).toString('base64');
 
+
 const mdDir = '_content/pages/'
 
 export async function getStaticProps({ params }) {
