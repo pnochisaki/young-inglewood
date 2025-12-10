@@ -11,10 +11,14 @@ import { useEffect, useState, useContext } from 'react'
 import { useRouter } from 'next/router';
 import Faqs from './faqs'
 
+import { unstable_noStore } from 'next/cache'
+
 // export const dynamic = 'force-dynamic';
 
 export default function Layout({ home, discover, wine, purchase, visit, membership, faq, contact, join, checkout, account, credits, blog, blog_post, children, props, data }) {
 
+  unstable_noStore()
+  
   const router = useRouter()
 
   const [loggedIn, setLoggedIn] = useState(false)
