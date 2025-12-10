@@ -1,6 +1,5 @@
 import { Html, Head, Main, Script, NextScript } from 'next/document'
 
-// export const dynamic = 'force-dynamic';
 
 export default function Document() {
 
@@ -8,7 +7,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="stylesheet" href="https://use.typekit.net/hky1kqm.css" />
-        <link href="https://cdn.commerce7.com/v2/commerce7.css?v=20251209" rel="stylesheet" />
+        <link href="https://cdn.commerce7.com/v2/commerce7.css" rel="stylesheet" />
       </Head>
 
       <body>
@@ -16,7 +15,7 @@ export default function Document() {
         <NextScript />
         <script
           strategy="beforeInteractive"
-          src="https://cdn.commerce7.com/v2/commerce7.js?v=20251209"
+          src="https://cdn.commerce7.com/v2/commerce7.js"
           id="c7-javascript"
           data-tenant="young-inglewood-vineyards" />
       </body>

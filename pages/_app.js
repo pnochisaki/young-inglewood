@@ -3,6 +3,7 @@ import '../fonts/fonts.css'
 import $ from 'jquery'
 import { useEffect } from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 import Router from 'next/router'
 
 
