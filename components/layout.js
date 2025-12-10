@@ -150,11 +150,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
     });
   }, []);
 
-  useEffect(() => {
-    $('#c7-content').each(function () {
-        $(this).attr('style', 'min-height: auto !important;');
-    });
-  }, []);
 
 
   const utilityNavItems = [
