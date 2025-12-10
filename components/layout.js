@@ -11,7 +11,7 @@ import { useEffect, useState, useContext } from 'react'
 import { useRouter } from 'next/router';
 import Faqs from './faqs'
 
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
 
 export default function Layout({ home, discover, wine, purchase, visit, membership, faq, contact, join, checkout, account, credits, blog, blog_post, children, props, data }) {
 
