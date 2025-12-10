@@ -1,5 +1,6 @@
 import { Html, Head, Main, Script, NextScript } from 'next/document'
 
+export const dynamic = 'force-dynamic';
 
 export default function Document() {
 
