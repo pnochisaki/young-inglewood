@@ -228,7 +228,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             <a href="/collection/all"><img src="/images/home-mobile.jpg" alt="discover" /></a>
             <p className='text'>{text}</p>
           </div>
-
           <div className="desktop-only home-box">
             <div className="home-bg"></div>
             <div className="home-headline">
@@ -248,13 +247,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             </div>
             <a className="home-click" href="/collection/all">Enter</a>
           </div>
-
-
         </>
         :
         <></>
       }
-
       <div className="greybox desktop-only">
         <div className='greybox-inner'>
           <a className='branding' href="/">
@@ -275,7 +271,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
               <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
             </div>
           }
-
         </div>
       </div>
       <header className={hamburgerOpen ? 'hamburger-open' : ''}>
@@ -289,15 +284,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           <div className={seenAnimation ? "navigation" : "navigation animated"}>
             <nav>
               <a href="/collection/all" className={purchase && 'active'} ><span>Purchase</span></a>
-
               <a href="/discover" className={discover && 'active'}><span>Discover</span></a>
-
               <a href="/wine" className={wine && 'active'}><span>Wine</span></a>
-
               <a href="/membership" className={membership && 'active'}><span>Membership</span></a>
-
               <a href="/visit" className={visit && 'active'}><span>Visit</span></a>
-
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
                   {collections &&
@@ -310,7 +300,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
                       }
                       )}
                 </div>
-
                 <>
                   {account &&
                     <>
@@ -334,8 +323,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
                     </>
                   }
                 </>
-
-
               </div>
             </nav>
             <nav className="mobile-only">
@@ -353,10 +340,8 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
           </div>
         </div>
         <div id="c7-cart-wrapper" />
-      </header >
-
+      </header>
       <a className='visit-us' target='_blank' href="https://exploretock.com/younginglewood">Visit Us</a>
-
       {account &&
 
         <>
@@ -368,7 +353,6 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
               }
               )}
           </div>
-
           <div className="account-nav mobile-only logged-out">
             <div className="blocker"></div>
             {accountNavItems
@@ -394,35 +378,26 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       <main>
         {children}
       </main>
-
-
       <footer className={seenAnimation ? "" : "animated"}>
         <>
           <Faqs data={data} />
           <div className='navigation desktop-only'>
             <nav>
               <a href="/faq" className={faq && 'active'}><span>FAQ</span></a>
-
               <a href="/contact" className={contact && 'active'}><span>Contact</span></a>
-
               <a href="/profile/account" className={account && 'active'}><span>Manage your Account</span></a>
-
               <a href="/credits" className={credits && 'active'}><span>Credits</span></a>
-
             </nav>
           </div>
-
           <div className="social-links desktop-only">
             <Link href="https://www.facebook.com/younginglewood"><Facebook /><span>Facebook</span></Link>
             <Link href="https://www.instagram.com/younginglewood"><Instagram /><span>Instagram</span></Link>
           </div>
-
           <p>
             ©{new Date().getFullYear()} Young Inglewood Vineyards
           </p>
         </>
       </footer>
-
     </div >
   )
 }

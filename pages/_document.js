@@ -9,7 +9,6 @@ export default function Document() {
         <link rel="stylesheet" href="https://use.typekit.net/hky1kqm.css" />
         <link href="https://cdn.commerce7.com/v2/commerce7.css" rel="stylesheet" />
       </Head>
-
       <body>
         <Main />
         <NextScript />
