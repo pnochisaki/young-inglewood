@@ -12,6 +12,7 @@ export default function C7content(props) {
 
         return () => {
             // Clean up if necessary
+            router.refresh();
         };
     }, []);
 
