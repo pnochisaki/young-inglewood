@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }) {
     </Head>
     <Component {...pageProps} />
     <Script
-      strategy="afterInteractive"
+      strategy="beforeInteractive"
       src="https://cdn.commerce7.com/v2/commerce7.js"
       id="c7-javascript"
       data-tenant="young-inglewood-vineyards">
