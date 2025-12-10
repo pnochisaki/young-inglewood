@@ -3,8 +3,8 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import { unstable_noStore } from 'next/cache';
 
 export default function Collection() {
-  unstable_noStore();
   return (
+    unstable_noStore();
     <Layout purchase>
       <div className="page-margins">
         <div id="c7-content"></div>
