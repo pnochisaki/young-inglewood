@@ -91,36 +91,36 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       return getCookie(cookieName)
     }
 
-    // setInterval(() => {
+    setInterval(() => {
 
-    //   const queryString = window.location.search;
-    //   const urlParams = new URLSearchParams(queryString);
-    //   const isRedirect = urlParams.get('redirect'); // "true"
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const isRedirect = urlParams.get('redirect'); // "true"
 
-    //   const checkCookie = isThereCookie('customerToken')
-    //   if (checkCookie && (window.location.pathname != '/profile/logout')) {
+      const checkCookie = isThereCookie('customerToken')
+      if (checkCookie && (window.location.pathname != '/profile/logout')) {
 
-    //     setLoggedIn(true)
-    //     $('.layout').addClass('logged-in').removeClass('logged-out')
-    //     if ($('.account-nav.mobile-only.logged-in a.active').length === 0) { $('.account-nav.mobile-only.logged-in a:first-of-type').addClass('active') }
-    //     if ($('.account-nav.desktop-only.logged-in a.active').length === 0) { $('.account-nav.desktop-only.logged-in a:first-of-type').addClass('active') }
+        setLoggedIn(true)
+        $('.layout').addClass('logged-in').removeClass('logged-out')
+        if ($('.account-nav.mobile-only.logged-in a.active').length === 0) { $('.account-nav.mobile-only.logged-in a:first-of-type').addClass('active') }
+        if ($('.account-nav.desktop-only.logged-in a.active').length === 0) { $('.account-nav.desktop-only.logged-in a:first-of-type').addClass('active') }
 
-    //     if (isRedirect === 'true') {
-    //       window.location.href = '/profile?cachebust=true'
-    //     } else {
-    //       if (window.location.pathname === '/profile/login') {
-    //         window.location.href = '/profile?redirect=true'
-    //       }
-    //     }
-    //     clearInterval();
+        if (isRedirect === 'true') {
+          window.location.href = '/profile?cachebust=true'
+        } else {
+          if (window.location.pathname === '/profile/login') {
+            window.location.href = '/profile?redirect=true'
+          }
+        }
+        clearInterval();
 
-    //   } else if (!checkCookie) {
-    //     setLoggedIn(false)
-    //     $('.layout').addClass('logged-out').removeClass('logged-in')
-    //     console.log("looping until we find cookie")
-    //     // clearInterval();
-    //   }
-    // }, 500)
+      } else if (!checkCookie) {
+        setLoggedIn(false)
+        $('.layout').addClass('logged-out').removeClass('logged-in')
+        console.log("looping until we find cookie")
+        // clearInterval();
+      }
+    }, 500)
 
   }, [])
 
