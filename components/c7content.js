@@ -1,3 +1,6 @@
+'use client';
+import { useEffect } from 'react';
+
 export default function C7content(props) {
     useEffect(() => {
         const script = document.createElement('script');
@@ -11,7 +14,6 @@ export default function C7content(props) {
             // Clean up if necessary
         };
     }, []);
-
 
     return (
         <div id="c7-content"></div>
