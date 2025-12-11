@@ -7,12 +7,22 @@ import $ from 'jquery'
 import Image from 'next/image'
 import Link from 'next/link'
 import Script from 'next/script'
+
 import { useEffect, useState, useContext } from 'react'
 
 import { useRouter } from 'next/router';
 import Faqs from './faqs'
 
-// export const dynamic = 'force-dynamic';
+import dynamic from "next/dynamic";
+
+const C7account = dynamic(() => import("./c7account"), {
+  ssr: false,
+});
+
+const C7cart = dynamic(() => import("./c7cart"), {
+  ssr: false,
+});
+
 
 export default function Layout({ home, discover, wine, purchase, visit, membership, faq, contact, join, checkout, account, credits, blog, blog_post, children, props, data }) {
 
@@ -262,13 +272,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             </div>
             :
             <div className="utility-links">
-              {utilityNavItems
-                .map((navItem, index) => {
-                  return <a className={'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
-                }
-                )}
-              <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
-              <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
+              <a className={seenAnimation ? "c7-btn" : "c7-btn animated"} href=""><span>Join</span></a>
+              <C7account seenAnimation />
+              <C7cart seenAnimation />
+
             </div>
           }
         </div>

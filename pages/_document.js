@@ -1,4 +1,5 @@
-import { Html, Head, Main, Script, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
 
@@ -11,13 +12,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {/* <Script
-          strategy="beforeInteractive"
-          src="https://cdn.commerce7.com/v2/commerce7.js"
-          id="c7-javascript"
-          data-tenant="young-inglewood-vineyards"
-        >
-        </Script> */}
       </body>
     </Html>
   )

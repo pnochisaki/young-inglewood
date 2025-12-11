@@ -51,8 +51,7 @@ function MyApp({ Component, pageProps }) {
       id="c7-javascript"
       data-tenant="young-inglewood-vineyards"
       defer
-      >
-    </Script>
+    />
   </>
 }
 

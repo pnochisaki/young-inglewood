@@ -3,7 +3,7 @@
 const userPass = Buffer.from(process.env.C7_USER + ":" + process.env.C7_PASS).toString('base64');
 
 export default async function fetchCollections(req, res) {
-
+  
   const collections = await fetch('https://api.commerce7.com/v1/collection', {
     method: 'get',
     headers: new Headers({
