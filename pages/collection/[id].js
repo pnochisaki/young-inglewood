@@ -1,9 +1,12 @@
-import Layout from '../../components/layout';
 import { GoogleTagManager } from '@next/third-parties/google'
 
 import dynamic from "next/dynamic";
 
 const C7content = dynamic(() => import("../../components/c7content"), {
+  ssr: false,
+});
+
+const Layout = dynamic(() => import("../../components/layout"), {
   ssr: false,
 });
 
