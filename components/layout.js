@@ -6,6 +6,7 @@ import $ from 'jquery'
 
 import Image from 'next/image'
 import Link from 'next/link'
+import Script from 'next/script'
 import { useEffect, useState, useContext } from 'react'
 
 import { useRouter } from 'next/router';
@@ -142,10 +143,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
   }, []);
 
   useEffect(() => {
-    $('a').each(function () {
+    $('a').on('click', function () {
       const href = $(this).attr('href');
       if (href && href.startsWith('http') && !href.includes(window.location.hostname)) {
-        $(this).attr('target', '_blank');
+        window.open(href)
       }
     });
   }, []);
@@ -217,9 +218,9 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
         purchase ? " purchase layout" :
           account ? " account layout" :
             checkout ? " checkout layout" :
-            blog_post ? " blog-post layout" :
-            blog ? " blog layout" :
-              " layout"
+              blog_post ? " blog-post layout" :
+                blog ? " blog layout" :
+                  " layout"
     }>
       {home ?
         <>
@@ -398,6 +399,8 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
         </>
       </footer>
     </div >
+
+
   )
 }
 
