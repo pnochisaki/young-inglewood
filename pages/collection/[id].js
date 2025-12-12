@@ -15,7 +15,8 @@ export default function Collection() {
   return (
     <Layout purchase>
       <div className="page-margins">
-        <C7content />
+        {/* <C7content /> */}
+        <div id="c7-content"></div>
         <GoogleTagManager gtmId="GTM-TFFRHCGB" />
       </div>
     </Layout>
