@@ -276,10 +276,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             :
             <div className="utility-links">
               <a className={seenAnimation ? "c7-btn" : "c7-btn animated"} href=""><span>Join</span></a>
-              <C7account seenAnimation />
-              <C7cart seenAnimation />
-              {/* <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
-              <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div> */}
+              {/* <C7account seenAnimation />
+              <C7cart seenAnimation /> */}
+              <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
+              <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
 
             </div>
           }
