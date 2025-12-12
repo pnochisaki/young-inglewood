@@ -22,9 +22,7 @@ export default function Collection() {
         <GoogleTagManager gtmId="GTM-TFFRHCGB" />
       </div>
     </Layout>
-            
     // <C7content />
-
   )
 
 }
