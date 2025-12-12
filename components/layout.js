@@ -13,15 +13,18 @@ import { useEffect, useState, useContext } from 'react'
 import { useRouter } from 'next/router';
 import Faqs from './faqs'
 
-import dynamic from "next/dynamic";
+import C7cart from './c7cart'
+import C7account from './c7account'
 
-const C7account = dynamic(() => import("./c7account"), {
-  ssr: false,
-});
+// import dynamic from "next/dynamic";
 
-const C7cart = dynamic(() => import("./c7cart"), {
-  ssr: false,
-});
+// const C7account = dynamic(() => import("./c7account"), {
+//   ssr: false,
+// });
+
+// const C7cart = dynamic(() => import("./c7cart"), {
+//   ssr: false,
+// });
 
 
 export default function Layout({ home, discover, wine, purchase, visit, membership, faq, contact, join, checkout, account, credits, blog, blog_post, children, props, data }) {
@@ -273,10 +276,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             :
             <div className="utility-links">
               <a className={seenAnimation ? "c7-btn" : "c7-btn animated"} href=""><span>Join</span></a>
-              {/* <C7account seenAnimation />
-              <C7cart seenAnimation /> */}
-              <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
-              <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div>
+              <C7account seenAnimation />
+              <C7cart seenAnimation />
+              {/* <div id="c7-account" className={seenAnimation ? "c7-btn" : "c7-btn animated"}></div>
+              <div id="c7-cart" className={seenAnimation ? "" : "animated"}></div> */}
 
             </div>
           }
