@@ -16,4 +16,3 @@ export default async function fetchCollections(req, res) {
   const collectionsResponse = await collections.json()
   res.status(200).json(collectionsResponse)
 }
-
