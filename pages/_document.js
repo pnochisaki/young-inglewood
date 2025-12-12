@@ -10,6 +10,12 @@ export default function Document() {
         <link href="https://cdn.commerce7.com/v2/commerce7.css" rel="stylesheet" />
       </Head>
       <body>
+        {/* <Script
+          strategy="beforeInteractive"
+          src="https://cdn.commerce7.com/v2/commerce7.js"
+          id="c7-javascript"
+          data-tenant="young-inglewood-vineyards"
+        /> */}
         <Main />
         <NextScript />
       </body>
