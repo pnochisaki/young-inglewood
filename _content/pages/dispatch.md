@@ -1,5 +1,5 @@
 ---
 title: Dispatch
 description: Dispatch meta for search engines goes here
-headline: <em> dispatch edited </em>
+headline: <em> dispatch </em>
 ---
