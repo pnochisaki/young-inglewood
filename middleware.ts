@@ -12,7 +12,7 @@ export function middleware(request: NextRequest) {
   const domainName = url.hostname;
   console.log('Domain Name:', domainName);
 
-  if (userAgent && iOSRegex.test(userAgent) && domainName != 'www2.younginglewood.com') {
+  if (userAgent && iOSRegex.test(userAgent) && (domainName != 'www2.younginglewood.com' && domainName != 'young-inglewood.netlify.app')) {
     // Construct the full destination URL including the original path and query parameters
     const url = new URL(request.nextUrl.pathname, destinationUrl);
     url.search = request.nextUrl.search;
