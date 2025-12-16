@@ -25,6 +25,7 @@ export default function Dispatch({ allPostsData, markdownData }) {
               )}
               <h3>{title}</h3>
               <div className='excerpt'>{excerpt}</div>
+              <button className="c7-btn"><span>Read more</span></button>
             </Link>
           </li>
         ))}

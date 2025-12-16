@@ -17,7 +17,7 @@ export default function Post({ postData }) {
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
 
-      <a className='button' href="/blog">&larr; Back to Dispatch</a>
+      <a className='button' href="/dispatch">&larr; Back to Dispatch</a>
     </Layout>
   );
 }
