@@ -4,6 +4,7 @@ backend:
   branch: main # the main branch of our repo
   base_url: "https://www.younginglewood.com/" # our site's base URL 
   auth_endpoint: "api/auth" # used together with base_url for our custom endpoints (more on this later)
+publish_mode: editorial_workflow
 logo_url: "https://www.younginglewood.com/images/logo.svg"
 media_folder: "public/uploads" # the folder we want to upload new images to
 public_folder: "/uploads" # the folder our images should be fetched from
