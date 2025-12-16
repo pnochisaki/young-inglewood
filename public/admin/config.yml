@@ -35,6 +35,7 @@ collections: # our content types, this is just an example!
     label: "Blog"
     folder: "_content/blog"
     create: true
+    preview_path: dispatch/{{slug}}
     slug: "{{title}}"
     summary: "{{title}}"
     editor:
