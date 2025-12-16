@@ -1,15 +1,16 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { getSortedPostsData } from '../../lib/blog';
+import { getMarkdownData } from '../../lib/markdown'
 import Layout from '../../components/layout';
 
-export default function Dispatch({ allPostsData }) {
+export default function Dispatch({ allPostsData, markdownData }) {
   return (
     <Layout blog>
       <Head>
         <title>Dispatch</title>
       </Head>
-      <h1><em>dispatch</em></h1>
+      <h1 dangerouslySetInnerHTML={{ __html: markdownData.headline }} />
       <ul className='blog-listing'>
         {allPostsData.map(({ slug, title, date, featured_image }) => (
           <li
@@ -23,7 +24,7 @@ export default function Dispatch({ allPostsData }) {
                 /></div>
               )}
               <h3>{title}</h3>
-              </Link>
+            </Link>
           </li>
         ))}
       </ul>
@@ -31,7 +32,10 @@ export default function Dispatch({ allPostsData }) {
   );
 }
 
+const mdDir = '_content/pages/'
+
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
-  return { props: { allPostsData } };
+  const markdownData = await getMarkdownData('dispatch', mdDir)
+  return { props: { allPostsData, markdownData } };
 }

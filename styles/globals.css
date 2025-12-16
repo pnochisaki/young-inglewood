@@ -3711,14 +3711,22 @@ ul.blog-listing {
 
 ul.blog-listing li {
   display: block;
-}
-
-ul.blog-listing li {
-  display: block;
   margin-bottom: 3rem
 }
+
+@media (min-width: 769px) {
+  ul.blog-listing li {
+    display: inline-block;
+    width: 49.5%;
+    vertical-align: top;
+    padding: 2rem;
+
+  }
+}
+
 ul.blog-listing li img {
-  margin-bottom: 1rem;;
+  margin-bottom: 1rem;
+  ;
 }
 
 ul.blog-listing li .image-container {
@@ -3726,8 +3734,6 @@ ul.blog-listing li .image-container {
   overflow: hidden;
   margin-bottom: 1rem;
 }
-
-
 
 .blog-post article,
 .blog main {
@@ -3740,10 +3746,17 @@ html .blog-post article h1 {
 }
 
 @media (min-width: 769px) {
+
   .blog-post article,
   .blog main {
-    max-width: 32rem;
     margin: auto;
   }
-}
 
+  .blog-post main {
+    max-width: 1260px;
+  }
+
+  .blog-post article {
+    max-width: 32rem;
+  }
+}
