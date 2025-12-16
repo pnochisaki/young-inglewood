@@ -12,11 +12,11 @@ export default function Dispatch({ allPostsData, markdownData }) {
       </Head>
       <h1 dangerouslySetInnerHTML={{ __html: markdownData.headline }} />
       <ul className='blog-listing'>
-        {allPostsData.map(({ slug, title, date, featured_image }) => (
+        {allPostsData.map(({ slug, title, date, excerpt, featured_image }) => (
           <li
             key={slug}
           >
-            <Link href={`/blog/${slug}`}>
+            <Link href={`/dispatch/${slug}`}>
               {featured_image && (
                 <div className='image-container'><img
                   src={featured_image}
@@ -24,6 +24,7 @@ export default function Dispatch({ allPostsData, markdownData }) {
                 /></div>
               )}
               <h3>{title}</h3>
+              <div className='excerpt'>{excerpt}</div>
             </Link>
           </li>
         ))}

@@ -3745,6 +3745,10 @@ html .blog-post article h1 {
   margin-bottom: 2rem
 }
 
+html .blog-post article a {
+  text-decoration: underline;
+}
+
 @media (min-width: 769px) {
 
   .blog-post article,
