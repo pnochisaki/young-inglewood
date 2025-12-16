@@ -12,7 +12,7 @@ hours_line_2: 10:00AM – 3:00PM
 title: How Do I Reach You?
 email: hosp@younginglewood.com
 description: Have questions? Contact Young Inglewood Vineyards for more
-  information about our handcrafted wines, tastings, and vineyard experiences
+  information about our handcrafted wines, tastings, and vineyard experiences.
 faqs:
   - answer: Young Inglewood Vineyards is on the south side of the Saint Helena AVA
       in Napa Valley, California approximately 2 hours north of San Francisco.
