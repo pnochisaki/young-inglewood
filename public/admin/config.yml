@@ -38,7 +38,7 @@ collections: # our content types, this is just an example!
     folder: "_content/blog"
     create: true
     slug: "{{title}}"
-    summary: "{{title}}"
+    summary: "{{order}} - {{title}}"
     editor:
       preview: false
     fields:
@@ -50,6 +50,7 @@ collections: # our content types, this is just an example!
       - { label: "Stick to top", name: "sticky", widget: "boolean" , required: false}
       - { label: "Excerpt", name: "excerpt", widget: "markdown" , required: true}
       - { label: "Body", name: "body", widget: "markdown", required: false}
+      - { label: "Order", name: "order", widget: "number", required: true}
 
   - name: "additional"
     label: "Additional Fields"

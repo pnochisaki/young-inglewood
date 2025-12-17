@@ -12,26 +12,32 @@ export default function Dispatch({ allPostsData, markdownData }) {
       </Head>
       <h1 dangerouslySetInnerHTML={{ __html: markdownData.headline }} />
       <ul className='blog-listing'>
-        {allPostsData.filter(post => post.sticky).map(({ slug, title, date, excerpt, featured_image }) => (
-          <BlogTeaser
-            key={slug}
-            slug={slug}
-            title={title}
-            date={date}
-            excerpt={excerpt}
-            featured_image={featured_image}
-          />
-        ))}
-        {allPostsData.filter(post => !post.sticky).map(({ slug, title, date, excerpt, featured_image }) => (
-          <BlogTeaser
-            key={slug}
-            slug={slug}
-            title={title}
-            date={date}
-            excerpt={excerpt}
-            featured_image={featured_image}
-          />
-        ))}
+        {allPostsData
+          .filter(post => post.sticky)
+          .sort((a, b) => Number(a.order) - Number(b.order))
+          .map(({ slug, title, date, excerpt, featured_image }) => (
+            <BlogTeaser
+              key={slug}
+              slug={slug}
+              title={title}
+              date={date}
+              excerpt={excerpt}
+              featured_image={featured_image}
+            />
+          ))}
+        {allPostsData
+          .filter(post => !post.sticky)
+          .sort((a, b) => Number(a.order) - Number(b.order))
+          .map(({ slug, title, date, excerpt, featured_image }) => (
+            <BlogTeaser
+              key={slug}
+              slug={slug}
+              title={title}
+              date={date}
+              excerpt={excerpt}
+              featured_image={featured_image}
+            />
+          ))}
       </ul>
     </Layout>
   );
