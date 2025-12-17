@@ -916,7 +916,8 @@ h1 {
 }
 
 h1 em,
-.c7-side-cart__header h1 {
+.c7-side-cart__header h1,
+html .blog-post article h1.h1 {
   font-size: 3rem;
   font-style: normal;
   text-transform: none;
