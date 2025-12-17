@@ -83,8 +83,8 @@ A visit to Young Inglewood is less like a tour and more like being let in on a s
 
 This is what a boutique winery experience is meant to be: rooted in care, crafted with purpose, and remembered long after the last sip.
 
-Discover your tasting experience.
+Discover your tasting experience.\
  👉 Explore Wine Tastings
 
-Bring Napa refinement home.
+Bring Napa refinement home.\
  🛒 Shop the Wines
