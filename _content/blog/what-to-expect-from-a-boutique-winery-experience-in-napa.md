@@ -7,7 +7,7 @@ excerpt: A visit to Napa Valley often brings visions of sprawling estates,
   world-famous wines, and polished tasting rooms. For those who prefer something
   more private and enlightening—a boutique winery experience offers an entirely
   different kind of magic and draw.
-order: 4
+order: 1
 ---
 A visit to Napa Valley often brings visions of sprawling estates, world-famous wines, and polished tasting rooms. For those who prefer something more private and enlightening—a boutique winery experience offers an entirely different kind of magic and draw. 
 
