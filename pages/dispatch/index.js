@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import { getSortedPostsData } from '../../lib/blog';
 import { getMarkdownData } from '../../lib/markdown'
 import Layout from '../../components/layout';
+import BlogTeaser from '../../components/blogTeaser';
 
 export default function Dispatch({ allPostsData, markdownData }) {
   return (
@@ -12,22 +12,25 @@ export default function Dispatch({ allPostsData, markdownData }) {
       </Head>
       <h1 dangerouslySetInnerHTML={{ __html: markdownData.headline }} />
       <ul className='blog-listing'>
-        {allPostsData.map(({ slug, title, date, excerpt, featured_image }) => (
-          <li
+        {allPostsData.filter(post => post.sticky).map(({ slug, title, date, excerpt, featured_image }) => (
+          <BlogTeaser
             key={slug}
-          >
-            <Link href={`/dispatch/${slug}`}>
-              {featured_image && (
-                <div className='image-container'><img
-                  src={featured_image}
-                  alt={title}
-                /></div>
-              )}
-              <h3>{title}</h3>
-              <div className='excerpt'>{excerpt}</div>
-              <button className="c7-btn"><span>Read more</span></button>
-            </Link>
-          </li>
+            slug={slug}
+            title={title}
+            date={date}
+            excerpt={excerpt}
+            featured_image={featured_image}
+          />
+        ))}
+        {allPostsData.filter(post => !post.sticky).map(({ slug, title, date, excerpt, featured_image }) => (
+          <BlogTeaser
+            key={slug}
+            slug={slug}
+            title={title}
+            date={date}
+            excerpt={excerpt}
+            featured_image={featured_image}
+          />
         ))}
       </ul>
     </Layout>
