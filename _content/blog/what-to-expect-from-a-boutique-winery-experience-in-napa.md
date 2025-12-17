@@ -2,6 +2,11 @@
 title: What to Expect from a Boutique Winery Experience in Napa (title)
 featured_image: /uploads/young_93.jpg
 headline: What to Expect from a Boutique Winery Experience in Napa (headline)
+sticky: true
+excerpt: A visit to Napa Valley often brings visions of sprawling estates,
+  world-famous wines, and polished tasting rooms. For those who prefer something
+  more private and enlightening—a boutique winery experience offers an entirely
+  different kind of magic and draw.
 order: 4
 ---
 A visit to Napa Valley often brings visions of sprawling estates, world-famous wines, and polished tasting rooms. For those who prefer something more private and enlightening—a boutique winery experience offers an entirely different kind of magic and draw. 
