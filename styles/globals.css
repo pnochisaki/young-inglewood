@@ -899,7 +899,7 @@ h2,
 html .blog-post article h1,
 html .blog-post article h2 {
   color: #d78628;
-  font-size: 3.75rem;
+  font-size: 1rem;
   font-family: SofiaProUltraLight, sans-serif;
   font-feature-settings: 'ss01';
   font-weight: 100;
