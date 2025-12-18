@@ -48,9 +48,6 @@ collections: # our content types, this is just an example!
       - label: "Stuck to top"
         field: sticky
         pattern: 'true'
-      - label: "Not Stuck to top"
-        field: sticky
-        pattern: 'false'
     editor:
       preview: false
     fields:
