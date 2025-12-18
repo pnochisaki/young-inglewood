@@ -48,7 +48,7 @@ collections: # our content types, this is just an example!
       - { label: "Stick to top", name: "sticky", widget: "boolean" , required: false}
       - { label: "Published", name: "published", widget: "boolean", required: false, default: true }
       - { label: "Featured Image", name: "featured_image", widget: "image"}
-      - { label: "Excerpt", name: "excerpt", widget: "markdown" , required: true}
+      - { label: "Excerpt", name: "excerpt", widget: "markdown" , required: true, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "heading-four", "heading-five", "heading-six", "quote", "bulleted-list", "numbered-list"]}
       - { label: "Body", name: "body", widget: "markdown", required: false}
       - { label: "Meta Description", name: "description", widget: "string" , required: false}
       - { label: "Open Graph Image", name: "og_image", widget: "image",  required: false }
