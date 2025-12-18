@@ -909,7 +909,8 @@ html .blog-post article h2 {
   letter-spacing: .1rem;
 }
 
-h1 {
+h1,
+html .blog-post article h1 {
   font-size: 1.125rem;
   display: block;
   text-transform: none;
