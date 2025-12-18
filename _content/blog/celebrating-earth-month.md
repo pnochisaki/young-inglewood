@@ -1,6 +1,6 @@
 ---
 title: Celebrating Earth Month
-featured_image: /uploads/earthday-1.jpg
+image: /uploads/earthday-1.jpg
 sticky: true
 excerpt: At Young Inglewood Vineyards, we consider every day Earth Day. We're
   sharing some of the ways we're working to keep our farming, winemaking and

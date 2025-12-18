@@ -6,9 +6,9 @@ export default function BlogTeaser(props) {
             key={props.slug}
         >
             <Link href={`/dispatch/${props.slug}`}>
-                {props.featured_image && (
+                {props.image && (
                     <div className='image-container'><img
-                        src={props.featured_image}
+                        src={props.image}
                         alt={props.title}
                     /></div>
                 )}

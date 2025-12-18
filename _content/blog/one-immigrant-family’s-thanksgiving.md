@@ -1,6 +1,6 @@
 ---
 title: One Immigrant Family's Thanksgiving
-featured_image: /uploads/photoemmakmorris-0446.jpg
+image: /uploads/photoemmakmorris-0446.jpg
 headline: One Immigrant Family's <em>THANKSGIVING</em>
 excerpt: Like many immigrants, I didn’t grow up with a Thanksgiving tradition,
   but when I swore allegiance to this country and its principles, I definitely
