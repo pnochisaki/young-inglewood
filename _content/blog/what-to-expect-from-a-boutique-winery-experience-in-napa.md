@@ -1,14 +1,14 @@
 ---
 title: What to Expect from a Boutique Winery Experience in Napa (title)
-image: /uploads/young_93.jpg
 headline: What to Expect from a Boutique <em>Winery Experience in Napa</em>
+order: 1
 sticky: true
+published: true
+image: /uploads/young_93.jpg
 excerpt: A visit to Napa Valley often brings visions of sprawling estates,
   world-famous wines, and polished tasting rooms. For those who prefer something
   more private and enlightening—a boutique winery experience offers an entirely
   different kind of magic and draw.
-order: 1
-published: true
 ---
 A visit to Napa Valley often brings visions of sprawling estates, world-famous wines, and polished tasting rooms. For those who prefer something more private and enlightening—a boutique winery experience offers an entirely different kind of magic and draw. 
 
@@ -60,7 +60,7 @@ Hospitality at Young Inglewood is deliberately personal. The personal wine tasti
 
 It’s in these quiet exchanges—between sips, between stories—that guests often realize they’ve discovered something rare: a winery that sees them, not just as visitors, but as guests.
 
-#### Tour the Winery: A Glimpse into Winemaking Artistry
+### Tour the Winery: A Glimpse into Winemaking Artistry
 
 For those who want to go deeper, touring the winery reveals the creative and technical side of winemaking. Guests can witness the gravity-flow production process, learn about small-lot fermentation, and see how aging choices are made barrel by barrel.
 
@@ -68,7 +68,7 @@ These behind-the-scenes experiences elevate a guided wine tasting into something
 
 You’ll see not just how wine is made, but why it’s made this way.
 
-#### Wine Education Beyond the Glass: Understanding Napa's Terroir
+### Wine Education Beyond the Glass: Understanding Napa's Terroir
 
 Wine isn’t just a beverage—it’s a story of place, time, and craft. That’s why the best wine experiences go beyond tasting notes and dive into education. At Young Inglewood, visitors have the opportunity to learn about wine in a setting that’s both insightful and approachable.
 
