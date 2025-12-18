@@ -15,27 +15,27 @@ export default function Dispatch({ allPostsData, markdownData }) {
         {allPostsData
           .filter(post => post.sticky && post.published === true)
           .sort((a, b) => Number(a.order) - Number(b.order))
-          .map(({ slug, title, date, excerpt, featured_image }) => (
+          .map(({ slug, title, date, excerpt, image }) => (
             <BlogTeaser
               key={slug}
               slug={slug}
               title={title}
               date={date}
               excerpt={excerpt}
-              featured_image={featured_image}
+              image={image}
             />
           ))}
         {allPostsData
           .filter(post => !post.sticky && post.published === true)
           .sort((a, b) => Number(a.order) - Number(b.order))
-          .map(({ slug, title, date, excerpt, featured_image }) => (
+          .map(({ slug, title, date, excerpt, image }) => (
             <BlogTeaser
               key={slug}
               slug={slug}
               title={title}
               date={date}
               excerpt={excerpt}
-              featured_image={featured_image}
+              image={image}
             />
           ))}
       </ul>
