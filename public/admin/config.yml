@@ -43,11 +43,11 @@ collections: # our content types, this is just an example!
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" , required: false}
+      - { label: "Headline", name: "headline", widget: "string" , required: false, description: "Optional headline to display instead of the title.  Use <em>Hello</em> for emphasis."}
       - { label: "Order", name: "order", widget: "number", required: true}
       - { label: "Stick to top", name: "sticky", widget: "boolean" , required: false}
       - { label: "Published", name: "published", widget: "boolean", required: false, default: true }
       - { label: "Featured Image", name: "featured_image", widget: "image"}
-      - { label: "Headline", name: "headline", widget: "string" , required: false}
       - { label: "Excerpt", name: "excerpt", widget: "markdown" , required: true}
       - { label: "Body", name: "body", widget: "markdown", required: false}
       - { label: "Meta Description", name: "description", widget: "string" , required: false}
