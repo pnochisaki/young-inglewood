@@ -12,7 +12,7 @@ export default function Post({ postData }) {
         {postData.headline ?
           <h1 dangerouslySetInnerHTML={{ __html: postData.headline }} />
           :
-          <h1 className="h1">{postData.title}</h1>
+          <h1><em>{postData.title}</em></h1>
         }
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
