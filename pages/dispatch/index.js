@@ -13,7 +13,7 @@ export default function Dispatch({ allPostsData, markdownData }) {
       <h1 dangerouslySetInnerHTML={{ __html: markdownData.headline }} />
       <ul className='blog-listing'>
         {allPostsData
-          .filter(post => post.sticky)
+          .filter(post => post.sticky && post.published === true)
           .sort((a, b) => Number(a.order) - Number(b.order))
           .map(({ slug, title, date, excerpt, featured_image }) => (
             <BlogTeaser
@@ -26,7 +26,7 @@ export default function Dispatch({ allPostsData, markdownData }) {
             />
           ))}
         {allPostsData
-          .filter(post => !post.sticky)
+          .filter(post => !post.sticky && post.published === true)
           .sort((a, b) => Number(a.order) - Number(b.order))
           .map(({ slug, title, date, excerpt, featured_image }) => (
             <BlogTeaser
