@@ -39,6 +39,8 @@ collections: # our content types, this is just an example!
     create: true
     slug: "{{title}}"
     summary: "{{order}} - {{title}}"
+    filter: {field: "sticky", value: "true"}
+    sortable_fields: ["order", "updated"]
     editor:
       preview: false
     fields:
