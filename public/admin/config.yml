@@ -40,6 +40,17 @@ collections: # our content types, this is just an example!
     slug: "{{title}}"
     summary: "{{order}} - {{title}}"
     sortable_fields: ["order", "updated"]
+    view_filters:
+      - label: "Stuck to top"
+        field: sticky
+        pattern: 'true'
+    view_groups:
+      - label: "Stuck to top"
+        field: sticky
+        pattern: 'true'
+      - label: "Not Stuck to top"
+        field: sticky
+        pattern: 'false'
     editor:
       preview: false
     fields:
