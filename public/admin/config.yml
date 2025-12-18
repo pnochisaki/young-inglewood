@@ -41,9 +41,12 @@ collections: # our content types, this is just an example!
     summary: "{{order}} - {{title}}"
     sortable_fields: ["order", "date", "title"]
     view_filters:
-      - label: "Stuck to top"
-        field: sticky
+      - label: "Published"
+        field: published
         pattern: 'true'
+      - label: "Unpublished"
+        field: published
+        pattern: 'false'
     view_groups:
       - label: "Stuck to top"
         field: sticky
