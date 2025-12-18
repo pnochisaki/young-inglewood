@@ -34,7 +34,8 @@ collections: # our content types, this is just an example!
           - { label: "Answer", name: "answer", widget: "text" }
 
   - name: "blog"
-    label: "Blog"
+    label: "Dispatch"
+    label_singular: "Post"
     folder: "_content/blog"
     create: true
     slug: "{{title}}"
