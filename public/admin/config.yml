@@ -39,7 +39,7 @@ collections: # our content types, this is just an example!
     create: true
     slug: "{{title}}"
     summary: "{{order}} - {{title}}"
-    sortable_fields: ["order", "updated"]
+    sortable_fields: ["order", "date", "title"]
     view_filters:
       - label: "Stuck to top"
         field: sticky
