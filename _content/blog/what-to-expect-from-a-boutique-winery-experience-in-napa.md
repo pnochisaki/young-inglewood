@@ -21,7 +21,6 @@ Boutique wineries are small-scale production wineries that produce less than 10,
 
 Boutique wineries like us are deeply tied to our land and our community. Our small team touches each part of the wine making process, crafting a unique, limited-production wine. For us, winemaking starts in the vineyard. Expertly cared for grapes produces delectable wines. We harvest and sort our grapes by hand ensuring excellent quality fermentation. 
 
-\
 We identify as a family-run winery. Led by a mother-son winemaking team, the estate embraces balance in all things—from vine to cellar . We invite you to share and experience our beautiful and peaceful property as you drink our elegant, delicious wine.
 
 ###### Custom Wine Tasting Moments for Creating Lasting Memories (heading 6)
