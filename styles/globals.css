@@ -3746,6 +3746,23 @@ ul.blog-listing li .image-container {
   text-align: left;
 }
 
+@media (min-width: 769px) {
+  .blog-post article .two-cols > div {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .blog-post article .two-cols > div:first-child {
+    width: 33%
+  }
+  .blog-post article .two-cols > div:last-child {
+    width: 66%
+  }   
+  .blog-post article .two-cols > div:first-child h1 {
+    position: fixed;
+    max-width: 18rem;
+  }
+}
+
 html .blog-post article h1,
 html .blog-post article h2 {
   line-height: 1;
@@ -3768,6 +3785,6 @@ html .blog-post article a {
   }
 
   .blog-post article {
-    max-width: 42rem;
+    max-width: 62rem;
   }
 }

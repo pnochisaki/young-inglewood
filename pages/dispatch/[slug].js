@@ -9,14 +9,19 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article>
-        {postData.headline ?
-          <h1 dangerouslySetInnerHTML={{ __html: postData.headline }} />
-          :
-          <h1><em>{postData.title}</em></h1>
-        }
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className="two-cols">
+          <div>
+            {postData.headline ?
+              <h1 dangerouslySetInnerHTML={{ __html: postData.headline }} />
+              :
+              <h1><em>{postData.title}</em></h1>
+            }
+          </div>
+          <div>
+            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          </div>
+        </div>
       </article>
-
       <a className='button' href="/dispatch">&larr; Back to Dispatch</a>
     </Layout>
   );
