@@ -1,5 +1,5 @@
 ---
-title: Pruning at Young Inglewood (title)
+title: Pruning at Young Inglewood
 headline: pruning at <br><em>young inglewood,em>
 order: 3
 published: true
