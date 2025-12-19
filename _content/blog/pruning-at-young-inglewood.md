@@ -2,7 +2,7 @@
 title: Pruning at Young Inglewood
 headline: pruning at <br><em>young inglewood<em>
 order: 3
-published: false
+published: true
 image: /uploads/274a8723.jpg
 excerpt: A key vineyard task – perhaps the key vineyard task we do early in the
   year – is to prune the vines. We typically prune our vines between end of
