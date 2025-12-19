@@ -1,6 +1,6 @@
 ---
 title: Celebrating Earth Month
-headline: celebrating <em>earth month<em>
+headline: celebrating <br> <em>earth month<em>
 order: 2
 sticky: true
 published: true
