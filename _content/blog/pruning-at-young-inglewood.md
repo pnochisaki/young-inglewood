@@ -1,6 +1,6 @@
 ---
 title: Pruning at Young Inglewood
-headline: pruning at <br><em>young inglewood,em>
+headline: pruning at <br><em>young inglewood<em>
 order: 3
 published: true
 image: /uploads/274a8723.jpg
