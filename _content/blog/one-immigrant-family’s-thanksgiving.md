@@ -1,6 +1,6 @@
 ---
 title: One Immigrant Family's Thanksgiving
-headline: One Immigrant Family's <em>thanksgiving</em>
+headline: One immigrant family's <em>thanksgiving</em>
 order: 2
 published: true
 image: /uploads/photoemmakmorris-0446.jpg
