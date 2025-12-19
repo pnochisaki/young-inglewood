@@ -1,14 +1,14 @@
 ---
 title: Pruning at Young Inglewood (title)
-description: How does pruning a vineyard work?
-og_image: /uploads/04f78c63-461a-4363-a046-02212bfd8fd5-2.jpg
+headline: Pruning at <em>Young Inglewood<em>
+order: 3
+published: true
 image: /uploads/274a8723.jpg
-headline: Pruning (headline)
 excerpt: A key vineyard task – perhaps the key vineyard task we do early in the
   year – is to prune the vines. We typically prune our vines between end of
   January and early March.
-order: 3
-published: true
+description: How does pruning a vineyard work?
+og_image: /uploads/04f78c63-461a-4363-a046-02212bfd8fd5-2.jpg
 ---
 A key vineyard task – perhaps the key vineyard task we do early in the year – is to prune the vines. We typically prune our vines between end of January and early March. 
 
