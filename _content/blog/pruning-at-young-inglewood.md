@@ -14,6 +14,8 @@ A key vineyard task – perhaps the key vineyard task we do early in the year �
 
 # What does pruning do? (heading 1)
 
+## What does pruning do?
+
 The buds to produce the year’s crop were set during the previous growing season. During pruning, for each individual vine, we decide how many of those buds we want to allow to grow. The buds produce shoots, which will eventually bear the grape clusters. During pruning, we can force the vine to focus its energies on growing the number of shoots we think is appropriate so that the fruit each vine produces is concentrated and top quality.
 
 ![Michael hand pruning our Aligote Vines](/uploads/photoemmakmorris-00951.jpg "Michael hand pruning our Aligote Vines")
