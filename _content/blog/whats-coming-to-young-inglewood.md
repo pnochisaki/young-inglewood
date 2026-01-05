@@ -1,6 +1,6 @@
 ---
 title: what's coming to Young Inglewood?
-headline: what's coming to Young Inglewood?
+headline: <em> young inglewood </em> around town
 order: 1
 sticky: true
 published: true
