@@ -1,6 +1,6 @@
 ---
-title: What's coming to Young Inglewood?
-headline: What's coming to Young Inglewood?
+title: what's coming to Young Inglewood?
+headline: what's coming to Young Inglewood?
 order: 1
 sticky: true
 published: true
