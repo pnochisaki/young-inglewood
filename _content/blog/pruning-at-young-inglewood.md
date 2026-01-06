@@ -16,7 +16,12 @@ A key vineyard task – perhaps the key vineyard task we do early in the year �
 
 The buds to produce the year’s crop were set during the previous growing season. During pruning, for each individual vine, we decide how many of those buds we want to allow to grow. The buds produce shoots, which will eventually bear the grape clusters. During pruning, we can force the vine to focus its energies on growing the number of shoots we think is appropriate so that the fruit each vine produces is concentrated and top quality.
 
+<figure>
+
 ![Michael hand pruning our Aligote Vines](/uploads/photoemmakmorris-00951.jpg "Michael hand pruning our Aligote Vines")
+
+<figcaption>freshly pruned vines.</figcaption></figure>
+
 
 At pruning, we can also decide in which direction we want the shoots to grow, which determines the distribution of shoots, and eventually leaves and fruit, throughout the vine. This helps us ensure that each shoot will get the right amount of sunlight and shade to allow it to ripen its fruit evenly.
 
@@ -24,11 +29,7 @@ At pruning, we can also decide in which direction we want the shoots to grow, wh
 
 #### v﻿ines before pruning
 
-<figure>
 ![](/uploads/2021-02-26-022335108.jpg "Freshly Pruned Cabernet Sauvignon Grape Vines")
-<figcaption>freshly pruned vines.</figcaption>
-</figure>
-
 
 ### What happens next?
 
@@ -36,4 +37,4 @@ When the tender buds have broken through, we are on the alert for cooler nightti
 
 ![](/uploads/dispatch-signoff-canva-email-heading-size.png)
 
- 👉 [Book your visit](<https://www.exploretock.com/younginglewood>) | 👉 [Shop our wine](https://www.younginglewood.com/collection/all)
+ 👉 [Book your visit](https://www.exploretock.com/younginglewood) | 👉 [Shop our wine](https://www.younginglewood.com/collection/all)
