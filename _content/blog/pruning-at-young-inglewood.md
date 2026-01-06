@@ -24,21 +24,16 @@ At pruning, we can also decide in which direction we want the shoots to grow, wh
 
 #### v﻿ines before pruning
 
+<figure>
 ![](/uploads/2021-02-26-022335108.jpg "Freshly Pruned Cabernet Sauvignon Grape Vines")
+<figcaption>freshly pruned vines.</figcaption>
+</figure>
 
-#### freshly pruned vines
 
 ### What happens next?
 
 When the tender buds have broken through, we are on the alert for cooler nighttime temperatures that might foretell a freak frost that will nip the buds, and any fruit they might produce. In the balmy daytime temperatures frost seems hard to imagine, but anyone who farms will tell you it can happen and will sometimes. It’s time for spring and the leaves and grapes to develop. We love watching this process and look forward to sharing more about this next time. 
 
-Looking forward to raising a glass with you soon!
+![](/uploads/dispatch-signoff-canva-email-heading-size.png)
 
-Cheers,
-Your Friends at Young Inglewood	
-
-Plan your visit
- 👉 [Tock page](<>).
-
-Bring Young Inglewood to you
- [Shop our wine](https://www.younginglewood.com/collection/all)
+ 👉 [Book your visit](<https://www.exploretock.com/younginglewood>) | 👉 [Shop our wine](https://www.younginglewood.com/collection/all)
