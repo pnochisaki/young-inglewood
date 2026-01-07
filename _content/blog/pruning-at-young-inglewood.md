@@ -25,13 +25,17 @@ The buds to produce the year’s crop were set during the previous growing seaso
 
 At pruning, we can also decide in which direction we want the shoots to grow, which determines the distribution of shoots, and eventually leaves and fruit, throughout the vine. This helps us ensure that each shoot will get the right amount of sunlight and shade to allow it to ripen its fruit evenly.
 
+#### 
+v﻿ines before pruning
+
 ![cover crop and unpruned bordeaux grape vines](/uploads/img_20180119_081025_2.jpg "Sunrising on cabernet sauvignon grape vines before being pruned")
 
-#### v﻿ines before pruning
+
+
+#### 
+freshly pruned vines
 
 ![](/uploads/2021-02-26-022335108.jpg "Freshly Pruned Cabernet Sauvignon Grape Vines")
-
-### freshly pruned vines
 
 ### What happens next?
 
