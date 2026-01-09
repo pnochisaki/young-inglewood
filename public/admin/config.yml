@@ -9,6 +9,7 @@ backend:
 # publish_mode: editorial_workflow
 # site_url: "https://young-inglewood-qxbr-i1cbfx4co-peternochisakis-projects.vercel.app"
 logo_url: "https://www.younginglewood.com/images/logo.svg"
+# show_in_header: true
 media_folder: "public/uploads" # the folder we want to upload new images to
 public_folder: "/uploads" # the folder our images should be fetched from
 collections: # our content types, this is just an example!
@@ -62,7 +63,7 @@ collections: # our content types, this is just an example!
       - { label: "Published", name: "published", widget: "boolean", required: false, default: true }
       - { label: "Featured Image", name: "image", widget: "image"}
       - { label: "Excerpt", name: "excerpt", widget: "markdown" , required: true, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "heading-four", "quote", "bulleted-list", "numbered-list"]}
-      - { label: "Body", name: "body", widget: "markdown", required: false}
+      - { label: "Body", name: "body", widget: "markdown", required: false, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "heading-four", "quote", "bulleted-list", "numbered-list"]}
       - { label: "Meta Description", name: "description", widget: "string" , required: false}
       - { label: "Open Graph Image", name: "og_image", widget: "image",  required: false }
   - name: "additional"
