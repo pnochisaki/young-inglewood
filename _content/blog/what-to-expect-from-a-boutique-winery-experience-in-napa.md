@@ -1,7 +1,7 @@
 ---
-title: What to Expect from a Boutique Winery Experience in Napa (title)
+title: What to Expect from a Boutique Winery Experience in Napa
 headline: what to expect from a boutique <em>napa winery experience</em>
-order: 1
+order: 5
 sticky: true
 published: true
 image: /uploads/young_93.jpg
