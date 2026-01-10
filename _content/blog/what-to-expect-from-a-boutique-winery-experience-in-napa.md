@@ -4,7 +4,7 @@ headline: what to expect from a boutique <em>napa winery experience</em>
 order: 5
 sticky: true
 published: true
-image: /uploads/young_93.jpg
+image: /uploads/photogabriellelurie-young_93.jpg
 excerpt: A visit to Napa Valley often brings visions of crowded tasting rooms.
   For those who prefer something more private and enlightening—a boutique winery
   experience offers an entirely different kind of magic and draw.
@@ -17,7 +17,7 @@ Here at Young Inglewood Vineyards, our tasting experience is intimate and elevat
 
 Boutique wineries are small-scale production wineries that produce less than 10,000 cases annually. Here at Young Inglewood, we take boutique to the next level, producing only 1200 cases annually. Our small scale production allows us to focus on quality and the consumer. Hospitality is tailored to each visitor’s unique desires. 
 
-![Beautiful blue sky with the Young Inglewood winery building. Young Inglewood customers carrying wine to their car at Young Inglewood's winery.](/uploads/young_339.jpg "Photo of Young Inglewood's winery with customers carrying wine out to their car after a delicious tasting.")
+![Beautiful blue sky with the Young Inglewood winery building. Young Inglewood customers carrying wine to their car at Young Inglewood's winery.](/uploads/photogabriellelurie-young_339.jpg "Photo of Young Inglewood's winery with customers carrying wine out to their car after a delicious tasting.")
 
 Boutique wineries like us are deeply tied to our land and our community. Our small team touches each part of the wine making process, crafting a unique, limited-production wine. For us, winemaking starts in the vineyard. Expertly cared for grapes produces delectable wines. We harvest and sort our grapes by hand ensuring excellent quality fermentation. 
 
@@ -74,7 +74,7 @@ Wine isn’t just a beverage—it’s a story of place, time, and craft. That’
 The team shares how Napa’s terroir—its soils, slopes, and microclimates—shapes each vintage. Guests explore topics like vineyard spacing, clonal selection, and the influence of natural fermentation. These details add richness to each tasting and help frame what makes Young Inglewood’s wines so distinctive.
 This kind of winery education creates a deeper appreciation—not just for a single bottle, but for the philosophy behind every wine crafted here.
 
-![](/uploads/young_93.jpg)
+![](/uploads/photogabriellelurie-young_93.jpg)
 
 ### Visit Young Inglewood: Where Memorable Wine Experiences Await
 
