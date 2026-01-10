@@ -4,13 +4,13 @@ headline: <em> young inglewood </em> around town
 order: 1
 sticky: true
 published: true
-image: /uploads/47-0t4a5228.jpg
+image: /uploads/photostephenciauri-47-0t4a5228.jpg
 excerpt: Find out what events Young Inglewood will be doing as of 1.5.2026
 og_image: /uploads/0t4a2548.jpg
 ---
 During the year we host members events at the winery and participate in events outside the winery. We'd love for you to join us. This is our list as of 1.5.2026 and we'll update this list as the year moves along, so check back.
 
-![FYI members enjoying an event at Young Inglewood in the Spring.](/uploads/0t4a2548.jpg "FYI members enjoying a beautiful spring day during Spring Forward.")
+![FYI members enjoying an event at Young Inglewood in the Spring.](/uploads/photostephenciauri-0t4a2548.jpg "FYI members enjoying a beautiful spring day during Spring Forward.")
 
 Please **save the date** for one of our favorite gatherings of the year:
 
