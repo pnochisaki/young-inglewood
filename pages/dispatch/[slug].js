@@ -22,7 +22,9 @@ export default function Post({ postData }) {
           </div>
         </div>
       </article>
-      <a className='button' href="/dispatch">&larr; Back to Dispatch</a>
+      <a className='button c7-btn' href="https://www.exploretock.com/younginglewood">Book your Visit</a>
+      <a className='button c7-btn' href="/collection/all">Shop our wine</a>
+      <a className='button c7-btn' href="/dispatch">&larr; Back to Dispatch</a>
     </Layout>
   );
 }

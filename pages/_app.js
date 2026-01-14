@@ -28,6 +28,13 @@ function MyApp({ Component, pageProps }) {
       $(this).toggleClass('active');
     })
 
+    $('.blog-post article img').each(function(){
+      const title = $(this).attr('title');
+      if (title) {
+        $(this).after('<span class="img-caption">'+title+'</span>');
+      }
+    })
+
   })
 
   // const onHashChangeStart = (url) => {

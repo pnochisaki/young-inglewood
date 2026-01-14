@@ -3763,7 +3763,13 @@ ul.blog-listing li .image-container {
   .blog-post article .two-cols>div:first-child h1 {
     position: fixed;
     max-width: 18rem;
+    line-height: 1.85;
   }
+
+  .blog-post article .two-cols>div:first-child h1 em {
+    line-height: .85;
+  }
+
 }
 
 html .blog-post article h1,
@@ -3775,7 +3781,12 @@ html .blog-post article h2 {
 html .blog-post article a {
   text-decoration: underline;
 }
-
+html .blog-post article strong {
+  font-weight: bold;
+}
+html .blog-post article em {
+  font-style: italic;
+}
 @media (min-width: 769px) {
 
   .blog-post article,
@@ -3790,4 +3801,8 @@ html .blog-post article a {
   .blog-post article {
     max-width: 62rem;
   }
+}
+.img-caption {
+  display: block;
+  font-size: .75rem;
 }
