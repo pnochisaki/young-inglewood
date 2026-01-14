@@ -3807,3 +3807,7 @@ html .blog-post article .two-cols>div:last-child em {
   display: block;
   font-size: .75rem;
 }
+
+.button-bar a {
+  margin: 0 1.5rem;
+}
