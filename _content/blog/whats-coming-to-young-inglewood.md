@@ -36,3 +36,5 @@ Scott will be in Houston for [Southern Smoke Decanted](https://southernsmoke.or
 We’re excited to take part in additional regional events throughout the year and hope to see you at one of them.
 
 If you’re unable to join us at any of these, Shannon would be happy to host you and your friends or family for a private tasting experience. Simply call [707.200.4572](tel:707.200.4572) or email [shannon@younginglewood.com](mailto:shannnon@younginglewood.com) to plan your visit to the estate.
+
+![](/uploads/dispatch-signoff-canva-email-heading-size.png)
