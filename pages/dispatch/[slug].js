@@ -9,15 +9,24 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article>
-        {postData.headline ?
-          <h1 dangerouslySetInnerHTML={{ __html: postData.headline }} />
-          :
-          <h1>{postData.title}</h1>
-        }
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className="two-cols">
+          <div>
+            {postData.headline ?
+              <h1 dangerouslySetInnerHTML={{ __html: postData.headline }} />
+              :
+              <h1><em>{postData.title}</em></h1>
+            }
+          </div>
+          <div>
+            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          </div>
+        </div>
       </article>
-
-      <a className='button' href="/blog">&larr; Back to Dispatch</a>
+      <div className="button-bar">
+      <a className='button c7-link' href="https://www.exploretock.com/younginglewood">Book your Visit</a>
+      <a className='button c7-link' href="/collection/all">Shop our wine</a>
+      <a className='button c7-link' href="/dispatch">Back to Dispatch</a>
+      </div>
     </Layout>
   );
 }

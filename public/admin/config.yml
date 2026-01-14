@@ -4,7 +4,12 @@ backend:
   branch: main # the main branch of our repo
   base_url: "https://www.younginglewood.com/" # our site's base URL 
   auth_endpoint: "api/auth" # used together with base_url for our custom endpoints (more on this later)
+#   squash_merges: true
+#   preview_context: Vercel
+# publish_mode: editorial_workflow
+# site_url: "https://young-inglewood-qxbr-i1cbfx4co-peternochisakis-projects.vercel.app"
 logo_url: "https://www.younginglewood.com/images/logo.svg"
+# show_in_header: true
 media_folder: "public/uploads" # the folder we want to upload new images to
 public_folder: "/uploads" # the folder our images should be fetched from
 collections: # our content types, this is just an example!
@@ -30,21 +35,37 @@ collections: # our content types, this is just an example!
           - { label: "Answer", name: "answer", widget: "text" }
 
   - name: "blog"
-    label: "Blog"
+    label: "Dispatch"
+    label_singular: "Post"
     folder: "_content/blog"
     create: true
     slug: "{{title}}"
-    summary: "{{title}}"
+    summary: "{{order}} - {{title}}"
+    sortable_fields: ["order", "date", "title"]
+    view_filters:
+      - label: "Published"
+        field: published
+        pattern: 'true'
+      - label: "Unpublished"
+        field: published
+        pattern: 'false'
+    view_groups:
+      - label: "Stuck to top"
+        field: sticky
+        pattern: 'true'
     editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" , required: false}
+      - { label: "Headline", name: "headline", widget: "string" , required: false, description: "Optional headline to display instead of the title.  Use <em>Hello</em> for emphasis."}
+      - { label: "Order", name: "order", widget: "number", required: true}
+      - { label: "Stick to top", name: "sticky", widget: "boolean" , required: false}
+      - { label: "Published", name: "published", widget: "boolean", required: false, default: true }
+      - { label: "Featured Image", name: "image", widget: "image"}
+      - { label: "Excerpt", name: "excerpt", widget: "markdown" , required: true, buttons: ["bold", "italic", "link", "quote", "bulleted-list", "numbered-list"]}
+      - { label: "Body", name: "body", widget: "markdown", required: false, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "heading-four", "quote", "bulleted-list", "numbered-list"]}
       - { label: "Meta Description", name: "description", widget: "string" , required: false}
       - { label: "Open Graph Image", name: "og_image", widget: "image",  required: false }
-      - { label: "Featured Image", name: "featured_image", widget: "image"}
-      - { label: "Headline", name: "headline", widget: "string" , required: false}
-      - { label: "Body", name: "body", widget: "markdown", required: false}
-
   - name: "additional"
     label: "Additional Fields"
     editor:

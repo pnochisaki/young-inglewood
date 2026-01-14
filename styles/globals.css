@@ -896,7 +896,8 @@ section {
 
 h1,
 h2,
-html .blog-post article h1 {
+html .blog-post article h1,
+html .blog-post article h2 {
   color: #d78628;
   font-size: 3.75rem;
   font-family: SofiaProUltraLight, sans-serif;
@@ -908,7 +909,8 @@ html .blog-post article h1 {
   letter-spacing: .1rem;
 }
 
-h1 {
+h1,
+html .blog-post article h1 {
   font-size: 1.125rem;
   display: block;
   text-transform: none;
@@ -3711,14 +3713,26 @@ ul.blog-listing {
 
 ul.blog-listing li {
   display: block;
-}
-
-ul.blog-listing li {
-  display: block;
   margin-bottom: 3rem
 }
+
+@media (min-width: 769px) {
+  ul.blog-listing li {
+    display: inline-block;
+    width: 49.5%;
+    vertical-align: top;
+    padding: 2rem;
+
+  }
+}
+
+ul.blog-listing li .c7-btn {
+  padding-left: 0;
+}
+
 ul.blog-listing li img {
-  margin-bottom: 1rem;;
+  margin-bottom: 1rem;
+  ;
 }
 
 ul.blog-listing li .image-container {
@@ -3727,23 +3741,73 @@ ul.blog-listing li .image-container {
   margin-bottom: 1rem;
 }
 
-
-
 .blog-post article,
 .blog main {
   text-align: left;
 }
 
-html .blog-post article h1 {
+@media (min-width: 769px) {
+  .blog-post article .two-cols>div {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .blog-post article .two-cols>div:first-child {
+    width: 33%
+  }
+
+  .blog-post article .two-cols>div:last-child {
+    width: 66%
+  }
+
+  .blog-post article .two-cols>div:first-child h1 {
+    position: fixed;
+    max-width: 18rem;
+    line-height: 1.85;
+  }
+
+  .blog-post article .two-cols>div:first-child h1 em {
+    line-height: .85;
+  }
+
+}
+
+html .blog-post article h1,
+html .blog-post article h2 {
   line-height: 1;
   margin-bottom: 2rem
 }
 
+html .blog-post article a {
+  text-decoration: underline;
+}
+html .blog-post article strong {
+  font-weight: bold;
+}
+html .blog-post article .two-cols>div:last-child em {
+  font-style: italic;
+}
 @media (min-width: 769px) {
+
   .blog-post article,
   .blog main {
-    max-width: 32rem;
     margin: auto;
   }
+
+  .blog-post main {
+    max-width: 1260px;
+  }
+
+  .blog-post article {
+    max-width: 62rem;
+    margin-bottom: 2rem;
+  }
+}
+.img-caption {
+  display: block;
+  font-size: .85rem;
 }
 
+.button-bar a {
+  margin: 1.5rem;
+}
