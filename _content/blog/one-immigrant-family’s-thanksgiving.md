@@ -3,7 +3,7 @@ title: One Immigrant Family's Thanksgiving
 headline: one immigrant family's <em>thanksgiving</em>
 order: 4
 published: true
-image: /uploads/photostephenciauri-274a8303.jpg
+image: /uploads/photoemmakmorris-0446.jpg
 excerpt: Like many immigrants, I didn’t grow up with a Thanksgiving tradition,
   but when I swore allegiance to this country and its principles, I definitely
   understood that one of my duties as a newly minted American was to celebrate
