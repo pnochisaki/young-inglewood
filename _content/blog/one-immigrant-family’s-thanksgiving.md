@@ -3,11 +3,16 @@ title: One Immigrant Family's Thanksgiving
 headline: one immigrant family's <em>thanksgiving</em>
 order: 4
 published: true
-image: /uploads/photoemmakmorris-0446.jpg
+image: /uploads/photostephenciauri-274a8303.jpg
 excerpt: Like many immigrants, I didn’t grow up with a Thanksgiving tradition,
   but when I swore allegiance to this country and its principles, I definitely
   understood that one of my duties as a newly minted American was to celebrate
   Thanksgiving.
+description: Like many immigrants, I didn’t grow up with a Thanksgiving
+  tradition, but when I swore allegiance to this country and its principles, I
+  definitely understood that one of my duties as a newly minted American was to
+  celebrate Thanksgiving.
+og_image: /uploads/photostephenciauri-274a8303.jpg
 ---
 Like many immigrants, I didn’t grow up with a Thanksgiving tradition, but when I swore allegiance to this country and its principles, I definitely understood that one of my duties as a newly minted American was to celebrate Thanksgiving. It’s easy in a way – in common with traditions the world over, Thanksgiving’s all about the preparation and consumption of traditional food. But what foods to serve when half the family has a distaste for turkey and sweet potatoes? The solution is to turn to another sacred American tradition – independence! Create your own tradition, and in common with other immigrants, honor your own cultural heritage while you’re at it! So that’s what we do.
 
@@ -15,11 +20,15 @@ In recent years, we haven’t had the luxury of celebrating Thanksgiving all tog
 
 Growing up in Germany, as Jim did, dumplings, made with bread, semolina, or potatoes were often on the menu. So, instead of mashed potatoes, we make potato dumplings together on Thanksgiving morning. However, the recipe comes, not from the German cookbook given to and lovingly preserved by me, but from a cookbook with America in the name – America’s Test Kitchen! The recipe ls the only one I follow exactly as written and always produces magically light and airy dumplings. The time to make them is measured in hours, but the consumption of the results takes only seconds. They literally vanish before one’s eyes!
 
+![Photo of Young Inglewood Reserve Cabernet Sauvignon with a delicious looking meal of spaetzle, sauerbrauten, and roasted vegetables on a table in front of a cozy fire.](/uploads/photomaryyoung-pxl_20201127_041657770.portrait~2.jpg)
+
 The dough is a simple combination of flour, potato and egg. Once put together and cooled though, it magically morphs into an opportunity for conviviality and sharing. There we sit around the floured kitchen table, a glass of Young Inglewood Vin Clair Rosé by our side for fortification, dutifully making sausage shapes with the dough and pinching off small rectangles to make dumplings. After that comes high drama, the final fillip, the sine qua non of dumpling. Each piece is rolled in flour while being simultaneously imprinted with ridges. For most of us, the ridges are made with the back of a fork, but one of us gets to use our one little wooden tool made expressly for the purpose. Highly prized, it was procured at a sourdough bread class in New Orleans. Success at this final touch produces an indescribable feeling of satisfaction, of a job well done, especially for someone who struggles with fine motor skills as I do. Once the dumplings are poached and on the dinner table, it’s a beautiful thing to see those ridges come into play again as the sauce, whether it be melted butter or meat gravy, clings to them lovingly on the plate. And if our potato dumplings owe more to Italian gnocchi than traditional German potato dumplings, isn’t the melding of cultures a key reason for celebrating Thanksgiving in the first place?  
 
 The American tradition, in the form of pumpkin, rules in two dishes at our Thanksgiving table. I have always made the family’s bread, from the days when there were just two of us, until the present day. I realize now that breadmaking has been and is my soothing, grounding ritual, regardless of whatever else is going on.  When we moved to the bay area I was seduced, like so many people, by sourdough, and our daily bread became transformed by my faithfully maintained sourdough starter. At Thanksgiving, that starter takes the form of sourdough pumpkin rolls. Slightly sweet and buttery, I enjoy making them and they are a welcome addition.
 
 Our dessert is always pie and always eaten when everyone can breathe again after what has gone before! Many years, we have two pies, but one of them is always pumpkin. Many variations have been tried over the years. Maple syrup, brown or white sugar as the sweetener? Include molasses or not? Pastry pre-baked or raw? Use milk, almond milk or cream? Once, I tried beating the egg whites stiff separately from the yolks, with unappetizing results. Mary swears she has now found the perfect recipe, but my guess is we’ll keep on experimenting. That in itself has become a part of our Thanksgiving tradition.
+
+![Image of a delicious home baked pumpkin pie with a slice taken out and enjoyed!](/uploads/photomaryyoung-img_2703.jpeg)
 
 Our other pie, if we have one, is often apple. Despite the maxim “as American as apple pie”, apple pie for me is an inextricable part of the English way of life, and my childhood there. My mother only ever made two pies: small mince pies at Christmas and apple pie the rest of the year. 
 
