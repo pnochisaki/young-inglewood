@@ -3784,7 +3784,7 @@ html .blog-post article a {
 html .blog-post article strong {
   font-weight: bold;
 }
-html .blog-post article em {
+html .blog-post article .two-cols>div:last-child em {
   font-style: italic;
 }
 @media (min-width: 769px) {
