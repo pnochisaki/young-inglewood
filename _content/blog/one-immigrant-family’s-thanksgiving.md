@@ -3,7 +3,7 @@ title: One Immigrant Family's Thanksgiving
 headline: one immigrant family's <em>thanksgiving</em>
 order: 4
 published: true
-image: /uploads/photomaryyoung-pxl_20201127_041657770.portrait~2.jpg
+image: /uploads/photostephenciauri-274a8303.jpg
 excerpt: Like many immigrants, I didn’t grow up with a Thanksgiving tradition,
   but when I swore allegiance to this country and its principles, I definitely
   understood that one of my duties as a newly minted American was to celebrate
@@ -12,7 +12,7 @@ description: Like many immigrants, I didn’t grow up with a Thanksgiving
   tradition, but when I swore allegiance to this country and its principles, I
   definitely understood that one of my duties as a newly minted American was to
   celebrate Thanksgiving.
-og_image: /uploads/photomaryyoung-pxl_20201127_041657770.portrait~2.jpg
+og_image: /uploads/photostephenciauri-274a8303.jpg
 ---
 Like many immigrants, I didn’t grow up with a Thanksgiving tradition, but when I swore allegiance to this country and its principles, I definitely understood that one of my duties as a newly minted American was to celebrate Thanksgiving. It’s easy in a way – in common with traditions the world over, Thanksgiving’s all about the preparation and consumption of traditional food. But what foods to serve when half the family has a distaste for turkey and sweet potatoes? The solution is to turn to another sacred American tradition – independence! Create your own tradition, and in common with other immigrants, honor your own cultural heritage while you’re at it! So that’s what we do.
 
