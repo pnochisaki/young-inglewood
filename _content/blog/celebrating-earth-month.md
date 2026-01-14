@@ -11,7 +11,7 @@ excerpt: At Young Inglewood Vineyards, we consider every day Earth Day. We're
 ---
 At Young Inglewood Vineyards, we consider every day Earth Day. We're sharing some of the ways we're working to keep our farming, winemaking and operations as sustainable and Mother Nature friendly as possible. 
 
-![Beautiful peach, orange, yellow and blue sunset with sparse clouds over Young Inglewood Vineyards in St. Helena Napa Valley.](/uploads/earthday-1.jpg "Beautiful peach, orange, yellow and blue sunset with sparse clouds over Young Inglewood Vineyards in St. Helena Napa Valley.")
+![Beautiful peach, orange, yellow and blue sunset with sparse clouds over Young Inglewood Vineyards in St. Helena Napa Valley.](/uploads/earthday-1.jpg)
 
 Starting with our sustainable farming practices, we work with, not against nature by farming organically and regeneratively.
 
