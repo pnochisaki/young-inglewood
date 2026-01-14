@@ -3800,6 +3800,7 @@ html .blog-post article .two-cols>div:last-child em {
 
   .blog-post article {
     max-width: 62rem;
+    margin-bottom: 2rem;
   }
 }
 .img-caption {
