@@ -28,7 +28,7 @@ The American tradition, in the form of pumpkin, rules in two dishes at our Thank
 
 Our dessert is always pie and always eaten when everyone can breathe again after what has gone before! Many years, we have two pies, but one of them is always pumpkin. Many variations have been tried over the years. Maple syrup, brown or white sugar as the sweetener? Include molasses or not? Pastry pre-baked or raw? Use milk, almond milk or cream? Once, I tried beating the egg whites stiff separately from the yolks, with unappetizing results. Mary swears she has now found the perfect recipe, but my guess is we’ll keep on experimenting. That in itself has become a part of our Thanksgiving tradition.
 
-![Image of a delicious home baked pumpkin pie with a slice taken out and enjoyed!](/uploads/photomaryyoung-img_2703.jpeg)
+![Image of a delicious home baked apple pie and pumpkin pie with a slices taken out of each waiting to be enjoyed.](/uploads/photostephenciauri-img_2705.jpeg)
 
 Our other pie, if we have one, is often apple. Despite the maxim “as American as apple pie”, apple pie for me is an inextricable part of the English way of life, and my childhood there. My mother only ever made two pies: small mince pies at Christmas and apple pie the rest of the year. 
 
