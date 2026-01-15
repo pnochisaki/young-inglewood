@@ -1,0 +1,27 @@
+name: Auto Merge on Push
+
+on:
+  push:
+    branches:
+      # Specify the branch where the push will trigger the action
+      - 'main' 
+
+jobs:
+  merge-branch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grants write permission for the GITHUB_TOKEN    
+    steps:
+      - name: Checkout repository
+        # Use fetch-depth: 0 to ensure full git history is available for the merge
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 0 
+
+      - name: Merge into ios
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          from_branch: main # Source branch
+          target_branch: ios  # Target branch
+          github_token: ${{ secrets.GITHUB_TOKEN }}

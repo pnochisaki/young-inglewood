@@ -6,6 +6,10 @@ sticky: true
 published: true
 image: /uploads/photostephenciauri-47-0t4a5228.jpg
 excerpt: Find out what events Young Inglewood will be doing as of 1.5.2026
+description: During the year we host members events at the winery and
+  participate in events outside the winery. We'd love for you to join us. This
+  is our list as of 1.5.2026 and we'll update this list as the year moves along,
+  so check back.
 og_image: /uploads/photostephenciauri-0t4a2548.jpg
 ---
 During the year we host members events at the winery and participate in events outside the winery. We'd love for you to join us. This is our list as of 1.5.2026 and we'll update this list as the year moves along, so check back.
@@ -32,3 +36,5 @@ Scott will be in Houston for [Southern Smoke Decanted](https://southernsmoke.or
 We’re excited to take part in additional regional events throughout the year and hope to see you at one of them.
 
 If you’re unable to join us at any of these, Shannon would be happy to host you and your friends or family for a private tasting experience. Simply call [707.200.4572](tel:707.200.4572) or email [shannon@younginglewood.com](mailto:shannnon@younginglewood.com) to plan your visit to the estate.
+
+![](/uploads/dispatch-signoff-canva-email-heading-size.png)
