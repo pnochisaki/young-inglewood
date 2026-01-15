@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0 
 
       - name: Merge into ios
-        uses: devmasx/merge-branch@v2.0.0
+        uses: devmasx/merge-branch@master
         with:
           type: now
           from_branch: main # Source branch
