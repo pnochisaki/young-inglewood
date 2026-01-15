@@ -14,12 +14,12 @@ jobs:
     steps:
       - name: Checkout repository
         # Use fetch-depth: 0 to ensure full git history is available for the merge
-      - uses: actions/checkout@master
+        uses: actions/checkout@master
         with:
           fetch-depth: 0 
 
       - name: Merge into ios
-        uses: devmasx/merge-branch@master
+        uses: devmasx/merge-branch@v2.0.0
         with:
           type: now
           from_branch: main # Source branch
