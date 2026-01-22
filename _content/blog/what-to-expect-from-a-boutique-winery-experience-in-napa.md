@@ -27,7 +27,7 @@ Boutique wineries like us are deeply tied to our land and our community. Our sma
 
 We identify as a family-run winery. Led by a mother-son winemaking team, the estate embraces balance in all things—from vine to cellar . We invite you to share and experience our beautiful and peaceful property as you drink our elegant, delicious wine.
 
-###  Creating Lasting Memories
+### Creating Lasting Memories
 
 A great pleasure in visiting a boutique winery estate is the opportunity for a private wine tasting—a format where guests engage directly with knowledgeable hosts in a relaxed, conversational setting. They’re designed to meet you where you are, whether you’re a seasoned collector or exploring wine for the first time.
 
@@ -40,7 +40,7 @@ It’s this sense of welcome that transforms a wine tasting into a memory—wher
 
 ![A tasting group sitting outside in the shade listening to the host while they pour wine. The logo, a tightrope walker, is visible behind them along with verdant foliage and bright sunshine.](/uploads/gabrielle.lurie.wine100_grl_659_jimandjackywtihguests.jpg)
 
-### Experiences the Beauty of St. Helena
+### Experience the Beauty of St. Helena
 
 Saint Helena sits at the heart of Napa Valley, known for its scenic beauty and quiet sophistication. At Young Inglewood, the setting is both refined and grounded—an estate that unfolds gently from the road, surrounded by olive trees, heritage vines, and soft golden light.
 
@@ -57,7 +57,7 @@ The personal wine tasting format isn’t just about preference—it’s about pr
 
 It’s in these quiet exchanges—between sips and stories—that guests often realize they’ve discovered something special: a winery that treats them like family.
 
-### Tour the Winery: A Glimpse into our Winemaking 
+### Tour the Winery: A Glimpse into our Winemaking
 
 For those who want to go deeper, touring the winery reveals the creative and technical side of winemaking. 
 
