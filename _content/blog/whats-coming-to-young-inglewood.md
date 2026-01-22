@@ -12,7 +12,7 @@ description: During the year we host members events at the winery and
   so check back.
 og_image: /uploads/photostephenciauri-0t4a2548.jpg
 ---
-During the year we host members events at the winery and participate in events outside the winery. We'd love for you to join us. This is our list as of 1.5.2026 and we'll update this list as the year moves along, so check back.
+During the year we host events at the winery and participate in events outside the winery. We'd love for you to join us. This is our list as of 1.5.2026 and we'll update this list as the year moves along, so check back.
 
 ![FYI members enjoying an event at Young Inglewood in the Spring.](/uploads/photostephenciauri-0t4a2548.jpg "FYI members enjoying a beautiful spring day during Spring Forward.")
 
