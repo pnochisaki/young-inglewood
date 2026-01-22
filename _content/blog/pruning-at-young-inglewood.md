@@ -22,14 +22,12 @@ At pruning, we can also decide in which direction we want the shoots to grow, wh
 
 ![Sun rising on Young Inglewood's cover crop and unpruned bordeaux grape vines.](/uploads/img_20180119_081025_2.jpg "Our cabernet sauvignon grape vines before being pruned.")
 
-
-
 ![Freshly pruned Cabernet Sauvignon grape vines after a rain.](/uploads/2021-02-26-022335108.jpg "Freshly pruned Cabernet Sauvignon grape vines.")
 
 ### What happens next?
 
 When the tender buds have broken through, we are on the alert for cooler nighttime temperatures that might foretell a freak frost that will nip the buds, and any fruit they might produce. In the balmy daytime temperatures frost seems hard to imagine, but anyone who farms will tell you it can happen and will sometimes. It’s time for spring and the leaves and grapes to develop. We love watching this process and look forward to sharing more about this next time. 
 
-![](/uploads/dispatch-signoff-canva-email-heading-size.png)
+![](/uploads/email-header-for-trade-2-.png)
 
 [](https://www.younginglewood.com/collection/all)
