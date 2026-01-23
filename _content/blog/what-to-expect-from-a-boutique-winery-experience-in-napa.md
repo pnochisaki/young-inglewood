@@ -79,4 +79,4 @@ We’d love for you to come experience our memorable wine tasting. It’s tranqu
 
 This is what a boutique winery experience means: rooted in care, crafted with purpose, and remembered long after the last sip.
 
-![](/uploads/dispatch-signoff-canva-email-heading-size.png)
+![](/uploads/email-header-for-trade-2-.png)
