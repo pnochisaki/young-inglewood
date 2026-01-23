@@ -38,4 +38,4 @@ At every step in our winemaking process, we consider the impact on our land and 
 
 Let's celebrate the earth together every day.
 
-![](/uploads/dispatch-signoff-canva-email-heading-size.png)
+![](/uploads/email-header-for-trade-2-.png)
