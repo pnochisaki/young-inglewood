@@ -16,15 +16,11 @@ During the year we host events at the winery and participate in events outside t
 
 ![FYI members enjoying an event at Young Inglewood in the Spring.](/uploads/photostephenciauri-0t4a2548.jpg "FYI members enjoying a beautiful spring day during Spring Forward.")
 
-
-
 ### Spring Forward
 
 Date: Saturday, April 18, 2026\
 Location: Young Inglewood
 Taste wines from our spring releases and a few surprises. Meet the Young Inglewood team and other FYI members. Check out the burgeoning vines. You can also collect your Spring FYI Shipment if you’d like. Reservations are required.
-
-
 
 ### bASH
 
@@ -32,8 +28,6 @@ Taste wines from our spring releases and a few surprises. Meet the Young Inglewo
 Date: Saturday, March 28th, 2026\
 Location: Culinary Institute of America in Saint Helena\
 On Saturday, March 28th, Shannon will be in St. Helena for the annual bASH event at the Culinary Institute of America.
-
-
 
 ### Young Inglewood at Southern Smoke Decanted
 
@@ -46,4 +40,4 @@ We’re excited to take part in additional regional events throughout the year a
 
 If you’re unable to join us at any of these, Shannon would be happy to host you and your friends or family for a private tasting experience. Simply call [707.200.4572](tel:707.200.4572) or email [shannon@younginglewood.com](mailto:shannnon@younginglewood.com) to plan your visit to the estate.
 
-![](/uploads/dispatch-signoff-canva-email-heading-size.png)
+![](/uploads/email-header-for-trade-2-.png)
