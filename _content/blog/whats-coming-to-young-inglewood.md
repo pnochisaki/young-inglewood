@@ -39,4 +39,4 @@ We’re excited to take part in additional regional events throughout the year a
 
 If you’re unable to join us at any of these, Shannon would be happy to host you and your friends or family for a private tasting experience. Simply call [707.200.4572](tel:707.200.4572) or email [shannon@younginglewood.com](mailto:shannnon@younginglewood.com) to plan your visit to the estate.
 
-![](/uploads/email-header-for-trade-2-.png)
+![Young Inglewood Logo of a tightrope walker on a tightrope.](/uploads/walker-sign-off.png)
