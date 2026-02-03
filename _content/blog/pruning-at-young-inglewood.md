@@ -16,13 +16,13 @@ A key vineyard task – perhaps the key vineyard task we do early in the year �
 
 The buds to produce the year’s crop were set during the previous growing season. During pruning, for each individual vine, we decide how many of those buds we want to allow to grow. The buds produce shoots, which will eventually bear the grape clusters. During pruning, we can force the vine to focus its energies on growing the number of shoots we think is appropriate so that the fruit each vine produces is concentrated and top quality.
 
-![Michael Swenton hand pruning our Aligote Vines](/uploads/photoemmakmorris-00951.jpg "Michael hand pruning our Aligote Vines")
+![Image of Michael Swenton hand pruning our Aligote Vines on a beautiful sunny day.](/uploads/photoemmakmorris-00951.jpg "Michael hand pruning our Aligote Vines")
 
 At pruning, we can also decide in which direction we want the shoots to grow, which determines the distribution of shoots, and eventually leaves and fruit, throughout the vine. This helps us ensure that each shoot will get the right amount of sunlight and shade to allow it to ripen its fruit evenly.
 
 ![Sun rising on Young Inglewood's cover crop and unpruned bordeaux grape vines.](/uploads/img_20180119_081025_2.jpg "Our cabernet sauvignon grape vines before being pruned.")
 
-![Freshly pruned Cabernet Sauvignon grape vines after a rain.](/uploads/2021-02-26-022335108.jpg "Freshly pruned Cabernet Sauvignon grape vines.")
+![A cloudy day displaying freshly pruned Cabernet Sauvignon grape vines after a rain.](/uploads/2021-02-26-022335108.jpg "Freshly pruned Cabernet Sauvignon grape vines.")
 
 ### What happens next?
 
