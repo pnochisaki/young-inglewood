@@ -38,4 +38,4 @@ At every step in our winemaking process, we consider the impact on our land and 
 
 Let's celebrate the earth together every day.
 
-![](/uploads/email-header-for-trade-2-.png)
+![Logo of a tightrope walker on a tightrope](/uploads/walker-sign-off.png)
