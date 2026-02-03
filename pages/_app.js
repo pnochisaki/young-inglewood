@@ -28,10 +28,14 @@ function MyApp({ Component, pageProps }) {
       $(this).toggleClass('active');
     })
 
-    $('.blog-post article img').each(function(){
+    $('.blog-post article img').each(function () {
       const title = $(this).attr('title');
+      const alt = $(this).attr('alt');
       if (title) {
-        $(this).after('<span class="img-caption">'+title+'</span>');
+        $(this).after('<span class="img-caption">' + title + '</span>');
+      }
+      if (alt) {
+        $(this).attr('title', alt);
       }
     })
 
