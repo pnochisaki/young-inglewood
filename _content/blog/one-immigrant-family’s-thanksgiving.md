@@ -38,4 +38,4 @@ Apple pie alternated with rice pudding for dessert, “afters”, at Sunday dinn
 
 In case you’re wondering, “But what about the table decorations?” The simple answer is that we don’t have any, preferring instead to focus all our energies on the delicious food and of course, the Young Inglewood wine!
 
-![](/uploads/email-header-for-trade-2-.png)
+![Young Inglewood Logo of a tightrope walker on a tightrope.](/uploads/walker-sign-off.png)
