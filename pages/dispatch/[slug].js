@@ -19,14 +19,14 @@ export default function Post({ postData }) {
           </div>
           <div>
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            <div className="button-bar">
+              <a className='button c7-link' href="https://www.exploretock.com/younginglewood">Book your Visit</a>
+              <a className='button c7-link' href="/collection/all">Shop our wine</a>
+              <a className='button c7-link' href="/dispatch">Back to Dispatch</a>
+            </div>
           </div>
         </div>
       </article>
-      <div className="button-bar">
-      <a className='button c7-link' href="https://www.exploretock.com/younginglewood">Book your Visit</a>
-      <a className='button c7-link' href="/collection/all">Shop our wine</a>
-      <a className='button c7-link' href="/dispatch">Back to Dispatch</a>
-      </div>
     </Layout>
   );
 }
