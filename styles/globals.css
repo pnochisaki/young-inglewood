@@ -3781,12 +3781,15 @@ html .blog-post article h2 {
 html .blog-post article a {
   text-decoration: underline;
 }
+
 html .blog-post article strong {
   font-weight: bold;
 }
+
 html .blog-post article .two-cols>div:last-child em {
   font-style: italic;
 }
+
 @media (min-width: 769px) {
 
   .blog-post article,
@@ -3803,11 +3806,24 @@ html .blog-post article .two-cols>div:last-child em {
     margin-bottom: 2rem;
   }
 }
+
 .img-caption {
   display: block;
   font-size: .85rem;
 }
 
+.button-bar {
+  margin-top: 2rem;
+  text-align: center;
+}
+
 .button-bar a {
   margin: 1rem 1.5rem;
+  text-decoration: none !important;
+}
+
+@media (min-width: 769px) {
+  .button-bar a:first-child {
+    margin-left: 0;
+  }
 }
