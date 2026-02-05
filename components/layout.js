@@ -319,7 +319,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
                         {accountNavItemsLoggedIn
                           .map((navItem, index) => {
                             console.log("logged in", router.asPath)
-                            return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile' || '/profile/login' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                            return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile' || '/profile/login' || '/profile/' || '/profile/[id]' || '/profile/order-history' || '/profile/account/address') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
                           }
                           )}
 
@@ -361,7 +361,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             <div className="blocker"></div>
             {accountNavItemsLoggedIn
               .map((navItem, index) => {
-                return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile' || '/profile/login' || '/profile/' || '/profile/[id]') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
+                return <a className={router.asPath === (navItem.url || (navItem.url + '/') || '/profile' || '/profile/login' || '/profile/' || '/profile/[id]' || '/profile/order-history' || '/profile/account/address') ? 'c7-btn active' : 'c7-btn'} key={index} href={navItem.url}><span>{navItem.title}</span></a>
               }
               )}
           </div>
