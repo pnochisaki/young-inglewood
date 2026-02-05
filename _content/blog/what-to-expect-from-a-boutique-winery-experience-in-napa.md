@@ -79,4 +79,4 @@ We’d love for you to come experience our memorable wine tasting. It’s tranqu
 
 This is what a boutique winery experience means: rooted in care, crafted with purpose, and remembered long after the last sip.
 
-![Young Inglewood Logo of a tightrope walker on a tightrope.](/uploads/walker-sign-off.png)
+![Young Inglewood Logo of a tightrope walker on a tightrope.](/uploads/walker-sign-off-for-dispatch.png)
