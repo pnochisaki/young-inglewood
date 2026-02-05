@@ -2884,9 +2884,9 @@ section.c7-side-cart .c7-order-items--cart .c7-order-item__title a {
     border: 0 !important
   }
 
-  .c7-table__row th {
+  /* .c7-table__row th {
     border: 0 !important
-  } 
+  }  */
 
   .c7-btn--primary:not([disabled]):hover,
   .c7-btn--alt:not([disabled]):hover,
