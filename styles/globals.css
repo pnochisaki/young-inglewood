@@ -1679,6 +1679,12 @@ section.wine h2 {
   padding-left: 0;
 }
 
+.membership-details .table .club-row ul li strong,
+.membership-details .table .club-row ul li strong * {
+  font-weight: 600;
+}
+
+
 .membership-details .table {
   margin-top: 1rem;
 }
