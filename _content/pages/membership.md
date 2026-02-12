@@ -59,10 +59,10 @@ faqs:
     question: Does Young Inglewood offer wine tastings?
   - question: How are my member wines shipped?
     answer: To preserve the quality and integrity of your wines, members enjoy
-      expedited shipping on all shipments at a preferred flat rate, with most
-      orders arriving within two days of leaving our winery. Members also
-      receive complimentary shipping on all orders of 12 or more bottles,
-      year-round.
+      expedited shipping on all shipments of four or more bottles at a preferred
+      flat rate, with most orders arriving within two days of leaving our
+      winery. Members also receive complimentary shipping on all orders of 12 or
+      more bottles, year-round.
 ---
 ### IN ADDITION YOU’LL RECEIVE
 
