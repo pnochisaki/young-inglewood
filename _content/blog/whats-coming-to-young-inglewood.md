@@ -26,16 +26,14 @@ On Saturday, March 28th, Shannon will be in St. Helena for the annual bASH event
 
 **Date**: Saturday, March 28th, 2026\
 **Location**: Houston, TX\
-Scott will be in Houston for [Southern Smoke Decanted](https://southernsmoke.org/southern-smoke-decanted-2026/), a high-seas–inspired vintner tasting reception and auction where indulgence meets impact. Set sail on a night of exceptional wines, elevated bites, and effortless luxury, all underscored by the smooth sounds of Yacht Rock and classic Hip Hop. Sip your way through an expertly curated tasting reception presented by Lexus, then take your seat for a high-energy live auction—paddle up for a cause that fuels the heart of the food and beverage community, benefiting Southern Smoke Foundation.
+Scott will be in Houston for [Southern Smoke Decanted](https://southernsmoke.org/southern-smoke-decanted-2026/), a high-seas–inspired vintner tasting reception and auction where indulgence meets impact. Set sail on a night of exceptional wines, elevated bites, and effortless luxury, all underscored by the smooth sounds of Yacht Rock and classic Hip Hop. Sip your way through an expertly curated tasting reception presented by Lexus, then take your seat for a high-energy live auction—paddle up to benefit the Southern Smoke Foundation.
 
 ### Spring Forward
 
 **Date:** Saturday, April 18, 2026\
 **Location**: Young Inglewood\
-Taste wines from our spring releases and a few surprises. Meet the Young Inglewood team and other FYI members. Check out the burgeoning vines. You can also collect your Spring FYI Shipment if you’d like. Reservations are required.
+Taste our spring release wines and a few surprises. Meet the Young Inglewood team and other FYI members. Check out the burgeoning vines. You can also collect your Spring FYI Shipment if you’d like. Reservations are required.
 
-We’re excited to take part in additional regional events throughout the year and hope to see you at one of them.
-
-If you’re unable to join us at any of these, Shannon would be happy to host you and your friends or family for a private tasting experience. Simply call [707.200.4572](tel:707.200.4572) or email [shannon@younginglewood.com](mailto:shannnon@younginglewood.com) to plan your visit to the estate.
+Remember, we're always happy to host you and your friends or family for a private tasting experience. Simply call [707.200.4572](tel:707.200.4572) or email [shannon@younginglewood.com](mailto:shannnon@younginglewood.com) to plan your visit to the estate.
 
 ![Young Inglewood Logo of a tightrope walker on a tightrope.](/uploads/walker-sign-off.png)
