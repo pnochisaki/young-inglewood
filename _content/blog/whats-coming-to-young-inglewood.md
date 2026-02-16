@@ -16,12 +16,10 @@ During the year we host events at the winery and participate in events outside t
 
 ![FYI members enjoying an event at Young Inglewood in the Spring.](/uploads/photostephenciauri-0t4a2548.jpg "FYI members enjoying a beautiful spring day during Spring Forward.")
 
-
-
 ### bASH
 
-Date: Saturday, March 28th, 2026\
-Location: Culinary Institute of America in Saint Helena\
+**Date**: Saturday, March 28th, 2026\
+**Location**: Culinary Institute of America in Saint Helena\
 On Saturday, March 28th, Shannon will be in St. Helena for the annual bASH event at the Culinary Institute of America.
 
 ### Young Inglewood at Southern Smoke Decanted
@@ -32,8 +30,8 @@ Scott will be in Houston for [Southern Smoke Decanted](https://southernsmoke.or
 
 ### Spring Forward
 
-Date: Saturday, April 18, 2026
-Location: Young Inglewood
+Date: Saturday, April 18, 2026\
+Location: Young Inglewood\
 Taste wines from our spring releases and a few surprises. Meet the Young Inglewood team and other FYI members. Check out the burgeoning vines. You can also collect your Spring FYI Shipment if you’d like. Reservations are required.
 
 We’re excited to take part in additional regional events throughout the year and hope to see you at one of them.
