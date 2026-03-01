@@ -31,7 +31,7 @@ We are a family-run winery. Led by a mother-son winemaking team, the estate embr
 
 A great pleasure in visiting a boutique winery estate is the opportunity for a private wine tasting—a format where guests engage directly with knowledgeable hosts in a relaxed, conversational setting. They’re designed to meet you where you are, whether you’re a seasoned collector or exploring wine for the first time.
 
-At Young Inglewood, a toast with our [Vin Clair Rose](https://www.younginglewood.com/collection/all) begins each tasting. We progress through nuanced reds like the [Right Bank Blend](https://www.younginglewood.com/collection/all) or [Estate Cabernet Sauvignon](https://www.younginglewood.com/collection/all). With each pour, the team offers insight into varietal character, vintage expression, and cellar decisions that shape the final wine.
+At Young Inglewood, a toast with our [Vin Clair Rose](https://www.younginglewood.com/collection/all) begins each tasting. We progress through nuanced reds like the [Right Bank Blend](https://www.younginglewood.com/collection/all) and [Estate Cabernet Sauvignon](https://www.younginglewood.com/collection/all). With each pour, the team offers insight into varietal character, vintage expression, and cellar decisions that shape the final wine.
 
 > *“This was by far the most personal wine tasting experience we’ve had in Napa. It felt like we were welcomed into someone’s home.”*
 >  — Google reviewer
