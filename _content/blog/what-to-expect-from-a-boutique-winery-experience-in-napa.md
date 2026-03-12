@@ -17,7 +17,7 @@ A visit to Napa Valley often brings visions of busy, crowded tasting rooms. For 
 
 Here at Young Inglewood Vineyards, our tasting experience is intimate and elevated. Guests aren’t just poured wines; they’re welcomed into our story—one shaped by family, guided by craft, and surrounded by nature. From thoughtful hospitality to immersive vineyard views, every moment is curated for your enjoyment. 
 
-### What is a Boutique Winery? The Heart of Napa's Wine Culture
+### What is a Boutique Winery? The Hidden Gems of Napa's Wine Culture
 
 Boutique wineries are small-scale production wineries that produce fewer than 10,000 cases annually. Here at Young Inglewood, we take boutique to the next level, producing no more than 1200 cases annually. Our small scale production allows us to focus on quality ... and you.
 
