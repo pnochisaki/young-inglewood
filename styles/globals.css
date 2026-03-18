@@ -896,6 +896,7 @@ section {
 
 h1,
 h2,
+.h2,
 html .blog-post article h1,
 html .blog-post article h2 {
   color: #d78628;
@@ -911,16 +912,17 @@ html .blog-post article h2 {
 
 h1,
 html .blog-post article h1 {
-  font-size: 1.125rem;
+  font-size: 1rem;
   display: block;
   text-transform: none;
 }
 
 h1 em,
 .c7-side-cart__header h1 {
-  font-size: 3rem;
+  font-size: 2.25rem;
   font-style: normal;
   text-transform: none;
+  letter-spacing: .03rem
 }
 
 .c7-side-cart__header h1 {
@@ -929,21 +931,27 @@ h1 em,
   text-transform: lowercase;
 }
 
+main>h1 {
+  padding: 0 0 3rem 4rem;
+  text-align: left;
+  margin-top: -2rem;
+}
+
 
 @media (max-width: 768px) {
   main>h1 {
-    padding: 0 2rem 2rem !important;
+    padding: 0 0 2rem 0;
+    margin-top: 0;
   }
 
   h1 em {
+    font-size: 2.5rem;
     line-height: 1.2;
+    display: block;
   }
 }
 
-main>h1 {
-  padding: 0 0 4rem 3rem;
-  text-align: left;
-}
+
 
 .navigation nav ac7-product__title a:hover {
   text-decoration: none;
@@ -1030,7 +1038,7 @@ main>h1 {
 
   section:nth-child(odd) h2,
   section.credits:nth-child(odd) h1 {
-    text-align: right;
+    text-align: left;
   }
 
   #c7-content section:nth-child(odd) h2 {
@@ -1070,7 +1078,7 @@ main>h1 {
 
   #c7-cart-wrapper #c7-cart {
     top: -.85rem;
-    right: 0;
+    right: 1rem;
   }
 
   /* #c7-cart .c7-user-nav__cart__count {
@@ -1337,6 +1345,11 @@ section p {
     text-align: right;
   }
 
+  section.section-b .h2 {
+    text-align: left;
+    font-size: 3.25rem;
+  }
+
   section.section-b h2,
   section.section-b h1 {
     display: inline-block;
@@ -1435,17 +1448,18 @@ section.wine h2 {
   }
 
   section.wine.section-b span:first-of-type p {
-    padding: 2rem 1.5rem 0 0;
+    padding: 0 1.5rem 0 0;
     display: inline-block;
+    margin-bottom: 0;
   }
 
   section.wine span:first-of-type {
     display: inline-block;
-    margin-top: 4rem;
+    margin-top: 1rem;
   }
 
   section.wine span:first-of-type strong {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   section.estate:before {
@@ -1453,17 +1467,16 @@ section.wine h2 {
   }
 
   section.estate h2 {
-    display: inline;
+    display: block;
   }
 
   section.estate span:first-of-type p {
     display: inline;
-    margin-left: 3rem;
   }
 
   section.estate .image-1 {
-    transform: translateY(-4rem);
-    margin-bottom: 3rem;
+    transform: translateY(0);
+    margin-bottom: 7rem;
   }
 
   section.estate .image-2 {
@@ -1479,11 +1492,17 @@ section.wine h2 {
   }
 
   section.library:before {
-    height: 7rem;
+    height: 3rem;
   }
 
   section.library .image-1 {
-    transform: translateY(-6rem);
+    transform: translateY(-3rem);
+  }
+
+
+  section.library h2 {
+    display: block;
+    margin-bottom: 4rem
   }
 
   section.venn:before {

@@ -33,7 +33,7 @@ export default function Wine({ markdownData }) {
             mobileImage='/images/wine-1-mobile.jpg'
             image1='/images/wine-1.jpg'
             image2='/images/wine-2.jpg'
-            text1="<p>Young Inglewood makes <strong>wines of place</strong></p>"
+            text1="<div class='h2'>wines of place</div><p>Here at Young Inglewood, we guide every vintage with care, crafting elegant, <strong>balanced wine.</strong></p>"
             text2="<p>With sustainable and thoughtful stewardship of our Napa estate, we produce beautiful, classic wines with an old world sensibility.</p><p>Our minimalist approach to winemaking protects the pedigree of our wines. Balance and elegance are our guiding principles.</p>"
           />
 
@@ -44,7 +44,7 @@ export default function Wine({ markdownData }) {
             mobileImage='/images/estate-1-mobile.jpg'
             image1='/images/estate-1.jpg'
             image2='/images/estate-2.jpg'
-            text1={`<p>Our Estate Cabernet Sauvignon is our <strong>flagship</strong> wine, which in classic Bordeaux style we accent with small quantities of our other varieties This wine especially reflects our superb terroir that we steward and cultivate.<br><a class='button-shadow' href='${markdownData.estate_link_1}'>${markdownData.estate_link_1_text}</a><br></p>`}
+            text1={`<p>Our Estate Cabernet Sauvignon is <strong>our flagship</strong> wine, which in classic Bordeaux style we accent with small quantities of our other varieties This wine especially reflects our superb terroir that we steward and cultivate.<br><a class='button-shadow' href='${markdownData.estate_link_1}'>${markdownData.estate_link_1_text}</a><br></p>`}
             text2={`<p>Our Reserve Cabernet Sauvignon is extra special, made from the grapes grown in the finest blocks of our vineyard. This beautifully rich full-bodied wine elevates any occasion.<br><a class='button-shadow' href='${markdownData.estate_link_2}'>${markdownData.estate_link_2_text}</a></p>
             <p>As the name suggests, our Right Bank Blend is a homage to the wines of Saint Emilion, a beguiling blend with Cabernet Franc at its heart.<br><a class='button-shadow' href='${markdownData.estate_link_3}'>${markdownData.estate_link_3_text}</a></p>`}
           />
@@ -71,7 +71,7 @@ export default function Wine({ markdownData }) {
             mobileImage='/images/library-1-mobile.jpg'
             image1='/images/library-1.jpg'
             image2='/images/library-2.jpg'
-            text1="<p>With every wine we make, graceful <strong>aging</strong> is a primary characteristic.</p>"
+            text1="<p>With every wine we make,  <strong>graceful aging</strong> is a primary characteristic.</p>"
             text2={`<p>We pull several cases of each vintage for our wine library and check in on them regularly. At special events we share our favorite vintages. Each year we release some to you.<br><a class='button-shadow' href='${markdownData.library_link_1}'>${markdownData.library_link_1_text}</a></p>`}
           />
 
