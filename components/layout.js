@@ -233,7 +233,8 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             checkout ? " checkout layout" :
               blog_post ? " blog-post layout" :
                 blog ? " blog layout" :
-                  " layout"
+                  visit ? " visit layout" :
+                    " layout"
     }>
       {home ?
         <>
