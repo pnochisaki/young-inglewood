@@ -3385,6 +3385,10 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     padding: 0 1rem;
   }
 
+  .c7-account-details--membership .c7-wrapper {
+    margin-top: 2rem;
+  }
+
   .c7-modal--address-book .c7-form__buttons button:nth-last-child(3) {
     margin: 0;
   }
