@@ -219,6 +219,7 @@ img {
   .home-headline h1 {
     font-size: 1.125rem;
   }
+
   .home-headline h1 em {
     font-size: 3rem;
   }
@@ -932,12 +933,13 @@ h1 em,
 
 @media (min-width:769px) {
   h1 {
-  font-size: 2rem;
+    font-size: 1.8rem;
   }
+
   h1 em,
   .c7-side-cart__header h1 {
-  font-size: 4rem;
-}
+    font-size: 4rem;
+  }
 }
 
 .c7-side-cart__header h1 {
@@ -1269,15 +1271,10 @@ section strong {
   font-weight: 100;
   font-style: normal;
   text-transform: lowercase;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 0;
 }
 
-@media (max-width: 769px) {
-  section strong {
-    font-size: 1.75rem;
-  }
-}
 
 section p {
   line-height: 1.65;
@@ -1512,15 +1509,15 @@ section.wine h2 {
   }
 
   section.varietals:before {
-    height: 2rem;
+    height: 6rem;
   }
 
   section.varietals h2 {
-    padding-top: 3rem;
+    padding-top: 1rem;
   }
 
   section.library:before {
-    height: 3rem;
+    height: 7rem;
   }
 
   section.library .image-1 {
@@ -1540,6 +1537,12 @@ section.wine h2 {
   section.venn {
     padding-bottom: 12rem;
   }
+
+  section.venn h2 {
+    margin-top: 6rem;
+  }
+
+
 
   section.venn.section-a .image-1 {
     transform: translate(0, 1.5rem)
@@ -2020,7 +2023,7 @@ html section .team-listing .team-text a {
   padding: 0;
   line-height: inherit;
   color: inherit;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 @media (max-width: 768px) {
@@ -3213,7 +3216,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     padding: 0;
   }
 
- .c7-account-details--membership .c7-wrapper {
+  .c7-account-details--membership .c7-wrapper {
     margin-top: 2rem;
   }
 
