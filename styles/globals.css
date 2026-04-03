@@ -3076,12 +3076,13 @@ section.c7-side-cart .c7-order-items--cart .c7-order-item__title a {
   }
 
   .c7-account-club__shipment .c7-order-items.c7-order-items--shipment ul {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .c7-account-dashboard__block .c7-order-item .c7-order-item__image img,
   .c7-account-order-detail__content .c7-order-item .c7-order-item__image img,
-  .c7-account-order-detail__left-column .c7-order-item .c7-order-item__image img {
+  .c7-account-order-detail__left-column .c7-order-item .c7-order-item__image img,
+  .c7-account-club__shipment .c7-order-item .c7-order-item__image img {
     max-width: 74%;
   }
 
@@ -3212,6 +3213,9 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     padding: 0;
   }
 
+ .c7-account-details--membership .c7-wrapper {
+    margin-top: 2rem;
+  }
 
   .c7-account-details__addresses,
   .c7-account-details__payment {
