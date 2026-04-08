@@ -39,4 +39,4 @@ At every step in our winemaking process, we consider the impact on our land and 
 
 Let's celebrate the earth together every day.
 
-![Young Inglewood Logo of a tightrope walker on a tightrope.](/uploads/walker-sign-off.png)
+![Young Inglewood Logo of a tightrope walker on a tightrope with a satchel.](/uploads/first-walker-with-satchel.png)
