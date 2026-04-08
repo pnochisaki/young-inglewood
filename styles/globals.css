@@ -210,19 +210,19 @@ img {
     position: absolute;
     top: 25rem;
     left: 37rem;
-    transform: translate(-65%, -295%);
+    transform: translate(-53%, -217%);
     z-index: 3;
     text-align: right;
     width: 100%;
   }
 
-  .home-headline h1 {
+  /* .home-headline h1 {
     font-size: 1.125rem;
   }
 
   .home-headline h1 em {
     font-size: 3rem;
-  }
+  } */
 
   .home-1 {
     background-image: url(/images/home-1.jpg);
