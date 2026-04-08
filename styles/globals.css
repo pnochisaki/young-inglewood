@@ -3846,7 +3846,8 @@ ul.blog-listing li .image-container {
 html .blog-post article h1,
 html .blog-post article h2 {
   line-height: 1;
-  margin-bottom: 2rem
+  margin-bottom: 2rem;
+  font-size: 1.35rem;
 }
 
 html .blog-post article a {
@@ -3873,7 +3874,7 @@ html .blog-post article .two-cols>div:last-child em {
   }
 
   .blog-post article {
-    max-width: 62rem;
+    max-width: 70rem;
     margin-bottom: 2rem;
   }
 }
