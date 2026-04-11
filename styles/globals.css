@@ -2477,6 +2477,10 @@ html .subnavigation .c7-btn>span {
     padding-bottom: 0;
   }
 
+  .c7-product-collection h1 {
+    display: none;
+  }
+
   .c7-product-collection .c7-product__image,
   .c7-product-allocation .c7-product__image {
     flex: none;
@@ -3166,7 +3170,7 @@ section .c7-account-details__payment .c7-account-details__header .c7-btn {
     padding: 0;
   }
 
- .c7-account-details--membership .c7-wrapper {
+  .c7-account-details--membership .c7-wrapper {
     margin-top: 2rem;
   }
 
