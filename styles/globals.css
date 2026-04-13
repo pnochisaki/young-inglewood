@@ -980,6 +980,10 @@ main>h1 {
     display: block;
     letter-spacing: .1rem;
   }
+  .membership h1 em {
+    letter-spacing: .03rem;
+    /* hack for membership mobile only */
+  }
 }
 
 
