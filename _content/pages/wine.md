@@ -13,7 +13,7 @@ description: With sustainable and thoughtful stewardship of our St. Helena Napa
   estate, we produce beautiful, classic wines in St. Helena with an old world
   sensibility.
 og_image: /uploads/148-274a1271.jpg
-headline: signature wines of <em> balance and grace </em>
+headline: signature wines of <em> balance & grace </em>
 varietal_link_3_text: Purchase Varietal Whites
 library_link_1_text: Purchase Library Offering
 varietal_link_2_text: Purchase Vin Clair Rosé
@@ -49,5 +49,4 @@ faqs:
       Members love bringing friends to their complimentary tastings to share our wines and unforgettable organically farmed estate. Members can even transfer one of their complimentary wine tastings to friends for their use.
 varietal_link_1_text: Purchase Varietal Reds
 estate_link_1: /collection/all
-# headline: Young Inglewood makes <em>wines of place</em>
 ---
