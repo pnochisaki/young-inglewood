@@ -1064,9 +1064,10 @@ main>h1 {
     line-height: 1;
     font-size: 2.5rem;
   }
-    .credits h1 {
-      width: 18rem;
-    }
+
+  .credits h1 {
+    width: 18rem;
+  }
 
 
   section:nth-child(odd) h2,
@@ -3718,9 +3719,11 @@ section.c7-checkout__content h1 {
   text-align: center;
   margin-bottom: -20px;
 }
+
 .c7-product-collection h1 {
   display: none;
 }
+
 .c7-product-allocation .c7-product__details {
   text-align: left;
 }
@@ -3830,11 +3833,11 @@ ul.blog-listing li .image-container {
   }
 
   .blog-post article .two-cols>div:first-child {
-    width: 40%
+    width: 33%
   }
 
   .blog-post article .two-cols>div:last-child {
-    width: 60%
+    width: 66%
   }
 
   .blog-post article .two-cols>div:first-child h1 {
@@ -3854,7 +3857,17 @@ html .blog-post article h1,
 html .blog-post article h2 {
   line-height: 1;
   margin-bottom: 2rem;
-  font-size: 1.35rem;
+  /* font-size: 1.35rem; */
+}
+
+@media (max-width: 768px) {
+  html .blog-post article h1 {
+    font-size: 1.125rem;
+  }
+
+  html .blog-post article h1 em {
+    font-size: 3rem;
+  }
 }
 
 html .blog-post article a {
