@@ -231,10 +231,11 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
         purchase ? " purchase layout" :
           account ? " account layout" :
             checkout ? " checkout layout" :
-              blog_post ? " blog-post layout" :
-                blog ? " blog layout" :
-                  visit ? " visit layout" :
-                    " layout"
+              membership ? " membership layout" :
+                blog_post ? " blog-post layout" :
+                  blog ? " blog layout" :
+                    visit ? " visit layout" :
+                      " layout"
     }>
       {home ?
         <>
