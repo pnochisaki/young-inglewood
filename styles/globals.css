@@ -2533,6 +2533,10 @@ html .subnavigation .c7-btn>span {
     padding-bottom: 0;
   }
 
+  .c7-product-collection h1 {
+    display: none;
+  }
+
   .c7-product-collection .c7-product__image,
   .c7-product-allocation .c7-product__image {
     flex: none;
