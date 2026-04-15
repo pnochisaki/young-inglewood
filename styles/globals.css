@@ -3849,7 +3849,6 @@ ul.blog-listing li .image-container {
     position: fixed;
     max-width: 18rem;
     line-height: 1.85;
-    margin-left: .75rem;
   }
 
   .blog-post article .two-cols>div:first-child h1 em {
@@ -3899,9 +3898,23 @@ html .blog-post article .two-cols>div:last-child em {
   }
 
   .blog-post article {
-    max-width: 70rem;
+    max-width: 62rem;
     margin-bottom: 2rem;
   }
+
+  /* hacks to make blog look like production */
+
+  html .blog-post article h1 {
+    font-size: 1.125rem;
+  }
+  html .blog-post article h1 em {
+    font-size: 3rem;
+    letter-spacing: .1rem;
+  }
+
+  /* hacks to make blog look like production */
+
+
 }
 
 .img-caption {
