@@ -35,5 +35,3 @@ Scott will be in Houston for [Southern Smoke Decanted](https://southernsmoke.or
 Taste our spring release wines and a few surprises. Meet the Young Inglewood team and other FYI members. Check out the burgeoning vines. You can also collect your Spring FYI Shipment if you’d like. Reservations are required.
 
 Remember, we're always happy to host you and your friends or family for a private tasting experience. Simply call [707.200.4572](tel:707.200.4572) or email [shannon@younginglewood.com](mailto:shannnon@younginglewood.com) to plan your visit to the estate.
-
-![Young Inglewood Logo of a tightrope walker on a tightrope.](/uploads/walker-sign-off.png)
