@@ -47,7 +47,7 @@ Saint Helena sits at the heart of Napa Valley, known for its scenic beauty and q
 
 There is a distinct romantic ambiance at play here. It’s in the way the vines move in the breeze, how the light shifts throughout the afternoon, and the quiet hum of the countryside. For couples, anniversaries, or anyone craving stillness, Young Inglewood offers a tranquil and atmospheric setting in Napa Valley. 
 
-#### The Charm of an Intimate Wine Tasting at Young Inglewood
+### The Charm of an Intimate Wine Tasting at Young Inglewood
 
 The personal wine tasting format isn’t just about preference—it’s about presence. You’ll be greeted by name, guided with care, and invited to engage in real conversation about the wines and the people behind them.
 
@@ -79,5 +79,3 @@ We believe winery education creates a deeper appreciation—not just for a singl
 We invite you to experience our [memorable wine tasting](https://www.exploretock.com/younginglewood). It’s tranquil, polished, and unforgettable. Whether you're coming for the wines, the setting, or the people, you’ll leave with a sense of connection that goes far beyond the tasting room.
 
 This is what a boutique winery experience means: rooted in care, crafted with purpose, and remembered long after the last sip.
-
-![Young Inglewood Logo of a tightrope walker on a tightrope.](/uploads/walker-sign-off-for-dispatch.png)

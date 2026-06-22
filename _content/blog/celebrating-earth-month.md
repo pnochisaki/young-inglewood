@@ -38,5 +38,3 @@ At every step in our winemaking process, we consider the impact on our land and 
 * Our use of lightweight wine bottles reduces packaging and carbon emissions when we ship our wine.
 
 Let's celebrate the earth together every day.
-
-![Young Inglewood Logo of a tightrope walker on a tightrope.](/uploads/walker-sign-off.png)
