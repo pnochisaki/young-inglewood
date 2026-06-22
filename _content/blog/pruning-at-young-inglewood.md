@@ -24,4 +24,4 @@ The buds to produce the year’s crop were set during the previous growing seaso
 
 When the tender buds have broken through, we are on the alert for cooler nighttime temperatures that might foretell a freak frost that will nip the buds, and any fruit they might produce. In the balmy daytime temperatures frost seems hard to imagine, but anyone who farms will tell you it can happen and will sometimes. 
 
-With the start of spring, shoots, leaves, flowers and then grapes to develop. During this period we thinning shoots and perform suckering.
+With the start of spring, shoots, leaves, flowers and then grapes to develop. During this period we are thinning shoots and suckering.
