@@ -3758,6 +3758,9 @@ html .c7-product-allocation h2 {
   margin-top: 0;
   line-height: 1.65;
   margin-bottom: 5rem;
+}
+
+.c7-product-collection__content h6 a {
   display: inline;
   letter-spacing: 0;
   vertical-align: baseline;
