@@ -980,6 +980,7 @@ main>h1 {
     display: block;
     letter-spacing: .1rem;
   }
+
   .membership h1 em {
     letter-spacing: .03rem;
     /* hack for membership mobile only */
@@ -3746,6 +3747,24 @@ html .c7-product-allocation h2 {
   letter-spacing: .1rem !important;
 }
 
+.c7-product-collection__content h6 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #d78628;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 0;
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .c7-product-collection__content h6 {
+    text-align: left;
+    margin-top: 1.5rem;
+  }
+}
+
 .c7-cart__summary-container {
   margin-left: 130px !important;
 }
@@ -3907,6 +3926,7 @@ html .blog-post article .two-cols>div:last-child em {
   html .blog-post article h1 {
     font-size: 1.125rem;
   }
+
   html .blog-post article h1 em {
     font-size: 3rem;
     letter-spacing: .1rem;
