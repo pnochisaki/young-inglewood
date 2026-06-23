@@ -3756,12 +3756,14 @@ html .c7-product-allocation h2 {
   font-style: normal;
   margin-top: 0;
   line-height: 1.65;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 768px) {
   .c7-product-collection__content h6 {
     text-align: left;
     margin-top: 1.5rem;
+    margin-bottom: 0;
   }
 }
 
