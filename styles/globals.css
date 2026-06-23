@@ -3747,7 +3747,8 @@ html .c7-product-allocation h2 {
   letter-spacing: .1rem !important;
 }
 
-.c7-product-collection__content h6 {
+.c7-product-collection__content h6,
+.c7-product-collection__content h6 a {
   text-align: center;
   font-size: 1.2rem;
   color: #d78628;
