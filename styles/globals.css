@@ -3766,8 +3766,14 @@ html .c7-product-allocation h2 {
   vertical-align: baseline;
 }
 
+.c7-product-collection__content p {
+  margin-bottom: 5rem;
+}
+
 @media (max-width: 768px) {
-  .c7-product-collection__content h6 {
+  .c7-product-collection__content h6,
+  .c7-product-collection__content p
+   {
     text-align: left;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
