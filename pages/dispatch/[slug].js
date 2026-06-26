@@ -19,6 +19,9 @@ export default function Post({ postData }) {
           </div>
           <div>
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            <div className="walker-graphic">
+            <img src="/images/walker.png" alt="walker graphic" />
+            </div>
             <div className="button-bar">
               <a className='button c7-link' href="https://www.exploretock.com/younginglewood">Book your Visit</a>
               <a className='button c7-link' href="/collection/all">Shop our wine</a>
