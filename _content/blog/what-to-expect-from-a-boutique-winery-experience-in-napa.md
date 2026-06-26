@@ -64,7 +64,7 @@ For those who want to go deeper, touring the winery reveals the creative and tec
 
 These behind-the-scenes experiences elevate a guided wine tasting into something immersive. The sights, smells, and tactile sensations of the winery bring the wine to life in a new way. We highlight not just how things are done, but also our thought process behind each step.
 
-### Understanding Napa's Terroir Through Delicious Handcrafted Wine
+#### Understanding Napa's Terroir Through Delicious Handcrafted Wine
 
 The best wine experiences go beyond tasting notes to delve into how to taste and enjoy wine. At Young Inglewood, visitors learn about wine in a setting that’s both insightful and approachable.
 
