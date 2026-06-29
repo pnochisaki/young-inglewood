@@ -12,7 +12,7 @@ og_image: /uploads/photostephenciauri-04f78c63-461a-4363-a046-02212bfd8fd5-2.jpg
 ---
 A key vineyard task – perhaps *the* key vineyard task we do early in the year – is to prune the vines. We typically prune our vines between end of January and early March. 
 
-### What does pruning do?
+### Why prune?
 
 The buds to produce the year’s crop were set during the previous growing season. During pruning, for each individual vine, we decide the ideal number of buds it can support. The buds produce shoots, which will eventually bear the grape clusters. During pruning, we can force the vine to focus its energies on growing the number of shoots we think is appropriate for both vine health and top quality, concentrated fruit production. At pruning, we can also decide in which direction we want the shoots to grow, which determines the distribution of shoots, and eventually leaves and fruit, throughout the vine. This helps us ensure that each shoot will get the right amount of sunlight and shade to allow it to ripen its fruit evenly.
 
