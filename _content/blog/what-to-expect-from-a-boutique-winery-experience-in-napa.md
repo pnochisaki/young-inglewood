@@ -16,7 +16,7 @@ og_image: /uploads/photogabriellelurie-young_93.jpg
 ---
 A visit to Napa Valley often brings visions of busy, crowded tasting rooms. For those who prefer something more private and relaxed, a boutique winery experience offers an entirely different kind of magic and draw. 
 
-Here at Young Inglewood Vineyards, our tasting experience is intimate and elevated. Guests aren’t just poured wines; they’re welcomed into our story—one shaped by family, guided by craft, and surrounded by nature. From thoughtful hospitality to immersive vineyard views, every moment is curated for your enjoyment. 
+Here at Young Inglewood Vineyards, our tasting experience is intimate and elevated. We don't just pour wine for guests, we welcome them into our story—one shaped by family, guided by craft, and surrounded by nature. From thoughtful hospitality to immersive vineyard views, every moment is curated for your enjoyment. 
 
 ### What is a Boutique Winery? The Hidden Gems of Napa's Wine Culture
 
