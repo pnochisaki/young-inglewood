@@ -47,8 +47,6 @@ Saint Helena sits at the heart of Napa Valley, known for its scenic beauty and q
 
 There is a distinct romantic ambiance at play here. It’s in the way the vines move in the breeze, how the light shifts throughout the afternoon, and the quiet hum of the countryside. For couples, anniversaries, or anyone craving stillness, Young Inglewood offers a tranquil and atmospheric setting in Napa Valley. 
 
-
-
 #### The Charm of an Intimate Wine Tasting at Young Inglewood
 
 The personal wine tasting format isn’t just about preference—it’s about presence. You’ll be greeted by name, guided with care, and invited to engage in real conversation about the wines and the people behind them.
@@ -66,8 +64,6 @@ For those who want to go deeper, touring the winery reveals the creative and tec
 
 These behind-the-scenes experiences elevate a guided wine tasting into something immersive. The sights, smells, and tactile sensations of the winery bring the wine to life in a new way. We highlight not just how things are done, but also our thought process behind each step.
 
-
-
 #### Understanding Napa's Terroir Through Delicious Handcrafted Wine
 
 The best wine experiences go beyond tasting notes to delve into how to taste and enjoy wine. At Young Inglewood, visitors learn about wine in a setting that’s both insightful and approachable.
@@ -76,7 +72,7 @@ The team shares how our terroir—its soils, slopes, and microclimates— in Nap
 
 We believe winery education creates a deeper appreciation—not just for a single bottle, but for the philosophy behind every wine. It goes beyond our winery and our intentions behind each bottle. With your new found expertise, you can appreciate other wine bottles in new ways.
 
-![Photo of Beautiful blue sky behind Young Inglewood's winery with customers carrying wine out to their car after a delicious tasting.](/uploads/photogabriellelurie-young_339.jpg "Fruitful visit to gorgeous Young Inglewood's tasting salon.")
+![Photo of Beautiful blue sky behind Young Inglewood's winery with customers carrying wine out to their car after a delicious tasting.](/uploads/photogabriellelurie-young_339.jpg "Taking home a piece of Young Inglewood.")
 
 ### Visit Young Inglewood: Where Memorable Wine Experiences Await
 
