@@ -3994,7 +3994,7 @@ html .blog-post article .two-cols>div:last-child em {
 
 @media (max-width: 768px) {
   .walker-graphic {
-    margin: 4rem 0 0;
+    margin: 3.25rem 0 0;
   }
   .walker-graphic img {
     width: 50%;
