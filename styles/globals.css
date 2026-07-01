@@ -3888,7 +3888,7 @@ ul.blog-listing li .image-container {
   .blog-post article .two-cols>div:first-child h1 {
     position: fixed;
     max-width: 18rem;
-    line-height: 1.85;
+    line-height: 1.55;
   }
 
   .blog-post article .two-cols>div:first-child h1 em {
@@ -3906,11 +3906,12 @@ html .blog-post article h2 {
 
 @media (max-width: 768px) {
   html .blog-post article h1 {
-    font-size: 1.125rem;
+    font-size: 1.4rem;
   }
 
   html .blog-post article h1 em {
     font-size: 3rem;
+    line-height: 1.1;
   }
 }
 
@@ -3945,7 +3946,8 @@ html .blog-post article .two-cols>div:last-child em {
   /* hacks to make blog look like production */
 
   html .blog-post article h1 {
-    font-size: 1.125rem;
+    font-size: 1.55rem;
+    line-height: 1.5;
   }
 
   html .blog-post article h1 em {
