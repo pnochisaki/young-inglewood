@@ -22,7 +22,7 @@ Here at Young Inglewood Vineyards, our tasting experience is intimate and elevat
 
 Boutique wineries are small-scale production wineries that produce fewer than 10,000 cases annually. Here at Young Inglewood, we take boutique to the next level, producing no more than 1200 cases annually. Our small scale production allows us to focus on quality ... and you.
 
-![A guest swirls their taste of Young Inglewood Estate Cabernet Sauvignon while enjoying a tasting inside Young Inglewood's tasting salon.](/uploads/photogabriellelurie-young_93.jpg)
+![Image of the front of Young Inglewood Vineyards' winery with all of doors open on a beautiful Napa sunny day.](/uploads/photomaryyoung-dscf2684-tasting-salon-entrance.jpg "Welcome to Young Inglewood")
 
 Our boutique winery is deeply tied to our land and our community. Our small team touches each part of the wine making process, crafting unique, limited-production wines. For us, winemaking starts in the vineyard. Expertly cared for grapes produce delectable wines. We harvest and sort our grapes by hand ensuring highest quality fermentations. 
 
