@@ -27,7 +27,7 @@ import C7account from './c7account'
 // });
 
 
-export default function Layout({ home, discover, wine, purchase, visit, membership, faq, contact, join, checkout, account, credits, dispatch, blog, blog_post, children, props, data }) {
+export default function Layout({ home, discover, wine, purchase, visit, membership, faq, contact, join, checkout, account, credits, dispatch, privacy, blog, blog_post, children, props, data }) {
 
   const router = useRouter()
 
@@ -302,7 +302,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
               <a href="/wine" className={wine && 'active'}><span>Wine</span></a>
               <a href="/membership" className={membership && 'active'}><span>Membership</span></a>
               <a href="/visit" className={visit && 'active'}><span>Visit</span></a>
-              <a href="/dispatch" className={dispatch && 'active'}><span>Dispatch</span></a>
+              <a href="/dispatch" className={blog && 'active'}><span>Dispatch</span></a>
 
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
@@ -403,6 +403,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
               <a href="/faq" className={faq && 'active'}><span>FAQ</span></a>
               <a href="/contact" className={contact && 'active'}><span>Contact</span></a>
               <a href="/profile/account" className={account && 'active'}><span>Manage your Account</span></a>
+              <a href="/privacy" className={privacy && 'active'}><span>Privacy</span></a>
               <a href="/credits" className={credits && 'active'}><span>Credits</span></a>
             </nav>
           </div>
