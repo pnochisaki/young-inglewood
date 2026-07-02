@@ -301,8 +301,8 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
               <a href="/discover" className={discover && 'active'}><span>Discover</span></a>
               <a href="/wine" className={wine && 'active'}><span>Wine</span></a>
               <a href="/membership" className={membership && 'active'}><span>Membership</span></a>
-              <a href="/visit" className={visit && 'active'}><span>Visit</span></a>
               <a href="/dispatch" className={blog && 'active'}><span>Dispatch</span></a>
+              <a href="/visit" className={visit && 'active'}><span>Visit</span></a>
 
               <div className="subnavigation">
                 <div className="collections-nav desktop-only">
