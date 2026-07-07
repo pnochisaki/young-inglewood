@@ -4,18 +4,18 @@ headline: celebrating <br> <em>earth month<em>
 order: 2
 sticky: true
 published: true
-image: /uploads/earthday-1.jpg
+image: /uploads/photostephenciauri-earthday-1.jpg
 excerpt: At Young Inglewood Vineyards, every day is Earth Day. We're sharing
   some of the ways we're working to keep our farming, winemaking and operations
   as sustainable and Mother Nature friendly as possible.
 description: At Young Inglewood Vineyards, we consider every day Earth Day.
   We're sharing some of the ways we're working to keep our farming, winemaking
   and operations as sustainable and Mother Nature friendly as possible. 
-og_image: /uploads/earthday-1.jpg
+og_image: /uploads/photostephenciauri-earthday-1.jpg
 ---
 At Young Inglewood Vineyards, every day is Earth Day. We're sharing some of the ways we're working to keep our farming, winemaking and operations as sustainable and Mother Nature friendly as possible. 
 
-![Beautiful peach, orange, yellow and blue sunset with sparse clouds over Young Inglewood Vineyards in St. Helena Napa Valley.](/uploads/earthday-1.jpg)
+![Beautiful peach, orange, yellow and blue sunset with sparse clouds over Young Inglewood Vineyards in St. Helena Napa Valley.](/uploads/photostephenciauri-earthday-1.jpg)
 
 Starting with our sustainable farming practices, we work with, not against nature by farming organically and regeneratively.
 
@@ -28,7 +28,7 @@ Starting with our sustainable farming practices, we work with, not against natur
 Our practices help us grow strong resilient vines which produce beautiful, healthy grapes. 
 We realize that we are only temporary stweards of our land. Our sustainable farming preserves the environment for future generations.
 
-![Clockwise from top: Biochar and burn box; cover crop between vine rows; Young Inglewood CCOF Certified Organic sign; bat box in the vineyard.](/uploads/earthday-2.jpg "Clockwise from top: Biochar and burn box; cover crop between vine rows; Young Inglewood CCOF Certified Organic sign; bat box in the vineyard.")
+![Clockwise from top: Biochar and burn box; cover crop between vine rows; Young Inglewood CCOF Certified Organic sign; bat box in the vineyard.](/uploads/photomaryyoung-collage-earthday-2.jpg "Clockwise from top: Biochar and burn box; cover crop between vine rows; Young Inglewood CCOF Certified Organic sign; bat box in the vineyard.")
 
 At every step in our winemaking process, we consider the impact on our land and estate. As with our farming practices outside the winery, we prioritize sustainability inside the winery as well.
 
