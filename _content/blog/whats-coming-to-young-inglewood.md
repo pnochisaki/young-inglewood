@@ -46,7 +46,6 @@ Featuring winemaker Scott Young, wines from the Young Inglewood estate, live mus
 
 **Date:** Thursday, August 13, 2026; 7 – 10 pm\
 **Location**: Compline Wines, Napa, CA\
-
 Vino & Vinyl with Tish is a signature, recurring event hosted in downtown Napa by Tish Wiggins (Tish Around Town). It features curated wine flights, guest winemakers, and throwback vinyl DJ sets. These gatherings frequently highlight women in the industry and support local nonprofits. A partnership event with Napa Green. 
 
 Remember, we're always happy to host you and your friends or family for a private tasting experience. Simply call [707.200.4572](tel:707.200.4572) or email [shannon@younginglewood.com](mailto:shannnon@younginglewood.com) to plan your visit to the estate.
