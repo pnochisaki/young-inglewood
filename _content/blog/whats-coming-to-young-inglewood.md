@@ -12,7 +12,9 @@ description: During the year we host events at the winery and participate in
   back.
 og_image: /uploads/photostephenciauri-0t4a2548.jpg
 ---
-During the year we host events at the winery and participate in events outside the winery. We welcome you to join us. This is our list as of 2.16.2026 and we'll update this list as the year moves along, so please check back.
+During the year we host events at the winery and participate in events outside the winery. We welcome you to join us. 
+
+This is a rolling (approximately) twelve month list of events - past and future. This is our list as of 7.23.2026 and we'll update this list as the year moves along, so please check back.
 
 ![FYI members enjoying an event at Young Inglewood in the Spring.](/uploads/photostephenciauri-0t4a2548.jpg "FYI members enjoying a beautiful spring day during Spring Forward.")
 
@@ -33,5 +35,18 @@ Scott will be in Houston for [Southern Smoke Decanted](https://southernsmoke.or
 **Date:** Saturday, April 18, 2026\
 **Location**: Young Inglewood\
 Taste our spring release wines and a few surprises. Meet the Young Inglewood team and other FYI members. Check out the burgeoning vines. You can also collect your Spring FYI Shipment if you’d like. Reservations are required.
+
+### Farmstead Local’s Night
+
+**Date:** Wednesday, August 5, 2026\
+**Location**: Farmstead Restaurant, St. Helena, CA\
+Featuring winemaker Scott Young, wines from the Young Inglewood estate, live music, and happy hour bites.
+
+### Vino & Vinyl at Compline Wines
+
+**Date:** Thursday, August 13, 2026; 7 – 10 pm\
+**Location**: Compline Wines, Napa, CA\
+
+Vino & Vinyl with Tish is a signature, recurring event hosted in downtown Napa by Tish Wiggins (Tish Around Town). It features curated wine flights, guest winemakers, and throwback vinyl DJ sets. These gatherings frequently highlight women in the industry and support local nonprofits. A partnership event with Napa Green. 
 
 Remember, we're always happy to host you and your friends or family for a private tasting experience. Simply call [707.200.4572](tel:707.200.4572) or email [shannon@younginglewood.com](mailto:shannnon@younginglewood.com) to plan your visit to the estate.
