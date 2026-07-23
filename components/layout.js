@@ -186,10 +186,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       url: "/profile/order-history",
       title: "Order History"
     },
-    {
-      url: "/profile/allocation",
-      title: "Allocations"
-    },
+    // {
+    //   url: "/profile/allocation",
+    //   title: "Allocations"
+    // },
     {
       url: "/profile/account",
       title: "Account Details"
@@ -209,10 +209,10 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       url: "/profile/order-history",
       title: "Order History"
     },
-    {
-      url: "/profile/allocation",
-      title: "Allocations"
-    },
+    // {
+    //   url: "/profile/allocation",
+    //   title: "Allocations"
+    // },
     {
       url: "/profile/account",
       title: "Account Details"
