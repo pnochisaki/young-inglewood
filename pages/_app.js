@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
       $(this).toggleClass('active');
     })
 
-    $('.blog-post article img').each(function () {
+    $('.blog-post article .post-content img').each(function () {
       const title = $(this).attr('title');
       const alt = $(this).attr('alt');
       if (title) {

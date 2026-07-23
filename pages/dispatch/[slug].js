@@ -1,8 +1,9 @@
 import Layout from '../../components/layout';
 import Head from 'next/head';
-import { getPostData } from '../../lib/blog';
+import Link from 'next/link';
+import { getPostData, getAdjacentPosts } from '../../lib/blog';
 
-export default function Post({ postData }) {
+export default function Post({ postData, previousPost, nextPost }) {
   return (
     <Layout blog_post>
       <Head>
@@ -18,15 +19,28 @@ export default function Post({ postData }) {
             }
           </div>
           <div>
-            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            <div className="post-content" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             <div className="walker-graphic">
-            <img src="/images/walker.png" alt="walker graphic" />
+              <img src="/images/walker.png" alt="walker graphic" />
             </div>
             <div className="button-bar">
+              {previousPost && (
+                <Link href={`/dispatch/${previousPost.slug}`} className="post-pager-link post-pager-prev">
+                  <img src="/images/arr-left.png" alt="Previous Post" />
+                </Link>
+              )}
               <a className='button c7-link' href="https://www.exploretock.com/younginglewood">Book your Visit</a>
               <a className='button c7-link' href="/collection/all">Shop our wine</a>
               <a className='button c7-link' href="/dispatch">Back to Dispatch</a>
+              {nextPost && (
+                <Link href={`/dispatch/${nextPost.slug}`} className="post-pager-link post-pager-next">
+                   <img src="/images/arr-right.png" alt="Next Post" />
+                </Link>
+              )}
             </div>
+            <nav className="post-pager">
+            </nav>
+
           </div>
         </div>
       </article>
@@ -45,5 +59,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.slug);
-  return { props: { postData } };
+  const { previousPost, nextPost } = getAdjacentPosts(params.slug);
+  return { props: { postData, previousPost, nextPost } };
 }

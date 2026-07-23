@@ -3917,7 +3917,7 @@ html .blog-post article h2 {
   html .blog-post article h1 em {
     font-size: 3rem;
     line-height: 1.1;
-    margin-bottom:.4rem;
+    margin-bottom: .4rem;
   }
 }
 
@@ -3976,18 +3976,30 @@ html .blog-post article .two-cols>div:last-child em {
 .button-bar {
   margin-top: 2rem;
   text-align: center;
+  vertical-align: middle;
 }
 
 .button-bar a {
   margin: 1rem 1.5rem;
   text-decoration: none !important;
+  display: inline-block;
 }
 
 @media (min-width: 769px) {
-  .button-bar a:first-child {
-    margin-left: 0;
+
+  .button-bar a:first-child,
+  .button-bar a:last-child {
+    margin: 0;
+    display: inline-block;
+  }
+
+  .button-bar img {
+    height: .5rem;
+    width: auto;
   }
 }
+
+
 
 .walker-graphic {
   display: block;
@@ -4005,6 +4017,7 @@ html .blog-post article .two-cols>div:last-child em {
   .walker-graphic {
     margin: 3.25rem 0 0;
   }
+
   .walker-graphic img {
     width: 50%;
   }
