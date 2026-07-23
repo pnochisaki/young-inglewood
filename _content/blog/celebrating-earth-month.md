@@ -1,5 +1,5 @@
 ---
-title: Celebrating Earth Month test
+title: Celebrating Earth Month
 headline: celebrating <br> <em>earth month<em>
 order: 2
 sticky: true
