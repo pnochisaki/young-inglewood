@@ -54,7 +54,11 @@ Taste our new releases with winemaker Scott Young at Flatiron wine shop in San F
 **Location**: Compline Wines, Napa, CA\
 Vino & Vinyl with Tish is a signature, recurring event hosted in downtown Napa by Tish Wiggins (Tish Around Town). It features curated wine flights, guest winemakers, and throwback vinyl DJ sets. These gatherings frequently highlight women in the industry and support local nonprofits. A partnership event with Napa Green. 
 
-Purchase Tickets <https://napagreen.org/event_posts/vino-vinyl-with-tish-wiggins/>
+[Purchase Tickets](https://napagreen.org/event_posts/vino-vinyl-with-tish-wiggins/) 
+
+
+
+https://napagreen.org/event_posts/vino-vinyl-with-tish-wiggins/
 
 ### Fall Back
 
