@@ -5,7 +5,7 @@ order: 1
 sticky: true
 published: true
 image: /uploads/photostephenciauri-47-0t4a5228.jpg
-excerpt: Schedule of Young Inglewood events (last updated 7.23.2026)
+excerpt: Schedule of Young Inglewood events -- last updated 7.23.2026
 description: During the year we host events at the winery and participate in
   events outside the winery. We welcome you to join us. This is our list as of
   2.16.2026 and we'll update this list as the year moves along, so please check
