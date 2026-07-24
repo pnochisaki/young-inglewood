@@ -56,8 +56,6 @@ Vino & Vinyl with Tish is a signature, recurring event hosted in downtown Napa b
 
 [Purchase Tickets](https://napagreen.org/event_posts/vino-vinyl-with-tish-wiggins/) 
 
-
-
 https://napagreen.org/event_posts/vino-vinyl-with-tish-wiggins/
 
 ### Fall Back
