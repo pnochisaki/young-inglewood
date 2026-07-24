@@ -24,23 +24,18 @@ export default function Post({ postData, previousPost, nextPost }) {
               <img src="/images/walker.png" alt="walker graphic" />
             </div>
             <div className="button-bar">
-              {previousPost && (
-                <Link href={`/dispatch/${previousPost.slug}`} className="post-pager-link post-pager-prev">
-                  <img src="/images/arr-left.png" alt="Previous Post" />
-                </Link>
-              )}
               <a className='button c7-link' href="https://www.exploretock.com/younginglewood">Book your Visit</a>
               <a className='button c7-link' href="/collection/all">Shop our wine</a>
               <a className='button c7-link' href="/dispatch">Back to Dispatch</a>
-              {nextPost && (
-                <Link href={`/dispatch/${nextPost.slug}`} className="post-pager-link post-pager-next">
-                   <img src="/images/arr-right.png" alt="Next Post" />
-                </Link>
-              )}
             </div>
             <nav className="post-pager">
+              <Link href={previousPost ? `/dispatch/${previousPost.slug}` : '/dispatch'} className="pager pager-prev">
+                <img src="/images/arr-left.png" alt="Previous Post" />Prev
+              </Link>
+              <Link href={nextPost ? `/dispatch/${nextPost.slug}` : '/dispatch'} className="pager pager-next">
+                Next<img src="/images/arr-right.png" alt="Next Post" />
+              </Link>
             </nav>
-
           </div>
         </div>
       </article>

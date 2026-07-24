@@ -2164,7 +2164,8 @@ section a,
 .c7-order-items--cart .c7-link span,
 .c7-order-items .c7-link span,
 .c7-checkout__summary-container .c7-link span,
-.c7-side-cart__content-container .c7-notice--empty>a {
+.c7-side-cart__content-container .c7-notice--empty>a,
+.post-pager a {
   text-transform: uppercase;
   font-family: canada-type-gibson, sans-serif;
   font-size: .65rem !important;
@@ -4021,4 +4022,29 @@ html .blog-post article .two-cols>div:last-child em {
   .walker-graphic img {
     width: 50%;
   }
+}
+.post-pager {
+   max-width:16rem;
+   margin: 3rem auto 6rem; 
+}
+.post-pager a {
+  display: inline-block;
+  margin: 0;
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+.post-pager a img {
+  width: auto;
+  height: .5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+  transform: translateY(-.1125rem);
+}
+
+.post-pager .pager-prev {
+  float: left;
+}
+
+.post-pager .pager-next {
+  float:right;
 }
