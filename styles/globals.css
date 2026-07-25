@@ -3986,21 +3986,6 @@ html .blog-post article .two-cols>div:last-child em {
   display: inline-block;
 }
 
-@media (min-width: 769px) {
-
-  .button-bar a:first-child,
-  .button-bar a:last-child {
-    margin: 0;
-    display: inline-block;
-  }
-
-  .button-bar img {
-    height: .5rem;
-    width: auto;
-  }
-}
-
-
 
 .walker-graphic {
   display: block;
@@ -4038,9 +4023,12 @@ html .blog-post article .two-cols>div:last-child em {
   height: .5rem;
   vertical-align: middle;
   margin: 0 .5rem;
-  transform: translateY(-.1125rem);
+  transform: translateY(-.11125rem);
 }
 
+.post-pager a.pager-prev img {
+  margin-right: .65rem;
+}
 .post-pager .pager-prev {
   float: left;
 }
