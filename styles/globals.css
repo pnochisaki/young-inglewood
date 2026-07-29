@@ -4035,7 +4035,7 @@ html .blog-post article .two-cols>div:last-child em {
 }
 .post-pager .pager-prev {
   float: left;
-  margin-left: -1.5rem;
+  margin-left: -2rem;
 }
 
 .post-pager .pager-next {
