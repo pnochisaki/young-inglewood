@@ -2,7 +2,7 @@
 title: Pruning at Young Inglewood
 headline: pruning at <br><em>young inglewood<em>
 order: 3
-published: true
+published: false
 image: /uploads/photostephenciauri-274a8723.jpg
 excerpt: A key vineyard task – perhaps *the* key vineyard task we do early in
   the year – is to prune the vines. We typically prune our vines between end of
@@ -16,7 +16,7 @@ A key vineyard task – perhaps *the* key vineyard task we do early in the year 
 
 The buds to produce the year’s crop were set during the previous growing season. During pruning, for each individual vine, we decide the ideal number of buds it can support. The buds produce shoots, which will eventually bear the grape clusters. During pruning, we can force the vine to focus its energies on growing the number of shoots we think is appropriate for both vine health and top quality, concentrated fruit production. At pruning, we can also decide in which direction we want the shoots to grow, which determines the distribution of shoots, and eventually leaves and fruit, throughout the vine. This helps us ensure that each shoot will get the right amount of sunlight and shade to allow it to ripen its fruit evenly.
 
-![Photo of sun rising on Young Inglewood's cover crop and unpruned bordeaux grape vines.](/uploads/img_20180119_081025_2.jpg "Our cabernet sauvignon grape vines before pruning.")
+![Photo of sun rising on Young Inglewood's cover crop and unpruned bordeaux grape vines.](/uploads/photoscottyoung-img_20180119_081025_2-unprunedcovercrop.jpg "Our cabernet sauvignon grape vines before pruning.")
 
 ![Photo of a cloudy day displaying freshly pruned Cabernet Sauvignon grape vines after a rain.](/uploads/photomaryyoung-2021-02-26-022335108.jpg "Freshly pruned Cabernet Sauvignon grape vines.")
 
