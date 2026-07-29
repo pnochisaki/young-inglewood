@@ -3986,8 +3986,10 @@ html .blog-post article .two-cols>div:last-child em {
   display: inline-block;
 }
 
-.button-bar a:first-child {
-  margin-left: 0;
+@media (min-width: 769px) {
+  .button-bar a:first-child {
+    margin-left: 0;
+  }
 }
 
 
@@ -4012,16 +4014,19 @@ html .blog-post article .two-cols>div:last-child em {
     width: 50%;
   }
 }
+
 .post-pager {
-   max-width:16rem;
-   margin: 3rem auto 6rem; 
+  max-width: 16rem;
+  margin: 3rem auto 6rem;
 }
+
 .post-pager a {
   display: inline-block;
   margin: 0;
   text-decoration: none !important;
   vertical-align: middle;
 }
+
 .post-pager a img {
   width: auto;
   height: .5rem;
@@ -4033,11 +4038,18 @@ html .blog-post article .two-cols>div:last-child em {
 .post-pager a.pager-prev img {
   margin-right: .65rem;
 }
+
 .post-pager .pager-prev {
   float: left;
   margin-left: -2rem;
 }
 
+@media (max-width: 768px) {
+  .post-pager .pager-prev {
+    margin-left: 0;
+  }
+}
+
 .post-pager .pager-next {
-  float:right;
+  float: right;
 }
