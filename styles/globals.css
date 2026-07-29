@@ -3986,6 +3986,10 @@ html .blog-post article .two-cols>div:last-child em {
   display: inline-block;
 }
 
+.button-bar a:first-child {
+  margin-left: 0;
+}
+
 
 .walker-graphic {
   display: block;
@@ -4023,7 +4027,7 @@ html .blog-post article .two-cols>div:last-child em {
   height: .5rem;
   vertical-align: middle;
   margin: 0 .5rem;
-  transform: translateY(-.11125rem);
+  transform: translateY(-1px);
 }
 
 .post-pager a.pager-prev img {
@@ -4031,6 +4035,7 @@ html .blog-post article .two-cols>div:last-child em {
 }
 .post-pager .pager-prev {
   float: left;
+  margin-left: -1.5rem;
 }
 
 .post-pager .pager-next {
