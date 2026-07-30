@@ -11,19 +11,17 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
 
     // external links in new window
-    // $("a").each(function () {
-    //   var href = $(this).attr('href');
-    //   if (href.slice(0, 1) === '/') {
-    //     // console.log('internal link', href)
-    //   } else {
-    //     // console.log('external link', href);
-    //     $(this).on('click', function () {
-    //       window.open(href)
-    //       return false;
-    //     })
+    $(document)
+      .off('click.externalLinks')
+      .on('click.externalLinks', 'a', function (e) {
+        var href = $(this).attr('href');
+        if (href && href.slice(0, 1) !== '/') {
+          e.preventDefault();
+          e.stopPropagation();
+          window.open(href, '_blank', 'noopener,noreferrer');
+        }
+      });
 
-    //   }
-    // })
     $('.faqs ul li .box').on('click', function () {
       $(this).toggleClass('active');
     })
