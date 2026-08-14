@@ -56,7 +56,7 @@ The platform sends aggregated, non-personal information to Google Analytics to p
 
 ***Web Beacons.*** 
 
-Pages of our Site and our emails may contain small electronic files known as web beacons that permit us, for example, to count users who have visited those pages or opened an email and for otherrelated website statistics (for example, recording the popularity 
+Pages of our Site and our emails may contain small electronic files known as web beacons that permit us, for example, to count users who have visited those pages or opened an email and for otherrelated website statistics (for example, recording the popularity  
 
 ## Terms of Use
 
