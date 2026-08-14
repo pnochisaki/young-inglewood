@@ -4,7 +4,10 @@ description: null
 og_image: null
 headline: <em> Privacy and Terms </em>
 ---
-## Privacy Policy 
+## Privacy Policy
+
+Effective Date: August __, 2026
+Last Updated: August __, 2026 
 
 Welcome to the Young Inglewood Vineyards website, www.younginglewood.com. Your privacy
 is important to us so we are providing this notice explaining our privacy practices and the
