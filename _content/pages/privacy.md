@@ -20,9 +20,9 @@ information and how we will treat it. If you do not agree with our policies and 
 
 Our website, and access to all advertising, marketing and other information there is intended only for persons of legal drinking age. By accessing our website, you represent that you are at least twenty one (21) years of age and that any information you provide in response to an age verification request is accurate.
 
-We do not knowingly collect information pertaining to those under the legal drinking age. We request that such individuals not use our website, not provide any information to us and immediately leave our website. If you believe someone under the legal drinking age has provided us with information in violation of our website’s access restrictions, please contact us at 707 200 4572, or [estate@younginglewood.com](estate@younginglewood.com) and we will remove such information in accordance with applicable law.
+We do not knowingly collect information pertaining to those under the legal drinking age. We request that such individuals not use our website, not provide any information to us and immediately leave our website. If you believe someone under the legal drinking age has provided us with information in violation of our website’s access restrictions, please contact us at 707 200 4572, or estate@younginglewood.com and we will remove such information in accordance with applicable law.
 
-In the event that we become aware that we have collected personal information from any child under the age of 13, we will dispose of that information in accordance with COPPA and other applicable laws and regulations. If you are a parent or guardian and you believe that your child under the age of 13 has provided us with personal information without COPPA-required consent, please contact us at [estate@younginglewood.com](estate@younginglewood.com).
+In the event that we become aware that we have collected personal information from any child under the age of 13, we will dispose of that information in accordance with COPPA and other applicable laws and regulations. If you are a parent or guardian and you believe that your child under the age of 13 has provided us with personal information without COPPA-required consent, please contact us at estate@younginglewood.com.
 
 ## Terms of Use
 
