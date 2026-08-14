@@ -2,9 +2,9 @@
 title: Privacy Statement
 description: null
 og_image: null
-headline: <em> Privacy Statement and Terms of Use </em>
+headline: <em> Privacy and Terms </em>
 ---
-## Privacy
+## Privacy 
 
 Welcome to the Young Inglewood Vineyards website, www.younginglewood.com. Your privacy
 is important to us so we are providing this notice explaining our privacy practices and the
