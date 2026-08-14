@@ -56,7 +56,43 @@ The platform sends aggregated, non-personal information to Google Analytics to p
 
 ***Web Beacons.*** 
 
-Pages of our Site and our emails may contain small electronic files known as web beacons that permit us, for example, to count users who have visited those pages or opened an email and for otherrelated website statistics (for example, recording the popularity  
+Pages of our Site and our emails may contain small electronic files known as web beacons that permit us, for example, to count users who have visited those pages or opened an email and for otherrelated website statistics (for example, recording the popularity 
+
+ofcertain website content).
+
+Linksto third party websites Our website may include links to thirdparty websites (including social media) that we do not operate or maintain, andover which we have no control. These links are solely for your convenience andyou visit them solely at your own discretion and risk. 
+
+We obtain your consent toour information storage or collection tracking technologies described above byproviding you with transparent information in this policy and providing youwith the opportunity to make a choice to disable cookies as set forthabove.  We are giving you detailed noticeof the tracking technologies and your choices regarding them so that yourconsent is meaningfully informed.
+
+We may, from time to time, supplement the informationwe collect directly from you on our website with outside records from thirdparties for various purposes, including to enhance our ability to serve you, totailor our content to you and to offer you opportunities that may be ofinterest to you.  To the extent wecombine information we receive from those sources with your information that wecollect on our website, we will apply this policy to such combined information,unless we have disclosed otherwise.  Inno other circumstances do our statements under this policy apply to informationwe receive about you from third parties. 
+
+Howwe use your information
+
+Weuse the information for a number of purposes, such as, to keep you informedabout our wine and any events; to personalize our contacts with you; tocomplete your orders of our products - process payments, ship to you, and keepyou informed about the shipment progress; respond to inquiries; to improve our website; to create new serviceofferings; to customize your experience on the website, or to serve youspecific content that is most relevant to you;  for our own internal business purposes; and for any purpose disclosed at the time you provide yourinformation or as otherwise set forth in this policy.
+
+Wedo not share, sell or trade the information we collect from you, includinginformation collected as part of a survey.
+
+Wedo not contribute to or participate in shared or cooperative databases, whichgive other companies access to your personal information. We do not releasecredit card or financial information for use by other companies.
+
+Automated Processing and Artificial Intelligence
+
+We may use automated tools, including analyticssoftware and AI-assisted features, to improve our website, personalize content,and better understand how visitors interact with our site. We do not useautomated decision-making that produces legal or similarly significant effectson consumers.
+
+If we use personal information you provide to train orimprove any AI system, we will (a) obtain your consent before doing so for anypurpose not described in this policy, and (b) honor your rights to access,correct, and delete such information in accordance with applicable law. We donot use your personal information as training data for AI systems operated bythird parties.
+
+Financial Incentives
+
+We may offer programs or incentives, such as our wineclub membership or early access to new releases, that involve the collection oruse of personal information.  Participationin any such program is entirely voluntary.  The value of the incentive reflects thebenefit we receive from using your information to improve our products andservices and communicate with you about offerings you have indicated interestin.  You may opt out of any such programat any time by contacting us at estate@younginglewood.com, and doing so willnot affect your ability to purchase our wines.
+
+Security
+
+Foryour privacy and security, we take all reasonable steps to secure yourinformation and protect it from unauthorized access.
+
+Wehave put in place physical, electronic, and managerial procedures to safeguardand help prevent unauthorized access to, maintain security of, and correctlyuse the information we collect. Personally identifiable information and accountactivity are also protected through the use of e-mail addresses and passwords.In order to maintain the security of your information, you should protect theconfidentiality of such information used to log into your account.
+
+Unfortunately,no data transmission over the Internet can be guaranteed to be 100% secure. Asa result, while we strive to protect your personal information and privacy, wecannot guarantee or warrant the security of any information you disclose ortransmit to us online and cannot be responsible for the theft, destruction, orinadvertent disclosure of your personal information.
+
+
 
 ## Terms of Use
 
