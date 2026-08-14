@@ -2,7 +2,7 @@
 title: Privacy Statement
 description: null
 og_image: null
-headline: <em> Privacy Statement </em>
+headline: <em> Privacy Statement and Terms of Use </em>
 ---
 ## Privacy
 
