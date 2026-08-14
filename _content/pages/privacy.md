@@ -54,45 +54,43 @@ Most browsers provide the ability for people to manage cookies to meet their nee
 
 The platform sends aggregated, non-personal information to Google Analytics to provide us with the ability to conduct technical and statistical analysis of the platform’s performance. For information on how Google Analytics supports the platform and uses information sent from the platform please see Google’s privacy policy at  <https://policies.google.com/technologies/partner-sites>
 
-***Web Beacons.*** 
+***Web Beacons*** 
 
-Pages of our Site and our emails may contain small electronic files known as web beacons that permit us, for example, to count users who have visited those pages or opened an email and for otherrelated website statistics (for example, recording the popularity 
+Pages of our Site and our emails may contain small electronic files known as web beacons that permit us, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of certain website content).
 
-ofcertain website content).
+***Links to third party websites*** 
 
-Linksto third party websites Our website may include links to thirdparty websites (including social media) that we do not operate or maintain, andover which we have no control. These links are solely for your convenience andyou visit them solely at your own discretion and risk. 
+Our website may include links to third party websites (including social media) that we do not operate or maintain, and over which we have no control. These links are solely for your convenience and you visit them solely at your own discretion and risk. 
 
-We obtain your consent toour information storage or collection tracking technologies described above byproviding you with transparent information in this policy and providing youwith the opportunity to make a choice to disable cookies as set forthabove.  We are giving you detailed noticeof the tracking technologies and your choices regarding them so that yourconsent is meaningfully informed.
+We obtain your consent to our information storage or collection tracking technologies described above by providing you with transparent information in this policy and providing you with the opportunity to make a choice to disable cookies as set forth above.  We are giving you detailed notice of the tracking technologies and your choices regarding them so that your consent is meaningfully informed.
 
-We may, from time to time, supplement the informationwe collect directly from you on our website with outside records from thirdparties for various purposes, including to enhance our ability to serve you, totailor our content to you and to offer you opportunities that may be ofinterest to you.  To the extent wecombine information we receive from those sources with your information that wecollect on our website, we will apply this policy to such combined information,unless we have disclosed otherwise.  Inno other circumstances do our statements under this policy apply to informationwe receive about you from third parties. 
+We may, from time to time, supplement the information we collect directly from you on our website with outside records from third parties for various purposes, including to enhance our ability to serve you, to tailor our content to you and to offer you opportunities that may be of interest to you.  To the extent we combine information we receive from those sources with your information that we collect on our website, we will apply this policy to such combined information, unless we have disclosed otherwise.  In no other circumstances do our statements under this policy apply to information we receive about you from third parties. 
 
-Howwe use your information
+**How we use your information**
 
-Weuse the information for a number of purposes, such as, to keep you informedabout our wine and any events; to personalize our contacts with you; tocomplete your orders of our products - process payments, ship to you, and keepyou informed about the shipment progress; respond to inquiries; to improve our website; to create new serviceofferings; to customize your experience on the website, or to serve youspecific content that is most relevant to you;  for our own internal business purposes; and for any purpose disclosed at the time you provide yourinformation or as otherwise set forth in this policy.
+We use the information for a number of purposes, such as, to keep you informed about our products and any events; to personalize our contacts with you; to complete your orders of our products - process payments, ship to you, and keep you informed about the shipment progress; respond to inquiries; to improve our website; to create new service offerings; to customize your experience on the website, or to serve you specific content that is most relevant to you;  for our own internal business purposes; and for any purpose disclosed at the time you provide your information or as otherwise set forth in this policy.
 
-Wedo not share, sell or trade the information we collect from you, includinginformation collected as part of a survey.
+We do not share, sell or trade the information we collect from you, including information collected as part of a survey.
 
-Wedo not contribute to or participate in shared or cooperative databases, whichgive other companies access to your personal information. We do not releasecredit card or financial information for use by other companies.
+We do not contribute to or participate in shared or cooperative databases, which give other companies access to your personal information. We do not release credit card or financial information for use by other companies.
 
-Automated Processing and Artificial Intelligence
+**Automated Processing and Artificial Intelligence**
 
-We may use automated tools, including analyticssoftware and AI-assisted features, to improve our website, personalize content,and better understand how visitors interact with our site. We do not useautomated decision-making that produces legal or similarly significant effectson consumers.
+We may use automated tools, including analytics software and AI-assisted features, to improve our website, personalize content, and better understand how visitors interact with our site. We do not use automated decision-making that produces legal or similarly significant effects on consumers.
 
-If we use personal information you provide to train orimprove any AI system, we will (a) obtain your consent before doing so for anypurpose not described in this policy, and (b) honor your rights to access,correct, and delete such information in accordance with applicable law. We donot use your personal information as training data for AI systems operated bythird parties.
+If we use personal information you provide to train or improve any AI system, we will (a) obtain your consent before doing so for any purpose not described in this policy, and (b) honor your rights to access, correct, and delete such information in accordance with applicable law. We do not use your personal information as training data for AI systems operated by third parties.
 
-Financial Incentives
+**Financial Incentives**
 
-We may offer programs or incentives, such as our wineclub membership or early access to new releases, that involve the collection oruse of personal information.  Participationin any such program is entirely voluntary.  The value of the incentive reflects thebenefit we receive from using your information to improve our products andservices and communicate with you about offerings you have indicated interestin.  You may opt out of any such programat any time by contacting us at estate@younginglewood.com, and doing so willnot affect your ability to purchase our wines.
+We may offer programs or incentives, such as our wine club membership or early access to new releases, that involve the collection or use of personal information.  Participation in any such program is entirely voluntary.  The value of the incentive reflects the benefit we receive from using your information to improve our products and services and communicate with you about offerings you have indicated interest in.  You may opt out of any such program at any time by contacting us at estate@younginglewood.com, and doing so will not affect your ability to purchase our products.
 
-Security
+**Security**
 
-Foryour privacy and security, we take all reasonable steps to secure yourinformation and protect it from unauthorized access.
+For your privacy and security, we take all reasonable steps to secure your information and protect it from unauthorized access.
 
-Wehave put in place physical, electronic, and managerial procedures to safeguardand help prevent unauthorized access to, maintain security of, and correctlyuse the information we collect. Personally identifiable information and accountactivity are also protected through the use of e-mail addresses and passwords.In order to maintain the security of your information, you should protect theconfidentiality of such information used to log into your account.
+We have put in place physical, electronic, and managerial procedures to safeguard and help prevent unauthorized access to, maintain security of, and correctly use the information we collect. Personally identifiable information and account activity are also protected through the use of e-mail addresses and passwords. In order to maintain the security of your information, you should protect the confidentiality of such information used to log into your account.
 
-Unfortunately,no data transmission over the Internet can be guaranteed to be 100% secure. Asa result, while we strive to protect your personal information and privacy, wecannot guarantee or warrant the security of any information you disclose ortransmit to us online and cannot be responsible for the theft, destruction, orinadvertent disclosure of your personal information.
-
-
+Unfortunately, no data transmission over the Internet can be guaranteed to be 100% secure. As a result, while we strive to protect your personal information and privacy, we cannot guarantee or warrant the security of any information you disclose or transmit to us online and cannot be responsible for the theft, destruction, or inadvertent disclosure of your personal information.
 
 ## Terms of Use
 
