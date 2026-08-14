@@ -1,8 +1,8 @@
 ---
-title: Privacy
+title: Privacy Statement
 description: null
 og_image: null
-headline: null
+headline: <em> Privacy Statement </em>
 ---
 ## Privacy
 
