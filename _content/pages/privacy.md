@@ -24,6 +24,32 @@ We do not knowingly collect information pertaining to those under the legal drin
 
 In the event that we become aware that we have collected personal information from any child under the age of 13, we will dispose of that information in accordance with COPPA and other applicable laws and regulations. If you are a parent or guardian and you believe that your child under the age of 13 has provided us with personal information without COPPA-required consent, please contact us at estate@younginglewood.com.
 
+**Electronic Communications**
+
+When you access our website, or send emails or other electronic communications, you are communicating with us electronically, and you agree to receive communications from Young Inglewood electronically. You further agree that all communications we provide to you electronically satisfy any legal requirement that such communications be otherwise delivered.
+
+**Information We Collect**
+
+We collect information that you provide to us directly, including contact information such as your first and last name, email address, physical address, and telephone number; your date of birth for age verification; your preferred credit card information for product purchases; a user name and password.
+
+**Automated Information Collection**
+
+In addition to the information you affirmatively provide us with, we may also passively collect information about you during your visit to our website. We collect this information using the automated tools described below. These tools may collect information about your browsing habits, your location and your computer system, such as internet address (IP address), the pages you have viewed, and the actions you have taken during your visit.
+
+Some of the tools we use to automatically collect information may include:
+
+***Cookies***
+
+A cookie is a small data file transmitted to your device’s hard drive. Cookies are usually defined in one of two ways, and we may use either or both of them:
+
+\- session cookies, which do not stay on your computer after you close your browser 
+
+\- persistent cookies, which remain on your device until you delete them or they expire.
+
+If you do not want cookies, you can turn them off by modifying your browser settings. However, by doing so you may not get full use of the website’s features, and lose access to some functionality.
+
+Most browsers provide the ability for people to manage cookies to meet their needs. In some browsers, users can set up rules to control cookies on a site-by-site basis, giving users granular control over their privacy. These features enable users to disallow cookies from all sites except the trusted sites. Please see your browser manufacturers’ help pages that relate to cookie management:
+
 ## Terms of Use
 
 coming soon
