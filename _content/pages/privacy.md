@@ -48,7 +48,15 @@ A cookie is a small data file transmitted to your device’s hard drive. Cookies
 
 If you do not want cookies, you can turn them off by modifying your browser settings. However, by doing so you may not get full use of the website’s features, and lose access to some functionality.
 
-Most browsers provide the ability for people to manage cookies to meet their needs. In some browsers, users can set up rules to control cookies on a site-by-site basis, giving users granular control over their privacy. These features enable users to disallow cookies from all sites except the trusted sites. Please see your browser manufacturers’ help pages that relate to cookie management:
+Most browsers provide the ability for people to manage cookies to meet their needs. In some browsers, users can set up rules to control cookies on a site-by-site basis, giving users granular control over their privacy. These features enable users to disallow cookies from all sites except the trusted sites. Please see your browser manufacturers’ help pages that relate to cookie management.
+
+***Google Analytics*** 
+
+The platform sends aggregated, non-personal information to Google Analytics to provide us with the ability to conduct technical and statistical analysis of the platform’s performance. For information on how Google Analytics supports the platform and uses information sent from the platform please see Google’s privacy policy at  <https://policies.google.com/technologies/partner-sites>
+
+***Web Beacons.*** 
+
+Pages of our Site and our emails may contain small electronic files known as web beacons that permit us, for example, to count users who have visited those pages or opened an email and for otherrelated website statistics (for example, recording the popularity 
 
 ## Terms of Use
 
