@@ -154,15 +154,45 @@ To protect your privacy and security, we will take reasonable steps to help veri
 
 State consumer privacy laws may provide their residents with additional rights regarding our use of their personal information.
 
-California (discussed in more detail under the next heading), Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky ,Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, and Virginia provide (now or in the future) their state residents with rights to:
+California (discussed in more detail under the next heading), Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, and Virginia provide (now or in the future) their state residents with rights to:
 
- 
+\- Confirm whether we process their personal information
 
-The exact scope of these rights may vary by state. Toexercise any of these rights please contact us at estate@younginglewood.com*.*  Ifwe deny your consumer rights request, you may appeal our decision by submittinga written explanation of your concerns to estate@younginglewood.com with thesubject line "Consumer Rights Appeal."  We will respond to your appeal within \[45]days. If your appeal is denied, you may submit a complaint to the CaliforniaPrivacy Protection Agency at https://cppa.ca.gov.
+\- Access and delete certain information
 
- 
+\- Correct inaccuracies in their personal information, taking into account the information's nature processing purpose (excluding Iowa and Utah)
 
-CaliforniaResidents
+\- Data portability
+
+\- Opt out of personal data processing for targeted advertising (excluding Iowa); sales; or profiling in furtherance of decisions that produce legal or similarly significant effects (excluding Iowa and Utah)
+
+\- Either limit (opt out of) or require consent to process sensitive personal data.
+
+The exact scope of these rights may vary by state. To exercise any of these rights please contact us at estate@younginglewood.com*.*  If we deny your consumer rights request, you may appeal our decision by submitting a written explanation of your concerns to estate@younginglewood.com with the subject line "Consumer Rights Appeal."  We will respond to your appeal within 45 days.
+
+**California Residents**
+
+The California Consumer Privacy Act (CCPA) and California Consumer Privacy Act apply to businesses meeting specific revenue and data volume thresholds. To the extent Young Inglewood Vineyards does not meet those thresholds, the rights described in this section may be provided voluntarily as a matter of our commitment to your privacy rather than as a legal requirement. We will honor requests submitted in good faith under any of the rights described below.
+
+If you are a California consumer, as defined by the CCPA, you may be afforded additional rights with respect to your “Personal Information” as that term is explicitly defined under California Law. Any Personal Information we collect is for the purpose of effectively providing our products and services to you, as well as enabling you to learn more about our products and services. You may exercise each of your rights, as identified below, subject to our verification of your identity. Please be advised that these may not be all the rights currently available to California residents. You are advised to make your own enquiries as to what may be available to you if you are a California resident.
+
+We do not sell your personal information and do not share it for cross-context behavioral advertising. We have not done so in the preceding 12 months and have no current plans to do so. If this practice changes, we will update this policyand provide notice as required by law before doing so.
+
+**Access**
+
+You may email us at estate@younginglewood.com to request a copy of the Personal Information about you currently in our database.
+
+Right to Correct Inaccurate Personal Information
+
+In the event that any of the personal information we maintain about you is incorrect, you have the right to request that we correct it.
+
+**Right to Limit Use and Disclosure of Sensitive Personal Information**
+
+You may request that we limit the use and disclosure of your sensitive personal information to that use which is necessary to perform the services or providet he goods reasonably expected by an average consumer who requests those goods or services, and other specific uses defined by California law. 
+
+*
+
+**California Residents**
 
 TheCalifornia Consumer Privacy Act (CCPA) and California Consumer Privacy Act applyto businesses meeting specific revenue and data volume thresholds. To theextent Young Inglewood Vineyards does not meet those thresholds, the rightsdescribed in this section may be provided voluntarily as a matter of ourcommitment to your privacy rather than as a legal requirement. We will honorrequests submitted in good faith under any of the rights described below.
 
@@ -235,12 +265,6 @@ SaintHelena, CA 94574
 estate@younginglewood.com
 
 707200 4572
-
- 
-
-
-
-
 
 ## Terms of Use
 
