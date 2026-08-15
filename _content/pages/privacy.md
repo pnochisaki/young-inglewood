@@ -150,6 +150,96 @@ To access the personally identifiable information that we have collected about y
 
 To protect your privacy and security, we will take reasonable steps to help verify your identity before granting access or making corrections.
 
+**State Privacy Rights**
+
+State consumer privacy laws may provide their residents with additional rights regarding our use of their personal information.
+
+California (discussed in more detail under the next heading), Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky ,Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, and Virginia provide (now or in the future) their state residents with rights to:
+
+ 
+
+The exact scope of these rights may vary by state. Toexercise any of these rights please contact us at estate@younginglewood.com*.*  Ifwe deny your consumer rights request, you may appeal our decision by submittinga written explanation of your concerns to estate@younginglewood.com with thesubject line "Consumer Rights Appeal."  We will respond to your appeal within \[45]days. If your appeal is denied, you may submit a complaint to the CaliforniaPrivacy Protection Agency at https://cppa.ca.gov.
+
+ 
+
+CaliforniaResidents
+
+TheCalifornia Consumer Privacy Act (CCPA) and California Consumer Privacy Act applyto businesses meeting specific revenue and data volume thresholds. To theextent Young Inglewood Vineyards does not meet those thresholds, the rightsdescribed in this section may be provided voluntarily as a matter of ourcommitment to your privacy rather than as a legal requirement. We will honorrequests submitted in good faith under any of the rights described below.
+
+Ifyou are a California consumer, as defined by the CCPA, you may be affordedadditional rights with respect to your “Personal Information” as that term isexplicitly defined under California Law. Any Personal Information we collect isfor the purpose of effectively providing our products and services to you, aswell as enabling you to learn more about our products and services. You mayexercise each of your rights, as identified below, subject to our verificationof your identity. Please be advised that these may not be all the rightscurrently available to California residents. You are advised to make your ownenquiries as to what may be available to you if you are a California resident.
+
+Wedo not sell your personal information and do not share it for cross-contextbehavioral advertising. We have not done so in the preceding 12 months and haveno current plans to do so. If this practice changes, we will update this policyand provide notice as required by law before doing so.
+
+Access
+
+Youmay email us at estate@younginglewood.com torequest a copy of the Personal Information about you currently in our database.
+
+Rightto Correct Inaccurate Personal Information
+
+Inthe event that any of the personal information we maintain about you isincorrect, you have the right to request that we correct it.
+
+Rightto Limit Use and Disclosure of Sensitive Personal Information
+
+Youmay request that we limit the use and disclosure of your sensitive personalinformation to that use which is necessary to perform the services or providethe goods reasonably expected by an average consumer who requests those goodsor services, and other specific uses defined by California law. 
+
+Rightto Request Deletion of Personal Information
+
+If you should wish tocease use of our platform and have your personal information deleted from ourplatform, you may submit a request to estate@younginglewood.comand/or call us at 707 200 4572.
+
+ 
+
+Submittinga verifiable consumer request does not require that you have an active accountwith us, nor are you required to create an account. As previously noted, wewill need to obtain enough information from you to verify your request inprotection of your information before responding to your request. 
+
+To protect your privacy andsecurity, we must verify your identity before responding to consumer rightsrequests. The verification information we may request is proportionate to thenature of your request and the sensitivity of the information involved, andwill be limited to information we already maintain about you. We will not askfor your Social Security number or government identification number to verify aroutine access or deletion request.
+
+To verify your identity, wemay ask you to confirm information such as your name, email address, phonenumber, or billing address associated with your account. For requestsconcerning sensitive personal information, we may request additionalverification. We will not use verification information for any purpose otherthan processing your request.
+
+If you submit a requestthrough an authorized agent, we may require written proof of authorization fromyou and may verify your identity directly.
+
+Wemay decline to honor a consumer rights request only where permitted byapplicable law, including where we cannot verify your identity, where therequest is manifestly unfounded or excessive, or where a statutory exceptionapplies.  We will explain the basis forany denial and inform you of your right to appeal.
+
+Rightto Not be Discriminated Against for Exercising the Rights to Disclosure orDeletion
+
+Wewill not discriminate against you for exercising your rights under Californialaw. We will not deny you goods or services, charge you a different rate forgoods or services, provide you with a different quality of goods or services,or take any other adverse action.
+
+Wedo not sell your Personal Information. However, should this policy change, wewill make every effort to inform you within the guidelines of California law,and provide you with an opportunity to opt out of sales of your PersonalInformation.
+
+Ifyou believe your California privacy rights have been violated, you may alsofile a complaint with the California Privacy Protection Agency athttps://cppa.ca.gov or (916) 590-3483.
+
+Automated Decision-Making
+
+We do not currently use automated decision-makingtechnology to make significant decisions about you, such as decisions affectingyour access to financial services, employment, housing, healthcare, oreducational opportunities.  If thischanges, we will update this policy, provide you with a pre-use notice, and,where required by law, obtain your consent or provide you with the right to optout.
+
+Transfer of Information to the United States
+
+Our website is operated in the United States. If youare located outside of the United States, please be aware that information wecollect, including personal information, will be transferred to and processedin the United States, where data protection laws may differ from those of yourcountry. Where required by applicable law, we will implement appropriatesafeguards for international transfers of personal information, such asstandard contractual clauses or equivalent mechanisms. By providing informationthrough our website, you understand that your information will be processed inthe United States in accordance with this Privacy Policy.
+
+Updatesto our Privacy Policy
+
+We may update this Privacy Policy from time to time toreflect changes in our practices, technology, legal requirements, or otherfactors. We will indicate the date of the most recent update at the top of thispolicy.
+
+For material changes, meaning changes that affect howwe collect, use, or share personal information in ways that are materiallydifferent from what was disclosed at the time of collection, we will provideyou with prominent notice prior to the change taking effect. Such notice mayinclude a banner on our website, an email to registered users, or otherappropriate means. Where required by law, we will obtain your affirmativeconsent before applying material changes to previously collected personalinformation.
+
+Your continued use of our website after a non-materialchange becomes effective constitutes acknowledgment of the updated policy. Werecommend reviewing this policy periodically.
+
+Howto Contact Us
+
+Forquestions, comments or assistance, please contact us at:
+
+YoungInglewood Vineyards
+
+1919Inglewood Avenue
+
+SaintHelena, CA 94574
+
+estate@younginglewood.com
+
+707200 4572
+
+ 
+
+
+
 
 
 ## Terms of Use
