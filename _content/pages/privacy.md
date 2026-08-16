@@ -18,7 +18,7 @@ Please read this policy carefully to understand our policies and practices regar
 
 Our website, and access to all advertising, marketing and other information there is intended only for persons of legal drinking age. By accessing our website, you represent that you are at least twenty one (21) years of age and that any information you provide in response to an age verification request is accurate.
 
-We do not knowingly collect information concerning those under the legal drinking age. We request that such individuals not use our website, not provide any information to us and immediately leave our website. If you believe someone under the legal drinking age has provided us with information in violation of our website’s access restrictions, please contact us at 707 200 4572, or estate@younginglewood.comand we will remove such information in accordance with applicable law.
+We do not knowingly collect information concerning those under the legal drinking age. We request that such individuals not use our website, not provide any information to us and immediately leave our website. If you believe someone under the legal drinking age has provided us with information in violation of our website’s access restrictions, please contact us at 707 200 4572, or estate@younginglewood.com and we will remove such information in accordance with applicable law.
 
 In the event that we become aware that we have collected personal information from any child under the age of 13, we will dispose of that information in accordance with COPPA and other applicable laws and regulations.  If you are a parent or guardian and you believe that your child under the age of 13 has provided us with personal information without COPPA-required consent, please contact us at estate@younginglewood.com*.* 
 
@@ -48,7 +48,7 @@ Most browsers provide the ability for people to manage cookies to meet their nee
 
 **Google Analytics**
 
-The platform sends aggregated, non-personal information to Google Analytics to provide us with the ability to conduct technical and statistical analysis of the platform’s performance. For information on how Google Analytics supports the platform and uses information sent from the platform please see Google’s privacy policy at https://policies.google.com/technologies/partner-sites
+The platform sends aggregated, non-personal information to Google Analytics to provide us with the ability to conduct technical and statistical analysis of the platform’s performance. For information on how Google Analytics supports the platform and uses information sent from the platform please see Google’s privacy policy at <https://policies.google.com/technologies/partner-sites>
 
 **Web Beacons**
 
@@ -86,7 +86,7 @@ For your privacy and security, we take all reasonable steps to secure your infor
 
 We have put in place physical, electronic, and managerial procedures to safeguard and help prevent unauthorized access to, maintain security of, and correctly use the information we collect. Personally identifiable information and account/activity are also protected through the use of e-mail addresses and passwords. In order to maintain the security of your information, you should protect the confidentiality of such information used to log into your account.
 
-Unfortunately ,no data transmission over the Internet can be guaranteed to be 100% secure. As a result, while we strive to protect your personal information and privacy, we cannot guarantee or warrant the security of any information you disclose or transmit to us online and cannot be responsible for the theft, destruction, or inadvertent disclosure of your personal information.
+Unfortunately, no data transmission over the Internet can be guaranteed to be 100% secure. As a result, while we strive to protect your personal information and privacy, we cannot guarantee or warrant the security of any information you disclose or transmit to us online and cannot be responsible for the theft, destruction, or inadvertent disclosure of your personal information.
 
 **Disclosure of your information**
 
@@ -196,7 +196,7 @@ We will not discriminate against you for exercising your rights under California
 
 We do not sell your Personal Information. However, should this policy change, we will make every effort to inform you within the guidelines of California law, and provide you with an opportunity to opt out of sales of your Personal Information.
 
-If you believe your California privacy rights have been violated, you may also file a complaint with the California Privacy Protection Agency at https://cppa.ca.gov or (916) 590-3483.  If you are a California resident and we deny your consumer rights request and then deny your appeal of such decision, you may submit a complaint to the California Privacy Protection Agency at https://cppa.ca.gov.
+If you believe your California privacy rights have been violated, you may also file a complaint with the California Privacy Protection Agency at <https://cppa.ca.gov> or (916) 590-3483.  If you are a California resident and we deny your consumer rights request and then deny your appeal of such decision, you may submit a complaint to the California Privacy Protection Agency at the website above 
 
 **Automated Decision-Making**
 
