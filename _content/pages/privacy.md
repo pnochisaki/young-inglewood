@@ -226,17 +226,11 @@ estate@younginglewood.com
 
 707 200 4572
 
-## Terms of Use
+## Website Terms of Use 
 
-Young Inglewood Vineyards Website Terms of Use
+Last Modified: August 17, 2026
 
- 
-
-Last Modified: August __, 2026
-
- 
-
-Welcome to the Young Inglewood Vineyards website, www.younginglewood.com. These terms of use are entered into by and between you and Young Inglewood Vineyards. The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, "Terms of Use") govern your access to and use of www.younginglewood.com, including any content, functionality, and services offered on or through www.younginglewood.com (the "Website").
+ Welcome to the Young Inglewood Vineyards website, www.younginglewood.com. These terms of use are entered into by and between you and Young Inglewood Vineyards. The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, "Terms of Use") govern your access to and use of www.younginglewood.com, including any content, functionality, and services offered on or through www.younginglewood.com (the "Website").
 
 Please read the Terms of Use carefully before you start to use the Website. **By using the Website, you accept and agree to be bound and abide by these Terms of Use and our Privacy Policy, found at www.younginglewood.com/privacy, incorporated herein by reference.** If you do not want to agree to these Terms of Use or the Privacy Policy, you must not access or use the Website.
 
@@ -328,8 +322,6 @@ Additionally, you agree not to:
 
 ·       Otherwise attempt to interfere with the proper working of the Website.
 
- 
-
 **Reliance on Information Posted**
 
 The information presented on or through the Website is made available solely for general information purposes. We do not warrant the accuracy, completeness, or usefulness of this information. Any reliance you place on such information is strictly at your own risk. We disclaim all liability and responsibility arising from any reliance placed on such materials by you or any other visitor to the Website, or by anyone who may be informed of any of its contents.
@@ -347,8 +339,6 @@ All information we collect on this Website is subject to our Privacy Policy (www
 **Online Purchases Terms and Conditions**
 
 All purchases through our site or other transactions for the sale of goods carried out through the Website, or resulting from visits made by you, are governed by our Terms of Sale (www.younginglewood.com/terms-of-sale), which are hereby incorporated into these Terms of Use.\[PC1] 
-
- 
 
 **Linking to the Website and Social Media Features**
 
@@ -400,8 +390,6 @@ TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT WILL YOUNG INGLEWOOD VINEYARD
 
 THE FOREGOING DOES NOT AFFECT ANY LIABILITY THAT CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.
 
-
-
 **Indemnification**
 
 You agree to defend, indemnify, and hold harmless Young Inglewood Vineyards, its affiliates, licensors, and service providers, and its and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms of Use or your use of the Website, including, but not limited to any use of the Website's content, services, and products other than as expressly authorized in these Terms of Use, or your use of any information obtained from the Website.
@@ -411,8 +399,6 @@ You agree to defend, indemnify, and hold harmless Young Inglewood Vineyards, its
 All matters relating to the Website and these Terms of Use, and any dispute or claim arising therefrom or related thereto (in each case, including non-contractual disputes or claims), shall be governed by and construed in accordance with the internal laws of the State of California without giving effect to any choice or conflict of law provision or rule (whether of the State of California or any other jurisdiction).
 
 Any legal suit, action, or proceeding arising out of, or related to, these Terms of Use or the Website shall be instituted exclusively in the federal courts of the United States or the courts of the State of California. You waive any and all objections to the exercise of jurisdiction over you by such courts and to venue in such courts.
-
- 
 
 **Waiver and Severability**
 
@@ -424,7 +410,7 @@ If any provision of these Terms of Use is held by a court or other tribunal of c
 
 The Terms of Use and our Privacy Policy constitute the sole and entire agreement between you and Young Inglewood Vineyards regarding the Website and supersede all prior and contemporaneous understandings, agreements, representations, and warranties, both written and oral, regarding the Website.
 
-**Your Comments and Concerns**
+**Your Comments**
 
 This website is operated by Young Inglewood Vineyards, 1919 Inglewood Ave, St. Helena, CA 94574.
 
