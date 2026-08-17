@@ -1,5 +1,5 @@
 ---
-title: Privacy Statement
+title: Privacy Policy and Terms of Use
 description: null
 og_image: null
 headline: <em> Privacy and Terms </em>
@@ -424,14 +424,8 @@ If any provision of these Terms of Use is held by a court or other tribunal of c
 
 The Terms of Use and our Privacy Policy constitute the sole and entire agreement between you and Young Inglewood Vineyards regarding the Website and supersede all prior and contemporaneous understandings, agreements, representations, and warranties, both written and oral, regarding the Website.
 
- 
-
 **Your Comments and Concerns**
 
- 
+This website is operated by Young Inglewood Vineyards, 1919 Inglewood Ave, St. Helena, CA 94574.
 
-This website is operated by Young Inglewood Vineyards, with its place of business at 1919 Inglewood Ave, St. Helena, CA 94574.
-
- 
-
-All other feedback, comments, requests for technical support, and other communications relating to the Website should be directed to: estate@younginglewood.com.
+Please direct your feedback, comments, requests for technical support, and other communications relating to our Website to: estate@younginglewood.com.
