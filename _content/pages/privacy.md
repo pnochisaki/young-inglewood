@@ -232,7 +232,7 @@ Last Modified: August 17, 2026
 
  Welcome to the Young Inglewood Vineyards website, www.younginglewood.com. These terms of use are entered into by and between you and Young Inglewood Vineyards. The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, "Terms of Use") govern your access to and use of www.younginglewood.com, including any content, functionality, and services offered on or through www.younginglewood.com (the "Website").
 
-Please read the Terms of Use carefully before you start to use the Website. **By using the Website, you accept and agree to be bound and abide by these Terms of Use and our Privacy Policy, found at www.younginglewood.com/privacy, incorporated herein by reference.** If you do not want to agree to these Terms of Use or the Privacy Policy, you must not access or use the Website.
+Please read the Terms of Use carefully before you start to use the Website. **By using the Website, you accept and agree to be bound and abide by these Terms of Use and our Privacy Policy, found above and incorporated herein by reference.** If you do not want to agree to these Terms of Use or the Privacy Policy, you must not access or use the Website.
 
 Our Website, and access to all advertising, marketing and other information there is intended only for persons of legal drinking age. By accessing our Website, you represent that you are at least twenty-one (21) years of age and that any information you provide in response to an age verification request is accurate. If you do not meet all of these requirements, you must not access or use the Website.
 
@@ -334,11 +334,7 @@ We may update the content on this Website from time to time, but its content is 
 
 **Information About You and Your Visits to the Website**
 
-All information we collect on this Website is subject to our Privacy Policy (www.younginglewood.com/privacy).  By using the Website, you consent to all actions taken by us with respect to your information in compliance with the Privacy Policy.
-
-**Online Purchases Terms and Conditions**
-
-All purchases through our site or other transactions for the sale of goods carried out through the Website, or resulting from visits made by you, are governed by our Terms of Sale (www.younginglewood.com/terms-of-sale), which are hereby incorporated into these Terms of Use.\[PC1] 
+All information we collect on this Website is subject to our Privacy Policy (above).  By using the Website, you consent to all actions taken by us with respect to your information in compliance with the Privacy Policy. 
 
 **Linking to the Website and Social Media Features**
 
