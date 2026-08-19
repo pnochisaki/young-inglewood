@@ -2,11 +2,9 @@
 title: Privacy Policy and Terms of Use
 description: null
 og_image: null
-headline: <em> Privacy and Terms </em>
+headline: <em> Privacy; Terms of Use</em>
 ---
 ## Privacy Policy
-
-#### Privacy Policy
 
 Effective Date: August 14, 2026; Last Updated: August 14, 2026
 
