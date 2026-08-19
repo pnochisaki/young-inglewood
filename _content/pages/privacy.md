@@ -6,6 +6,8 @@ headline: <em> Privacy and Terms </em>
 ---
 ## Privacy Policy
 
+### Privacy Policy
+
 Effective Date: August 14, 2026; Last Updated: August 14, 2026
 
 Welcome to the Young Inglewood Vineyards website, www.younginglewood.com. Your privacy is important to us so we are providing this notice explaining our privacy practices and the choices you can make about the ways in which information about you is collected and used.
