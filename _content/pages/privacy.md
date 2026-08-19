@@ -6,7 +6,7 @@ headline: <em> Privacy and Terms </em>
 ---
 ## Privacy Policy
 
-### Privacy Policy
+#### Privacy Policy
 
 Effective Date: August 14, 2026; Last Updated: August 14, 2026
 
