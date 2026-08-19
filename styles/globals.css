@@ -4053,3 +4053,7 @@ html .blog-post article .two-cols>div:last-child em {
 .post-pager .pager-next {
   float: right;
 }
+
+.privacy .copy strong {
+  font-weight: bold;
+}
