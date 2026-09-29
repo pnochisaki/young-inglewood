@@ -51,7 +51,11 @@ Astonishingly, we made a tiny amount of Aligoté in 2015, when the vines were on
 
 ### *Young Inglewood Aligoté then and now*
 
-The juice from our first couple of vintages was 100% aged in stainless steel barrels.  The finished wine had distinctly exotic tropical fruit flavors – pineapple, melon and mango. After those first few vintages, we felt the grapes were mature enough to be introduced to neutral French oak barrels. In the 2018(?) vintage, we had enough grapes to produce a side by side comparison between our stainless steel and oak aged Aligoté  wines. (We used stickers depicting barrels to tell the bottles apart!) We found that we preferred the nuance and complexity introduced by the oak, and we have aged our Aligoté in gently used oak barrels ever since.
+The juice from our first couple of vintages was 100% aged in stainless steel barrels.  The finished wine had distinctly exotic tropical fruit flavors – pineapple, melon and mango. After those first few vintages, we felt the grapes were mature enough to be introduced to neutral French oak barrels. In the 2018(?) vintage, we had enough grapes to produce a side by side comparison between our stainless steel and oak aged Aligoté  wines. 
+
+![](/uploads/firstoakagedaligote.jpg "Our first ever oaked Aligote")
+
+(We used stickers depicting barrels to tell the bottles apart!) We found that we preferred the nuance and complexity introduced by the oak, and we have aged our Aligoté in gently used oak barrels ever since.
 
 ### *What’s the current vintage and how does it taste?*
 
