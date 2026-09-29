@@ -3,7 +3,7 @@ title: What can I expect from a Boutique Winery Experience in Napa?
 headline: what can I expect <br> from a boutique <br> <em>napa <br> winery <br>
   experience?</em>
 order: 5
-sticky: true
+sticky: false
 published: true
 image: /uploads/photogabriellelurie-young_93.jpg
 excerpt: A visit to Napa Valley often brings visions of busy, crowded tasting
