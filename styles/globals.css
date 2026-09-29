@@ -4074,8 +4074,8 @@ html .blog-post article .two-cols>div:last-child em {
 
 @media (min-width: 769px) {
   .cookie-consent {
-    left: 1.5rem;
-    right: auto;
+    right: 1.5rem;
+    left: auto;
     bottom: 1.5rem;
   }
 }
@@ -4087,8 +4087,8 @@ html .blog-post article .two-cols>div:last-child em {
 }
 
 .cookie-consent p a {
-  color: #932761;
-  text-decoration: underline;
+  /* color: #932761;
+  text-decoration: underline; */
 }
 
 .cookie-consent-close {

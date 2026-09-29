@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { X } from '@styled-icons/feather/X'
-import { getStoredConsent, wasDismissedThisSession, acceptCookies, declineCookies, dismissForSession } from '../lib/cookieConsent'
+import { getStoredConsent, wasDismissedThisSession, acceptCookies, declineCookies, dismissForSession, acceptCookiesForSession } from '../lib/cookieConsent'
 
 export default function CookieConsent({ onAccept }) {
   const [visible, setVisible] = useState(false)
@@ -28,7 +28,8 @@ export default function CookieConsent({ onAccept }) {
   }
 
   const handleDismiss = () => {
-    dismissForSession()
+    // dismissForSession()
+    acceptCookiesForSession() 
     setVisible(false)
   }
 
@@ -44,8 +45,8 @@ export default function CookieConsent({ onAccept }) {
         Read our <a href="/privacy">Privacy Policy</a> to learn more.
       </p>
       <div className="cookie-consent-actions">
-        <button type="button" className="cookie-consent-accept" onClick={handleAccept}>Accept</button>
-        <button type="button" className="cookie-consent-decline" onClick={handleDecline}>Opt Out</button>
+        <button type="button" className="cookie-consent-accept" onClick={handleAccept}>Accept All</button>
+        <button type="button" className="cookie-consent-decline" onClick={handleDecline}>Accept Necessary Only</button>
       </div>
     </div>
   )
