@@ -1,5 +1,5 @@
 ---
-title: What's special about Young Inglewood Aligoté?
+title: Aligoté - a labor of love
 order: 1
 published: true
 image: /uploads/photoemmakmorris-00951.jpg
