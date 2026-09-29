@@ -1,5 +1,5 @@
 ---
-title: What's special about Young Inglewood Aligote
+title: What's special about Young Inglewood Aligote?
 order: 1
 published: true
 image: /uploads/photoemmakmorris-00951.jpg
