@@ -45,13 +45,13 @@ Sprinklers, however, are highly effective for protecting vines from winter frost
 
 Once the 2013 harvest season was over, and the vines in dormancy, the Aligoté grafts were put in the ground at last with the expert advice of Steve Matthiasson our viticultural advisor. We pruned the plant shoots in March 2014, along with all our other estate vines. By the middle of April, we had enough growth to be able to select the strongest shoots destined to become the vine trunks and pinch off the others.  By the end of May, we were able to select the “double Guyot”, the two shoots per vine chosen to become canes and then cordons,  the “arms” of the vine, from which canes that eventually produce grapes grow. 
 
-### *What was Young Inglewood's first vintage of* Aligoté*?*
+### *What was Young Inglewood's first vintage of Aligoté?*
 
 Astonishingly, we made a tiny amount of Aligoté in 2015, when the vines were only in their third leaf! At harvest time our small team picked the ripe Aligoté grapes ourselves. There weren’t enough for us to use our mechanical press. Instead, we pressed the juice from the grapes by hand through a sieve. It took several hours but our labors resulted in 10 cases of wine – a pretty respectable amount under the circumstances! 
 
 ### *Young Inglewood Aligoté then and now*
 
-The juice from our first couple of vintages was 100% aged in stainless steel barrels.  The finished wine had distinctly exotic tropical fruit flavors – pineapple, melon and mango. After those first few vintages, we felt the grapes were mature enough to be introduced to neutral French oak barrels. In the 2018(?) vintage, we had enough grapes to produce a side by side comparison between our stainless steel and oak aged Aligoté  wines. 
+The juice from our first couple of vintages was 100% aged in stainless steel barrels.  The finished wine had distinctly exotic tropical fruit flavors – pineapple, melon and mango. After those first few vintages, we felt the grapes were mature enough to be introduced to neutral French oak barrels. In the 2019 vintage, we had enough grapes to produce a side by side comparison between our stainless steel and oak aged Aligoté  wines. 
 
 ![](/uploads/firstoakagedaligote.jpg "Our first ever oaked Aligote")
 
