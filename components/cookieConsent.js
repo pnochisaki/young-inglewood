@@ -41,8 +41,7 @@ export default function CookieConsent({ onAccept }) {
         <X size="18" />
       </button>
       <p>
-        We use cookies for basic site analytics to help us understand how visitors use our site.
-        Read our <a href="/privacy">Privacy Policy</a> to learn more.
+        We use cookies to ensure that we give you the best experience on our website. Read our <a target="_blank" href="/privacy">privacy policy</a> to learn more.
       </p>
       <div className="cookie-consent-actions">
         <button type="button" className="cookie-consent-accept" onClick={handleAccept}>Accept All</button>
