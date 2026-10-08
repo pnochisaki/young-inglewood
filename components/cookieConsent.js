@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { X } from '@styled-icons/feather/X'
-import { getStoredConsent, wasDismissedThisSession, acceptCookies, declineCookies, dismissForSession, acceptCookiesForSession } from '../lib/cookieConsent'
+import { getStoredConsent, wasDismissedThisSession, acceptCookies, declineCookies, dismissForSession } from '../lib/cookieConsent'
 
 export default function CookieConsent({ onAccept }) {
   const [visible, setVisible] = useState(false)
@@ -28,9 +28,9 @@ export default function CookieConsent({ onAccept }) {
   }
 
   const handleDismiss = () => {
-    // dismissForSession()
-    acceptCookiesForSession() 
+    dismissForSession()
     setVisible(false)
+    onAccept && onAccept()
   }
 
   if (!visible) return null
