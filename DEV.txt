@@ -1,0 +1,2 @@
+1. After dismissal, have cookies instantly load. set Local storage to session only
+2. Delete cookies after a dismissal session ends or when a new session begins
