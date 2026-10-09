@@ -2,7 +2,7 @@
 title: Aligoté - a labor of love
 order: 1
 published: true
-image: /uploads/firstoakagedaligote.jpg
+image: /uploads/aligote-first-fruit.jpg
 excerpt: The primary white grape of Burgundy is Chardonnay. The Burgundians
   however grow another lesser known, but widely respected white winevariety: 
   Aligoté. The wines produced from it are delightful– crisp and delicious.
