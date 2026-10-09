@@ -1,7 +1,7 @@
 ---
 title: Aligoté - a labor of love
 order: 1
-published: false
+published: true
 image: /uploads/firstoakagedaligote.jpg
 excerpt: The primary white grape of Burgundy is Chardonnay. The Burgundians
   however grow another lesser known, but widely respected white winevariety: 
@@ -39,7 +39,9 @@ After preparing the soil for planting, the next task was to pick the spacing bet
 
 We needed a water supply to help the young vines thrive. We provided this through a system of pipes connected to our vineyard well. The pipes were buried in the ground, with above ground connections at the end of each row of grapes.  From each above ground connection a hose was run along the trellis wire.  At each vine position, a thin piece of hose was trained vertically downwards so that water could trickle into the root zone of each plant when the hoses were turned on.  This system is known as drip irrigation.  It is more water efficient and more effective than sprinkler systems because the water only gets to where it is needed – the roots.  If the leaves get wet, they can be burned by the sun as they dry out. The vine loses an important source of food if that happens.
 
-Sprinklers, however, are highly effective for protecting vines from winter frosts. The sprinkler water warms up the vines and stops them from freezing.  A frozen vine is a dead vine!  With this in mind, a sprinkler, looking exactly like the sprinklers you find in a home for fire protection, was added to the top of each vine pole.  
+Sprinklers, however, are highly effective for protecting vines from winter frosts. The sprinkler water warms up the vines and stops them from freezing.  A frozen vine is a dead vine!  With this in mind, a sprinkler, looking exactly like the sprinklers you find in a home for fire protection, was added to the top of each vine pole. 
+
+![](/uploads/aligote-fresh-planting.jpg "Baby vines in the ground!")
 
 #### *Planted*
 
@@ -48,6 +50,8 @@ Once the 2013 harvest season was over, and the vines in dormancy, the Aligoté g
 ### *What was Young Inglewood's first vintage of Aligoté?*
 
 Astonishingly, we made a tiny amount of Aligoté in 2015, when the vines were only in their third leaf! At harvest time our small team picked the ripe Aligoté grapes ourselves. There weren’t enough for us to use our mechanical press. Instead, we pressed the juice from the grapes by hand through a sieve. It took several hours but our labors resulted in 10 cases of wine – a pretty respectable amount under the circumstances! 
+
+![](/uploads/aligote-first-fruit.jpg)
 
 ### *Young Inglewood Aligoté then and now*
 
