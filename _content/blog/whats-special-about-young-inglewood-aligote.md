@@ -1,7 +1,7 @@
 ---
 title: Aligoté - a labor of love
 order: 1
-published: false
+published: true
 image: /uploads/aligote-pour.jpg
 excerpt: The primary white grape of Burgundy is Chardonnay. The Burgundians
   however grow another lesser known, but widely respected white winevariety: 
@@ -37,6 +37,8 @@ Doug located the vines in March 2013 and we were able to plant them just before 
 
 After preparing the soil for planting, the next task was to pick the spacing between the vines and install a trellising system – the system of poles and wires that support the vines as they grow. We decided to follow the Burgundian tradition, as well as the tradition in our existing vineyard and choose the Guyot trellising system, named for Jules Guyot, an early 19th century French agronomist, known for improvements in the cultivation of grapevines for fine wine.  In the Guyot system, vines can be trained to grow either from a single “cordon”, or two cordons.  Since Aligoté is a vigorous grower, we picked the double cordon or “double Guyot”, which forces the vine to divide its energy.  We then installed the necessary poles and wires to form our vine rows.
 
+![](/uploads/aligote-trellis-in-place.jpg)
+
 #### *Water*
 
 We needed a water supply to help the young vines thrive. We provided this through a system of pipes connected to our vineyard well. The pipes were buried in the ground, with above ground connections at the end of each row of grapes.  From each above ground connection a hose was run along the trellis wire.  At each vine position, a thin piece of hose was trained vertically downwards so that water could trickle into the root zone of each plant when the hoses were turned on.  This system is known as drip irrigation.  It is more water efficient and more effective than sprinkler systems because the water only gets to where it is needed – the roots.  If the leaves get wet, they can be burned by the sun as they dry out. The vine loses an important source of food if that happens.
@@ -53,13 +55,13 @@ Once the 2013 harvest season was over, and the vines in dormancy, the Aligoté g
 
 Astonishingly, we made a tiny amount of Aligoté in 2015, when the vines were only in their third leaf! At harvest time our small team picked the ripe Aligoté grapes ourselves. There weren’t enough for us to use our mechanical press. Instead, we pressed the juice from the grapes by hand through a sieve. It took several hours but our labors resulted in 10 cases of wine – a pretty respectable amount under the circumstances! 
 
-![](/uploads/aligote-first-fruit.jpg)
+![Aligoté buds eager to flower ](/uploads/aligote-first-fruit.jpg "Aligoté buds eager to flower ")
 
 ### *Young Inglewood Aligoté then and now*
 
 The juice from our first couple of vintages was 100% aged in stainless steel barrels.  The finished wine had distinctly exotic tropical fruit flavors – pineapple, melon and mango. After those first few vintages, we felt the grapes were mature enough to be introduced to neutral French oak barrels. In the 2019 vintage, we had enough grapes to produce a side by side comparison between our stainless steel and oak aged Aligoté  wines. 
 
-![](/uploads/firstoakagedaligote.jpg "Our first ever oaked Aligote")
+![Bottle of our first ever oaked Aligoté](/uploads/firstoakagedaligote.jpg "Our first ever oaked Aligoté")
 
 (We used stickers depicting barrels to tell the bottles apart!) We found that we preferred the nuance and complexity introduced by the oak, and we have aged our Aligoté in gently used oak barrels ever since.
 
