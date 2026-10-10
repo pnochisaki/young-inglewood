@@ -1,12 +1,14 @@
 ---
 title: Aligoté - a labor of love
 order: 1
-published: true
+published: false
 image: /uploads/aligote-pour.jpg
 excerpt: The primary white grape of Burgundy is Chardonnay. The Burgundians
   however grow another lesser known, but widely respected white winevariety: 
   Aligoté. The wines produced from it are delightful– crisp and delicious.
 ---
+![Pouring a splash of Young Inglewood Aligoté](/uploads/aligote-pour.jpg)
+
 While in terms of land use we chose the most economical spot possible on which to build our winery, we still had to take out about two thirds of an acre of Cabernet Sauvignon vines. To make up for that, we determined to plant new vines as soon as possible in whatever area was left after the winery was complete.
 
 Since the vines were to be new, we wanted to plant a new variety - one we were not already growing. We always assumed it would be a red variety, then  somewhere along the line, the idea of planting a white variety took root as it were.    Back in the late 1800s when grapevines were first planted in our neighborhood, they were almost exclusively white varieties, most seldom seen here now.  So we thought we’d recreate a little neighborhood history and plant white grapes.
