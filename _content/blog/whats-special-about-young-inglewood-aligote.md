@@ -41,6 +41,8 @@ We needed a water supply to help the young vines thrive. We provided this throug
 
 Sprinklers, however, are highly effective for protecting vines from winter frosts. The sprinkler water warms up the vines and stops them from freezing.  A frozen vine is a dead vine!  With this in mind, a sprinkler, looking exactly like the sprinklers you find in a home for fire protection, was added to the top of each vine pole. 
 
+![](/uploads/aligote-fresh-planting.jpg "Baby vines in the ground and others waiting their turn")
+
 #### *Planted*
 
 Once the 2013 harvest season was over, and the vines in dormancy, the Aligoté grafts were put in the ground at last with the expert advice of Steve Matthiasson our viticultural advisor. We pruned the plant shoots in March 2014, along with all our other estate vines. By the middle of April, we had enough growth to be able to select the strongest shoots destined to become the vine trunks and pinch off the others.  By the end of May, we were able to select the “double Guyot”, the two shoots per vine chosen to become canes and then cordons,  the “arms” of the vine, from which canes that eventually produce grapes grow. 
