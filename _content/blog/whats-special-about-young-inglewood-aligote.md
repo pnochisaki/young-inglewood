@@ -63,4 +63,4 @@ The juice from our first couple of vintages was 100% aged in stainless steel bar
 
 ### *What’s the current vintage and how does it taste?*
 
-Whenever I drink Young Inglewood Aligoté, no matter what the season, the wine transports me instantly to a mild Spring day, sunny and not too hot, with a gentle breeze. As refreshing as a plunge in a pool on a hot day, it’s lightly perfumed with citrus blossoms and a touch of spice on the finish. Our 2024 Young Inglewood Aligoté (hyperlink) is the current vintage. We invite you to try it for yourself!
+Whenever I drink Young Inglewood Aligoté, no matter what the season, the wine transports me instantly to a mild Spring day, sunny and not too hot, with a gentle breeze. As refreshing as a plunge in a pool on a hot day, it’s lightly perfumed with citrus blossoms and a touch of spice on the finish. Our [2024 Young Inglewood Aligoté](https://www.younginglewood.com/product/2024-aligot) is the current vintage. We invite you to try it for yourself!
