@@ -6,7 +6,6 @@ import $ from 'jquery'
 
 import Image from 'next/image'
 import Link from 'next/link'
-import Script from 'next/script'
 
 import { useEffect, useState, useContext } from 'react'
 
@@ -107,13 +106,14 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       return getCookie(cookieName)
     }
 
-    setInterval(() => {
+    const intervalId = setInterval(() => {
 
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
       const isRedirect = urlParams.get('redirect'); // "true"
 
       const checkCookie = isThereCookie('customerToken')
+
       if (checkCookie && (window.location.pathname != '/profile/logout')) {
 
         setLoggedIn(true)
@@ -128,41 +128,55 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
             window.location.href = '/profile?redirect=true'
           }
         }
-        clearInterval();
+        clearInterval(intervalId);
 
       } else if (!checkCookie) {
         setLoggedIn(false)
         $('.layout').addClass('logged-out').removeClass('logged-in')
-        console.log("looping until we find cookie")
-        // clearInterval();
+        console.log("logged out and looping until we find customerToken cookie")
+        // clearInterval(intervalId);
       }
     }, 500)
 
-  }, [])
 
-
-  useEffect(() => {
     if (window) {
       setTimeout(() => sessionStorage.setItem("seenAnimation", true), 5000);
       if (window.innerWidth < '769') { $('#c7-cart-wrapper').append($('#c7-cart')) }
       if (window.innerWidth < '769') { $('.mobile-only .account-links').append($('#c7-account')) }
     }
-  }, []);
 
-  useEffect(() => {
     if (window.innerWidth < 769) {
       $('.section-a, .section-b, .section-c, .team').each(function () { $(this).find('h2').insertAfter($(this).find('.mobile-image')) })
     }
-  }, []);
 
-  useEffect(() => {
-    $('a').on('click', function () {
+    // external links in new window
+
+    // This effect re-runs on every render (e.g. after cookie consent is accepted),
+    // so unbind before binding to avoid stacking duplicate handlers.
+    $('a').off('click.externalLink').on('click.externalLink', function () {
       const href = $(this).attr('href');
       if (href && href.startsWith('http') && !href.includes(window.location.hostname)) {
         window.open(href)
       }
     });
-  }, []);
+
+    $('.faqs ul li .box').off('click.faq').on('click.faq', function () {
+      $(this).toggleClass('active');
+    })
+
+    $('.blog-post article .post-content img').each(function () {
+      const title = $(this).attr('title');
+      const alt = $(this).attr('alt');
+      if (title) {
+        $(this).after('<span class="img-caption">' + title + '</span>');
+      }
+      if (alt) {
+        $(this).attr('title', alt);
+      }
+    })
+
+  })
+
 
 
 
