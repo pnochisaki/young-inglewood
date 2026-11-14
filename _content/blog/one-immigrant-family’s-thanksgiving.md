@@ -2,7 +2,7 @@
 title: What Thanksgiving means to us
 headline: ""
 order: 4
-published: true
+published: false
 image: /uploads/photostephenciauri-274a8303.jpg
 excerpt: Like many immigrants, I didn’t grow up with a Thanksgiving tradition,
   but when I swore allegiance to this country and its principles, I definitely
@@ -40,4 +40,4 @@ Our other pie, if we have one, is often apple. Despite the maxim “as American 
 
 Apple pie alternated with rice pudding for dessert, “afters”, at Sunday dinner, served at lunchtime. My mother never owned a scale or measuring cups. Her only measure was her right hand. I have a vivid mental picture of her plunging it into the bag of pillow soft McDougalls Self Raising Flour and emptying handfuls into a bowl. Next step was to cut fat – lard – into the flour with a knife and rub it in with her fingers. Milk – always sterilized - was poured from the bottle into the flour/fat mixture and the whole kneaded together with the heel of that strong right hand. Mum took no prisoners as she rolled that dough out, often with an empty milk bottle, and draped it over the mold - a lard slicked dinner plate. Tart Bramley cooking apples were sliced directly onto the dough, and sprinkled with sugar. A top crust was added, the edges of the dough pressed together with mum’s thumb and the top pierced by two rough slashes in the middle to let out steam.  The final touch was sprinkles of milk spread across the top of the pie with mum’s fingers. More sugar was dribbled on top and the pie shoved unceremoniously into the hot oven. Humble pie indeed, but I wish I could have it again. I’ve never tried to duplicate my mother’s apple pie and I never will – the result couldn’t possibly compare with the one enshrined in my memory.
 
-In case you're wondering, what about the wine? For us, there's no better way to celebrate a family holiday with our family wine!
+In case you're wondering, what about the wine? For us, there's no better way to celebrate a family holiday than with our family wine. The bottles may vary from year to year, but the brand is always Young Inglewood!
