@@ -1,6 +1,6 @@
 ---
-title: One Immigrant Family's Thanksgiving
-headline: one immigrant family's <em>thanksgiving</em>
+title: What Thanksgiving means to us
+headline: ""
 order: 4
 published: false
 image: /uploads/photostephenciauri-274a8303.jpg
