@@ -2,7 +2,7 @@
 title: What Thanksgiving means to us
 headline: ""
 order: 4
-published: false
+published: true
 image: /uploads/photostephenciauri-274a8303.jpg
 excerpt: Like many immigrants, I didn’t grow up with a Thanksgiving tradition,
   but when I swore allegiance to this country and its principles, I definitely
