@@ -138,9 +138,17 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       }
     }, 500)
 
+    setTimeout(() => sessionStorage.setItem("seenAnimation", true), 5000);
+
+    return () => clearInterval(intervalId)
+  }, [])
+
+  // One-time jQuery DOM setup. Runs on mount and on route change only — NOT on every
+  // render (cookie consent, login state etc. trigger re-renders that would otherwise
+  // re-run these and duplicate DOM changes).
+  useEffect(() => {
 
     if (window) {
-      setTimeout(() => sessionStorage.setItem("seenAnimation", true), 5000);
       if (window.innerWidth < '769') { $('#c7-cart-wrapper').append($('#c7-cart')) }
       if (window.innerWidth < '769') { $('.mobile-only .account-links').append($('#c7-account')) }
     }
@@ -151,8 +159,7 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
 
     // external links in new window
 
-    // This effect re-runs on every render (e.g. after cookie consent is accepted),
-    // so unbind before binding to avoid stacking duplicate handlers.
+    // Unbind before binding so a re-run (route change) never stacks duplicate handlers.
     $('a').off('click.externalLink').on('click.externalLink', function () {
       const href = $(this).attr('href');
       if (href && href.startsWith('http') && !href.includes(window.location.hostname)) {
@@ -164,18 +171,21 @@ export default function Layout({ home, discover, wine, purchase, visit, membersh
       $(this).toggleClass('active');
     })
 
-    $('.blog-post article .post-content img').each(function () {
+    // Guarded with data-captioned so an image is only ever processed once
+    // (otherwise a second pass captions the alt text that was copied into title).
+    $('.blog-post article .post-content img:not([data-captioned])').each(function () {
       const title = $(this).attr('title');
       const alt = $(this).attr('alt');
+      $(this).attr('data-captioned', 'true');
       if (title) {
-        $(this).after('<span class="img-caption">' + title + '</span>');
+        $('<span class="img-caption"></span>').text(title).insertAfter(this);
       }
       if (alt) {
         $(this).attr('title', alt);
       }
     })
 
-  })
+  }, [router.asPath])
 
 
 
