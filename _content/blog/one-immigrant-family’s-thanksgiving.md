@@ -1,6 +1,6 @@
 ---
-title: What Thanksgiving means to us
-headline: ""
+title: <em>Thanksgiving</em> at our House
+headline: Thanksgiving at our House
 order: 1
 published: true
 image: /uploads/photostephenciauri-274a8303.jpg
