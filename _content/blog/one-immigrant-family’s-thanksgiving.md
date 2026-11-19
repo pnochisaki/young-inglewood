@@ -1,6 +1,6 @@
 ---
-title: <em>Thanksgiving</em> at our House
-headline: Thanksgiving at our House
+title: Thanksgiving at our House
+headline: <em>Thanksgiving</em> at our House
 order: 1
 published: true
 image: /uploads/photostephenciauri-274a8303.jpg
