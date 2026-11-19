@@ -1,6 +1,6 @@
 ---
 title: Aligoté - a labor of love
-order: 1
+order: 2
 published: true
 image: /uploads/aligote-pour.jpg
 excerpt: The primary white grape of Burgundy is Chardonnay. The Burgundians
